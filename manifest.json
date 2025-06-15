@@ -1,0 +1,99 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 3,
+
+  "name": "__MSG_ext_name__",
+  "description": "__MSG_ext_description__",
+
+  "version": "9.8.0",
+  "default_locale": "en",
+  "icons": {
+    "128": "img/icons/icon-128.png",
+    "500": "img/icons/icon-500.png"
+  },
+
+  "background": {
+    "service_worker": "/bg.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "exclude_matches": ["https://harpa.ai/oi", "http://localhost:3000/oi"],
+      "js": ["/cs.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    },
+    {
+      "matches": ["https://*.openai.com/*"],
+      "js": ["/cs-openai.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    },
+    {
+      "matches": ["https://harpa.ai/*", "http://localhost:3000/*"],
+      "exclude_matches": ["https://harpa.ai/oi", "http://localhost:3000/oi"],
+      "js": ["/cs-web.js"],
+      "css": ["/css/harpa.css"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "https://harpaai.test.onfastspring.com/*",
+        "https://harpaai.onfastspring.com/*"
+      ],
+      "css": ["/css/fastspring.css"],
+      "all_frames": true
+    }
+  ],
+
+  "permissions": [
+    "alarms",
+    "background",
+    "browsingData",
+    "cookies",
+    "declarativeNetRequest",
+    "notifications",
+    "tabs",
+    "storage",
+    "offscreen",
+    "scripting",
+    "contextMenus",
+    "sidePanel"
+  ],
+  "host_permissions": ["*://*/*"],
+  "optional_permissions": ["downloads"],
+  "optional_host_permissions": ["<all_urls>"],
+
+  "action": {
+    "default_icon": {
+      "48": "img/badges/badge-48-day.png"
+    },
+    "default_title": "HARPA AI | Browser's Mind"
+  },
+
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "oi.js",
+        "nj.js",
+        "nj.css",
+        "nj-engine.js",
+        "nj-engine.css",
+        "nj-youtube.js",
+        "js/timer-worker.js",
+        "js/pdf.min.js",
+        "js/pdf.worker.min.js",
+        "img/misc/shortcut.svg",
+        "img/commands/*.svg",
+        "harpa.html"
+      ],
+      "matches": ["*://*/*"]
+    }
+  ],
+
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
