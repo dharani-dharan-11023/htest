@@ -1,3 +1,3 @@
 [submodule "memo_ext"]
-	path ="foo^M"
+	path =foo^M
 	url = https://github.com/dharani-dharan-11023/memo_ext.git
