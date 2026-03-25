@@ -1,0 +1,1158 @@
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: #0e1227;
+  }
+
+  h1 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+  }
+
+  h2 {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  h3 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  h4 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  p {
+    font-weight: 400;
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .h1Regular {
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 42.6316px;
+    line-height: 54px;
+  }
+
+  .h1 {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 48px;
+  }
+
+  .h1_2XL {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 54px;
+  }
+
+  .h1Large {
+    font-size: 30px;
+    font-family: 'Inter';
+    font-weight: 600;
+    line-height: 40px;
+  }
+
+  .h1XL {
+    font-weight: 600;
+    font-size: 36px;
+    font-family: 'Inter';
+    font-weight: 600;
+    line-height: 44px;
+  }
+
+  .h2 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .h3 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 48px;
+  }
+
+  .h3Bold {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 48px;
+  }
+
+  .h4 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 48px;
+  }
+
+  .h4BoldRegular {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+  }
+
+  .text-subtle-medium {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .text-xs-Medium {
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+  }
+
+  .text-xs-Regular {
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+
+  .text-xs-SemiBold {
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+  }
+
+  .text-xs-Bold {
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+  }
+
+  .text-xl {
+    font-size: 20px;
+    font-family: 'Inter';
+    line-height: 30px;
+    font-style: normal;
+  }
+
+  .text-xl-Bold {
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 700;
+    line-height: 30px;
+    font-style: normal;
+  }
+
+  .h5Italic {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    font-style: italic;
+  }
+
+  .h5BoldRegular {
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  .h5Bold {
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 24px;
+    font-style: italic;
+    font-weight: 600;
+  }
+
+  .h5Small {
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  .h6 {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 24px;
+  }
+
+  .text1Large {
+    font-family: 'Inter';
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .text1 {
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+  .text1Bold {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+
+  .text1Medium {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .text1Bold {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+
+  .text2 {
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .text2Bold {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .text3 {
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .text3Bold {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .text4 {
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+  }
+
+  .text4Large {
+    font-family: 'Inter';
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    max-width: 95%;
+  }
+
+  .text5 {
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .text-sm-SemiBold {
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+
+  .text-xs-SemiBold {
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 600;
+  }
+
+  .text-sm-Regular {
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+
+  .text-lg-Regular {
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+
+  .text-sm-Medium {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .text-lg-SemiBold {
+    font-family: 'Inter', 'Roboto', 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+  }
+
+  .text-xl-Regular {
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+
+  .text-xl-SemiBold {
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+  }
+
+  .text-5xl-SemiBold {
+    font-family: 'Inter';
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+  }
+
+  .text-2xl-Medium {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .text-2xl-Bold {
+    font-family: 'Inter';
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+
+  .text-2xl-SemiBold {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .text-3xl-Bold {
+    font-family: 'Inter';
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+  }
+
+  .text-4xl-Medium {
+    font-family: 'Inter';
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500;
+  }
+
+  .text-base-Regular {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+
+  .text-base-SemiBold {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+
+  .text-md-SemiBold {
+    font-family: 'Inter';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+
+  .text-base-Medium {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  .caption1 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 24px;
+  }
+}
+
+/* Shared base typography for all apps */
+
+/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */
+
+/*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #EAECF0; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #98A2B3; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #98A2B3; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+
+*{
+  scrollbar-color: initial;
+  scrollbar-width: initial;
+}
+
+:root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+
+    --primary: 0 0% 9%;
+
+    --primary-01: #8043f9;
+    --primary-50: #f0e9fe;
+    --primary-100: #e6d9fe;
+    --primary-200: #d5c0fd;
+    --primary-300: '#BFA1FC';
+    --primary-400: #aa82fb;
+    --primary-500: #9562fa;
+    --primary-600: #8043f9;
+    --primary-700: #6133bd;
+    --primary-800: #47258a;
+    --primary-900: #28164f;
+
+    --primary-foreground: 0 0% 98%;
+    --primary-25: #f7f4fe;
+
+    --blackAlpha-01: #ebebebbf;
+    --blackAlpha-02: #0a0a0a;
+    --blackAlpha-25: #ebe8e3;
+    --blackAlpha-50: #e1dfda;
+    --blackAlpha-100: #a4a3a1;
+    --blackAlpha-200: #6c6d6e;
+    --blackAlpha-300: #484849;
+    --blackAlpha-400: #303132;
+    --blackAlpha-500: #292a2b;
+    --blackAlpha-600: #232425;
+    --blackAlpha-700: #1f2021;
+    --blackAlpha-800: #1a1b1c;
+    --blackAlpha-900: #121414;
+
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220, 13%, 91%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+
+    --radius: 0.5rem;
+  }
+
+.\!dark {
+    --background: 210 4% 11% !important;
+    --foreground: 0 0% 98% !important;
+
+    --card: 210, 3%, 13% !important;
+    --card-foreground: 210, 3%, 13%, 1 !important;
+
+    --popover: 0 0% 3.9% !important;
+    --popover-foreground: 0 0% 98% !important;
+
+    --primary: 0 0% 98% !important;
+    --primary-foreground: 0 0% 9% !important;
+    --primary-25: #17151e !important;
+
+    --secondary: 0 0% 14.9% !important;
+    --secondary-foreground: 0 0% 98% !important;
+
+    --muted: 0 0% 14.9% !important;
+    --muted-foreground: 0 0% 63.9% !important;
+
+    --accent: 0 0% 14.9% !important;
+    --accent-foreground: 0 0% 98% !important;
+
+    --destructive: 0 62.8% 30.6% !important;
+    --destructive-foreground: 0 0% 98% !important;
+
+    --border: 210, 2%, 19%, 1 !important;
+    --input: 0 0% 14.9% !important;
+    --ring: 0 0% 30% !important;
+  }
+
+.dark {
+    --background: 210 4% 11%;
+    --foreground: 0 0% 98%;
+
+    --card: 210, 3%, 13%;
+    --card-foreground: 210, 3%, 13%, 1;
+
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --primary-25: #17151e;
+
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 210, 2%, 19%, 1;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 30%;
+  }
+
+body{
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+*{
+  border-color: hsl(var(--border));
+}
+
+.tc-prose{
+  --tw-text-opacity: 1;
+  color: rgb(14 18 39 / var(--tw-text-opacity, 1));
+}
+
+.tc-prose:is(.dark *){
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.tc-prose {
+    width: 100%;
+  }
+
+/* Muted tone variant (used for thinking content) */
+
+.tc-prose.tc-prose-muted{
+  --tw-text-opacity: 1;
+  color: rgb(102 112 133 / var(--tw-text-opacity, 1));
+}
+
+.tc-prose.tc-prose-muted:is(.dark *){
+  --tw-text-opacity: 1;
+  color: rgb(152 162 179 / var(--tw-text-opacity, 1));
+}
+
+/* Override overly-broad web dark-mode globals (e.g. `.dark p { color: #fff; }`) */
+
+.tc-prose.tc-prose-muted
+    :where(h1, h2, h3, h4, div, p, label):not(
+      :where([class~='not-prose'], [class~='not-prose'] *)
+    ) {
+    color: inherit;
+  }
+
+/* Paragraph styling - exact legacy match */
+
+.tc-prose
+    :where(p):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    font-size: 1rem;
+    line-height: 1.85rem;
+    margin: 0;
+  }
+
+.tc-prose
+    :where(p:not(:last-child)):not(
+      :where([class~='not-prose'], [class~='not-prose'] *)
+    ) {
+    margin-bottom: 1.25rem;
+  }
+
+/* Unordered List (ul) */
+
+.tc-prose
+    :where(ul):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    padding-left: 40px;
+    margin: 14px 0;
+    list-style: disc;
+  }
+
+/* Ordered List (ol) */
+
+.tc-prose
+    :where(ol):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    list-style-type: decimal;
+    padding-left: 40px;
+    margin: 14px 0;
+  }
+
+/* List Item (li) */
+
+.tc-prose
+    :where(li):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    margin: 0 0 10px 0;
+  }
+
+/* Mobile responsive - paragraphs */
+
+@media (max-width: 900px) {
+    .tc-prose
+      :where(p):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+      font-size: 0.875rem;
+      line-height: 1.5rem;
+    }
+  }
+
+/* Table styling */
+
+.tc-prose
+    :where(table tr, table td, table th):not(
+      :where([class~='not-prose'], [class~='not-prose'] *)
+    ) {
+    border-bottom: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+    font-size: 13px;
+    padding: 5px 5px;
+  }
+
+.tc-prose
+    :where(table):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-collapse: separate;
+    padding: 0;
+    border-spacing: 0;
+  }
+
+.tc-prose
+    :where(thead th):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    border-top: 1px solid #dee2e6;
+  }
+
+.tc-prose
+    :where(td:last-child):not(
+      :where([class~='not-prose'], [class~='not-prose'] *)
+    ) {
+    border-right: 1px solid #dee2e6;
+  }
+
+.tc-prose
+    :where(thead th:first-child):not(
+      :where([class~='not-prose'], [class~='not-prose'] *)
+    ) {
+    border-top-left-radius: 5px;
+  }
+
+.tc-prose
+    :where(thead th:last-child):not(
+      :where([class~='not-prose'], [class~='not-prose'] *)
+    ) {
+    border-top-right-radius: 5px;
+    border-right: 1px solid #dee2e6;
+  }
+
+.tc-prose
+    :where(tr:last-of-type td:first-child):not(
+      :where([class~='not-prose'], [class~='not-prose'] *)
+    ) {
+    border-bottom-left-radius: 5px;
+  }
+
+.tc-prose
+    :where(tr:last-of-type td:last-child):not(
+      :where([class~='not-prose'], [class~='not-prose'] *)
+    ) {
+    border-bottom-right-radius: 5px;
+  }
+
+.tc-prose
+    :where(thead):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    background-color: #f2f2f2;
+  }
+
+.\!dark
+    .tc-prose
+    :where(thead):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    background-color: #141414 !important;
+  }
+
+.dark
+    .tc-prose
+    :where(thead):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    background-color: #141414;
+  }
+
+/* Link styling - v2 variant */
+
+.tc-prose
+    :where(a):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+    position: relative;
+    bottom: 1px;
+  }
+
+.\!dark
+    .tc-prose
+    :where(a):not(:where([class~='not-prose'], [class~='not-prose'] *)){
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 37 138 / var(--tw-bg-opacity, 1));
+  --tw-text-opacity: 1;
+  color: rgb(225 223 218 / var(--tw-text-opacity, 1));
+}
+
+.dark
+    .tc-prose
+    :where(a):not(:where([class~='not-prose'], [class~='not-prose'] *)){
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 37 138 / var(--tw-bg-opacity, 1));
+  --tw-text-opacity: 1;
+  color: rgb(225 223 218 / var(--tw-text-opacity, 1));
+}
+
+/* Override all prose-invert colors - ensure consistency */
+
+.tc-prose
+    :where(h1, h2, h3, h4, h5, h6, strong, em):not(
+      :where([class~='not-prose'], [class~='not-prose'] *)
+    ) {
+    color: inherit;
+    margin: 0;
+  }
+
+/* Conversation typography normalization - Replicate .chat-response-container exactly */
+
+
+/*# sourceMappingURL=sidepanel.css.map*/

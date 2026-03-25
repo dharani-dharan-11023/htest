@@ -1,0 +1,1 @@
+const script=document.createElement("script"),extensionID=chrome?.runtime?.id;"hahkojdegblcccihngmgndhdfheheofe"===extensionID?script.setAttribute("src","chrome-extension://"+extensionID+"/injectionProd.js"):script.setAttribute("src","chrome-extension://"+extensionID+"/injectionDev.js"),(document.head||document.documentElement).appendChild(script);
