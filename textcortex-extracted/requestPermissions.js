@@ -1,0 +1,1 @@
+export async function getUserPermission(){return new Promise((e,r)=>{console.log("Getting user permission for microphone access..."),navigator.mediaDevices.getUserMedia({audio:!0}).then(r=>{r.getTracks().forEach(function(e){e.stop()}),e()}).catch(e=>{console.error("Error requesting microphone permission",e),r(e)})})}getUserPermission();
