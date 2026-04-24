@@ -1,0 +1,407 @@
+{
+  "locale": {
+    "message": "id",
+    "description": "This should always be set to this file's locale"
+  },
+  "extension_description": {
+    "message": "Eyedropper, Color Picker, Gradient Generator tingkat lanjut dan alat-alat berwarna lainnya",
+    "description": "Eyedropper is the tool used to sample colors from an image, Color Picker Panel is a dialog where you can choose and adjust colors in various ways"
+  },
+  "pick_color_from_page": {
+    "message": "Ambil Warna dari Halaman",
+    "description": "Starts the Eyedropper / Color Picker tool to let the user sample color from a specific page location"
+  },
+  "page_color_picker_active": {
+    "message": "Color Picker Halaman Aktif",
+    "description": "Indicates to the user that the Eyedropper / Color Picker has been activated and is currently active"
+  },
+  "color_picker_panel": {
+    "message": "Panel Color Picker",
+    "description": "The Color Picker Panel is a dialog that allows to choose colors from a palette or specify a color using RGB, HEX, HSL, or other color models. This is different from the Eyedropper tool that picks colors from pages etc."
+  },
+  "resample_last_location": {
+    "message": "Ambil Ulang Sampel Lokasi Terakhir",
+    "description": "Gets the color of the last location sampled with the Eyedropper tool. Used for cases where the location might have changed or had a hover state"
+  },
+  "picked_color_history": {
+    "message": "Riwayat Warna yang Diambil",
+    "description": "The history of colors that the user picked"
+  },
+  "webpage_color_analyzer": {
+    "message": "Penganalisis Warna Laman Web",
+    "description": "A tool that analyzes web pages, extracts the colors present, their definitions and elements"
+  },
+  "palette_browser": {
+    "message": "Peramban Palet",
+    "description": "A tool that presents various color palettes and their colors"
+  },
+  "css_gradient_generator": {
+    "message": "CSS Gradient Generator",
+    "description": "A tool that allows users to create various CSS-based gradients"
+  },
+  "help": {
+    "message": "Bantuan",
+    "description": "Application help"
+  },
+  "options": {
+    "message": "Opsi",
+    "description": "Application Options/Preferences"
+  },
+  "online_help": {
+    "message": "Bantuan Online",
+    "description": "The online portion of help"
+  },
+  "whats_new": {
+    "message": "Apa Yang Baru",
+    "description": "News and updates about the app"
+  },
+  "colorzilla_homepage": {
+    "message": "Halaman Beranda ColorZilla",
+    "description": "The home page of ColorZilla"
+  },
+  "about_colorzilla": {
+    "message": "Tentang ColorZilla",
+    "description": "Shows information about the app, its author, version etc"
+  },
+  "css_color_analysis_results": {
+    "message": "Warna CSS di Halaman Ini",
+    "description": "The colors found in various CSS definitions on this page"
+  },
+  "ok": {
+    "message": "Oke",
+    "description": "The Ok option, e.g. in a dialog"
+  },
+  "cancel": {
+    "message": "Batal",
+    "description": "The Cancel option, e.g. in a dialog"
+  },
+  "copy_to_clipboard_menu_label": {
+    "message": "Salin Spesial...",
+    "description": "This allows the user to copy the current color to clipboard using various special color formats - RGB, HEX etc."
+  },
+  "copy_with_param": {
+    "message": "Salin $STRING$",
+    "placeholders": {
+      "string": {
+        "content": "$1"
+      }
+    },
+    "description": "Copy a string to clipboard, the string is provided using the paramater"
+  },
+  "chrome_doesn_allow_picking_special_page": {
+    "message": "Chrome tidak mengizinkan mengambil warna dari halaman spesial ini",
+    "description": "A warning for the user that the Color Picker / Eyedropper cannot pick colors from the current page"
+  },
+  "chrome_doesn_allow_picking_webstore": {
+    "message": "Chrome tidak mengizinkan mengambil warna dari halaman Chrome Web Store",
+    "description": "A warning for the user that the Color Picker / Eyedropper cannot pick colors from the current page, because its a Chrome Web Store page"
+  },
+  "chrome_doesn_allow_picking_local": {
+    "message": "Peramban Anda tidak mengizinkan mengambil warna dari halaman lokal",
+    "description": "A warning for the user that the Color Picker / Eyedropper cannot pick colors from the current page, because its a local (non web-based) page"
+  },
+  "allow_access_to_file_urls": {
+    "message": "Klik dan aktifkan \"Izinkan akses ke URL file\"",
+    "description": "Instructs the user to enable access to 'file' URLs - special URLs hosted locally"
+  },
+  "clear_history": {
+    "message": "Hapus riwayat",
+    "description": "Clears/erases the entire color history"
+  },
+  "clear_history_question": {
+    "message": "Hapus riwayat warna?",
+    "description": "A confirmation question asking user to confirm clearing/erasing the entire color history"
+  },
+  "color_history_label": {
+    "message": "Riwayat warna:",
+    "description": "Label of the Color History panel etc."
+  },
+  "new_color_label": {
+    "message": "baru",
+    "description": "Signifies newly selected color in the Color Picker UI"
+  },
+  "current_color_label": {
+    "message": "saat ini",
+    "description": "Signifies previously selected color (which is the last current color) in the Color Picker UI"
+  },
+  "analyzing_please_wait": {
+    "message": "Menganalisis... Mohon tunggu...",
+    "description": "Indicates to user that the tool is Analyzing colors, and requests the user to wait until it completes the analysis"
+  },
+  "palette_name_huesandbrightnesses": {
+    "message": "Corak dan Kecerahan",
+    "description": "A palette with various color hues and color brightnesses"
+  },
+  "palette_name_huesandsaturations": {
+    "message": "Corak dan Saturasi",
+    "description": "A palette with various color hues and color saturations"
+  },
+  "palette_name_w3cnamedcolors": {
+    "message": "Warna dengan Nama W3C",
+    "description": "A palette with various colors that have basic standard W3C names"
+  },
+  "palette_name_webcolorsbyhue": {
+    "message": "Warna Web berdasarkan Corak",
+    "description": "A palette with various Web colors organized by their hue value"
+  },
+  "palette_name_webnamedcolors": {
+    "message": "Warna dengan Nama Web",
+    "description": "A palette with various colors that have names in Web standards"
+  },
+  "palette_name_websafecolors": {
+    "message": "Warna Aman untuk Web",
+    "description": "A palette that has colors that are considered Web Safe - they are displayed consistenly over the widest variety of displays"
+  },
+  "palette_name_xnamedcolors": {
+    "message": "Warna dengan Nama X",
+    "description": "A palette with various colors that have names in X-Windows standards"
+  },
+  "colorzilla_options": {
+    "message": "Opsi ColorZilla",
+    "description": "Application Options/Preferences"
+  },
+  "eyedropper": {
+    "message": "Eyedropper",
+    "description": "The tool that allows users to pick/sample colors from screen/webpages/images etc. "
+  },
+  "show_magnifier": {
+    "message": "Tampilkan pembesar.",
+    "description": "An option that shows a magnified view of the sampled area while picking/samlping colors"
+  },
+  "temporarily_show_hide_by_holding_shift": {
+    "message": "Tampilkan/sembunyikan untuk sementara dengan menekan tombol 'Shift'.",
+    "description": "This allows temporarily showing or hiding the magnifier by holding the 'Shift' key while picking colors"
+  },
+  "auto_start_eyedropper_when_button_clicked": {
+    "message": "Mulai eyedropper secara otomatis ketika tombol utama diklik.",
+    "description": "An option that starts the color sampling (eyedropper) mode immediately after the main app button is clicked, without needing to click on a menu item"
+  },
+  "outline_hovered_elements": {
+    "message": "Beri garis tepi elemen di atas kursor.",
+    "description": "An option that outlines with a line the HTML element the users cursor is currently hovering/positioned over"
+  },
+  "change_cursor_to_crosshair": {
+    "message": "Ganti kursor dengan garis bidik.",
+    "description": "An option that changes the cursor to crosshair (a cross) while the user is sampling the colors from the page with the eyedropper tool"
+  },
+  "dont_move_document_down_when_sampling": {
+    "message": "Jangan geser dokumen ke bawah saat mengambil sampel.",
+    "description": "An option that prevents the document from moving down to make room for the tool UI, when the eyedropper is active."
+  },
+  "auto_copy": {
+    "message": "Salin otomatis",
+    "description": "Auto copy a color or similar to clipboard after being picked/sampled"
+  },
+  "auto_copy_picked_to_clipboard": {
+    "message": "Salin warna yang diambil secara otomatis ke clipboard.",
+    "description": "Auto copy the picked/sampled color to clipboard"
+  },
+  "auto_copy_format": {
+    "message": "Salin otomatis format warna:",
+    "description": "The format to use when auto-copying the color to clipboard"
+  },
+  "color_format": {
+    "message": "Format Warna",
+    "description": "The format of a color to use - eg. RGB, HEX, HSL etc."
+  },
+  "show_hex_codes_lowercase": {
+    "message": "Tampilkan kode Heks dalam huruf kecil.",
+    "description": "An option to show HEX-formatted color values in lowercase (eg. #dddddd vs #DDDDDD)"
+  },
+  "keyboard_shortcuts": {
+    "message": "Pintasan Keyboard",
+    "description": "Combination of keys to activate the tool etc."
+  },
+  "enable_keyboard_shortcuts": {
+    "message": "Aktifkan pengambilan warna dari halaman menggunakan pintasan keyboard.",
+    "description": "An option to enable the user to use a keyboard shortcut to activate the eyedropper/color picker tool"
+  },
+  "keyboard_shortcut_label": {
+    "message": "Pintasan:",
+    "description": "Label for a keyboard shortcut to use"
+  },
+  "save_button_label": {
+    "message": "Simpan",
+    "description": "An action that allows the user to save the currently selected options/values"
+  },
+  "options_saved": {
+    "message": "Opsi tersimpan",
+    "description": "A confirmation message indicating to user that their selected options have been saved"
+  },
+  "version": {
+    "message": "Versi",
+    "description": "The version of the app (e.g v3.4)"
+  },
+  "created_by": {
+    "message": "Dibuat Oleh",
+    "description": "The author/creator of the app"
+  },
+  "home_page": {
+    "message": "Halaman Beranda",
+    "description": "Home page of the app etc."
+  },
+  "licensing": {
+    "message": "Pemberian Lisensi",
+    "description": "The various legal info relating to license of the product"
+  },
+  "license": {
+    "message": "Lisensi",
+    "description": "The license of the product"
+  },
+  "attributions": {
+    "message": "Atribusi",
+    "description": "The attributions of various elements used in the products etc."
+  },
+  "color_picker_by": {
+    "message": "Color Picker oleh $AUTHOR1$ dan $AUTHOR2$.",
+    "placeholders": {
+      "author1": {
+        "content": "$1"
+      },
+      "author2": {
+        "content": "$2"
+      }
+    },
+    "description": "Specifies and gives attribution to the authors of the Color Picker tool"
+  },
+  "close_and_stop_picking": {
+    "message": "Tutup dan Berhenti Mengambil",
+    "description": "Close the tool and stop picking colors from the page"
+  },
+  "collapse_this_panel": {
+    "message": "Ciutkan Panel Ini",
+    "description": "Collapse the panel - make it more compact visually"
+  },
+  "expand_this_panel": {
+    "message": "Perluas Panel Ini",
+    "description": "Expand the panel - make it full size visually"
+  },
+  "color_copied_to_clipboard": {
+    "message": "Warna disalin ke clipboard",
+    "description": "The color has been copied to user's clipboard"
+  },
+  "color_picked": {
+    "message": "Warna yang diambil",
+    "description": "The color was succesfully sampled/picked from the screen"
+  },
+  "point_sample": {
+    "message": "Sampel poin",
+    "description": "This mode samples one 1x1 pixel/point for the current color"
+  },
+  "3x3_average": {
+    "message": "Rata-rata 3x3",
+    "description": "This mode takes a 3x3 pixel window around the current cursor location, and averages the color value across this area"
+  },
+  "5x5_average": {
+    "message": "Rata-rata 5x5",
+    "description": "This mode takes a 5x5 pixel window around the current cursor location, and averages the color value across this area"
+  },
+  "11x11_average": {
+    "message": "Rata-rata 11x11",
+    "description": "This mode takes a 11x11 pixel window around the current cursor location, and averages the color value across this area"
+  },
+  "25x25_average": {
+    "message": "Rata-rata 25x25",
+    "description": "This mode takes a 25x25 pixel window around the current cursor location, and averages the color value across this area"
+  },
+  "selection_average": {
+    "message": "Rata-rata seleksi",
+    "description": "This mode allows the user to select a certain visual portion of the current screen and the color will be determined by averaging all the pixel within this user-selected area"
+  },
+  "sampling": {
+    "message": "Mengambil sampel...",
+    "description": "Indicates to the user that the tool is currently sampling the screen for colors"
+  },
+  "select_area_to_sample": {
+    "message": "Pilih area untuk diambil sampelnya",
+    "description": "Instructs the user to select an area from the screen so this area's pixels can be averaged into one sampled color"
+  },
+  "pick_color_from_outside_the_browser": {
+    "message": "Ambil Warna Di Luar Peramban",
+    "description": "Allows picking colors from anywhere on user's screen, including from outside the browser"
+  },
+  "pick_color_from_anywhere": {
+    "message": "Ambil warna dari mana saja, termasuk dari luar peramban...",
+    "description": "Tells the user they can pick a color from any screen location, including outside the browser window"
+  },
+  "report_translation_issue": {
+    "message": "Laporkan Masalah Penerjemahan",
+    "description": "Allows the user to report incorrect or inaccurate translations"
+  },
+  "help_translate_colorzilla": {
+    "message": "Bantu Terjemahkan ColorZilla",
+    "description": "Asks users to help translate ColorZilla into different languages"
+  },
+  "new_feature_label": {
+    "message": "Baru",
+    "description": "The text of a badge that's displayed next to menu items to indicate to users that the feature is new"
+  },
+  "new_color_commit": {
+    "message": "Warna baru - tekan \"OK\" untuk konfirmasi",
+    "description": "Indicates that this is the newly selected color, and by pressing OK the user can commit - make it the current color"
+  },
+  "click_to_revert": {
+    "message": "Klik untuk kembali ke warna asli",
+    "description": "Indicates that clicking will revert the color selection to previously selected color"
+  },
+  "commit_to_this_color": {
+    "message": "Konfirmasi pilihan warna ini",
+    "description": "Using this option will make the selected color active."
+  },
+  "cancel_and_revert": {
+    "message": "Batalkan dan kembali ke warna asli",
+    "description": "Cancel the color selection and revert to the previous color"
+  },
+  "set_to_hue_color_mode": {
+    "message": "Atur ke mode warna \"Hue\"",
+    "description": "Sets the current mode to select colors by hue"
+  },
+  "set_to_sat_color_mode": {
+    "message": "Atur ke mode warna \"Saturasi\"",
+    "description": "Sets the current mode to select colors by saturation"
+  },
+  "set_to_val_color_mode": {
+    "message": "Atur ke mode warna \"Kecerahan\"",
+    "description": "Sets the current mode to select colors by brightnesses"
+  },
+  "set_to_red_color_mode": {
+    "message": "Atur ke mode warna \"Merah\"",
+    "description": "Sets the current mode to select colors by amount of red"
+  },
+  "set_to_green_color_mode": {
+    "message": "Atur ke mode warna \"Hijau\"",
+    "description": "Sets the current mode to select colors by amount of green"
+  },
+  "set_to_blue_color_mode": {
+    "message": "Atur ke mode warna \"Biru\"",
+    "description": "Sets the current mode to select colors by amount of blue"
+  },
+  "enter_hue_value": {
+    "message": "Masukkan nilai \"Hue\" (0-360°)",
+    "description": "Allows the user to enter the hue value into the box"
+  },
+  "enter_sat_value": {
+    "message": "Masukkan nilai \"Saturasi\" (0-100%)",
+    "description": "Allows the user to enter the saturation value into the box"
+  },
+  "enter_val_value": {
+    "message": "Masukkan nilai \"Kecerahan\" (0-100%)",
+    "description": "Allows the user to enter the brightness value into the box"
+  },
+  "enter_red_value": {
+    "message": "Masukkan nilai \"Merah\" (0-255)",
+    "description": "Allows the user to enter the red component of the color into the box"
+  },
+  "enter_green_value": {
+    "message": "Masukkan nilai \"Hijau\" (0-255)",
+    "description": "Allows the user to enter the green component of the color into the box"
+  },
+  "enter_blue_value": {
+    "message": "Masukkan nilai \"Biru\" (0-255)",
+    "description": "Allows the user to enter the blue component of the color into the box"
+  },
+  "enter_hex_value": {
+    "message": "Masukkan nilai \"Hex\" (#000000-#ffffff)",
+    "description": "Allows the user to enter the color in hex format into the box"
+  }
+}

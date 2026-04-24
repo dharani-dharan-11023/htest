@@ -1,0 +1,407 @@
+{
+  "locale": {
+    "message": "zh-cn",
+    "description": "This should always be set to this file's locale"
+  },
+  "extension_description": {
+    "message": "高级吸管、拾色器、渐变生成器和其他与颜色相关的实用工具",
+    "description": "Eyedropper is the tool used to sample colors from an image, Color Picker Panel is a dialog where you can choose and adjust colors in various ways"
+  },
+  "pick_color_from_page": {
+    "message": "从页面上拾取颜色",
+    "description": "Starts the Eyedropper / Color Picker tool to let the user sample color from a specific page location"
+  },
+  "page_color_picker_active": {
+    "message": "页面拾色器已激活",
+    "description": "Indicates to the user that the Eyedropper / Color Picker has been activated and is currently active"
+  },
+  "color_picker_panel": {
+    "message": "拾色器面板",
+    "description": "The Color Picker Panel is a dialog that allows to choose colors from a palette or specify a color using RGB, HEX, HSL, or other color models. This is different from the Eyedropper tool that picks colors from pages etc."
+  },
+  "resample_last_location": {
+    "message": "重新取样上一点",
+    "description": "Gets the color of the last location sampled with the Eyedropper tool. Used for cases where the location might have changed or had a hover state"
+  },
+  "picked_color_history": {
+    "message": "拾取的颜色历史",
+    "description": "The history of colors that the user picked"
+  },
+  "webpage_color_analyzer": {
+    "message": "网页颜色分析器",
+    "description": "A tool that analyzes web pages, extracts the colors present, their definitions and elements"
+  },
+  "palette_browser": {
+    "message": "调色板浏览器",
+    "description": "A tool that presents various color palettes and their colors"
+  },
+  "css_gradient_generator": {
+    "message": "CSS 渐变生成器",
+    "description": "A tool that allows users to create various CSS-based gradients"
+  },
+  "help": {
+    "message": "帮助",
+    "description": "Application help"
+  },
+  "options": {
+    "message": "设置",
+    "description": "Application Options/Preferences"
+  },
+  "online_help": {
+    "message": "在线帮助",
+    "description": "The online portion of help"
+  },
+  "whats_new": {
+    "message": "新特性",
+    "description": "News and updates about the app"
+  },
+  "colorzilla_homepage": {
+    "message": "ColorZilla主页",
+    "description": "The home page of ColorZilla"
+  },
+  "about_colorzilla": {
+    "message": "关于ColorZilla",
+    "description": "Shows information about the app, its author, version etc"
+  },
+  "css_color_analysis_results": {
+    "message": "此页面上的 CSS 颜色",
+    "description": "The colors found in various CSS definitions on this page"
+  },
+  "ok": {
+    "message": "确定",
+    "description": "The Ok option, e.g. in a dialog"
+  },
+  "cancel": {
+    "message": "取消",
+    "description": "The Cancel option, e.g. in a dialog"
+  },
+  "copy_to_clipboard_menu_label": {
+    "message": "复制特殊…",
+    "description": "This allows the user to copy the current color to clipboard using various special color formats - RGB, HEX etc."
+  },
+  "copy_with_param": {
+    "message": "复制 $STRING$",
+    "placeholders": {
+      "string": {
+        "content": "$1"
+      }
+    },
+    "description": "Copy a string to clipboard, the string is provided using the paramater"
+  },
+  "chrome_doesn_allow_picking_special_page": {
+    "message": "Chrome 不允许从此特殊页面拾取颜色",
+    "description": "A warning for the user that the Color Picker / Eyedropper cannot pick colors from the current page"
+  },
+  "chrome_doesn_allow_picking_webstore": {
+    "message": "Chrome 不允许从 Chrome Web Store 页面拾取颜色",
+    "description": "A warning for the user that the Color Picker / Eyedropper cannot pick colors from the current page, because its a Chrome Web Store page"
+  },
+  "chrome_doesn_allow_picking_local": {
+    "message": "您的浏览器不允许从本地页面拾取颜色",
+    "description": "A warning for the user that the Color Picker / Eyedropper cannot pick colors from the current page, because its a local (non web-based) page"
+  },
+  "allow_access_to_file_urls": {
+    "message": "点击并启用“允许访问文件 URL”",
+    "description": "Instructs the user to enable access to 'file' URLs - special URLs hosted locally"
+  },
+  "clear_history": {
+    "message": "清除历史记录",
+    "description": "Clears/erases the entire color history"
+  },
+  "clear_history_question": {
+    "message": "是否清除颜色历史记录？",
+    "description": "A confirmation question asking user to confirm clearing/erasing the entire color history"
+  },
+  "color_history_label": {
+    "message": "颜色历史",
+    "description": "Label of the Color History panel etc."
+  },
+  "new_color_label": {
+    "message": "新",
+    "description": "Signifies newly selected color in the Color Picker UI"
+  },
+  "current_color_label": {
+    "message": "当前",
+    "description": "Signifies previously selected color (which is the last current color) in the Color Picker UI"
+  },
+  "analyzing_please_wait": {
+    "message": "正在分析…请稍候…",
+    "description": "Indicates to user that the tool is Analyzing colors, and requests the user to wait until it completes the analysis"
+  },
+  "palette_name_huesandbrightnesses": {
+    "message": "色调和亮度",
+    "description": "A palette with various color hues and color brightnesses"
+  },
+  "palette_name_huesandsaturations": {
+    "message": "色调和饱和度",
+    "description": "A palette with various color hues and color saturations"
+  },
+  "palette_name_w3cnamedcolors": {
+    "message": "W3C 命名颜色",
+    "description": "A palette with various colors that have basic standard W3C names"
+  },
+  "palette_name_webcolorsbyhue": {
+    "message": "Web 颜色（按色调）",
+    "description": "A palette with various Web colors organized by their hue value"
+  },
+  "palette_name_webnamedcolors": {
+    "message": "Web 命名颜色",
+    "description": "A palette with various colors that have names in Web standards"
+  },
+  "palette_name_websafecolors": {
+    "message": "Web 安全颜色",
+    "description": "A palette that has colors that are considered Web Safe - they are displayed consistenly over the widest variety of displays"
+  },
+  "palette_name_xnamedcolors": {
+    "message": "X 命名颜色",
+    "description": "A palette with various colors that have names in X-Windows standards"
+  },
+  "colorzilla_options": {
+    "message": "ColorZilla设置",
+    "description": "Application Options/Preferences"
+  },
+  "eyedropper": {
+    "message": "滴管",
+    "description": "The tool that allows users to pick/sample colors from screen/webpages/images etc. "
+  },
+  "show_magnifier": {
+    "message": "显示放大镜。",
+    "description": "An option that shows a magnified view of the sampled area while picking/samlping colors"
+  },
+  "temporarily_show_hide_by_holding_shift": {
+    "message": "按住“Shift”键暂时显示/隐藏。",
+    "description": "This allows temporarily showing or hiding the magnifier by holding the 'Shift' key while picking colors"
+  },
+  "auto_start_eyedropper_when_button_clicked": {
+    "message": "点击主按钮时自动启动吸管。",
+    "description": "An option that starts the color sampling (eyedropper) mode immediately after the main app button is clicked, without needing to click on a menu item"
+  },
+  "outline_hovered_elements": {
+    "message": "高亮显示目标对象",
+    "description": "An option that outlines with a line the HTML element the users cursor is currently hovering/positioned over"
+  },
+  "change_cursor_to_crosshair": {
+    "message": "将光标更改为十字准线。",
+    "description": "An option that changes the cursor to crosshair (a cross) while the user is sampling the colors from the page with the eyedropper tool"
+  },
+  "dont_move_document_down_when_sampling": {
+    "message": "采样时请勿将文档下移。",
+    "description": "An option that prevents the document from moving down to make room for the tool UI, when the eyedropper is active."
+  },
+  "auto_copy": {
+    "message": "自动复制",
+    "description": "Auto copy a color or similar to clipboard after being picked/sampled"
+  },
+  "auto_copy_picked_to_clipboard": {
+    "message": "自动将拾取的颜色复制到剪贴板。",
+    "description": "Auto copy the picked/sampled color to clipboard"
+  },
+  "auto_copy_format": {
+    "message": "自动复制颜色格式：",
+    "description": "The format to use when auto-copying the color to clipboard"
+  },
+  "color_format": {
+    "message": "颜色格式",
+    "description": "The format of a color to use - eg. RGB, HEX, HSL etc."
+  },
+  "show_hex_codes_lowercase": {
+    "message": "显示小写16进制",
+    "description": "An option to show HEX-formatted color values in lowercase (eg. #dddddd vs #DDDDDD)"
+  },
+  "keyboard_shortcuts": {
+    "message": "键盘快捷键",
+    "description": "Combination of keys to activate the tool etc."
+  },
+  "enable_keyboard_shortcuts": {
+    "message": "使用键盘快捷键启用页面颜色拾取。",
+    "description": "An option to enable the user to use a keyboard shortcut to activate the eyedropper/color picker tool"
+  },
+  "keyboard_shortcut_label": {
+    "message": "快捷键：",
+    "description": "Label for a keyboard shortcut to use"
+  },
+  "save_button_label": {
+    "message": "保存",
+    "description": "An action that allows the user to save the currently selected options/values"
+  },
+  "options_saved": {
+    "message": "选项已保存",
+    "description": "A confirmation message indicating to user that their selected options have been saved"
+  },
+  "version": {
+    "message": "版本",
+    "description": "The version of the app (e.g v3.4)"
+  },
+  "created_by": {
+    "message": "作者：",
+    "description": "The author/creator of the app"
+  },
+  "home_page": {
+    "message": "主页",
+    "description": "Home page of the app etc."
+  },
+  "licensing": {
+    "message": "许可证",
+    "description": "The various legal info relating to license of the product"
+  },
+  "license": {
+    "message": "许可证",
+    "description": "The license of the product"
+  },
+  "attributions": {
+    "message": "属性",
+    "description": "The attributions of various elements used in the products etc."
+  },
+  "color_picker_by": {
+    "message": "拾色器作者：$AUTHOR1$ 和 $AUTHOR2$。",
+    "placeholders": {
+      "author1": {
+        "content": "$1"
+      },
+      "author2": {
+        "content": "$2"
+      }
+    },
+    "description": "Specifies and gives attribution to the authors of the Color Picker tool"
+  },
+  "close_and_stop_picking": {
+    "message": "关闭并停止拾取",
+    "description": "Close the tool and stop picking colors from the page"
+  },
+  "collapse_this_panel": {
+    "message": "折叠此面板",
+    "description": "Collapse the panel - make it more compact visually"
+  },
+  "expand_this_panel": {
+    "message": "展开此面板",
+    "description": "Expand the panel - make it full size visually"
+  },
+  "color_copied_to_clipboard": {
+    "message": "颜色已复制到剪贴板",
+    "description": "The color has been copied to user's clipboard"
+  },
+  "color_picked": {
+    "message": "颜色已拾取",
+    "description": "The color was succesfully sampled/picked from the screen"
+  },
+  "point_sample": {
+    "message": "点采样",
+    "description": "This mode samples one 1x1 pixel/point for the current color"
+  },
+  "3x3_average": {
+    "message": "3x3 平均",
+    "description": "This mode takes a 3x3 pixel window around the current cursor location, and averages the color value across this area"
+  },
+  "5x5_average": {
+    "message": "5x5 平均",
+    "description": "This mode takes a 5x5 pixel window around the current cursor location, and averages the color value across this area"
+  },
+  "11x11_average": {
+    "message": "11x11 平均",
+    "description": "This mode takes a 11x11 pixel window around the current cursor location, and averages the color value across this area"
+  },
+  "25x25_average": {
+    "message": "25x25 平均",
+    "description": "This mode takes a 25x25 pixel window around the current cursor location, and averages the color value across this area"
+  },
+  "selection_average": {
+    "message": "选区平均",
+    "description": "This mode allows the user to select a certain visual portion of the current screen and the color will be determined by averaging all the pixel within this user-selected area"
+  },
+  "sampling": {
+    "message": "正在采样…",
+    "description": "Indicates to the user that the tool is currently sampling the screen for colors"
+  },
+  "select_area_to_sample": {
+    "message": "选择要采样的区域",
+    "description": "Instructs the user to select an area from the screen so this area's pixels can be averaged into one sampled color"
+  },
+  "pick_color_from_outside_the_browser": {
+    "message": "从浏览器外部拾取颜色",
+    "description": "Allows picking colors from anywhere on user's screen, including from outside the browser"
+  },
+  "pick_color_from_anywhere": {
+    "message": "随处拾取颜色，包括浏览器外部…",
+    "description": "Tells the user they can pick a color from any screen location, including outside the browser window"
+  },
+  "report_translation_issue": {
+    "message": "报告翻译问题",
+    "description": "Allows the user to report incorrect or inaccurate translations"
+  },
+  "help_translate_colorzilla": {
+    "message": "帮助翻译 ColorZilla",
+    "description": "Asks users to help translate ColorZilla into different languages"
+  },
+  "new_feature_label": {
+    "message": "新",
+    "description": "The text of a badge that's displayed next to menu items to indicate to users that the feature is new"
+  },
+  "new_color_commit": {
+    "message": "新颜色 - 按“确定”提交",
+    "description": "Indicates that this is the newly selected color, and by pressing OK the user can commit - make it the current color"
+  },
+  "click_to_revert": {
+    "message": "点击重置为原始颜色",
+    "description": "Indicates that clicking will revert the color selection to previously selected color"
+  },
+  "commit_to_this_color": {
+    "message": "确认此颜色选择",
+    "description": "Using this option will make the selected color active."
+  },
+  "cancel_and_revert": {
+    "message": "取消并恢复到原始颜色",
+    "description": "Cancel the color selection and revert to the previous color"
+  },
+  "set_to_hue_color_mode": {
+    "message": "设置为“色调”颜色模式",
+    "description": "Sets the current mode to select colors by hue"
+  },
+  "set_to_sat_color_mode": {
+    "message": "设置为\"饱和度\"颜色模式",
+    "description": "Sets the current mode to select colors by saturation"
+  },
+  "set_to_val_color_mode": {
+    "message": "设置为\"亮度\"颜色模式",
+    "description": "Sets the current mode to select colors by brightnesses"
+  },
+  "set_to_red_color_mode": {
+    "message": "设置为“红色”颜色模式",
+    "description": "Sets the current mode to select colors by amount of red"
+  },
+  "set_to_green_color_mode": {
+    "message": "设置为“绿色”颜色模式",
+    "description": "Sets the current mode to select colors by amount of green"
+  },
+  "set_to_blue_color_mode": {
+    "message": "设置为“蓝色”颜色模式",
+    "description": "Sets the current mode to select colors by amount of blue"
+  },
+  "enter_hue_value": {
+    "message": "输入\"色调\"值 (0-360°)",
+    "description": "Allows the user to enter the hue value into the box"
+  },
+  "enter_sat_value": {
+    "message": "输入一个“饱和”值 (0-100%)",
+    "description": "Allows the user to enter the saturation value into the box"
+  },
+  "enter_val_value": {
+    "message": "输入一个“亮度”值 (0-100%)",
+    "description": "Allows the user to enter the brightness value into the box"
+  },
+  "enter_red_value": {
+    "message": "输入一个“红”值 (0-255)",
+    "description": "Allows the user to enter the red component of the color into the box"
+  },
+  "enter_green_value": {
+    "message": "输入一个“绿色”值 (0-255)",
+    "description": "Allows the user to enter the green component of the color into the box"
+  },
+  "enter_blue_value": {
+    "message": "输入一个“蓝色”值 (0-255)",
+    "description": "Allows the user to enter the blue component of the color into the box"
+  },
+  "enter_hex_value": {
+    "message": "输入一个“十六进制”值 (#000000-#ffffff)",
+    "description": "Allows the user to enter the color in hex format into the box"
+  }
+}

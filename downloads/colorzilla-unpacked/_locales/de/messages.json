@@ -1,0 +1,407 @@
+{
+  "locale": {
+    "message": "de",
+    "description": "This should always be set to this file's locale"
+  },
+  "extension_description": {
+    "message": "Erweiterter Pipettentool, Farbwähler, Verlaufsgenerator und andere bunte Extras",
+    "description": "Eyedropper is the tool used to sample colors from an image, Color Picker Panel is a dialog where you can choose and adjust colors in various ways"
+  },
+  "pick_color_from_page": {
+    "message": "Farbe von der Seite auswählen",
+    "description": "Starts the Eyedropper / Color Picker tool to let the user sample color from a specific page location"
+  },
+  "page_color_picker_active": {
+    "message": "Seiten-Farbwähler aktiv",
+    "description": "Indicates to the user that the Eyedropper / Color Picker has been activated and is currently active"
+  },
+  "color_picker_panel": {
+    "message": "Farbwähler-Panel",
+    "description": "The Color Picker Panel is a dialog that allows to choose colors from a palette or specify a color using RGB, HEX, HSL, or other color models. This is different from the Eyedropper tool that picks colors from pages etc."
+  },
+  "resample_last_location": {
+    "message": "Letzte Position erneut abtasten",
+    "description": "Gets the color of the last location sampled with the Eyedropper tool. Used for cases where the location might have changed or had a hover state"
+  },
+  "picked_color_history": {
+    "message": "Farbauswahl-Verlauf",
+    "description": "The history of colors that the user picked"
+  },
+  "webpage_color_analyzer": {
+    "message": "Webseiten-Farbanalyse",
+    "description": "A tool that analyzes web pages, extracts the colors present, their definitions and elements"
+  },
+  "palette_browser": {
+    "message": "Paletten-Browser",
+    "description": "A tool that presents various color palettes and their colors"
+  },
+  "css_gradient_generator": {
+    "message": "CSS Verlaufsgenerator",
+    "description": "A tool that allows users to create various CSS-based gradients"
+  },
+  "help": {
+    "message": "Hilfe",
+    "description": "Application help"
+  },
+  "options": {
+    "message": "Optionen",
+    "description": "Application Options/Preferences"
+  },
+  "online_help": {
+    "message": "Online-Hilfe",
+    "description": "The online portion of help"
+  },
+  "whats_new": {
+    "message": "Neuigkeiten",
+    "description": "News and updates about the app"
+  },
+  "colorzilla_homepage": {
+    "message": "ColorZilla Webseite",
+    "description": "The home page of ColorZilla"
+  },
+  "about_colorzilla": {
+    "message": "Über ColorZilla",
+    "description": "Shows information about the app, its author, version etc"
+  },
+  "css_color_analysis_results": {
+    "message": "CSS-Farben auf dieser Seite",
+    "description": "The colors found in various CSS definitions on this page"
+  },
+  "ok": {
+    "message": "OK",
+    "description": "The Ok option, e.g. in a dialog"
+  },
+  "cancel": {
+    "message": "Abbrechen",
+    "description": "The Cancel option, e.g. in a dialog"
+  },
+  "copy_to_clipboard_menu_label": {
+    "message": "Spezialkopieren...",
+    "description": "This allows the user to copy the current color to clipboard using various special color formats - RGB, HEX etc."
+  },
+  "copy_with_param": {
+    "message": "Kopieren $STRING$",
+    "placeholders": {
+      "string": {
+        "content": "$1"
+      }
+    },
+    "description": "Copy a string to clipboard, the string is provided using the paramater"
+  },
+  "chrome_doesn_allow_picking_special_page": {
+    "message": "Chrome erlaubt nicht, Farben von dieser speziellen Seite auszuwählen",
+    "description": "A warning for the user that the Color Picker / Eyedropper cannot pick colors from the current page"
+  },
+  "chrome_doesn_allow_picking_webstore": {
+    "message": "Chrome erlaubt nicht, Farben von den Seiten des Chrome Web Stores auszuwählen",
+    "description": "A warning for the user that the Color Picker / Eyedropper cannot pick colors from the current page, because its a Chrome Web Store page"
+  },
+  "chrome_doesn_allow_picking_local": {
+    "message": "Ihr Browser erlaubt nicht, Farben von lokalen Seiten auszuwählen",
+    "description": "A warning for the user that the Color Picker / Eyedropper cannot pick colors from the current page, because its a local (non web-based) page"
+  },
+  "allow_access_to_file_urls": {
+    "message": "Klicken Sie und aktivieren Sie 'Zugriff auf 'file'-URLs erlauben'",
+    "description": "Instructs the user to enable access to 'file' URLs - special URLs hosted locally"
+  },
+  "clear_history": {
+    "message": "Verlauf löschen",
+    "description": "Clears/erases the entire color history"
+  },
+  "clear_history_question": {
+    "message": "Farbverlauf löschen?",
+    "description": "A confirmation question asking user to confirm clearing/erasing the entire color history"
+  },
+  "color_history_label": {
+    "message": "Historie:",
+    "description": "Label of the Color History panel etc."
+  },
+  "new_color_label": {
+    "message": "neue",
+    "description": "Signifies newly selected color in the Color Picker UI"
+  },
+  "current_color_label": {
+    "message": "aktuelle",
+    "description": "Signifies previously selected color (which is the last current color) in the Color Picker UI"
+  },
+  "analyzing_please_wait": {
+    "message": "Analyse... Bitte warten...",
+    "description": "Indicates to user that the tool is Analyzing colors, and requests the user to wait until it completes the analysis"
+  },
+  "palette_name_huesandbrightnesses": {
+    "message": "Farbtöne und Helligkeiten",
+    "description": "A palette with various color hues and color brightnesses"
+  },
+  "palette_name_huesandsaturations": {
+    "message": "Farbtöne und Sättigungen",
+    "description": "A palette with various color hues and color saturations"
+  },
+  "palette_name_w3cnamedcolors": {
+    "message": "W3C Benannte Farben",
+    "description": "A palette with various colors that have basic standard W3C names"
+  },
+  "palette_name_webcolorsbyhue": {
+    "message": "Webfarben nach Farbton",
+    "description": "A palette with various Web colors organized by their hue value"
+  },
+  "palette_name_webnamedcolors": {
+    "message": "Web Benannte Farben",
+    "description": "A palette with various colors that have names in Web standards"
+  },
+  "palette_name_websafecolors": {
+    "message": "Web-Safe Farben",
+    "description": "A palette that has colors that are considered Web Safe - they are displayed consistenly over the widest variety of displays"
+  },
+  "palette_name_xnamedcolors": {
+    "message": "X Benannte Farben",
+    "description": "A palette with various colors that have names in X-Windows standards"
+  },
+  "colorzilla_options": {
+    "message": "ColorZilla Optionen",
+    "description": "Application Options/Preferences"
+  },
+  "eyedropper": {
+    "message": "Pipette",
+    "description": "The tool that allows users to pick/sample colors from screen/webpages/images etc. "
+  },
+  "show_magnifier": {
+    "message": "Lupe anzeigen.",
+    "description": "An option that shows a magnified view of the sampled area while picking/samlping colors"
+  },
+  "temporarily_show_hide_by_holding_shift": {
+    "message": "Vorübergehend zeigen/verstecken durch Halten der 'Shift'-Taste.",
+    "description": "This allows temporarily showing or hiding the magnifier by holding the 'Shift' key while picking colors"
+  },
+  "auto_start_eyedropper_when_button_clicked": {
+    "message": "Die Pipette automatisch starten, wenn die Haupttaste geklickt wird.",
+    "description": "An option that starts the color sampling (eyedropper) mode immediately after the main app button is clicked, without needing to click on a menu item"
+  },
+  "outline_hovered_elements": {
+    "message": "Rahmen um Element zeigen.",
+    "description": "An option that outlines with a line the HTML element the users cursor is currently hovering/positioned over"
+  },
+  "change_cursor_to_crosshair": {
+    "message": "Ändern Sie den Cursor zu Fadenkreuz.",
+    "description": "An option that changes the cursor to crosshair (a cross) while the user is sampling the colors from the page with the eyedropper tool"
+  },
+  "dont_move_document_down_when_sampling": {
+    "message": "Dokument beim Abtasten nicht nach unten verschieben.",
+    "description": "An option that prevents the document from moving down to make room for the tool UI, when the eyedropper is active."
+  },
+  "auto_copy": {
+    "message": "Automatisch kopieren",
+    "description": "Auto copy a color or similar to clipboard after being picked/sampled"
+  },
+  "auto_copy_picked_to_clipboard": {
+    "message": "Automatisch ausgewählte Farbe in die Zwischenablage kopieren.",
+    "description": "Auto copy the picked/sampled color to clipboard"
+  },
+  "auto_copy_format": {
+    "message": "Automatisch kopiertes Farbformat:",
+    "description": "The format to use when auto-copying the color to clipboard"
+  },
+  "color_format": {
+    "message": "Farbformat",
+    "description": "The format of a color to use - eg. RGB, HEX, HSL etc."
+  },
+  "show_hex_codes_lowercase": {
+    "message": "HEX-Codes in Kleinbuchstaben anzeigen.",
+    "description": "An option to show HEX-formatted color values in lowercase (eg. #dddddd vs #DDDDDD)"
+  },
+  "keyboard_shortcuts": {
+    "message": "Tastaturkürzel",
+    "description": "Combination of keys to activate the tool etc."
+  },
+  "enable_keyboard_shortcuts": {
+    "message": "Farbauswahl von der Seite mithilfe eines Tastenkürzels aktivieren.",
+    "description": "An option to enable the user to use a keyboard shortcut to activate the eyedropper/color picker tool"
+  },
+  "keyboard_shortcut_label": {
+    "message": "Tastenkürzel:",
+    "description": "Label for a keyboard shortcut to use"
+  },
+  "save_button_label": {
+    "message": "Speichern",
+    "description": "An action that allows the user to save the currently selected options/values"
+  },
+  "options_saved": {
+    "message": "Optionen gespeichert",
+    "description": "A confirmation message indicating to user that their selected options have been saved"
+  },
+  "version": {
+    "message": "Version",
+    "description": "The version of the app (e.g v3.4)"
+  },
+  "created_by": {
+    "message": "Programmiert von",
+    "description": "The author/creator of the app"
+  },
+  "home_page": {
+    "message": "Startseite",
+    "description": "Home page of the app etc."
+  },
+  "licensing": {
+    "message": "Lizenzierung",
+    "description": "The various legal info relating to license of the product"
+  },
+  "license": {
+    "message": "Lizenz",
+    "description": "The license of the product"
+  },
+  "attributions": {
+    "message": "Zuordnungen",
+    "description": "The attributions of various elements used in the products etc."
+  },
+  "color_picker_by": {
+    "message": "Farbauswahl von $AUTHOR1$ und $AUTHOR2$.",
+    "placeholders": {
+      "author1": {
+        "content": "$1"
+      },
+      "author2": {
+        "content": "$2"
+      }
+    },
+    "description": "Specifies and gives attribution to the authors of the Color Picker tool"
+  },
+  "close_and_stop_picking": {
+    "message": "Schließen und Farbauswahl beenden",
+    "description": "Close the tool and stop picking colors from the page"
+  },
+  "collapse_this_panel": {
+    "message": "Dieses Panel minimieren",
+    "description": "Collapse the panel - make it more compact visually"
+  },
+  "expand_this_panel": {
+    "message": "Dieses Panel erweitern",
+    "description": "Expand the panel - make it full size visually"
+  },
+  "color_copied_to_clipboard": {
+    "message": "Farbe in die Zwischenablage kopiert",
+    "description": "The color has been copied to user's clipboard"
+  },
+  "color_picked": {
+    "message": "Farbe ausgewählt",
+    "description": "The color was succesfully sampled/picked from the screen"
+  },
+  "point_sample": {
+    "message": "Einzelne Pixel",
+    "description": "This mode samples one 1x1 pixel/point for the current color"
+  },
+  "3x3_average": {
+    "message": "3x3 Durchschnitt",
+    "description": "This mode takes a 3x3 pixel window around the current cursor location, and averages the color value across this area"
+  },
+  "5x5_average": {
+    "message": "5x5 Durchschnitt",
+    "description": "This mode takes a 5x5 pixel window around the current cursor location, and averages the color value across this area"
+  },
+  "11x11_average": {
+    "message": "11x11 Durchschnitt",
+    "description": "This mode takes a 11x11 pixel window around the current cursor location, and averages the color value across this area"
+  },
+  "25x25_average": {
+    "message": "25x25 Durchschnitt",
+    "description": "This mode takes a 25x25 pixel window around the current cursor location, and averages the color value across this area"
+  },
+  "selection_average": {
+    "message": "Auswahl-Durchschnitt",
+    "description": "This mode allows the user to select a certain visual portion of the current screen and the color will be determined by averaging all the pixel within this user-selected area"
+  },
+  "sampling": {
+    "message": "Abtasten...",
+    "description": "Indicates to the user that the tool is currently sampling the screen for colors"
+  },
+  "select_area_to_sample": {
+    "message": "Einen Bereich zur Farbprobenentnahme auswählen",
+    "description": "Instructs the user to select an area from the screen so this area's pixels can be averaged into one sampled color"
+  },
+  "pick_color_from_outside_the_browser": {
+    "message": "Farbe außerhalb Browsers wählen",
+    "description": "Allows picking colors from anywhere on user's screen, including from outside the browser"
+  },
+  "pick_color_from_anywhere": {
+    "message": "Farben von überall auswählen, auch außerhalb des Browsers...",
+    "description": "Tells the user they can pick a color from any screen location, including outside the browser window"
+  },
+  "report_translation_issue": {
+    "message": "Übersetzungsfehler melden",
+    "description": "Allows the user to report incorrect or inaccurate translations"
+  },
+  "help_translate_colorzilla": {
+    "message": "Hilf ColorZilla zu übersetzen",
+    "description": "Asks users to help translate ColorZilla into different languages"
+  },
+  "new_feature_label": {
+    "message": "Neu",
+    "description": "The text of a badge that's displayed next to menu items to indicate to users that the feature is new"
+  },
+  "new_color_commit": {
+    "message": "Neue Farbe - Drücken Sie 'OK' zum Bestätigen",
+    "description": "Indicates that this is the newly selected color, and by pressing OK the user can commit - make it the current color"
+  },
+  "click_to_revert": {
+    "message": "Klicken Sie, um zur ursprünglichen Farbe zurückzukehren",
+    "description": "Indicates that clicking will revert the color selection to previously selected color"
+  },
+  "commit_to_this_color": {
+    "message": "Diese Farbauswahl bestätigen",
+    "description": "Using this option will make the selected color active."
+  },
+  "cancel_and_revert": {
+    "message": "Abbrechen und zur ursprünglichen Farbe zurückkehren",
+    "description": "Cancel the color selection and revert to the previous color"
+  },
+  "set_to_hue_color_mode": {
+    "message": "Einstellen auf \"Farbton\" Farbmodus",
+    "description": "Sets the current mode to select colors by hue"
+  },
+  "set_to_sat_color_mode": {
+    "message": "Einstellen auf \"Sättigung\" Farbmodus",
+    "description": "Sets the current mode to select colors by saturation"
+  },
+  "set_to_val_color_mode": {
+    "message": "Einstellen auf \"Helligkeit\" Farbmodus",
+    "description": "Sets the current mode to select colors by brightnesses"
+  },
+  "set_to_red_color_mode": {
+    "message": "Einstellen auf \"Rot\" Farbmodus",
+    "description": "Sets the current mode to select colors by amount of red"
+  },
+  "set_to_green_color_mode": {
+    "message": "Einstellen auf \"Grün\" Farbmodus",
+    "description": "Sets the current mode to select colors by amount of green"
+  },
+  "set_to_blue_color_mode": {
+    "message": "Einstellen auf \"Blau\" Farbmodus",
+    "description": "Sets the current mode to select colors by amount of blue"
+  },
+  "enter_hue_value": {
+    "message": "Geben Sie einen \"Farbton\"-Wert (0-360°) ein",
+    "description": "Allows the user to enter the hue value into the box"
+  },
+  "enter_sat_value": {
+    "message": "Geben Sie einen \"Sättigung\"-Wert (0-100%) ein",
+    "description": "Allows the user to enter the saturation value into the box"
+  },
+  "enter_val_value": {
+    "message": "Geben Sie einen \"Helligkeit\"-Wert (0-100%) ein",
+    "description": "Allows the user to enter the brightness value into the box"
+  },
+  "enter_red_value": {
+    "message": "Geben Sie einen \"Rot\" Wert (0-255) ein",
+    "description": "Allows the user to enter the red component of the color into the box"
+  },
+  "enter_green_value": {
+    "message": "Geben Sie einen \"Grünen\" Wert (0-255) ein",
+    "description": "Allows the user to enter the green component of the color into the box"
+  },
+  "enter_blue_value": {
+    "message": "Geben Sie einen \"Blau\" Wert (0-255) ein",
+    "description": "Allows the user to enter the blue component of the color into the box"
+  },
+  "enter_hex_value": {
+    "message": "Geben Sie einen \"Hex\" Wert ein (#000000-#ffffff)",
+    "description": "Allows the user to enter the color in hex format into the box"
+  }
+}
