@@ -1,0 +1,2015 @@
+{
+  "95PctMemoryReduction": {
+    "message": "Riduzione memoria del 95%"
+  },
+  "about": {
+    "message": "Informazioni"
+  },
+  "actionPopupOverrideNote": {
+    "message": "Questa impostazione può essere ignorata nel popup dell'estensione (se hai abilitato il popup dell'estensione)."
+  },
+  "aDashZ": {
+    "message": "A-Z"
+  },
+  "addOneTabNow": {
+    "message": "Aggiungi OneTab ora"
+  },
+  "all": {
+    "message": "Tutto"
+  },
+  "allBookmarks": {
+    "message": "Tutti i preferiti"
+  },
+  "allOpenTabsAlreadyStoredHere_few": {
+    "message": "Tutte le schede aperte sono già salvate qui:"
+  },
+  "allOpenTabsAlreadyStoredHere_many": {
+    "message": "Tutte le schede aperte sono già salvate qui:"
+  },
+  "allOpenTabsAlreadyStoredHere_one": {
+    "message": "Tutte le schede aperte sono già salvate qui:"
+  },
+  "allOpenTabsAlreadyStoredHere_other": {
+    "message": "Tutte le schede aperte sono già salvate qui:"
+  },
+  "allOpenTabsAlreadyStoredHere_two": {
+    "message": "Tutte le schede aperte sono già salvate qui:"
+  },
+  "allOpenTabsAlreadyStoredHere_zero": {
+    "message": "Tutte le schede aperte sono già salvate qui:"
+  },
+  "allowFileAccessInstructions": {
+    "message": "Per consentire l'apertura diretta dei file, vai su Impostazioni ➝ Estensioni ➝ OneTab ➝ Dettagli ➝ Consenti accesso agli URL dei file"
+  },
+  "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+    "message": "Tutte le schede aperte già presenti in questo gruppo verranno chiuse dopo l'unione."
+  },
+  "alternatePlainTextFormat": {
+    "message": "In alternativa, il testo semplice può essere nel formato:"
+  },
+  "approve": {
+    "message": "Approva"
+  },
+  "archived": {
+    "message": "Archiviati"
+  },
+  "autoTheme": {
+    "message": "Automatico (usa l'impostazione del sistema operativo)"
+  },
+  "backupAndSync": {
+    "message": "Backup & Sincronizzazione"
+  },
+  "betaReleaseReportBugsHere": {
+    "message": "Versione beta - Segnala bug qui"
+  },
+  "bookmarkCount_few": {
+    "message": "{COUNT} preferiti"
+  },
+  "bookmarkCount_many": {
+    "message": "{COUNT} preferiti"
+  },
+  "bookmarkCount_one": {
+    "message": "{COUNT} preferito"
+  },
+  "bookmarkCount_other": {
+    "message": "{COUNT} preferiti"
+  },
+  "bookmarkCount_two": {
+    "message": "{COUNT} preferiti"
+  },
+  "bookmarkCount_zero": {
+    "message": "{COUNT} preferiti"
+  },
+  "bookmarksPermissionNecesssary": {
+    "message": "L'autorizzazione ai preferiti è necessaria per consentire a OneTab di importare i preferiti del browser"
+  },
+  "bulkActions": {
+    "message": "Azioni in blocco"
+  },
+  "cancel": {
+    "message": "Annulla"
+  },
+  "canDragTextNote": {
+    "message": "Nota: è anche possibile trascinare e rilasciare testo che contiene link direttamente da un'altra pagina web o da un documento. Puoi trascinare il testo direttamente nella tua pagina OneTab, senza dover usare questa casella di importazione."
+  },
+  "cannotConnectToServerDeletionRequestQueued": {
+    "message": "Impossibile connettersi al server OneTab. Verifica la connessione a Internet. La richiesta di eliminazione della pagina condivisa è stata messa in coda localmente e verrà inviata automaticamente al server OneTab non appena sarà di nuovo raggiungibile."
+  },
+  "cannotCreateTabGroupInTabGroup": {
+    "message": "La destinazione scelta è un gruppo di schede. Non puoi creare un gruppo di schede all'interno di un gruppo di schede esistente. Scegli un'altra destinazione."
+  },
+  "cannotMixTabsGroupsFoldersDuringDrag": {
+    "message": "Non è possibile mescolare schede, gruppi e cartelle durante il trascinamento. Questo perché, ad esempio, non puoi trascinare una cartella negli stessi punti in cui puoi trascinare una scheda."
+  },
+  "cannotMoveItemAncestorHere": {
+    "message": "Non puoi spostare un elemento padre nel proprio elemento figlio, perché creerebbe un ciclo."
+  },
+  "cannotMoveItemIntoItself": {
+    "message": "Non puoi spostare un elemento dentro se stesso."
+  },
+  "canPasteWebContentForExample": {
+    "message": "Puoi incollare testo copiato da una pagina web o da un documento; i link verranno estratti automaticamente. Ad esempio:"
+  },
+  "caseSensitive": {
+    "message": "Distingui maiuscole/minuscole"
+  },
+  "changesMadeSinceSharedPageCreation": {
+    "message": "Sono state apportate modifiche alle schede salvate da quando hai condiviso questa pagina. Fai clic sul pulsante 'Aggiorna' per aggiornare la pagina condivisa esistente."
+  },
+  "changeThisSettingAtAnyTimeInfo": {
+    "message": "Puoi modificare questa impostazione in qualsiasi momento facendo clic sul pulsante \"Opzioni\" nella parte superiore della tua pagina OneTab."
+  },
+  "changeThisSettingAtAnyTimeInfoHtml": {
+    "message": "Puoi modificarlo in seguito in <b>Opzioni</b>."
+  },
+  "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+    "message": "Le caselle di controllo in alto determinano se includere nell'unione le schede bloccate o quelle nei gruppi di schede."
+  },
+  "chooseALocation": {
+    "message": "Scegli una posizione"
+  },
+  "chooseALocationToImportTo": {
+    "message": "Scegli una posizione in cui importare"
+  },
+  "chooseExportLocation": {
+    "message": "Scegli una posizione da cui esportare"
+  },
+  "chooseLightDarkTheme": {
+    "message": "Scegli tema chiaro/scuro"
+  },
+  "chooseLocationToCopyTo": {
+    "message": "Scegli una posizione in cui copiare"
+  },
+  "chooseLocationToMoveTo": {
+    "message": "Scegli una posizione in cui spostare"
+  },
+  "chooseLocationToRestoreTo": {
+    "message": "Scegli una posizione in cui ripristinare"
+  },
+  "chooseToIncludeNotes": {
+    "message": "Se hai aggiunto note a schede o gruppi, scegli se includerle nella pagina web condivisa"
+  },
+  "chooseToIncludeRatings": {
+    "message": "Se hai aggiunto stelle a schede o gruppi, scegli se includerle nella pagina web condivisa"
+  },
+  "chromeIncognitoInstructions": {
+    "message": "Nelle impostazioni del browser, vai su 'Impostazioni' → 'Estensioni' → 'OneTab' → 'Dettagli', quindi abilita 'Consenti in incognito'."
+  },
+  "clickButtonToAllowTabAccess": {
+    "message": "Fai clic sul pulsante qui sotto per consentire a OneTab di accedere alle schede aperte."
+  },
+  "clickHereToContinue": {
+    "message": "Fai clic qui per continuare."
+  },
+  "clickOneTabIconToStoreTabsHere": {
+    "message": "Fai clic sull'icona di OneTab nella barra degli strumenti del browser per salvare qui le schede aperte."
+  },
+  "closeSelectedTabs_few": {
+    "message": "Chiudi {COUNT} schede selezionate"
+  },
+  "closeSelectedTabs_many": {
+    "message": "Chiudi {COUNT} schede selezionate"
+  },
+  "closeSelectedTabs_one": {
+    "message": "Chiudi {COUNT} scheda selezionata"
+  },
+  "closeSelectedTabs_other": {
+    "message": "Chiudi {COUNT} schede selezionate"
+  },
+  "closeSelectedTabs_two": {
+    "message": "Chiudi {COUNT} schede selezionate"
+  },
+  "closeSelectedTabs_zero": {
+    "message": "Chiudi {COUNT} schede selezionate"
+  },
+  "closeSelectedTabsAndStoreInONETAB_few": {
+    "message": "Chiudi {COUNT} schede selezionate e salvale in ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_many": {
+    "message": "Chiudi {COUNT} schede selezionate e salvale in ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_one": {
+    "message": "Chiudi {COUNT} scheda selezionata e salvala in ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_other": {
+    "message": "Chiudi {COUNT} schede selezionate e salvale in ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_two": {
+    "message": "Chiudi {COUNT} schede selezionate e salvale in ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_zero": {
+    "message": "Chiudi {COUNT} schede selezionate e salvale in ONETAB"
+  },
+  "closeTabs_few": {
+    "message": "Chiudi le schede"
+  },
+  "closeTabs_many": {
+    "message": "Chiudi le schede"
+  },
+  "closeTabs_one": {
+    "message": "Chiudi la scheda"
+  },
+  "closeTabs_other": {
+    "message": "Chiudi le schede"
+  },
+  "closeTabs_two": {
+    "message": "Chiudi le schede"
+  },
+  "closeTabs_zero": {
+    "message": "Chiudi le schede"
+  },
+  "closeTabsAfterMerge": {
+    "message": "Chiudi le schede dopo l'unione"
+  },
+  "closeTabsAlreadyStoredInOneTab_few": {
+    "message": "Chiudi {COUNT} schede già salvate in OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_many": {
+    "message": "Chiudi {COUNT} schede già salvate in OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_one": {
+    "message": "Chiudi {COUNT} scheda già salvata in OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_other": {
+    "message": "Chiudi {COUNT} schede già salvate in OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_two": {
+    "message": "Chiudi {COUNT} schede già salvate in OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_zero": {
+    "message": "Chiudi {COUNT} schede già salvate in OneTab"
+  },
+  "closeTabsAndStore_few": {
+    "message": "Chiudi le schede e salvale in ONETAB"
+  },
+  "closeTabsAndStore_many": {
+    "message": "Chiudi le schede e salvale in ONETAB"
+  },
+  "closeTabsAndStore_one": {
+    "message": "Chiudi la scheda e salvala in ONETAB"
+  },
+  "closeTabsAndStore_other": {
+    "message": "Chiudi le schede e salvale in ONETAB"
+  },
+  "closeTabsAndStore_two": {
+    "message": "Chiudi le schede e salvale in ONETAB"
+  },
+  "closeTabsAndStore_zero": {
+    "message": "Chiudi le schede e salvale in ONETAB"
+  },
+  "closeTheseDuplicates_few": {
+    "message": "Chiudi questi duplicati"
+  },
+  "closeTheseDuplicates_many": {
+    "message": "Chiudi questi duplicati"
+  },
+  "closeTheseDuplicates_one": {
+    "message": "Chiudi questo duplicato"
+  },
+  "closeTheseDuplicates_other": {
+    "message": "Chiudi questi duplicati"
+  },
+  "closeTheseDuplicates_two": {
+    "message": "Chiudi questi duplicati"
+  },
+  "closeTheseDuplicates_zero": {
+    "message": "Chiudi questi duplicati"
+  },
+  "completedTaskFlagHelp": {
+    "message": "Questo elemento è un'attività. Fai clic su questa icona per contrassegnarla come in sospeso (non completata)."
+  },
+  "completeEditingShortcutInfo": {
+    "message": "Quando modifichi un campo note, usa questa scorciatoia per terminare la modifica."
+  },
+  "configureShortcuts": {
+    "message": "Configura scorciatoie"
+  },
+  "conflictingShortcutsHint": {
+    "message": "Se una delle scorciatoie sopra non funziona o va in conflitto con altre applicazioni, puoi configurare una scorciatoia diversa."
+  },
+  "continue": {
+    "message": "Continua"
+  },
+  "convertTabsIntoAList": {
+    "message": "Converti le schede in un elenco"
+  },
+  "copiedToClipboard": {
+    "message": "Copiato negli appunti"
+  },
+  "copy": {
+    "message": "Copia"
+  },
+  "copyLinksToClipboard": {
+    "message": "Copia i link negli appunti"
+  },
+  "copySharedPageUrl": {
+    "message": "Copia URL della pagina condivisa"
+  },
+  "copyToClipboard": {
+    "message": "Copia negli appunti"
+  },
+  "copyToClipboardMenuItemHelp": {
+    "message": "Copia questi link web negli appunti, così puoi incollarli in altre applicazioni. Puoi modificare il formato del testo negli appunti nella pagina Opzioni di OneTab."
+  },
+  "createANewGroupHere": {
+    "message": "Crea qui un nuovo gruppo"
+  },
+  "createdOnOrAfterColon": {
+    "message": "Creato dal:"
+  },
+  "createdOnOrBeforeColon": {
+    "message": "Creato entro:"
+  },
+  "createdPreceedingDate": {
+    "message": "Creato"
+  },
+  "createFolderAbove": {
+    "message": "Crea cartella sopra"
+  },
+  "createFolderAboveBelow": {
+    "message": "Crea cartella sopra / sotto"
+  },
+  "createFolderAboveWithinBelow": {
+    "message": "Crea cartella sopra / all'interno / sotto"
+  },
+  "createFolderBelow": {
+    "message": "Crea cartella sotto"
+  },
+  "createFolderWithin": {
+    "message": "Crea cartella all'interno"
+  },
+  "createFolderWithinMenuItemHelp": {
+    "message": "Le cartelle servono per organizzare i gruppi di schede. Le cartelle contengono gruppi e i gruppi contengono schede."
+  },
+  "createGroupAbove": {
+    "message": "Crea gruppo sopra"
+  },
+  "createGroupAboveBelow": {
+    "message": "Crea gruppo sopra / sotto"
+  },
+  "createGroupAboveWithinBelow": {
+    "message": "Crea gruppo sopra / all'interno / sotto"
+  },
+  "createGroupBelow": {
+    "message": "Crea gruppo sotto"
+  },
+  "createGroupInsideDestination": {
+    "message": "Crea un nuovo gruppo all'interno della destinazione"
+  },
+  "createGroupInsideDestinationHelp": {
+    "message": "Se non selezionata, le tue schede verranno aggiunte direttamente al gruppo di destinazione. Se selezionata, verrà creato un nuovo gruppo di schede del browser per le tue schede all'interno del gruppo di destinazione. Seleziona questa casella solo se vuoi usare la funzione \"gruppi di schede\" del browser."
+  },
+  "createGroupMenuItemHelp": {
+    "message": "Crea un nuovo gruppo vuoto. Un gruppo contiene un elenco di schede, che possono essere ripristinate insieme in una finestra."
+  },
+  "createGroupWithin": {
+    "message": "Crea gruppo all'interno"
+  },
+  "createNewGroupTip": {
+    "message": "Per creare un nuovo gruppo, deseleziona prima \"Mostra solo cartelle\". In questo modo potrai vedere il gruppo appena creato nell'elenco."
+  },
+  "darkTheme": {
+    "message": "Tema scuro"
+  },
+  "dayCount_few": {
+    "message": "{COUNT} giorni"
+  },
+  "dayCount_many": {
+    "message": "{COUNT} giorni"
+  },
+  "dayCount_one": {
+    "message": "{COUNT} giorno"
+  },
+  "dayCount_other": {
+    "message": "{COUNT} giorni"
+  },
+  "dayCount_two": {
+    "message": "{COUNT} giorni"
+  },
+  "dayCount_zero": {
+    "message": "{COUNT} giorni"
+  },
+  "delete": {
+    "message": "Elimina"
+  },
+  "deleteAllTrash": {
+    "message": "Svuota cestino"
+  },
+  "deleteThisCopy": {
+    "message": "Elimina questa copia"
+  },
+  "deselectAll": {
+    "message": "Deseleziona tutto"
+  },
+  "destinationColon": {
+    "message": "Destinazione:"
+  },
+  "disabled": {
+    "message": "Disabilitato"
+  },
+  "doneTaskCount_few": {
+    "message": "{COUNT} completati"
+  },
+  "doneTaskCount_many": {
+    "message": "{COUNT} completati"
+  },
+  "doneTaskCount_one": {
+    "message": "{COUNT} completato"
+  },
+  "doneTaskCount_other": {
+    "message": "{COUNT} completati"
+  },
+  "doneTaskCount_two": {
+    "message": "{COUNT} completati"
+  },
+  "doneTaskCount_zero": {
+    "message": "{COUNT} completati"
+  },
+  "dontCloseGroupedTabs": {
+    "message": "Non chiudere le schede nei gruppi di schede"
+  },
+  "dontClosePinnedTabs": {
+    "message": "Non chiudere le schede bloccate"
+  },
+  "dontCloseTabsFromDomains": {
+    "message": "Non chiudere le schede da EXAMPLE.COM"
+  },
+  "dragCopyModifierInfo": {
+    "message": "Tieni premuto il tasto Ctrl o Alt quando rilasci una scheda per crearne una copia invece di spostarla."
+  },
+  "dragTabsHereForQuickList": {
+    "message": "Trascina qui le schede o i gruppi salvati. Verranno aggiunti al tuo elenco rapido."
+  },
+  "editTabGroupTitleAndNotes": {
+    "message": "Modifica titolo e note del gruppo di schede"
+  },
+  "emojiShortcutInfo": {
+    "message": "Quando modifichi un campo note, usa questa scorciatoia per aprire il selettore di emoji."
+  },
+  "emptyInBrackets": {
+    "message": "(vuoto)"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "Quando hai più schede aperte, fai clic sull'icona di OneTab nella barra degli strumenti del browser e le schede aperte verranno visualizzate qui."
+  },
+  "enabled": {
+    "message": "Abilitato"
+  },
+  "encryptedSyncAndBackup": {
+    "message": "Sincronizzazione e backup crittografati"
+  },
+  "encryptedSyncAndBackupComingSoonMessage": {
+    "message": "Prossimamente: potrai sincronizzare i tuoi dati OneTab tra più profili del browser e computer.\nOneTab è stato completamente riscritto, così le modifiche effettuate su un dispositivo appariranno immediatamente su tutti gli altri.\nSe usi questa funzione, i tuoi dati saranno crittografati end‑to‑end con crittografia AES‑256 ad alta robustezza. Questo rende impossibile agli sviluppatori di OneTab vedere le schede che hai eseguito il backup o sincronizzato tra dispositivi, perché solo tu possiedi la chiave di crittografia."
+  },
+  "everything": {
+    "message": "Tutto"
+  },
+  "exampleLink": {
+    "message": "Link di esempio"
+  },
+  "exampleLinkTitle": {
+    "message": "Titolo del link di esempio"
+  },
+  "exampleLinkTitleOptional": {
+    "message": "Titolo del link di esempio (facoltativo)"
+  },
+  "exampleRichTextParagraph": {
+    "message": "Esempio di paragrafo di testo con PLACEHOLDER e PLACEHOLDER"
+  },
+  "exampleWebsitePageTitle": {
+    "message": "Titolo di esempio di una pagina web"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "Escludi EXAMPLE.COM da OneTab"
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "Escludi questo sito web da OneTab"
+  },
+  "expiresColon": {
+    "message": "Scadenza:"
+  },
+  "export": {
+    "message": "Esporta"
+  },
+  "exportImportUrls": {
+    "message": "Esporta / Importa URL"
+  },
+  "exportThenImportNote": {
+    "message": "L'elenco di URL seguente può essere importato di nuovo in OneTab su questo o un altro computer"
+  },
+  "exportUrls": {
+    "message": "Esporta URL"
+  },
+  "feedback": {
+    "message": "Feedback"
+  },
+  "filter": {
+    "message": "Filtro"
+  },
+  "firefoxIncognitoInstructions": {
+    "message": "Nelle impostazioni del browser, vai su 'Impostazioni' → 'Componenti aggiuntivi e temi' → 'Estensioni' → 'OneTab' → '...' → 'Gestisci', quindi abilita 'Esegui in finestre anonime'."
+  },
+  "firefoxShortcutConfigInstructions": {
+    "message": "Inserisci l'URL \"about:addons?type=extension\" nella barra degli indirizzi del browser. Quando si apre la pagina, fai clic sull'icona a ingranaggio, quindi scegli \"Gestisci scorciatoie delle estensioni\""
+  },
+  "Folder": {
+    "message": "Cartella"
+  },
+  "folderCount_few": {
+    "message": "{COUNT} cartelle"
+  },
+  "folderCount_many": {
+    "message": "{COUNT} cartelle"
+  },
+  "folderCount_one": {
+    "message": "{COUNT} cartella"
+  },
+  "folderCount_other": {
+    "message": "{COUNT} cartelle"
+  },
+  "folderCount_two": {
+    "message": "{COUNT} cartelle"
+  },
+  "folderCount_zero": {
+    "message": "{COUNT} cartelle"
+  },
+  "folders": {
+    "message": "Cartelle"
+  },
+  "foldersOnly": {
+    "message": "Solo cartelle"
+  },
+  "gettingStarted": {
+    "message": "Per iniziare"
+  },
+  "gotIt": {
+    "message": "Ho capito"
+  },
+  "goToParentFolder": {
+    "message": "Vai alla cartella superiore"
+  },
+  "groupCount_few": {
+    "message": "{COUNT} gruppi"
+  },
+  "groupCount_many": {
+    "message": "{COUNT} gruppi"
+  },
+  "groupCount_one": {
+    "message": "{COUNT} gruppo"
+  },
+  "groupCount_other": {
+    "message": "{COUNT} gruppi"
+  },
+  "groupCount_two": {
+    "message": "{COUNT} gruppi"
+  },
+  "groupCount_zero": {
+    "message": "{COUNT} gruppi"
+  },
+  "groups": {
+    "message": "Gruppi"
+  },
+  "hasNotes": {
+    "message": "Con note"
+  },
+  "help": {
+    "message": "Guida"
+  },
+  "hideArchivedItems": {
+    "message": "Nascondi elementi archiviati"
+  },
+  "import": {
+    "message": "Importa"
+  },
+  "importAndExport": {
+    "message": "Importa & Esporta"
+  },
+  "importBookmarks": {
+    "message": "Importa preferiti"
+  },
+  "importedBookmarks": {
+    "message": "Preferiti importati"
+  },
+  "importFolderAndSubfolders": {
+    "message": "Importa cartella e sottocartelle"
+  },
+  "importLinksHere": {
+    "message": "Importa link qui"
+  },
+  "importLinksHereMenuItemHelp": {
+    "message": "Puoi incollare un elenco di link web o importare i preferiti del browser."
+  },
+  "importReadingList": {
+    "message": "Importa elenco di lettura"
+  },
+  "importText": {
+    "message": "Importa testo"
+  },
+  "importUrls": {
+    "message": "Importa URL"
+  },
+  "includeGroupedTabs": {
+    "message": "Includi schede nei gruppi di schede"
+  },
+  "includeNotes": {
+    "message": "Includi note"
+  },
+  "includePinnedTabs": {
+    "message": "Includi schede bloccate"
+  },
+  "includeStarRatings": {
+    "message": "Includi stelle"
+  },
+  "includeTabsAlreadyStored": {
+    "message": "Includi le schede che hai già salvato"
+  },
+  "includeTabsFromDomains": {
+    "message": "Includi schede da EXAMPLE.COM"
+  },
+  "incogitoPermissionRequired": {
+    "message": "OneTab necessita dell'autorizzazione per creare finestre di navigazione in incognito."
+  },
+  "incognitoWindows": {
+    "message": "Finestre di navigazione in incognito"
+  },
+  "invertSelection": {
+    "message": "Inverti selezione"
+  },
+  "justNow": {
+    "message": "proprio ora"
+  },
+  "keyboardShortcutsColon": {
+    "message": "Scorciatoie da tastiera:"
+  },
+  "languageTitle": {
+    "message": "Lingua:"
+  },
+  "lightTheme": {
+    "message": "Tema chiaro"
+  },
+  "localeId": {
+    "message": "it"
+  },
+  "locationColon": {
+    "message": "Posizione:"
+  },
+  "lock": {
+    "message": "Blocca"
+  },
+  "lockedGroupUnlockHelp": {
+    "message": "Per sbloccare, usa il menu \"Altro…\". Quando un gruppo è bloccato, non puoi eliminare il gruppo o le sue schede e le schede non possono essere riordinate."
+  },
+  "lockMenuItemHelp": {
+    "message": "Quando un gruppo è bloccato, non puoi rimuovere o riordinare gli elementi al suo interno (finché non lo sblocchi)."
+  },
+  "makeThisATask": {
+    "message": "Contrassegna come attività"
+  },
+  "manifestDescription": {
+    "message": "Risparmia fino al 95% di memoria e riduci l'ingombro delle schede"
+  },
+  "markAsArchived": {
+    "message": "Contrassegna come archiviato"
+  },
+  "markAsArchivedMenuItemHelp": {
+    "message": "Quando contrassegni un elemento come archiviato, avrà uno sfondo grigio. È un indicatore visivo che hai finito con questo elemento (ad esempio, è un articolo che hai finito di leggere). Se archivi qualcosa contrassegnato come attività, l'attività non verrà più visualizzata nella colonna delle attività nella tua pagina OneTab."
+  },
+  "markAsDoneTask": {
+    "message": "Contrassegna come attività completata"
+  },
+  "markAsDoneTaskMenuItemHelp": {
+    "message": "Indica visivamente che un'attività è stata completata"
+  },
+  "markAsPendingTask": {
+    "message": "Contrassegna come attività in sospeso"
+  },
+  "markAsPendingTaskMenuItemHelp": {
+    "message": "Indica visivamente che questo elemento è un'attività. Verrà visualizzata un'icona di attività, su cui potrai fare clic per indicare visivamente che l'attività è stata completata. Tutte le attività (a meno che non siano contrassegnate come archiviate) verranno visualizzate anche nella colonna delle attività nella tua pagina OneTab."
+  },
+  "matchCount_few": {
+    "message": "{COUNT} corrispondenze"
+  },
+  "matchCount_many": {
+    "message": "{COUNT} corrispondenze"
+  },
+  "matchCount_one": {
+    "message": "{COUNT} corrispondenza"
+  },
+  "matchCount_other": {
+    "message": "{COUNT} corrispondenze"
+  },
+  "matchCount_two": {
+    "message": "{COUNT} corrispondenze"
+  },
+  "matchCount_zero": {
+    "message": "{COUNT} corrispondenze"
+  },
+  "matchWholeWordsOnly": {
+    "message": "Solo parole intere"
+  },
+  "mayNeedToRestartBrowser": {
+    "message": "Se vedi questo messaggio ogni volta, aggiorna e riavvia il browser."
+  },
+  "mergeIntoParent": {
+    "message": "Unisci al livello superiore"
+  },
+  "mergeOpenTabsHere_few": {
+    "message": "Unisci qui {COUNT} schede aperte"
+  },
+  "mergeOpenTabsHere_many": {
+    "message": "Unisci qui {COUNT} schede aperte"
+  },
+  "mergeOpenTabsHere_one": {
+    "message": "Unisci qui {COUNT} scheda aperta"
+  },
+  "mergeOpenTabsHere_other": {
+    "message": "Unisci qui {COUNT} schede aperte"
+  },
+  "mergeOpenTabsHere_two": {
+    "message": "Unisci qui {COUNT} schede aperte"
+  },
+  "mergeOpenTabsHere_zero": {
+    "message": "Unisci qui {COUNT} schede aperte"
+  },
+  "mergeSelectedTabsHere_few": {
+    "message": "Unisci qui {COUNT} schede selezionate"
+  },
+  "mergeSelectedTabsHere_many": {
+    "message": "Unisci qui {COUNT} schede selezionate"
+  },
+  "mergeSelectedTabsHere_one": {
+    "message": "Unisci qui {COUNT} scheda selezionata"
+  },
+  "mergeSelectedTabsHere_other": {
+    "message": "Unisci qui {COUNT} schede selezionate"
+  },
+  "mergeSelectedTabsHere_two": {
+    "message": "Unisci qui {COUNT} schede selezionate"
+  },
+  "mergeSelectedTabsHere_zero": {
+    "message": "Unisci qui {COUNT} schede selezionate"
+  },
+  "mergeWithInnerGroups": {
+    "message": "Unisci con i gruppi interni"
+  },
+  "modalMoveToTrashHintExampleGroupTitle": {
+    "message": "Titolo del gruppo di esempio"
+  },
+  "modalMoveToTrashHintHeading": {
+    "message": "Suggerimento: passa il mouse sul titolo di un gruppo, poi fai clic sulla X per spostarlo nel cestino."
+  },
+  "modalOptionAutoActionOnOpenHeading": {
+    "message": "Dopo aver ripristinato le schede:"
+  },
+  "modalOptionAutoActionOnOpenOpenDesc": {
+    "message": "Elimina manualmente quando hai finito"
+  },
+  "modalOptionAutoActionOnOpenTrashDesc": {
+    "message": "Più semplice per salvare e ripristinare rapidamente"
+  },
+  "modalRemigrationDontAskAgain": {
+    "message": "Non chiedere più"
+  },
+  "modalRemigrationFooterHtml": {
+    "message": "Fai clic su <b>Sì</b>, a meno che la migrazione non sia già avvenuta e tu abbia eliminato intenzionalmente le schede migrate."
+  },
+  "modalRemigrationNotNow": {
+    "message": "Non ora"
+  },
+  "modalRemigrationTabsFoundPrompt_few": {
+    "message": "{COUNT} schede di OneTab v1 trovate. Vuoi migrarle?"
+  },
+  "modalRemigrationTabsFoundPrompt_many": {
+    "message": "{COUNT} schede di OneTab v1 trovate. Vuoi migrarle?"
+  },
+  "modalRemigrationTabsFoundPrompt_one": {
+    "message": "Trovata {COUNT} scheda di OneTab v1. Vuoi migrarla?"
+  },
+  "modalRemigrationTabsFoundPrompt_other": {
+    "message": "{COUNT} schede di OneTab v1 trovate. Vuoi migrarle?"
+  },
+  "modalRemigrationTabsFoundPrompt_two": {
+    "message": "{COUNT} schede di OneTab v1 trovate. Vuoi migrarle?"
+  },
+  "modalRemigrationTabsFoundPrompt_zero": {
+    "message": "{COUNT} schede di OneTab v1 trovate. Vuoi migrarle?"
+  },
+  "modalRemigrationYes": {
+    "message": "Sì"
+  },
+  "modalUpdateToV2Heading": {
+    "message": "OneTab è stato aggiornato"
+  },
+  "modalUpdateToV2QuickTourHtml": {
+    "message": "Vuoi una panoramica rapida? Fai clic su <b>Guida</b> in alto."
+  },
+  "modalUpdateToV2UseOneTabLikeBefore": {
+    "message": "Puoi continuare a usare OneTab come prima: salva le schede con un solo clic."
+  },
+  "modifySharing": {
+    "message": "Modifica condivisione"
+  },
+  "moreEllipsis": {
+    "message": "Altro…"
+  },
+  "moreSearchFilters": {
+    "message": "Altri filtri di ricerca"
+  },
+  "move": {
+    "message": "Sposta"
+  },
+  "moveBack": {
+    "message": "Ripristina"
+  },
+  "moveToTrash": {
+    "message": "Sposta nel cestino"
+  },
+  "namedOnly": {
+    "message": "Solo elementi con nome"
+  },
+  "navigationFilter": {
+    "message": "Filtro di navigazione"
+  },
+  "newExclamation": {
+    "message": "Nuovo!"
+  },
+  "noDupsExistExceptForColon": {
+    "message": "Nessun duplicato, tranne:"
+  },
+  "noDupsFoundHere": {
+    "message": "Nessun duplicato trovato qui"
+  },
+  "noMatches": {
+    "message": "Nessuna corrispondenza"
+  },
+  "noMatchesFound": {
+    "message": "Nessuna corrispondenza trovata"
+  },
+  "nonArchived": {
+    "message": "Non archiviati"
+  },
+  "nonTabPinFlagHelp": {
+    "message": "Questo elemento è fissato in cima alla cartella. Fai clic su questa icona per rimuovere il fissaggio."
+  },
+  "noOpenTabsToStore": {
+    "message": "In questa finestra non ci sono schede aperte da salvare."
+  },
+  "noReadingListEntries": {
+    "message": "Nessuna voce trovata nell'elenco di lettura"
+  },
+  "noTabsInOneTabYet": {
+    "message": "Non hai ancora schede in OneTab"
+  },
+  "noTabsMeetCriteriaUseCheckboxes": {
+    "message": "Nessuna scheda aperta soddisfa i criteri. Usa le caselle di controllo sopra."
+  },
+  "notAssigned": {
+    "message": "Non assegnato"
+  },
+  "notes": {
+    "message": "Note"
+  },
+  "notesAboutTheLinkOptional": {
+    "message": "Note sul link (facoltativo)"
+  },
+  "notesAboutTheSecondLinkOptional": {
+    "message": "Note sul secondo link (facoltativo)"
+  },
+  "noTextHasBeenEntered": {
+    "message": "Nessun testo inserito"
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "omniboxShortcutInfo": {
+    "message": "Per cercare nel tuo elenco OneTab da qualsiasi scheda: vai alla barra degli indirizzi del browser, digita 11, poi spazio, quindi una parola chiave di ricerca."
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "OneTab è disponibile anche per Firefox"
+  },
+  "oneTabDesignedToProtectPrivacy": {
+    "message": "OneTab è progettato per proteggere la tua privacy. Le tue schede non vengono condivise con noi."
+  },
+  "oneTabExportPageTitle": {
+    "message": "Esportazione OneTab"
+  },
+  "oneTabImportExportPageTitle": {
+    "message": "OneTab - Importazione/Esportazione"
+  },
+  "oneTabNeedsPermissionToAccessYourTabs": {
+    "message": "OneTab ha bisogno dell'autorizzazione per accedere alle tue schede."
+  },
+  "oneTabOptionsPageTitle": {
+    "message": "Opzioni di OneTab"
+  },
+  "oneTabPermissionRequired": {
+    "message": "OneTab - Autorizzazione richiesta"
+  },
+  "oneTabRestartRequired": {
+    "message": "OneTab deve riavviarsi. Nessun'altra scheda verrà chiusa."
+  },
+  "oneTabSlashShortcutInfo": {
+    "message": "Nella pagina OneTab, premi il tasto / per portare il focus sulla casella di ricerca."
+  },
+  "open": {
+    "message": "Apri"
+  },
+  "openActionPopup": {
+    "message": "Azione OneTab (equivalente a fare clic sull'icona di OneTab nella barra degli strumenti)"
+  },
+  "openAsCollapsedTabGroup": {
+    "message": "Apri come gruppo di schede \"compresso\""
+  },
+  "openAsCollapsedTabGroupMenuItemHelp": {
+    "message": "Se apri queste schede come un \"gruppo di schede\" compresso, verrà mostrata solo l'etichetta del gruppo finché non fai clic su di essa per rivelare le schede all'interno."
+  },
+  "openAsPinnedTab": {
+    "message": "Appunta la scheda all'apertura"
+  },
+  "openAsPinnedTabMenuItemHelp": {
+    "message": "Quando questa scheda viene ripristinata, ripristinala come scheda appuntata del browser. Le schede appuntate appariranno sempre per prime nella finestra del browser."
+  },
+  "openAsTabGroup": {
+    "message": "Apri come gruppo di schede del browser"
+  },
+  "openAsTabGroupMenuItemHelp": {
+    "message": "Il browser consente di raggruppare le schede in \"gruppi di schede\" colorati all'interno di una finestra."
+  },
+  "openFolder": {
+    "message": "Apri cartella"
+  },
+  "openGroupsLimitNotice_few": {
+    "message": "Per evitare il sovraccarico del browser, si apriranno solo i primi {COUNT} gruppi."
+  },
+  "openGroupsLimitNotice_many": {
+    "message": "Per evitare il sovraccarico del browser, si apriranno solo i primi {COUNT} gruppi."
+  },
+  "openGroupsLimitNotice_one": {
+    "message": "Per evitare il sovraccarico del browser, si aprirà solo il primo gruppo ({COUNT})."
+  },
+  "openGroupsLimitNotice_other": {
+    "message": "Per evitare il sovraccarico del browser, si apriranno solo i primi {COUNT} gruppi."
+  },
+  "openGroupsLimitNotice_two": {
+    "message": "Per evitare il sovraccarico del browser, si apriranno solo i primi {COUNT} gruppi."
+  },
+  "openGroupsLimitNotice_zero": {
+    "message": "Per evitare il sovraccarico del browser, si apriranno solo i primi {COUNT} gruppi."
+  },
+  "openInIncognitoWindow": {
+    "message": "Ripristina in una nuova finestra di navigazione in incognito"
+  },
+  "openInNewWindow": {
+    "message": "Ripristina in una nuova finestra"
+  },
+  "openInThisWindow": {
+    "message": "Ripristina in questa finestra"
+  },
+  "openOneTab": {
+    "message": "Apri OneTab"
+  },
+  "openOneTabAfter": {
+    "message": "Apri OneTab dopo aver salvato le schede"
+  },
+  "openONETABLogo": {
+    "message": "Apri ONETAB"
+  },
+  "openParentFolder": {
+    "message": "Apri cartella superiore"
+  },
+  "openTabFromWebsite": {
+    "message": "Apri una scheda e vai al sito web"
+  },
+  "openTabLimit_few": {
+    "message": "Per evitare il sovraccarico del browser, è possibile aprire al massimo {COUNT} schede alla volta."
+  },
+  "openTabLimit_many": {
+    "message": "Per evitare il sovraccarico del browser, è possibile aprire al massimo {COUNT} schede alla volta."
+  },
+  "openTabLimit_one": {
+    "message": "Per evitare il sovraccarico del browser, è possibile aprire al massimo {COUNT} scheda alla volta."
+  },
+  "openTabLimit_other": {
+    "message": "Per evitare il sovraccarico del browser, è possibile aprire al massimo {COUNT} schede alla volta."
+  },
+  "openTabLimit_two": {
+    "message": "Per evitare il sovraccarico del browser, è possibile aprire al massimo {COUNT} schede alla volta."
+  },
+  "openTabLimit_zero": {
+    "message": "Per evitare il sovraccarico del browser, è possibile aprire al massimo {COUNT} schede alla volta."
+  },
+  "openTabsAlreadyStoredHere_few": {
+    "message": "{COUNT} schede aperte già salvate qui:"
+  },
+  "openTabsAlreadyStoredHere_many": {
+    "message": "{COUNT} schede aperte già salvate qui:"
+  },
+  "openTabsAlreadyStoredHere_one": {
+    "message": "{COUNT} scheda aperta già salvata qui:"
+  },
+  "openTabsAlreadyStoredHere_other": {
+    "message": "{COUNT} schede aperte già salvate qui:"
+  },
+  "openTabsAlreadyStoredHere_two": {
+    "message": "{COUNT} schede aperte già salvate qui:"
+  },
+  "openTabsAlreadyStoredHere_zero": {
+    "message": "{COUNT} schede aperte già salvate qui:"
+  },
+  "openTabsConfirm_few": {
+    "message": "Stai per aprire {COUNT} schede. Confermi?"
+  },
+  "openTabsConfirm_many": {
+    "message": "Stai per aprire {COUNT} schede. Confermi?"
+  },
+  "openTabsConfirm_one": {
+    "message": "Stai per aprire {COUNT} scheda. Confermi?"
+  },
+  "openTabsConfirm_other": {
+    "message": "Stai per aprire {COUNT} schede. Confermi?"
+  },
+  "openTabsConfirm_two": {
+    "message": "Stai per aprire {COUNT} schede. Confermi?"
+  },
+  "openTabsConfirm_zero": {
+    "message": "Stai per aprire {COUNT} schede. Confermi?"
+  },
+  "openTabsNotStoredInOneTab_few": {
+    "message": "{COUNT} schede aperte non salvate in OneTab"
+  },
+  "openTabsNotStoredInOneTab_many": {
+    "message": "{COUNT} schede aperte non salvate in OneTab"
+  },
+  "openTabsNotStoredInOneTab_one": {
+    "message": "{COUNT} scheda aperta non salvata in OneTab"
+  },
+  "openTabsNotStoredInOneTab_other": {
+    "message": "{COUNT} schede aperte non salvate in OneTab"
+  },
+  "openTabsNotStoredInOneTab_two": {
+    "message": "{COUNT} schede aperte non salvate in OneTab"
+  },
+  "openTabsNotStoredInOneTab_zero": {
+    "message": "{COUNT} schede aperte non salvate in OneTab"
+  },
+  "optionAutoActionOnOpenArchiveDesc": {
+    "message": "Contrassegnare le schede come archiviate assegna loro uno sfondo grigio a righe. Questo fornisce un'indicazione visiva che hai letto o terminato le schede."
+  },
+  "optionAutoActionOnOpenArchiveTitle": {
+    "message": "Contrassegnale come archiviate"
+  },
+  "optionAutoActionOnOpenHeading": {
+    "message": "Quando ripristini le schede:"
+  },
+  "optionAutoActionOnOpenNote": {
+    "message": "I gruppi bloccati mantengono sempre le schede"
+  },
+  "optionAutoActionOnOpenOpenDesc": {
+    "message": "Per contrassegnare le schede come archiviate durante il ripristino, tieni premuto il tasto Alt o Opzione"
+  },
+  "optionAutoActionOnOpenOpenTitle": {
+    "message": "Mantienile nell'elenco"
+  },
+  "optionAutoActionOnOpenTrashDesc": {
+    "message": "Se tieni premuto il tasto Ctrl o Cmd, le schede rimarranno nell'elenco."
+  },
+  "optionAutoActionOnOpenTrashTitle": {
+    "message": "Rimuovile dall'elenco"
+  },
+  "optionBrowserActionHeading": {
+    "message": "Quando fai clic sull'icona di OneTab nella barra degli strumenti del browser:"
+  },
+  "optionBrowserActionOpenPopupDesc": {
+    "message": "Il popup dell'azione mostrerà un elenco di schede aperte e ti consentirà di scegliere esattamente quali schede inviare a OneTab. Ti permetterà di impostare un titolo per il gruppo di schede che stai salvando, così non dovrai farlo in seguito nella pagina OneTab. Il popup ti darà anche accesso rapido al tuo elenco rapido da qualsiasi finestra del browser."
+  },
+  "optionBrowserActionOpenPopupDesc2": {
+    "message": "Scegli esattamente quali schede salvare"
+  },
+  "optionBrowserActionOpenPopupTitle": {
+    "message": "Mostra il popup dell'estensione OneTab"
+  },
+  "optionBrowserActionSendCurrentTabDesc": {
+    "message": "La scheda verrà inserita nel primo gruppo nella tua pagina OneTab (ignorando eventuali gruppi fissati o bloccati)"
+  },
+  "optionBrowserActionSendCurrentTabTitle": {
+    "message": "Invia solo la scheda corrente a OneTab"
+  },
+  "optionBrowserActionSendTabsInWindowDesc": {
+    "message": "Le schede verranno chiuse e salvate nel tuo elenco OneTab. Se hai selezionato più schede nella barra delle schede del browser (usando i tasti Comando ⌘, Ctrl o Maiusc), verranno inviate a OneTab solo le schede selezionate. Se stai usando la funzione gruppi di schede del browser, verrà inviato a OneTab solo il gruppo di schede corrente."
+  },
+  "optionBrowserActionSendTabsInWindowDesc2": {
+    "message": "Il modo più rapido per salvare le schede"
+  },
+  "optionBrowserActionSendTabsInWindowTitle": {
+    "message": "Invia le schede nella finestra corrente a OneTab"
+  },
+  "optionCopyToClipboardFormatHeading": {
+    "message": "Copia dei link negli appunti:"
+  },
+  "optionCopyToClipboardFormatNote": {
+    "message": "Questa impostazione si applica quando usi l'azione 'Copia negli appunti'. Puoi anche trascinare schede e gruppi direttamente da OneTab in un documento."
+  },
+  "optionCopyToClipboardFormatRichTextDesc": {
+    "message": "Applicazioni come gli elaboratori di testi consentono di incollare testo formattato. Se non supportato, verrà incollato testo semplice."
+  },
+  "optionCopyToClipboardFormatRichTextTitle": {
+    "message": "Testo formattato, se disponibile"
+  },
+  "optionCopyToClipboardFormatTitleUrlTitle": {
+    "message": "Titolo e URL"
+  },
+  "optionCopyToClipboardFormatUrlOnlyTitle": {
+    "message": "Solo URL"
+  },
+  "optionCopyToClipboardFormatUrlTitleTitle": {
+    "message": "URL e titolo"
+  },
+  "optionDefaultTabGroupOpenTypeCurrentWindow": {
+    "message": "Apri il gruppo di schede del browser nella finestra corrente"
+  },
+  "optionDefaultTabGroupOpenTypeHeading": {
+    "message": "Quando fai clic per aprire un gruppo di schede configurato per aprirsi come \"gruppo di schede del browser\":"
+  },
+  "optionDefaultTabGroupOpenTypeNewWindow": {
+    "message": "Apri il gruppo di schede del browser in una nuova finestra"
+  },
+  "optionDefaultTabGroupOpenTypeNote": {
+    "message": "Se utilizzi l'elenco a discesa per scegliere un'opzione specifica (ad esempio aprire le schede in una finestra di navigazione in incognito), tale opzione verrà ricordata per quel gruppo."
+  },
+  "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+    "message": "Apri le schede nella finestra corrente"
+  },
+  "optionDefaultWindowGroupOpenTypeHeading": {
+    "message": "Quando ripristini un gruppo di schede:"
+  },
+  "optionDefaultWindowGroupOpenTypeNewWindow": {
+    "message": "Apri le schede in una nuova finestra"
+  },
+  "optionDefaultWindowGroupOpenTypeNote": {
+    "message": "Se utilizzi l'elenco a discesa per scegliere un'opzione specifica (ad esempio aprire le schede in una finestra di navigazione in incognito), tale opzione verrà ricordata per quel gruppo."
+  },
+  "optionDiscardNonActiveTabOnOpenHeading": {
+    "message": "Risparmia immediatamente memoria (RAM) quando le schede vengono aperte per la prima volta:"
+  },
+  "optionDiscardNonActiveTabOnOpenNote": {
+    "message": "Se questa impostazione è abilitata, le schede verranno scaricate immediatamente dalla memoria quando le apri per la prima volta dall'elenco di OneTab. È utile se apri spesso decine di schede in una volta, perché evita che vengano tutte caricate in memoria finché non vi accedi. Se questa impostazione è disabilitata, molti browser scaricheranno comunque automaticamente dalla memoria le schede che non stai usando."
+  },
+  "optionDisplayContextMenuHeading": {
+    "message": "Fai clic con il tasto destro all'interno di una pagina web per accedere al menu contestuale di OneTab:"
+  },
+  "optionDisplayContextMenuNote": {
+    "message": "Se disattivi il menu, non potrai accedere alla funzione \"Escludi questo sito web da OneTab\""
+  },
+  "optionDuplicatesAllow": {
+    "message": "Consenti duplicati"
+  },
+  "optionDuplicatesReject": {
+    "message": "Rifiuta i duplicati senza chiedere"
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "Se OneTab contiene già la scheda, non verrà aggiunta di nuovo."
+  },
+  "optionDuplicatesTitle": {
+    "message": "Duplicati:"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+    "message": "Passa alla finestra in cui la scheda OneTab è già aperta"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+    "message": "Azione \"Apri OneTab\":"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenNote": {
+    "message": "Azione \"Apri OneTab\":"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+    "message": "Sposta l'eventuale scheda OneTab esistente nella finestra corrente"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "Consenti l'invio a OneTab delle schede appuntate"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "Non inviare le schede appuntate a OneTab"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "Puoi comunque inviare manualmente una scheda appuntata a OneTab facendo clic con il tasto destro nella pagina web per accedere al menu OneTab, quindi facendo clic su 'Invia solo questa scheda a OneTab'"
+  },
+  "optionPinnedTabsNote": {
+    "message": "Nota: una scheda diventa \"appuntata\" quando fai clic con il tasto destro sulla scheda e fai clic su \"Appunta scheda\". Alcune persone preferiscono appuntare siti come Facebook o Gmail per trovarli facilmente. OneTab ricorderà se una scheda era appuntata quando la ripristini."
+  },
+  "optionPinnedTabsTitle": {
+    "message": "Schede appuntate:"
+  },
+  "options": {
+    "message": "Opzioni"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "Apri OneTab automaticamente"
+  },
+  "optionStartupLaunchNone": {
+    "message": "Non aprire OneTab automaticamente"
+  },
+  "optionStartupLaunchNoneDesc3": {
+    "message": "Per aprire OneTab manualmente, puoi fare clic con il tasto destro all'interno di una qualsiasi pagina web e fare clic su 'Apri OneTab' nel menu di OneTab."
+  },
+  "optionStartupLaunchTitle": {
+    "message": "All'avvio del browser:"
+  },
+  "optionSwitchToOpenedTabFalseTitle": {
+    "message": "Apri la scheda e resta in OneTab"
+  },
+  "optionSwitchToOpenedTabHeading": {
+    "message": "Quando ripristini schede dalla pagina OneTab:"
+  },
+  "optionSwitchToOpenedTabNote": {
+    "message": "Se tieni premuto Maiusc durante il clic, la scheda si aprirà in una nuova finestra"
+  },
+  "optionSwitchToOpenedTabTrueTitle": {
+    "message": "Apri la scheda e passa ad essa (a meno che tu non tenga premuto Comando ⌘/Ctrl durante il clic)"
+  },
+  "optionUrlAbbr": {
+    "message": "Abbreviato"
+  },
+  "optionUrlDisplayTitle": {
+    "message": "Visualizzazione URL:"
+  },
+  "optionUrlDomain": {
+    "message": "Solo dominio"
+  },
+  "optionUrlFull": {
+    "message": "Completo"
+  },
+  "optionUrlNone": {
+    "message": "Nessuno"
+  },
+  "otherCopiesColon": {
+    "message": "Altre copie:"
+  },
+  "pasteRichOrPlainTextBelow": {
+    "message": "Puoi incollare qui sotto testo formattato o testo semplice."
+  },
+  "pendingTaskCount_few": {
+    "message": "{COUNT} in sospeso"
+  },
+  "pendingTaskCount_many": {
+    "message": "{COUNT} in sospeso"
+  },
+  "pendingTaskCount_one": {
+    "message": "{COUNT} in sospeso"
+  },
+  "pendingTaskCount_other": {
+    "message": "{COUNT} in sospeso"
+  },
+  "pendingTaskCount_two": {
+    "message": "{COUNT} in sospeso"
+  },
+  "pendingTaskCount_zero": {
+    "message": "{COUNT} in sospeso"
+  },
+  "pendingTaskFlagHelp": {
+    "message": "Questo elemento è un'attività. Fai clic su questa icona per contrassegnarla come completata."
+  },
+  "permissionRequiredPleaseTryAgain": {
+    "message": "Per creare una pagina condivisa accessibile da qualsiasi computer, è necessaria l'autorizzazione a comunicare con il server web di OneTab. Riprova."
+  },
+  "pinnedTabs": {
+    "message": "schede bloccate"
+  },
+  "pinToTopOfFolder": {
+    "message": "Fissa in cima alla cartella"
+  },
+  "pinToTopOfFolderMenuItemHelp": {
+    "message": "Fissa questo gruppo in modo che sia sempre in cima alla cartella"
+  },
+  "pinToTopOfList": {
+    "message": "Fissa in cima all'elenco"
+  },
+  "placeholderAndOtherLocations_few": {
+    "message": "PLACEHOLDER e altri {COUNT}"
+  },
+  "placeholderAndOtherLocations_many": {
+    "message": "PLACEHOLDER e altri {COUNT}"
+  },
+  "placeholderAndOtherLocations_one": {
+    "message": "PLACEHOLDER e {COUNT} altro"
+  },
+  "placeholderAndOtherLocations_other": {
+    "message": "PLACEHOLDER e altri {COUNT}"
+  },
+  "placeholderAndOtherLocations_two": {
+    "message": "PLACEHOLDER e altri {COUNT}"
+  },
+  "placeholderAndOtherLocations_zero": {
+    "message": "PLACEHOLDER e altri {COUNT}"
+  },
+  "placeholderExplanation": {
+    "message": "A causa delle regole di sicurezza del browser, OneTab non è autorizzato a ripristinare direttamente questa pagina. Copia il tuo URL e incollalo nella barra degli indirizzi del browser."
+  },
+  "plainTextLineFormat": {
+    "message": "Se incolli testo semplice, assicurati che ogni URL abbia un protocollo specificato (https://wikipedia.org, invece di solo wikipedia.org). Ogni riga deve avere il seguente formato:"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "Attendi…"
+  },
+  "popupSlashShortcutInfo": {
+    "message": "Nel popup dell'estensione OneTab (che appare quando fai clic sull'icona di OneTab), premi il tasto / per aprire il selettore di destinazione e portare il focus sulla casella di ricerca."
+  },
+  "printUseSaveTabsAsHtmlFileAlertHtml": {
+    "message": "Per ottenere i migliori risultati di stampa, usa l'azione <b>Salva come file HTML</b> nel menu <b>Altro…</b> della cartella, poi stampa il file HTML scaricato."
+  },
+  "privacyAssurance": {
+    "message": "Tutela della privacy"
+  },
+  "privacyAssuranceDetail": {
+    "message": "Il tuo elenco di schede non viene mai trasmesso né divulgato agli sviluppatori di OneTab né ad altre parti. L'unica eccezione è quando usi intenzionalmente la funzione 'Condividi come pagina web' per caricare il tuo elenco di schede in una pagina web al fine di condividerlo con altri."
+  },
+  "privacyFirst": {
+    "message": "Prima la privacy"
+  },
+  "privacyFirstMessage": {
+    "message": "OneTab è stato progettato per proteggere i tuoi dati personali. Le tue schede sono memorizzate solo sul tuo computer e non vengono mai condivise con gli sviluppatori di OneTab né con terze parti.\nSe usi la nostra funzione di backup/sincronizzazione, i tuoi dati saranno crittografati end‑to‑end con crittografia AES‑256 ad alta robustezza. Questo rende impossibile agli sviluppatori di OneTab vedere le schede che hai eseguito il backup o sincronizzato tra dispositivi, perché solo tu possiedi la chiave di crittografia. \nL'unica eccezione è se decidi intenzionalmente di condividere alcune delle tue schede con altre persone usando la funzione \"Condividi come pagina web\".\nCrediamo in \"Prima la privacy\"."
+  },
+  "privateBrowsingPermissionRequired": {
+    "message": "OneTab necessita dell'autorizzazione per creare finestre anonime."
+  },
+  "privateBrowsingWindows": {
+    "message": "Finestre di navigazione privata"
+  },
+  "quickList": {
+    "message": "Elenco rapido"
+  },
+  "readingList": {
+    "message": "Elenco di lettura"
+  },
+  "readingListPermissionNecesssary": {
+    "message": "L'autorizzazione all'elenco di lettura è necessaria per consentire a OneTab di importare elementi dal tuo elenco di lettura. Se questa funzione non funziona, è possibile che il tuo browser non supporti l'elenco di lettura."
+  },
+  "recent": {
+    "message": "Recenti"
+  },
+  "recentDestinationsColon": {
+    "message": "Destinazioni recenti:"
+  },
+  "recentDuplicateRetainedHelp": {
+    "message": "Se una scheda è presente più volte, verrà mantenuto solo il duplicato più recente"
+  },
+  "recentFolders": {
+    "message": "Cartelle recenti"
+  },
+  "recentGroups": {
+    "message": "Gruppi recenti"
+  },
+  "recentlyAccessed": {
+    "message": "Consultati di recente"
+  },
+  "recentlyCreated": {
+    "message": "Creati di recente"
+  },
+  "recentlyModified": {
+    "message": "Modificati di recente"
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "Riduci l'utilizzo di memoria del 95%"
+  },
+  "removeDuplicates": {
+    "message": "Rimuovi duplicati"
+  },
+  "removeDuplicatesMenuItemHelp": {
+    "message": "Potrai rimuovere i duplicati presenti qui ma non altrove, oppure altrove ma non qui."
+  },
+  "removeDuplicateTabsHere_few": {
+    "message": "Rimuovi {COUNT} schede duplicate qui"
+  },
+  "removeDuplicateTabsHere_many": {
+    "message": "Rimuovi {COUNT} schede duplicate qui"
+  },
+  "removeDuplicateTabsHere_one": {
+    "message": "Rimuovi {COUNT} scheda duplicata qui"
+  },
+  "removeDuplicateTabsHere_other": {
+    "message": "Rimuovi {COUNT} schede duplicate qui"
+  },
+  "removeDuplicateTabsHere_two": {
+    "message": "Rimuovi {COUNT} schede duplicate qui"
+  },
+  "removeDuplicateTabsHere_zero": {
+    "message": "Rimuovi {COUNT} schede duplicate qui"
+  },
+  "removeFromQuickList": {
+    "message": "Rimuovi dall'elenco rapido"
+  },
+  "removeFromQuickListMenuItemHelp": {
+    "message": "L'elemento non verrà spostato nel cestino: verrà solo rimosso dal tuo elenco rapido."
+  },
+  "removeStar": {
+    "message": "Rimuovi stella"
+  },
+  "removeTabsElsewhereAlsoHere_few": {
+    "message": "Rimuovi {COUNT} schede altrove presenti anche qui"
+  },
+  "removeTabsElsewhereAlsoHere_many": {
+    "message": "Rimuovi {COUNT} schede altrove presenti anche qui"
+  },
+  "removeTabsElsewhereAlsoHere_one": {
+    "message": "Rimuovi {COUNT} scheda altrove presente anche qui"
+  },
+  "removeTabsElsewhereAlsoHere_other": {
+    "message": "Rimuovi {COUNT} schede altrove presenti anche qui"
+  },
+  "removeTabsElsewhereAlsoHere_two": {
+    "message": "Rimuovi {COUNT} schede altrove presenti anche qui"
+  },
+  "removeTabsElsewhereAlsoHere_zero": {
+    "message": "Rimuovi {COUNT} schede altrove presenti anche qui"
+  },
+  "removeTabsHereAlsoElsewhere_few": {
+    "message": "Rimuovi {COUNT} schede qui presenti anche altrove"
+  },
+  "removeTabsHereAlsoElsewhere_many": {
+    "message": "Rimuovi {COUNT} schede qui presenti anche altrove"
+  },
+  "removeTabsHereAlsoElsewhere_one": {
+    "message": "Rimuovi {COUNT} scheda qui presente anche altrove"
+  },
+  "removeTabsHereAlsoElsewhere_other": {
+    "message": "Rimuovi {COUNT} schede qui presenti anche altrove"
+  },
+  "removeTabsHereAlsoElsewhere_two": {
+    "message": "Rimuovi {COUNT} schede qui presenti anche altrove"
+  },
+  "removeTabsHereAlsoElsewhere_zero": {
+    "message": "Rimuovi {COUNT} schede qui presenti anche altrove"
+  },
+  "rename": {
+    "message": "Rinomina"
+  },
+  "renameOrAddNote": {
+    "message": "Rinomina / Aggiungi nota"
+  },
+  "restore": {
+    "message": "Ripristina"
+  },
+  "restoreAll": {
+    "message": "Ripristina tutto"
+  },
+  "restrictSearchToFolderColon": {
+    "message": "Limita la ricerca alla seguente cartella:"
+  },
+  "results": {
+    "message": "Risultati"
+  },
+  "returnToOneTab": {
+    "message": "Torna a OneTab"
+  },
+  "reverse": {
+    "message": "Inverti"
+  },
+  "rightClickAndOpenOneTabMenu": {
+    "message": "Fai clic con il tasto destro nella pagina web e vai al menu OneTab"
+  },
+  "rightClickMenuDisabledNote": {
+    "message": "Nota: hai disattivato il menu contestuale di OneTab. Abilitalo nella pagina delle opzioni di OneTab."
+  },
+  "rightClickSelectionOptionsTip": {
+    "message": "Suggerimento: dopo aver selezionato un elemento, fai clic con il tasto destro sull'icona di spunta per mostrare altre opzioni di selezione"
+  },
+  "rightClickTickTip": {
+    "message": "Suggerimento: fai clic con il tasto destro sull'icona di spunta accanto a ogni scheda per gli strumenti di selezione"
+  },
+  "safariApproveOneTabInSettings": {
+    "message": "Vai a Impostazioni e autorizza OneTab ad accedere a tutti i siti web."
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "Risparmia fino al 95% di memoria e riduci l'ingombro delle schede in Google Chrome"
+  },
+  "saveChoice": {
+    "message": "Salva scelta"
+  },
+  "saveTabsAsHtmlFile": {
+    "message": "Salva come file HTML"
+  },
+  "saveTabsAsHtmlFileMenuItemHelp": {
+    "message": "Crea e scarica un file HTML contenente tutti i gruppi di schede in questa cartella."
+  },
+  "searchHere": {
+    "message": "Cerca qui"
+  },
+  "searchOneTab": {
+    "message": "Cerca in OneTab"
+  },
+  "secondExampleLink": {
+    "message": "Secondo link di esempio"
+  },
+  "secondExampleLinkTitle": {
+    "message": "Secondo titolo del link di esempio"
+  },
+  "secondExampleLinkTitleOptional": {
+    "message": "Secondo titolo del link di esempio (facoltativo)"
+  },
+  "seeOtherTabsInThisGroup_few": {
+    "message": "Vedi altre {COUNT} schede in questo gruppo"
+  },
+  "seeOtherTabsInThisGroup_many": {
+    "message": "Vedi altre {COUNT} schede in questo gruppo"
+  },
+  "seeOtherTabsInThisGroup_one": {
+    "message": "Vedi {COUNT} altra scheda in questo gruppo"
+  },
+  "seeOtherTabsInThisGroup_other": {
+    "message": "Vedi altre {COUNT} schede in questo gruppo"
+  },
+  "seeOtherTabsInThisGroup_two": {
+    "message": "Vedi altre {COUNT} schede in questo gruppo"
+  },
+  "seeOtherTabsInThisGroup_zero": {
+    "message": "Vedi altre {COUNT} schede in questo gruppo"
+  },
+  "seePasteInstructions": {
+    "message": "Vedi istruzioni per incollare…"
+  },
+  "seeTabsInThisGroup_few": {
+    "message": "Vedi {COUNT} schede in questo gruppo"
+  },
+  "seeTabsInThisGroup_many": {
+    "message": "Vedi {COUNT} schede in questo gruppo"
+  },
+  "seeTabsInThisGroup_one": {
+    "message": "Vedi {COUNT} scheda in questo gruppo"
+  },
+  "seeTabsInThisGroup_other": {
+    "message": "Vedi {COUNT} schede in questo gruppo"
+  },
+  "seeTabsInThisGroup_two": {
+    "message": "Vedi {COUNT} schede in questo gruppo"
+  },
+  "seeTabsInThisGroup_zero": {
+    "message": "Vedi {COUNT} schede in questo gruppo"
+  },
+  "selectAll": {
+    "message": "Seleziona tutto"
+  },
+  "selectAllExceptThis": {
+    "message": "Seleziona tutto tranne questo elemento"
+  },
+  "selectedItemCount_few": {
+    "message": "{COUNT} elementi"
+  },
+  "selectedItemCount_many": {
+    "message": "{COUNT} elementi"
+  },
+  "selectedItemCount_one": {
+    "message": "{COUNT} elemento"
+  },
+  "selectedItemCount_other": {
+    "message": "{COUNT} elementi"
+  },
+  "selectedItemCount_two": {
+    "message": "{COUNT} elementi"
+  },
+  "selectedItemCount_zero": {
+    "message": "{COUNT} elementi"
+  },
+  "selection": {
+    "message": "Selezione"
+  },
+  "selectThisAndAbove": {
+    "message": "Seleziona questo elemento e tutti quelli sopra"
+  },
+  "selectThisAndBelow": {
+    "message": "Seleziona questo elemento e tutti quelli sotto"
+  },
+  "sendAllTabsAllWindows": {
+    "message": "Invia tutte le schede da tutte le finestre"
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "Invia tutte le schede da tutte le finestre a OneTab"
+  },
+  "sendAllTabsExceptThis": {
+    "message": "Invia tutte le schede tranne questa"
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "Invia tutte le schede tranne questa a OneTab"
+  },
+  "sendAllTabsInGroup": {
+    "message": "Invia tutte le schede in questo gruppo di schede"
+  },
+  "sendAllTabsInGroupToOneTab": {
+    "message": "Invia tutte le schede in questo gruppo di schede a OneTab"
+  },
+  "sendAllTabsInWindow": {
+    "message": "Invia tutte le schede in questa finestra"
+  },
+  "sendAllTabsInWindowToOneTab": {
+    "message": "Invia tutte le schede in questa finestra a OneTab"
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "Invia la scheda corrente a OneTab"
+  },
+  "sendLeftTabs": {
+    "message": "Invia le schede a sinistra"
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "Invia a OneTab le schede a sinistra"
+  },
+  "sendOnlyThisTab": {
+    "message": "Invia solo questa scheda"
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "Invia solo questa scheda a OneTab"
+  },
+  "sendRightTabs": {
+    "message": "Invia le schede a destra"
+  },
+  "sendRightTabsToOneTab": {
+    "message": "Invia a OneTab le schede a destra"
+  },
+  "sendSelectedTabs": {
+    "message": "Invia le schede selezionate"
+  },
+  "sendSelectedTabsToOneTab": {
+    "message": "Invia le schede selezionate a OneTab"
+  },
+  "sendThisWebLink": {
+    "message": "Invia questo link web"
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "Invia questo link a OneTab"
+  },
+  "serverUnreachable": {
+    "message": "Il server non è raggiungibile. Verifica la connessione a Internet."
+  },
+  "share": {
+    "message": "Condividi"
+  },
+  "shareAsAWebPage": {
+    "message": "Condividi come pagina web"
+  },
+  "shareAsAWebPageMenuItemHelp": {
+    "message": "Crea una pagina web contenente le tue schede, così puoi condividerla privatamente o pubblicamente con altri."
+  },
+  "shared": {
+    "message": "Condivisi"
+  },
+  "sharedExpiresColon": {
+    "message": "Condiviso come pagina web. Scadenza:"
+  },
+  "sharedPageOptions": {
+    "message": "Opzioni della pagina condivisa"
+  },
+  "sharedPageTabLimit_few": {
+    "message": "Le pagine condivise sono limitate a {COUNT} schede"
+  },
+  "sharedPageTabLimit_many": {
+    "message": "Le pagine condivise sono limitate a {COUNT} schede"
+  },
+  "sharedPageTabLimit_one": {
+    "message": "Le pagine condivise sono limitate a {COUNT} scheda"
+  },
+  "sharedPageTabLimit_other": {
+    "message": "Le pagine condivise sono limitate a {COUNT} schede"
+  },
+  "sharedPageTabLimit_two": {
+    "message": "Le pagine condivise sono limitate a {COUNT} schede"
+  },
+  "sharedPageTabLimit_zero": {
+    "message": "Le pagine condivise sono limitate a {COUNT} schede"
+  },
+  "sharedPageWillAutomaticallyExpire": {
+    "message": "La pagina condivisa scadrà automaticamente, ma puoi estendere la data di scadenza in qualsiasi momento."
+  },
+  "showEverything": {
+    "message": "Mostra tutto"
+  },
+  "showFoldersOnly": {
+    "message": "Mostra solo cartelle"
+  },
+  "showNamedItemsOnly": {
+    "message": "Mostra solo elementi con nome"
+  },
+  "showNamedOnly": {
+    "message": "Mostra solo elementi con nome"
+  },
+  "showNextCount_few": {
+    "message": "Mostra i {COUNT} successivi"
+  },
+  "showNextCount_many": {
+    "message": "Mostra i {COUNT} successivi"
+  },
+  "showNextCount_one": {
+    "message": "Mostra {COUNT} successivo"
+  },
+  "showNextCount_other": {
+    "message": "Mostra i {COUNT} successivi"
+  },
+  "showNextCount_two": {
+    "message": "Mostra i {COUNT} successivi"
+  },
+  "showNextCount_zero": {
+    "message": "Mostra i {COUNT} successivi"
+  },
+  "showPreviousCount_few": {
+    "message": "Mostra i {COUNT} precedenti"
+  },
+  "showPreviousCount_many": {
+    "message": "Mostra i {COUNT} precedenti"
+  },
+  "showPreviousCount_one": {
+    "message": "Mostra {COUNT} precedente"
+  },
+  "showPreviousCount_other": {
+    "message": "Mostra i {COUNT} precedenti"
+  },
+  "showPreviousCount_two": {
+    "message": "Mostra i {COUNT} precedenti"
+  },
+  "showPreviousCount_zero": {
+    "message": "Mostra i {COUNT} precedenti"
+  },
+  "soon": {
+    "message": "a breve"
+  },
+  "sort": {
+    "message": "Ordina"
+  },
+  "sortByColon": {
+    "message": "Ordina per:"
+  },
+  "sortGroups": {
+    "message": "Ordina gruppi"
+  },
+  "sourceColon": {
+    "message": "Origine:"
+  },
+  "star": {
+    "message": "Stella"
+  },
+  "starFlagHelp": {
+    "message": "Questo elemento è contrassegnato con una stella per indicarne visivamente l'importanza. Fai clic su questa icona per rimuovere la stella."
+  },
+  "starMenuItemHelp": {
+    "message": "Usa la stella come indicatore visivo che qualcosa è importante"
+  },
+  "starred": {
+    "message": "Preferiti"
+  },
+  "storeAllOpenWindowsHere": {
+    "message": "Salva qui tutte le finestre aperte"
+  },
+  "storeAllOpenWindowsHereMenuItemHelp": {
+    "message": "Chiudi tutte le finestre del browser aperte e salvale in questa cartella"
+  },
+  "storeSelectedTabsInONETAB_few": {
+    "message": "Salva {COUNT} schede selezionate in ONETAB"
+  },
+  "storeSelectedTabsInONETAB_many": {
+    "message": "Salva {COUNT} schede selezionate in ONETAB"
+  },
+  "storeSelectedTabsInONETAB_one": {
+    "message": "Salva {COUNT} scheda selezionata in ONETAB"
+  },
+  "storeSelectedTabsInONETAB_other": {
+    "message": "Salva {COUNT} schede selezionate in ONETAB"
+  },
+  "storeSelectedTabsInONETAB_two": {
+    "message": "Salva {COUNT} schede selezionate in ONETAB"
+  },
+  "storeSelectedTabsInONETAB_zero": {
+    "message": "Salva {COUNT} schede selezionate in ONETAB"
+  },
+  "storeTabsInAdditionalLocation_few": {
+    "message": "Salva comunque di nuovo le schede"
+  },
+  "storeTabsInAdditionalLocation_many": {
+    "message": "Salva comunque di nuovo le schede"
+  },
+  "storeTabsInAdditionalLocation_one": {
+    "message": "Salva comunque di nuovo la scheda"
+  },
+  "storeTabsInAdditionalLocation_other": {
+    "message": "Salva comunque di nuovo le schede"
+  },
+  "storeTabsInAdditionalLocation_two": {
+    "message": "Salva comunque di nuovo le schede"
+  },
+  "storeTabsInAdditionalLocation_zero": {
+    "message": "Salva comunque di nuovo le schede"
+  },
+  "storeTabsInONETAB_few": {
+    "message": "Salva le schede in ONETAB"
+  },
+  "storeTabsInONETAB_many": {
+    "message": "Salva le schede in ONETAB"
+  },
+  "storeTabsInONETAB_one": {
+    "message": "Salva la scheda in ONETAB"
+  },
+  "storeTabsInONETAB_other": {
+    "message": "Salva le schede in ONETAB"
+  },
+  "storeTabsInONETAB_two": {
+    "message": "Salva le schede in ONETAB"
+  },
+  "storeTabsInONETAB_zero": {
+    "message": "Salva le schede in ONETAB"
+  },
+  "subFoldersNotShared": {
+    "message": "Nota: le sottocartelle non vengono condivise. Vengono condivisi solo i gruppi di schede direttamente all'interno della cartella."
+  },
+  "tab": {
+    "message": "scheda"
+  },
+  "tabAlreadyStoredHere": {
+    "message": "La scheda aperta è già salvata qui:"
+  },
+  "tabCaretTooltipTitleNotes": {
+    "message": "Modifica titolo e note della scheda"
+  },
+  "tabCaretTooltipTitleNotesUrl": {
+    "message": "Modifica titolo, URL e note della scheda"
+  },
+  "tabCount_few": {
+    "message": "{COUNT} schede"
+  },
+  "tabCount_many": {
+    "message": "{COUNT} schede"
+  },
+  "tabCount_one": {
+    "message": "{COUNT} scheda"
+  },
+  "tabCount_other": {
+    "message": "{COUNT} schede"
+  },
+  "tabCount_two": {
+    "message": "{COUNT} schede"
+  },
+  "tabCount_zero": {
+    "message": "{COUNT} schede"
+  },
+  "tabGroupColorColon": {
+    "message": "Colore del gruppo di schede:"
+  },
+  "tabGroupIndicatorTooltipHelp": {
+    "message": "Questo gruppo è configurato per aprirsi come gruppo di schede del browser. Puoi modificare questa impostazione nel menu \"Altro…\""
+  },
+  "tabPinFlagHelp": {
+    "message": "Questa scheda verrà ripristinata come scheda appuntata del browser. Fai clic su questa icona per rimuovere l'appuntatura."
+  },
+  "tabs": {
+    "message": "Schede"
+  },
+  "tabsFromExcludedDomains": {
+    "message": "schede da domini esclusi"
+  },
+  "tabShortcutInfo": {
+    "message": "Nella pagina OneTab, premi il tasto Tab per spostare il focus tra i gruppi nella colonna centrale. In questo modo puoi saltare rapidamente tra i gruppi, soprattutto se sono grandi. Se un gruppo ha il focus, premi il tasto Invio per aprirlo. Usa Maiusc+Tab per spostare il focus all’indietro. Premi Backspace per passare alla cartella superiore."
+  },
+  "tabsInTabGroups": {
+    "message": "schede nei gruppi di schede"
+  },
+  "tabTotalCount_few": {
+    "message": "Totale: {COUNT} schede"
+  },
+  "tabTotalCount_many": {
+    "message": "Totale: {COUNT} schede"
+  },
+  "tabTotalCount_one": {
+    "message": "Totale: {COUNT} scheda"
+  },
+  "tabTotalCount_other": {
+    "message": "Totale: {COUNT} schede"
+  },
+  "tabTotalCount_two": {
+    "message": "Totale: {COUNT} schede"
+  },
+  "tabTotalCount_zero": {
+    "message": "Totale: {COUNT} schede"
+  },
+  "tasks": {
+    "message": "Attività"
+  },
+  "tasksDone": {
+    "message": "Attività (completate)"
+  },
+  "tasksPending": {
+    "message": "Attività (in sospeso)"
+  },
+  "tasksWillAppearHere": {
+    "message": "Se contrassegni come attività alcune schede o gruppi, verranno visualizzati qui."
+  },
+  "taskTotalCount_few": {
+    "message": "{COUNT} in totale"
+  },
+  "taskTotalCount_many": {
+    "message": "{COUNT} in totale"
+  },
+  "taskTotalCount_one": {
+    "message": "{COUNT} in totale"
+  },
+  "taskTotalCount_other": {
+    "message": "{COUNT} in totale"
+  },
+  "taskTotalCount_two": {
+    "message": "{COUNT} in totale"
+  },
+  "taskTotalCount_zero": {
+    "message": "{COUNT} in totale"
+  },
+  "thenClickToolbarIcon": {
+    "message": "Quindi, fai di nuovo clic sull'icona di OneTab nella barra degli strumenti per usare OneTab."
+  },
+  "thisFolderIsEmpty": {
+    "message": "Questa cartella è vuota"
+  },
+  "thisTab": {
+    "message": "Questa scheda"
+  },
+  "thisTabGroup": {
+    "message": "Questo gruppo di schede"
+  },
+  "thisTabNotStored": {
+    "message": "Questa scheda non è salvata in OneTab"
+  },
+  "thisWindow": {
+    "message": "Questa finestra"
+  },
+  "tickOrUntickToExclude": {
+    "message": "Seleziona o deseleziona per escludere il sito web"
+  },
+  "title": {
+    "message": "Titolo"
+  },
+  "toAddOrRemoveExclusions": {
+    "message": "Per aggiungere o rimuovere un sito web dall'elenco di esclusione:"
+  },
+  "toAllowOneTabInIncognito": {
+    "message": "Per consentire che l'icona di OneTab appaia nelle finestre di navigazione in incognito: "
+  },
+  "toImportBrowserBookmarksUseMenuOption": {
+    "message": "Per importare dai preferiti del browser, usa l'opzione di menu 'Importa link qui' nella tua pagina OneTab"
+  },
+  "toMakeOpenButtonWorkApprovePermission": {
+    "message": "Per far funzionare il pulsante \"Apri\" nelle pagine condivise, approva la richiesta di autorizzazione."
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "Troppe schede? Converti le tue schede in un elenco e velocizza Firefox"
+  },
+  "tooManyTabsSpeedUpSafari": {
+    "message": "Troppe schede? Converti le tue schede in un elenco e velocizza Safari"
+  },
+  "toSaveChangesClickButton": {
+    "message": "Per salvare le modifiche, fai clic sul pulsante"
+  },
+  "total0Tabs": {
+    "message": "Totale: 0 schede"
+  },
+  "trash": {
+    "message": "Cestino"
+  },
+  "unlock": {
+    "message": "Sblocca"
+  },
+  "unmarkAsArchived": {
+    "message": "Rimuovi contrassegno di archiviazione"
+  },
+  "unMarkAsTask": {
+    "message": "Rimuovi contrassegno di attività"
+  },
+  "unpin": {
+    "message": "Rimuovi fissaggio"
+  },
+  "unshare": {
+    "message": "Interrompi condivisione"
+  },
+  "untitled": {
+    "message": "Senza titolo"
+  },
+  "update": {
+    "message": "Aggiorna"
+  },
+  "userLanguage": {
+    "message": "Italiano"
+  },
+  "website": {
+    "message": "Sito web"
+  },
+  "yearCount_few": {
+    "message": "{COUNT} anni"
+  },
+  "yearCount_many": {
+    "message": "{COUNT} anni"
+  },
+  "yearCount_one": {
+    "message": "{COUNT} anno"
+  },
+  "yearCount_other": {
+    "message": "{COUNT} anni"
+  },
+  "yearCount_two": {
+    "message": "{COUNT} anni"
+  },
+  "yearCount_zero": {
+    "message": "{COUNT} anni"
+  },
+  "yourTabAlreadyStoredHere": {
+    "message": "La tua scheda è già salvata qui:"
+  }
+}

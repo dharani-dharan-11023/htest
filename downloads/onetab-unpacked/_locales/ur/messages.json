@@ -1,0 +1,2015 @@
+{
+  "95PctMemoryReduction": {
+    "message": "95% میموری میں کمی"
+  },
+  "about": {
+    "message": "تعارف"
+  },
+  "actionPopupOverrideNote": {
+    "message": "یہ سیٹنگ ایکشن پاپ اپ ونڈو کے اندر اوور رائیڈ کی جا سکتی ہے (اگر آپ نے ایکشن پاپ اپ فعال کیا ہو)۔"
+  },
+  "aDashZ": {
+    "message": "A-Z"
+  },
+  "addOneTabNow": {
+    "message": "OneTab ابھی شامل کریں"
+  },
+  "all": {
+    "message": "سب"
+  },
+  "allBookmarks": {
+    "message": "تمام بک مارکس"
+  },
+  "allOpenTabsAlreadyStoredHere_few": {
+    "message": "تمام کھلے ٹیبز پہلے سے یہاں محفوظ ہیں:"
+  },
+  "allOpenTabsAlreadyStoredHere_many": {
+    "message": "تمام کھلے ٹیبز پہلے سے یہاں محفوظ ہیں:"
+  },
+  "allOpenTabsAlreadyStoredHere_one": {
+    "message": "تمام کھلے ٹیبز پہلے سے یہاں محفوظ ہیں:"
+  },
+  "allOpenTabsAlreadyStoredHere_other": {
+    "message": "تمام کھلے ٹیبز پہلے سے یہاں محفوظ ہیں:"
+  },
+  "allOpenTabsAlreadyStoredHere_two": {
+    "message": "تمام کھلے ٹیبز پہلے سے یہاں محفوظ ہیں:"
+  },
+  "allOpenTabsAlreadyStoredHere_zero": {
+    "message": "تمام کھلے ٹیبز پہلے سے یہاں محفوظ ہیں:"
+  },
+  "allowFileAccessInstructions": {
+    "message": "فائلز کو براہِ راست کھولنے کی اجازت دینے کے لیے، Settings ➝ Extensions ➝ OneTab ➝ Details ➝ Allow access to file URLs پر جائیں"
+  },
+  "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+    "message": "اس گروپ میں پہلے سے موجود تمام کھلے ٹیبز ضم کے بعد بند کر دیے جائیں گے۔"
+  },
+  "alternatePlainTextFormat": {
+    "message": "متبادل طور پر، سادہ متن اس فارمیٹ میں ہو سکتا ہے:"
+  },
+  "approve": {
+    "message": "منظور کریں"
+  },
+  "archived": {
+    "message": "آرکائیو شدہ"
+  },
+  "autoTheme": {
+    "message": "خودکار (آپریٹنگ سسٹم کی سیٹنگ استعمال کریں)"
+  },
+  "backupAndSync": {
+    "message": "بیک اپ اور سنک"
+  },
+  "betaReleaseReportBugsHere": {
+    "message": "بیٹا ریلیز - بگز یہاں رپورٹ کریں"
+  },
+  "bookmarkCount_few": {
+    "message": "{COUNT} بک مارکس"
+  },
+  "bookmarkCount_many": {
+    "message": "{COUNT} بک مارکس"
+  },
+  "bookmarkCount_one": {
+    "message": "{COUNT} بک مارک"
+  },
+  "bookmarkCount_other": {
+    "message": "{COUNT} بک مارکس"
+  },
+  "bookmarkCount_two": {
+    "message": "{COUNT} بک مارکس"
+  },
+  "bookmarkCount_zero": {
+    "message": "{COUNT} بک مارکس"
+  },
+  "bookmarksPermissionNecesssary": {
+    "message": "OneTab کو آپ کے براؤزر بک مارکس درآمد کرنے کی اجازت دینے کے لیے بک مارکس کی اجازت ضروری ہے"
+  },
+  "bulkActions": {
+    "message": "اجتماعی کارروائیاں"
+  },
+  "cancel": {
+    "message": "منسوخ کریں"
+  },
+  "canDragTextNote": {
+    "message": "نوٹ: آپ ایسے متن کو بھی ڈریگ اور ڈراپ کر سکتے ہیں جس میں ویب لنکس ہوں، براہِ راست کسی دوسرے ویب صفحے یا دستاویز سے۔ آپ یہ متن اپنے OneTab صفحے میں براہِ راست گھسیٹ سکتے ہیں، اس امپورٹ باکس کی ضرورت نہیں۔"
+  },
+  "cannotConnectToServerDeletionRequestQueued": {
+    "message": "OneTab سرور سے کنکشن نہیں ہو سکا۔ براہِ کرم اپنا انٹرنیٹ کنکشن چیک کریں۔ آپ کے شیئرڈ صفحے کو حذف کرنے کی درخواست مقامی طور پر قطار میں لگا دی گئی ہے اور جیسے ہی سرور دوبارہ قابلِ رسائی ہوگا، اسے خودکار طور پر OneTab سرور کو بھیج دیا جائے گا۔"
+  },
+  "cannotCreateTabGroupInTabGroup": {
+    "message": "آپ کی منتخب منزل ایک ٹیب گروپ ہے۔ آپ موجودہ ٹیب گروپ کے اندر نیا ٹیب گروپ نہیں بنا سکتے۔ براہِ کرم مختلف منزل منتخب کریں۔"
+  },
+  "cannotMixTabsGroupsFoldersDuringDrag": {
+    "message": "ڈریگ کرتے وقت ٹیبز، گروپس اور فولڈرز کو ملا کر نہیں کھینچا جا سکتا۔ یہ اس لیے ہے کہ، مثال کے طور پر، آپ فولڈر کو اُن جگہوں پر نہیں گھسیٹ سکتے جہاں ٹیب کو گھسیٹا جا سکتا ہے۔"
+  },
+  "cannotMoveItemAncestorHere": {
+    "message": "پیرنٹ آئٹم کو اس کے اپنے چائلڈ میں منتقل نہیں کیا جا سکتا، کیونکہ اس سے ایک لوپ بن جائے گا۔"
+  },
+  "cannotMoveItemIntoItself": {
+    "message": "کسی آئٹم کو اسی کے اندر منتقل نہیں کیا جا سکتا۔"
+  },
+  "canPasteWebContentForExample": {
+    "message": "آپ ویب صفحے یا دستاویز سے کاپی کیا گیا متن پیسٹ کر سکتے ہیں؛ لنکس خودکار طور پر نکال لیے جائیں گے۔ مثال کے طور پر:"
+  },
+  "caseSensitive": {
+    "message": "بڑے/چھوٹے حروف کی تمیز"
+  },
+  "changesMadeSinceSharedPageCreation": {
+    "message": "آپ کے محفوظ شدہ ٹیبز میں اس صفحے کو شیئر کرنے کے بعد تبدیلی ہوئی ہے۔ موجودہ شیئرڈ صفحہ کو اپ ڈیٹ کرنے کے لیے 'اپ ڈیٹ کریں' بٹن پر کلک کریں۔"
+  },
+  "changeThisSettingAtAnyTimeInfo": {
+    "message": "آپ یہ سیٹنگ کسی بھی وقت تبدیل کر سکتے ہیں، اپنے OneTab صفحے کے اوپر موجود 'اختیارات' بٹن پر کلک کر کے۔"
+  },
+  "changeThisSettingAtAnyTimeInfoHtml": {
+    "message": "آپ اسے بعد میں <b>اختیارات</b> میں تبدیل کر سکتے ہیں۔"
+  },
+  "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+    "message": "اس صفحے کے اوپر موجود چیک باکسز طے کرتے ہیں کہ ضم کرتے وقت پن کیے گئے یا گروپ کردہ ٹیبز شامل کیے جائیں یا نہیں۔"
+  },
+  "chooseALocation": {
+    "message": "مقام منتخب کریں"
+  },
+  "chooseALocationToImportTo": {
+    "message": "درآمد کرنے کے لیے مقام منتخب کریں"
+  },
+  "chooseExportLocation": {
+    "message": "جس مقام سے برآمد کرنا ہے اسے منتخب کریں"
+  },
+  "chooseLightDarkTheme": {
+    "message": "لائٹ/ڈارک تھیم منتخب کریں"
+  },
+  "chooseLocationToCopyTo": {
+    "message": "کاپی کرنے کے لیے مقام منتخب کریں"
+  },
+  "chooseLocationToMoveTo": {
+    "message": "منتقل کرنے کے لیے مقام منتخب کریں"
+  },
+  "chooseLocationToRestoreTo": {
+    "message": "بحال کرنے کے لیے مقام منتخب کریں"
+  },
+  "chooseToIncludeNotes": {
+    "message": "اگر آپ نے ٹیبز یا گروپس پر کوئی نوٹس شامل کیے ہیں، تو منتخب کریں کہ انہیں شیئرڈ ویب صفحے میں شامل کرنا ہے یا نہیں"
+  },
+  "chooseToIncludeRatings": {
+    "message": "اگر آپ نے ٹیبز یا گروپس پر کوئی اسٹارز شامل کیے ہیں، تو منتخب کریں کہ انہیں شیئرڈ ویب صفحے میں شامل کرنا ہے یا نہیں"
+  },
+  "chromeIncognitoInstructions": {
+    "message": "اپنی براؤزر سیٹنگز میں، 'Settings' → 'Extensions' → 'OneTab' → 'Details' پر جائیں، اور پھر 'Allow in Incognito' کو فعال کریں۔"
+  },
+  "clickButtonToAllowTabAccess": {
+    "message": "OneTab کو آپ کے کھلے ٹیبز تک رسائی دینے کے لیے نیچے والے بٹن پر کلک کریں۔"
+  },
+  "clickHereToContinue": {
+    "message": "جاری رکھنے کے لیے یہاں کلک کریں۔"
+  },
+  "clickOneTabIconToStoreTabsHere": {
+    "message": "اپنے براؤزر کے ٹول بار میں OneTab آئیکن پر کلک کریں تاکہ آپ کے کھلے ٹیبز یہاں محفوظ ہو جائیں۔"
+  },
+  "closeSelectedTabs_few": {
+    "message": "منتخب {COUNT} ٹیبز بند کریں"
+  },
+  "closeSelectedTabs_many": {
+    "message": "منتخب {COUNT} ٹیبز بند کریں"
+  },
+  "closeSelectedTabs_one": {
+    "message": "منتخب {COUNT} ٹیب بند کریں"
+  },
+  "closeSelectedTabs_other": {
+    "message": "منتخب {COUNT} ٹیبز بند کریں"
+  },
+  "closeSelectedTabs_two": {
+    "message": "منتخب {COUNT} ٹیبز بند کریں"
+  },
+  "closeSelectedTabs_zero": {
+    "message": "منتخب {COUNT} ٹیبز بند کریں"
+  },
+  "closeSelectedTabsAndStoreInONETAB_few": {
+    "message": "منتخب {COUNT} ٹیبز بند کریں اور ONETAB میں محفوظ کریں"
+  },
+  "closeSelectedTabsAndStoreInONETAB_many": {
+    "message": "منتخب {COUNT} ٹیبز بند کریں اور ONETAB میں محفوظ کریں"
+  },
+  "closeSelectedTabsAndStoreInONETAB_one": {
+    "message": "منتخب {COUNT} ٹیب بند کریں اور ONETAB میں محفوظ کریں"
+  },
+  "closeSelectedTabsAndStoreInONETAB_other": {
+    "message": "منتخب {COUNT} ٹیبز بند کریں اور ONETAB میں محفوظ کریں"
+  },
+  "closeSelectedTabsAndStoreInONETAB_two": {
+    "message": "منتخب {COUNT} ٹیبز بند کریں اور ONETAB میں محفوظ کریں"
+  },
+  "closeSelectedTabsAndStoreInONETAB_zero": {
+    "message": "منتخب {COUNT} ٹیبز بند کریں اور ONETAB میں محفوظ کریں"
+  },
+  "closeTabs_few": {
+    "message": "ٹیبز بند کریں"
+  },
+  "closeTabs_many": {
+    "message": "ٹیبز بند کریں"
+  },
+  "closeTabs_one": {
+    "message": "ٹیب بند کریں"
+  },
+  "closeTabs_other": {
+    "message": "ٹیبز بند کریں"
+  },
+  "closeTabs_two": {
+    "message": "ٹیبز بند کریں"
+  },
+  "closeTabs_zero": {
+    "message": "ٹیبز بند کریں"
+  },
+  "closeTabsAfterMerge": {
+    "message": "ضم کے بعد ٹیبز بند کریں"
+  },
+  "closeTabsAlreadyStoredInOneTab_few": {
+    "message": "OneTab میں پہلے سے محفوظ {COUNT} ٹیبز بند کریں"
+  },
+  "closeTabsAlreadyStoredInOneTab_many": {
+    "message": "OneTab میں پہلے سے محفوظ {COUNT} ٹیبز بند کریں"
+  },
+  "closeTabsAlreadyStoredInOneTab_one": {
+    "message": "OneTab میں پہلے سے محفوظ {COUNT} ٹیب بند کریں"
+  },
+  "closeTabsAlreadyStoredInOneTab_other": {
+    "message": "OneTab میں پہلے سے محفوظ {COUNT} ٹیبز بند کریں"
+  },
+  "closeTabsAlreadyStoredInOneTab_two": {
+    "message": "OneTab میں پہلے سے محفوظ {COUNT} ٹیبز بند کریں"
+  },
+  "closeTabsAlreadyStoredInOneTab_zero": {
+    "message": "OneTab میں پہلے سے محفوظ {COUNT} ٹیبز بند کریں"
+  },
+  "closeTabsAndStore_few": {
+    "message": "ٹیبز بند کریں اور ONETAB میں محفوظ کریں"
+  },
+  "closeTabsAndStore_many": {
+    "message": "ٹیبز بند کریں اور ONETAB میں محفوظ کریں"
+  },
+  "closeTabsAndStore_one": {
+    "message": "ٹیب بند کریں اور ONETAB میں محفوظ کریں"
+  },
+  "closeTabsAndStore_other": {
+    "message": "ٹیبز بند کریں اور ONETAB میں محفوظ کریں"
+  },
+  "closeTabsAndStore_two": {
+    "message": "ٹیبز بند کریں اور ONETAB میں محفوظ کریں"
+  },
+  "closeTabsAndStore_zero": {
+    "message": "ٹیبز بند کریں اور ONETAB میں محفوظ کریں"
+  },
+  "closeTheseDuplicates_few": {
+    "message": "یہ ڈپلیکیٹس بند کریں"
+  },
+  "closeTheseDuplicates_many": {
+    "message": "یہ ڈپلیکیٹس بند کریں"
+  },
+  "closeTheseDuplicates_one": {
+    "message": "یہ ڈپلیکیٹ بند کریں"
+  },
+  "closeTheseDuplicates_other": {
+    "message": "یہ ڈپلیکیٹس بند کریں"
+  },
+  "closeTheseDuplicates_two": {
+    "message": "یہ ڈپلیکیٹس بند کریں"
+  },
+  "closeTheseDuplicates_zero": {
+    "message": "یہ ڈپلیکیٹس بند کریں"
+  },
+  "completedTaskFlagHelp": {
+    "message": "یہ آئٹم ایک ٹاسک ہے۔ اسے زیر التواء (مکمل نہیں) کے طور پر نشان زد کرنے کے لیے اس آئیکن پر کلک کریں۔"
+  },
+  "completeEditingShortcutInfo": {
+    "message": "نوٹس فیلڈ میں ترمیم کرتے وقت، تدوین مکمل کرنے کے لیے یہ شارٹ کٹ استعمال کریں۔"
+  },
+  "configureShortcuts": {
+    "message": "شارٹ کٹس تشکیل دیں"
+  },
+  "conflictingShortcutsHint": {
+    "message": "اگر اوپر دیے گئے کسی بھی کی بورڈ شارٹ کٹ نے کام نہ کیا یا کسی اور ایپ سے ٹکرایا، تو آپ ایک مختلف شارٹ کٹ کلید تشکیل دے سکتے ہیں۔"
+  },
+  "continue": {
+    "message": "جاری رکھیں"
+  },
+  "convertTabsIntoAList": {
+    "message": "ٹیبز کو فہرست میں تبدیل کریں"
+  },
+  "copiedToClipboard": {
+    "message": "کلپ بورڈ پر کاپی ہو گیا"
+  },
+  "copy": {
+    "message": "کاپی کریں"
+  },
+  "copyLinksToClipboard": {
+    "message": "لنکس کلپ بورڈ پر کاپی کریں"
+  },
+  "copySharedPageUrl": {
+    "message": "شیئرڈ صفحے کا URL کاپی کریں"
+  },
+  "copyToClipboard": {
+    "message": "کلپ بورڈ پر کاپی کریں"
+  },
+  "copyToClipboardMenuItemHelp": {
+    "message": "ان ویب لنکس کو کلپ بورڈ پر کاپی کریں، تاکہ آپ انہیں دیگر ایپلیکیشنز میں پیسٹ کر سکیں۔ آپ OneTab کے اختیارات کے صفحے میں کلپ بورڈ ٹیکسٹ فارمیٹ تبدیل کر سکتے ہیں۔"
+  },
+  "createANewGroupHere": {
+    "message": "یہاں نیا گروپ بنائیں"
+  },
+  "createdOnOrAfterColon": {
+    "message": "بنایا گیا اس تاریخ کو یا بعد میں:"
+  },
+  "createdOnOrBeforeColon": {
+    "message": "بنایا گیا اس تاریخ کو یا اس سے پہلے:"
+  },
+  "createdPreceedingDate": {
+    "message": "بنایا گیا"
+  },
+  "createFolderAbove": {
+    "message": "اوپر فولڈر بنائیں"
+  },
+  "createFolderAboveBelow": {
+    "message": "اوپر / نیچے فولڈر بنائیں"
+  },
+  "createFolderAboveWithinBelow": {
+    "message": "اوپر / اندر / نیچے فولڈر بنائیں"
+  },
+  "createFolderBelow": {
+    "message": "نیچے فولڈر بنائیں"
+  },
+  "createFolderWithin": {
+    "message": "اندر نیا فولڈر بنائیں"
+  },
+  "createFolderWithinMenuItemHelp": {
+    "message": "فولڈرز ٹیبز کے گروپس کو منظم کرنے کے لیے ہوتے ہیں۔ فولڈرز میں گروپس ہوتے ہیں، اور گروپس میں ٹیبز ہوتے ہیں۔"
+  },
+  "createGroupAbove": {
+    "message": "اوپر گروپ بنائیں"
+  },
+  "createGroupAboveBelow": {
+    "message": "اوپر / نیچے گروپ بنائیں"
+  },
+  "createGroupAboveWithinBelow": {
+    "message": "اوپر / اندر / نیچے گروپ بنائیں"
+  },
+  "createGroupBelow": {
+    "message": "نیچے گروپ بنائیں"
+  },
+  "createGroupInsideDestination": {
+    "message": "منزل کے اندر نیا گروپ بنائیں"
+  },
+  "createGroupInsideDestinationHelp": {
+    "message": "اگر نشان نہیں لگایا گیا تو آپ کے ٹیبز براہِ راست منزل گروپ میں شامل کر دیے جائیں گے۔ اگر نشان لگایا گیا تو منزل گروپ کے اندر آپ کے ٹیبز کے لیے نیا براؤزر ٹیب گروپ بنایا جائے گا۔ یہ باکس صرف اسی صورت میں منتخب کریں جب آپ اپنے براؤزر کے 'ٹیب گروپس' فیچر کو استعمال کرنا چاہتے ہیں۔"
+  },
+  "createGroupMenuItemHelp": {
+    "message": "ایک نیا، خالی گروپ بنائیں۔ گروپ میں ٹیبز کی فہرست ہوتی ہے، جسے ایک ساتھ ایک ونڈو میں بحال کیا جا سکتا ہے۔"
+  },
+  "createGroupWithin": {
+    "message": "اندر نیا گروپ بنائیں"
+  },
+  "createNewGroupTip": {
+    "message": "نیا گروپ بنانے کے لیے، پہلے \"صرف فولڈرز دکھائیں\" کا نشان ہٹائیں۔ اس سے آپ فہرست میں نیا بنایا گیا گروپ دیکھ سکیں گے۔"
+  },
+  "darkTheme": {
+    "message": "ڈارک تھیم"
+  },
+  "dayCount_few": {
+    "message": "{COUNT} دن"
+  },
+  "dayCount_many": {
+    "message": "{COUNT} دن"
+  },
+  "dayCount_one": {
+    "message": "{COUNT} دن"
+  },
+  "dayCount_other": {
+    "message": "{COUNT} دن"
+  },
+  "dayCount_two": {
+    "message": "{COUNT} دن"
+  },
+  "dayCount_zero": {
+    "message": "{COUNT} دن"
+  },
+  "delete": {
+    "message": "حذف کریں"
+  },
+  "deleteAllTrash": {
+    "message": "تمام ردی حذف کریں"
+  },
+  "deleteThisCopy": {
+    "message": "یہ کاپی حذف کریں"
+  },
+  "deselectAll": {
+    "message": "سب کا انتخاب ختم کریں"
+  },
+  "destinationColon": {
+    "message": "منزل:"
+  },
+  "disabled": {
+    "message": "غیر فعال"
+  },
+  "doneTaskCount_few": {
+    "message": "{COUNT} مکمل"
+  },
+  "doneTaskCount_many": {
+    "message": "{COUNT} مکمل"
+  },
+  "doneTaskCount_one": {
+    "message": "{COUNT} مکمل"
+  },
+  "doneTaskCount_other": {
+    "message": "{COUNT} مکمل"
+  },
+  "doneTaskCount_two": {
+    "message": "{COUNT} مکمل"
+  },
+  "doneTaskCount_zero": {
+    "message": "{COUNT} مکمل"
+  },
+  "dontCloseGroupedTabs": {
+    "message": "کسی بھی ٹیب گروپ کے اندر موجود ٹیبز بند نہ کریں"
+  },
+  "dontClosePinnedTabs": {
+    "message": "پن کیے گئے کسی بھی ٹیب کو بند نہ کریں"
+  },
+  "dontCloseTabsFromDomains": {
+    "message": "EXAMPLE.COM کے کسی بھی ٹیب کو بند نہ کریں"
+  },
+  "dragCopyModifierInfo": {
+    "message": "کسی ٹیب کو ڈراپ کرتے وقت اسے منتقل کرنے کے بجائے اس کی کاپی بنانے کے لیے ctrl یا alt کلید دبائے رکھیں۔"
+  },
+  "dragTabsHereForQuickList": {
+    "message": "اپنی محفوظ شدہ ٹیبز یا گروپس کو یہاں گھسیٹیں۔ یہ آپ کی فوری فہرست میں شامل ہو جائیں گے۔"
+  },
+  "editTabGroupTitleAndNotes": {
+    "message": "ٹیب گروپ کا عنوان اور نوٹس تدوین کریں"
+  },
+  "emojiShortcutInfo": {
+    "message": "نوٹس فیلڈ میں ترمیم کرتے وقت، ایموجی پکر کھولنے کے لیے یہ شارٹ کٹ استعمال کریں۔"
+  },
+  "emptyInBrackets": {
+    "message": "(خالی)"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "جب آپ کے پاس متعدد ٹیبز کھلے ہوں، تو اپنے براؤزر کے ٹول بار میں OneTab آئیکن پر کلک کریں اور آپ کے کھلے ٹیبز یہاں نظر آئیں گے۔"
+  },
+  "enabled": {
+    "message": "فعال"
+  },
+  "encryptedSyncAndBackup": {
+    "message": "خفیہ کردہ سنک اور بیک اپ"
+  },
+  "encryptedSyncAndBackupComingSoonMessage": {
+    "message": "جلد آ رہا ہے: آپ اپنا OneTab ڈیٹا متعدد براؤزر پروفائلز اور کمپیوٹرز کے درمیان سنک کر سکیں گے۔\nOneTab کو مکمل طور پر ازسرِ نو لکھا گیا ہے تاکہ ایک ڈیوائس پر کی گئی تبدیلیاں فوراً دیگر تمام ڈیوائسز پر نظر آئیں۔\nاگر آپ یہ فیچر استعمال کریں، تو آپ کا ڈیٹا مضبوط AES-256 انکرپشن کے ساتھ اینڈ ٹو اینڈ انکرپٹ ہوگا۔ اس سے OneTab ڈویلپرز کے لیے آپ کے وہ ٹیبز دیکھنا ناممکن ہو جاتا ہے جن کا آپ نے بیک اپ لیا ہے یا جو آپ نے ڈیوائسز کے درمیان سنک کیے ہیں، کیونکہ انکرپشن کی کلید صرف آپ کے پاس ہوتی ہے۔"
+  },
+  "everything": {
+    "message": "سب کچھ"
+  },
+  "exampleLink": {
+    "message": "مثالی لنک"
+  },
+  "exampleLinkTitle": {
+    "message": "مثالی لنک کا عنوان"
+  },
+  "exampleLinkTitleOptional": {
+    "message": "مثالی لنک کا عنوان (اختیاری)"
+  },
+  "exampleRichTextParagraph": {
+    "message": "PLACEHOLDER اور PLACEHOLDER کے ساتھ مثال پیراگراف"
+  },
+  "exampleWebsitePageTitle": {
+    "message": "مثالی ویب سائٹ صفحہ کا عنوان"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "EXAMPLE.COM کو OneTab سے خارج کریں"
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "اس ویب سائٹ کو OneTab سے خارج کریں"
+  },
+  "expiresColon": {
+    "message": "میعاد:"
+  },
+  "export": {
+    "message": "برآمد کریں"
+  },
+  "exportImportUrls": {
+    "message": "URLs برآمد / درآمد"
+  },
+  "exportThenImportNote": {
+    "message": "ذیل میں دی گئی URLs کی فہرست کو اسی یا کسی دوسرے کمپیوٹر پر OneTab میں دوبارہ درآمد کیا جا سکتا ہے"
+  },
+  "exportUrls": {
+    "message": "URLs برآمد کریں"
+  },
+  "feedback": {
+    "message": "رائے"
+  },
+  "filter": {
+    "message": "فلٹر"
+  },
+  "firefoxIncognitoInstructions": {
+    "message": "اپنی براؤزر سیٹنگز میں، 'Settings' → 'Extensions and Themes' → 'Extensions' → 'OneTab' → '...' → 'Manage' پر جائیں، اور پھر 'Run in Private Windows' کو فعال کریں۔"
+  },
+  "firefoxShortcutConfigInstructions": {
+    "message": "اپنے براؤزر کی ایڈریس بار میں URL \"about:addons?type=extension\" داخل کریں۔ جب صفحہ ظاہر ہو، گیئر آئیکن پر کلک کریں، پھر \"Manage Extension Shortcuts\" منتخب کریں"
+  },
+  "Folder": {
+    "message": "فولڈر"
+  },
+  "folderCount_few": {
+    "message": "{COUNT} فولڈرز"
+  },
+  "folderCount_many": {
+    "message": "{COUNT} فولڈرز"
+  },
+  "folderCount_one": {
+    "message": "{COUNT} فولڈر"
+  },
+  "folderCount_other": {
+    "message": "{COUNT} فولڈرز"
+  },
+  "folderCount_two": {
+    "message": "{COUNT} فولڈرز"
+  },
+  "folderCount_zero": {
+    "message": "{COUNT} فولڈرز"
+  },
+  "folders": {
+    "message": "فولڈرز"
+  },
+  "foldersOnly": {
+    "message": "صرف فولڈرز"
+  },
+  "gettingStarted": {
+    "message": "ابتدائی رہنمائی"
+  },
+  "gotIt": {
+    "message": "سمجھ گیا"
+  },
+  "goToParentFolder": {
+    "message": "اوپر والے فولڈر پر جائیں"
+  },
+  "groupCount_few": {
+    "message": "{COUNT} گروپس"
+  },
+  "groupCount_many": {
+    "message": "{COUNT} گروپس"
+  },
+  "groupCount_one": {
+    "message": "{COUNT} گروپ"
+  },
+  "groupCount_other": {
+    "message": "{COUNT} گروپس"
+  },
+  "groupCount_two": {
+    "message": "{COUNT} گروپس"
+  },
+  "groupCount_zero": {
+    "message": "{COUNT} گروپس"
+  },
+  "groups": {
+    "message": "گروپس"
+  },
+  "hasNotes": {
+    "message": "نوٹس ہیں"
+  },
+  "help": {
+    "message": "مدد"
+  },
+  "hideArchivedItems": {
+    "message": "آرکائیو شدہ آئٹمز چھپائیں"
+  },
+  "import": {
+    "message": "درآمد کریں"
+  },
+  "importAndExport": {
+    "message": "درآمد و برآمد"
+  },
+  "importBookmarks": {
+    "message": "بک مارکس درآمد کریں"
+  },
+  "importedBookmarks": {
+    "message": "درآمد شدہ بک مارکس"
+  },
+  "importFolderAndSubfolders": {
+    "message": "فولڈر اور ذیلی فولڈرز درآمد کریں"
+  },
+  "importLinksHere": {
+    "message": "لنکس یہاں درآمد کریں"
+  },
+  "importLinksHereMenuItemHelp": {
+    "message": "آپ ویب لنکس کی فہرست پیسٹ کر سکتے ہیں، یا براؤزر بک مارکس درآمد کر سکتے ہیں۔"
+  },
+  "importReadingList": {
+    "message": "ریڈنگ لسٹ درآمد کریں"
+  },
+  "importText": {
+    "message": "متن درآمد کریں"
+  },
+  "importUrls": {
+    "message": "URLs درآمد کریں"
+  },
+  "includeGroupedTabs": {
+    "message": "گروپ کردہ ٹیبز شامل کریں"
+  },
+  "includeNotes": {
+    "message": "نوٹس شامل کریں"
+  },
+  "includePinnedTabs": {
+    "message": "پن کیے گئے ٹیبز شامل کریں"
+  },
+  "includeStarRatings": {
+    "message": "اسٹارز شامل کریں"
+  },
+  "includeTabsAlreadyStored": {
+    "message": "جو ٹیبز آپ پہلے ہی محفوظ کر چکے ہیں انہیں بھی شامل کریں"
+  },
+  "includeTabsFromDomains": {
+    "message": "EXAMPLE.COM کے ٹیبز شامل کریں"
+  },
+  "incogitoPermissionRequired": {
+    "message": "OneTab کو انکوگنیٹو ونڈوز بنانے کی اجازت درکار ہے۔"
+  },
+  "incognitoWindows": {
+    "message": "انکوگنیٹو ونڈوز"
+  },
+  "invertSelection": {
+    "message": "انتخاب الٹ دیں"
+  },
+  "justNow": {
+    "message": "ابھی"
+  },
+  "keyboardShortcutsColon": {
+    "message": "کی بورڈ شارٹ کٹس:"
+  },
+  "languageTitle": {
+    "message": "زبان:"
+  },
+  "lightTheme": {
+    "message": "لائٹ تھیم"
+  },
+  "localeId": {
+    "message": "ur"
+  },
+  "locationColon": {
+    "message": "مقام:"
+  },
+  "lock": {
+    "message": "لاک کریں"
+  },
+  "lockedGroupUnlockHelp": {
+    "message": "ان لاک کرنے کے لیے، مزید… مینو استعمال کریں۔ جب کوئی گروپ لاک ہو تو آپ گروپ یا اس کے ٹیبز حذف نہیں کر سکتے، اور ٹیبز کی ترتیب نہیں بدلی جا سکتی۔"
+  },
+  "lockMenuItemHelp": {
+    "message": "جب کوئی گروپ لاک ہو تو آپ گروپ کے اندر آئٹمز کو ہٹا یا دوبارہ ترتیب نہیں دے سکتے (جب تک آپ گروپ ان لاک نہ کریں)۔"
+  },
+  "makeThisATask": {
+    "message": "اسے ٹاسک بنائیں"
+  },
+  "manifestDescription": {
+    "message": "95% تک میموری بچائیں اور ٹیبز کی بھرمار کم کریں"
+  },
+  "markAsArchived": {
+    "message": "آرکائیو کے طور پر نشان لگائیں"
+  },
+  "markAsArchivedMenuItemHelp": {
+    "message": "جب آپ کسی آئٹم کو آرکائیو شدہ نشان لگاتے ہیں تو اس کا پس منظر سرمئی ہو جاتا ہے۔ یہ بصری طور پر ظاہر کرتا ہے کہ آپ اس آئٹم سے فارغ ہو چکے ہیں (مثلاً یہ ایسا مضمون ہے جسے آپ پڑھ چکے ہیں)۔ اگر آپ کسی ایسی چیز کو آرکائیو کریں جو ٹاسک کے طور پر نشان زد ہو، تو وہ ٹاسک آپ کے OneTab صفحے میں ٹاسکس کالم میں مزید نظر نہیں آئے گا۔"
+  },
+  "markAsDoneTask": {
+    "message": "مکمل شدہ ٹاسک کے طور پر نشان لگائیں"
+  },
+  "markAsDoneTaskMenuItemHelp": {
+    "message": "ظاہری طور پر ظاہر کریں کہ ٹاسک مکمل ہو گیا ہے"
+  },
+  "markAsPendingTask": {
+    "message": "زیر التواء ٹاسک کے طور پر نشان لگائیں"
+  },
+  "markAsPendingTaskMenuItemHelp": {
+    "message": "ظاہری طور پر ظاہر کریں کہ یہ آئٹم ایک ٹاسک ہے۔ ایک ٹاسک آئیکن ظاہر ہوگا، جس پر آپ پھر کلک کر کے ظاہری طور پر ظاہر کر سکتے ہیں کہ ٹاسک مکمل ہو گیا ہے۔ تمام ٹاسکس (جب تک آرکائیو شدہ نشان نہ لگایا گیا ہو) آپ کے OneTab صفحے میں ٹاسکس کالم میں بھی نظر آئیں گے۔"
+  },
+  "matchCount_few": {
+    "message": "{COUNT} نتائج"
+  },
+  "matchCount_many": {
+    "message": "{COUNT} نتائج"
+  },
+  "matchCount_one": {
+    "message": "{COUNT} نتیجہ"
+  },
+  "matchCount_other": {
+    "message": "{COUNT} نتائج"
+  },
+  "matchCount_two": {
+    "message": "{COUNT} نتائج"
+  },
+  "matchCount_zero": {
+    "message": "{COUNT} نتائج"
+  },
+  "matchWholeWordsOnly": {
+    "message": "صرف پورے الفاظ ملائیں"
+  },
+  "mayNeedToRestartBrowser": {
+    "message": "اگر آپ کو یہ پیغام ہر بار نظر آئے، تو براہِ کرم اپنا براؤزر اپ ڈیٹ کر کے دوبارہ شروع کریں۔"
+  },
+  "mergeIntoParent": {
+    "message": "پیرنٹ میں ضم کریں"
+  },
+  "mergeOpenTabsHere_few": {
+    "message": "{COUNT} کھلے ٹیبز یہاں ضم کریں"
+  },
+  "mergeOpenTabsHere_many": {
+    "message": "{COUNT} کھلے ٹیبز یہاں ضم کریں"
+  },
+  "mergeOpenTabsHere_one": {
+    "message": "{COUNT} کھلا ٹیب یہاں ضم کریں"
+  },
+  "mergeOpenTabsHere_other": {
+    "message": "{COUNT} کھلے ٹیبز یہاں ضم کریں"
+  },
+  "mergeOpenTabsHere_two": {
+    "message": "{COUNT} کھلے ٹیبز یہاں ضم کریں"
+  },
+  "mergeOpenTabsHere_zero": {
+    "message": "{COUNT} کھلے ٹیبز یہاں ضم کریں"
+  },
+  "mergeSelectedTabsHere_few": {
+    "message": "منتخب {COUNT} ٹیبز یہاں ضم کریں"
+  },
+  "mergeSelectedTabsHere_many": {
+    "message": "منتخب {COUNT} ٹیبز یہاں ضم کریں"
+  },
+  "mergeSelectedTabsHere_one": {
+    "message": "منتخب {COUNT} ٹیب یہاں ضم کریں"
+  },
+  "mergeSelectedTabsHere_other": {
+    "message": "منتخب {COUNT} ٹیبز یہاں ضم کریں"
+  },
+  "mergeSelectedTabsHere_two": {
+    "message": "منتخب {COUNT} ٹیبز یہاں ضم کریں"
+  },
+  "mergeSelectedTabsHere_zero": {
+    "message": "منتخب {COUNT} ٹیبز یہاں ضم کریں"
+  },
+  "mergeWithInnerGroups": {
+    "message": "اندرونی گروپس کے ساتھ ضم کریں"
+  },
+  "modalMoveToTrashHintExampleGroupTitle": {
+    "message": "مثالی گروپ کا عنوان"
+  },
+  "modalMoveToTrashHintHeading": {
+    "message": "ٹِپ: گروپ کے عنوان پر ہوور کریں، پھر اسے ردی میں منتقل کرنے کے لیے X پر کلک کریں۔"
+  },
+  "modalOptionAutoActionOnOpenHeading": {
+    "message": "ٹیبز بحال کرنے کے بعد:"
+  },
+  "modalOptionAutoActionOnOpenOpenDesc": {
+    "message": "کام مکمل ہونے پر دستی طور پر حذف کریں"
+  },
+  "modalOptionAutoActionOnOpenTrashDesc": {
+    "message": "فوری محفوظ کرنے اور بحال کرنے کے لیے آسان"
+  },
+  "modalRemigrationDontAskAgain": {
+    "message": "دوبارہ نہ پوچھیں"
+  },
+  "modalRemigrationFooterHtml": {
+    "message": "<b>ہاں</b> پر کلک کریں، الاّ یہ کہ مائیگریشن پہلے ہی ہو چکی ہو اور آپ نے جان بوجھ کر مائیگریٹ کیے گئے ٹیبز حذف کیے ہوں۔"
+  },
+  "modalRemigrationNotNow": {
+    "message": "ابھی نہیں"
+  },
+  "modalRemigrationTabsFoundPrompt_few": {
+    "message": "OneTab v1 سے {COUNT} ٹیبز ملے۔ انہیں مائیگریٹ کریں؟"
+  },
+  "modalRemigrationTabsFoundPrompt_many": {
+    "message": "OneTab v1 سے {COUNT} ٹیبز ملے۔ انہیں مائیگریٹ کریں؟"
+  },
+  "modalRemigrationTabsFoundPrompt_one": {
+    "message": "OneTab v1 سے {COUNT} ٹیب ملا۔ اسے مائیگریٹ کریں؟"
+  },
+  "modalRemigrationTabsFoundPrompt_other": {
+    "message": "OneTab v1 سے {COUNT} ٹیبز ملے۔ انہیں مائیگریٹ کریں؟"
+  },
+  "modalRemigrationTabsFoundPrompt_two": {
+    "message": "OneTab v1 سے {COUNT} ٹیبز ملے۔ انہیں مائیگریٹ کریں؟"
+  },
+  "modalRemigrationTabsFoundPrompt_zero": {
+    "message": "OneTab v1 سے {COUNT} ٹیبز ملے۔ انہیں مائیگریٹ کریں؟"
+  },
+  "modalRemigrationYes": {
+    "message": "ہاں"
+  },
+  "modalUpdateToV2Heading": {
+    "message": "OneTab اپ ڈیٹ ہو گیا ہے"
+  },
+  "modalUpdateToV2QuickTourHtml": {
+    "message": "فوری ٹور چاہتے ہیں؟ اوپر <b>مدد</b> پر کلک کریں۔"
+  },
+  "modalUpdateToV2UseOneTabLikeBefore": {
+    "message": "آپ OneTab کو پہلے کی طرح ہی استعمال کر سکتے ہیں — ایک کلک سے اپنے ٹیبز محفوظ کریں۔"
+  },
+  "modifySharing": {
+    "message": "شیئرنگ میں ترمیم کریں"
+  },
+  "moreEllipsis": {
+    "message": "مزید…"
+  },
+  "moreSearchFilters": {
+    "message": "مزید تلاش فلٹرز"
+  },
+  "move": {
+    "message": "منتقل کریں"
+  },
+  "moveBack": {
+    "message": "واپس منتقل کریں"
+  },
+  "moveToTrash": {
+    "message": "ردی میں منتقل کریں"
+  },
+  "namedOnly": {
+    "message": "صرف نام والے"
+  },
+  "navigationFilter": {
+    "message": "نیویگیشن فلٹر"
+  },
+  "newExclamation": {
+    "message": "نیا!"
+  },
+  "noDupsExistExceptForColon": {
+    "message": "ڈپلیکیٹس موجود نہیں، سوائے:"
+  },
+  "noDupsFoundHere": {
+    "message": "یہاں کوئی ڈپلیکیٹ نہیں ملا"
+  },
+  "noMatches": {
+    "message": "کوئی مماثلت نہیں"
+  },
+  "noMatchesFound": {
+    "message": "کوئی مماثلت نہیں ملی"
+  },
+  "nonArchived": {
+    "message": "غیر آرکائیو شدہ"
+  },
+  "nonTabPinFlagHelp": {
+    "message": "یہ آئٹم فولڈر کے اوپر پن ہے۔ اَن پن کرنے کے لیے اس آئیکن پر کلک کریں۔"
+  },
+  "noOpenTabsToStore": {
+    "message": "اس ونڈو میں محفوظ کرنے کے لیے کوئی کھلے ٹیبز نہیں ہیں۔"
+  },
+  "noReadingListEntries": {
+    "message": "ریڈنگ لسٹ میں کوئی اندراج نہیں ملا"
+  },
+  "noTabsInOneTabYet": {
+    "message": "آپ کے پاس ابھی تک OneTab میں کوئی ٹیب نہیں ہے"
+  },
+  "noTabsMeetCriteriaUseCheckboxes": {
+    "message": "کوئی کھلے ٹیبز آپ کے معیار پر پورا نہیں اترتے۔ براہِ کرم اوپر والے چیک باکسز استعمال کریں۔"
+  },
+  "notAssigned": {
+    "message": "تفویض نہیں"
+  },
+  "notes": {
+    "message": "نوٹس"
+  },
+  "notesAboutTheLinkOptional": {
+    "message": "لنک کے بارے میں نوٹس (اختیاری)"
+  },
+  "notesAboutTheSecondLinkOptional": {
+    "message": "دوسرے لنک کے بارے میں نوٹس (اختیاری)"
+  },
+  "noTextHasBeenEntered": {
+    "message": "کوئی متن درج نہیں کیا گیا"
+  },
+  "ok": {
+    "message": "ٹھیک ہے"
+  },
+  "omniboxShortcutInfo": {
+    "message": "کسی بھی ٹیب سے اپنی OneTab فہرست میں تلاش کرنے کے لیے: اپنے براؤزر کی ایڈریس بار میں 11 لکھیں، پھر سپیس، پھر تلاش کیورڈ لکھیں۔"
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "OneTab Firefox کے لیے بھی دستیاب ہے"
+  },
+  "oneTabDesignedToProtectPrivacy": {
+    "message": "OneTab آپ کی رازداری کے تحفظ کے لیے ڈیزائن کیا گیا ہے۔ آپ کے ٹیبز ہمیں ظاہر نہیں کیے جاتے۔"
+  },
+  "oneTabExportPageTitle": {
+    "message": "OneTab برآمد"
+  },
+  "oneTabImportExportPageTitle": {
+    "message": "OneTab درآمد/برآمد"
+  },
+  "oneTabNeedsPermissionToAccessYourTabs": {
+    "message": "OneTab کو آپ کے ٹیبز تک رسائی کی اجازت درکار ہے۔"
+  },
+  "oneTabOptionsPageTitle": {
+    "message": "OneTab اختیارات"
+  },
+  "oneTabPermissionRequired": {
+    "message": "OneTab - اجازت درکار ہے"
+  },
+  "oneTabRestartRequired": {
+    "message": "OneTab کو ری اسٹارٹ کرنے کی ضرورت ہے۔ کوئی دوسرے ٹیبز بند نہیں کیے جائیں گے۔"
+  },
+  "oneTabSlashShortcutInfo": {
+    "message": "OneTab صفحے میں، سرچ باکس پر فوکس کرنے کے لیے سلیش کی دبائیں۔"
+  },
+  "open": {
+    "message": "کھولیں"
+  },
+  "openActionPopup": {
+    "message": "OneTab ایکشن (OneTab ٹول بار آئیکن پر کلک کرنے کے برابر)"
+  },
+  "openAsCollapsedTabGroup": {
+    "message": "بطور 'collapsed' ٹیب گروپ کھولیں"
+  },
+  "openAsCollapsedTabGroupMenuItemHelp": {
+    "message": "اگر آپ ان ٹیبز کو 'collapsed' 'ٹیب گروپ' کے طور پر کھولیں، تو جب تک آپ اس پر کلک نہیں کریں گے صرف گروپ لیبل دکھے گا۔"
+  },
+  "openAsPinnedTab": {
+    "message": "کھلنے پر ٹیب پن کریں"
+  },
+  "openAsPinnedTabMenuItemHelp": {
+    "message": "جب یہ ٹیب بحال ہو، تو اسے براؤزر کے پن کیے گئے ٹیب کے طور پر بحال کریں۔ پن کیے گئے ٹیبز ہمیشہ براؤزر ونڈو میں سب سے پہلے نظر آئیں گے۔"
+  },
+  "openAsTabGroup": {
+    "message": "بطور براؤزر ٹیب گروپ کھولیں"
+  },
+  "openAsTabGroupMenuItemHelp": {
+    "message": "آپ کا براؤزر ایک ونڈو کے اندر رنگ دار 'ٹیب گروپس' میں ٹیبز کو گروپ کرنے کی اجازت دیتا ہے۔"
+  },
+  "openFolder": {
+    "message": "فولڈر کھولیں"
+  },
+  "openGroupsLimitNotice_few": {
+    "message": "آپ کے براؤزر کو اوورلوڈ ہونے سے بچانے کے لیے، صرف پہلے {COUNT} گروپس کھلیں گے."
+  },
+  "openGroupsLimitNotice_many": {
+    "message": "آپ کے براؤزر کو اوورلوڈ ہونے سے بچانے کے لیے، صرف پہلے {COUNT} گروپس کھلیں گے."
+  },
+  "openGroupsLimitNotice_one": {
+    "message": "آپ کے براؤزر کو اوورلوڈ ہونے سے بچانے کے لیے، صرف پہلے {COUNT} گروپ کھلے گا."
+  },
+  "openGroupsLimitNotice_other": {
+    "message": "آپ کے براؤزر کو اوورلوڈ ہونے سے بچانے کے لیے، صرف پہلے {COUNT} گروپس کھلیں گے."
+  },
+  "openGroupsLimitNotice_two": {
+    "message": "آپ کے براؤزر کو اوورلوڈ ہونے سے بچانے کے لیے، صرف پہلے {COUNT} گروپس کھلیں گے."
+  },
+  "openGroupsLimitNotice_zero": {
+    "message": "آپ کے براؤزر کو اوورلوڈ ہونے سے بچانے کے لیے، صرف پہلے {COUNT} گروپس کھلیں گے."
+  },
+  "openInIncognitoWindow": {
+    "message": "نئی انکوگنیٹو ونڈو میں بحال کریں"
+  },
+  "openInNewWindow": {
+    "message": "نئی ونڈو میں بحال کریں"
+  },
+  "openInThisWindow": {
+    "message": "اسی ونڈو میں بحال کریں"
+  },
+  "openOneTab": {
+    "message": "OneTab کھولیں"
+  },
+  "openOneTabAfter": {
+    "message": "ٹیبز محفوظ کرنے کے بعد OneTab کھولیں"
+  },
+  "openONETABLogo": {
+    "message": "ONETAB کھولیں"
+  },
+  "openParentFolder": {
+    "message": "پیرنٹ فولڈر کھولیں"
+  },
+  "openTabFromWebsite": {
+    "message": "ایک ٹیب کھولیں اور اس ویب سائٹ پر جائیں"
+  },
+  "openTabLimit_few": {
+    "message": "آپ کے براؤزر کو اوورلوڈ ہونے سے بچانے کے لیے، بیک وقت زیادہ سے زیادہ {COUNT} ٹیبز کھولے جا سکتے ہیں."
+  },
+  "openTabLimit_many": {
+    "message": "آپ کے براؤزر کو اوورلوڈ ہونے سے بچانے کے لیے، بیک وقت زیادہ سے زیادہ {COUNT} ٹیبز کھولے جا سکتے ہیں."
+  },
+  "openTabLimit_one": {
+    "message": "آپ کے براؤزر کو اوورلوڈ ہونے سے بچانے کے لیے، بیک وقت زیادہ سے زیادہ {COUNT} ٹیب کھولا جا سکتا ہے."
+  },
+  "openTabLimit_other": {
+    "message": "آپ کے براؤزر کو اوورلوڈ ہونے سے بچانے کے لیے، بیک وقت زیادہ سے زیادہ {COUNT} ٹیبز کھولے جا سکتے ہیں."
+  },
+  "openTabLimit_two": {
+    "message": "آپ کے براؤزر کو اوورلوڈ ہونے سے بچانے کے لیے، بیک وقت زیادہ سے زیادہ {COUNT} ٹیبز کھولے جا سکتے ہیں."
+  },
+  "openTabLimit_zero": {
+    "message": "آپ کے براؤزر کو اوورلوڈ ہونے سے بچانے کے لیے، بیک وقت زیادہ سے زیادہ {COUNT} ٹیبز کھولے جا سکتے ہیں."
+  },
+  "openTabsAlreadyStoredHere_few": {
+    "message": "{COUNT} کھلے ٹیبز پہلے سے یہاں محفوظ:"
+  },
+  "openTabsAlreadyStoredHere_many": {
+    "message": "{COUNT} کھلے ٹیبز پہلے سے یہاں محفوظ:"
+  },
+  "openTabsAlreadyStoredHere_one": {
+    "message": "{COUNT} کھلا ٹیب پہلے سے یہاں محفوظ:"
+  },
+  "openTabsAlreadyStoredHere_other": {
+    "message": "{COUNT} کھلے ٹیبز پہلے سے یہاں محفوظ:"
+  },
+  "openTabsAlreadyStoredHere_two": {
+    "message": "{COUNT} کھلے ٹیبز پہلے سے یہاں محفوظ:"
+  },
+  "openTabsAlreadyStoredHere_zero": {
+    "message": "{COUNT} کھلے ٹیبز پہلے سے یہاں محفوظ:"
+  },
+  "openTabsConfirm_few": {
+    "message": "آپ {COUNT} ٹیبز کھولنے والے ہیں۔ کیا آپ کو یقین ہے؟"
+  },
+  "openTabsConfirm_many": {
+    "message": "آپ {COUNT} ٹیبز کھولنے والے ہیں۔ کیا آپ کو یقین ہے؟"
+  },
+  "openTabsConfirm_one": {
+    "message": "آپ {COUNT} ٹیب کھولنے والے ہیں۔ کیا آپ کو یقین ہے؟"
+  },
+  "openTabsConfirm_other": {
+    "message": "آپ {COUNT} ٹیبز کھولنے والے ہیں۔ کیا آپ کو یقین ہے؟"
+  },
+  "openTabsConfirm_two": {
+    "message": "آپ {COUNT} ٹیبز کھولنے والے ہیں۔ کیا آپ کو یقین ہے؟"
+  },
+  "openTabsConfirm_zero": {
+    "message": "آپ {COUNT} ٹیبز کھولنے والے ہیں۔ کیا آپ کو یقین ہے؟"
+  },
+  "openTabsNotStoredInOneTab_few": {
+    "message": "{COUNT} کھلے ٹیبز OneTab میں محفوظ نہیں"
+  },
+  "openTabsNotStoredInOneTab_many": {
+    "message": "{COUNT} کھلے ٹیبز OneTab میں محفوظ نہیں"
+  },
+  "openTabsNotStoredInOneTab_one": {
+    "message": "{COUNT} کھلا ٹیب OneTab میں محفوظ نہیں"
+  },
+  "openTabsNotStoredInOneTab_other": {
+    "message": "{COUNT} کھلے ٹیبز OneTab میں محفوظ نہیں"
+  },
+  "openTabsNotStoredInOneTab_two": {
+    "message": "{COUNT} کھلے ٹیبز OneTab میں محفوظ نہیں"
+  },
+  "openTabsNotStoredInOneTab_zero": {
+    "message": "{COUNT} کھلے ٹیبز OneTab میں محفوظ نہیں"
+  },
+  "optionAutoActionOnOpenArchiveDesc": {
+    "message": "ٹیبز کو آرکائیو شدہ نشان لگانے سے ان کا پس منظر سرمئی دھاری دار ہو جاتا ہے۔ یہ بصری طور پر ظاہر کرتا ہے کہ آپ نے ٹیبز پڑھ لیے ہیں یا ان سے فارغ ہو گئے ہیں۔"
+  },
+  "optionAutoActionOnOpenArchiveTitle": {
+    "message": "انہیں آرکائیو شدہ نشان لگائیں"
+  },
+  "optionAutoActionOnOpenHeading": {
+    "message": "جب ٹیبز بحال کریں:"
+  },
+  "optionAutoActionOnOpenNote": {
+    "message": "لاک کیے گئے گروپس ہمیشہ اپنے ٹیبز رکھتے ہیں"
+  },
+  "optionAutoActionOnOpenOpenDesc": {
+    "message": "بحال کرتے وقت ٹیبز کو آرکائیو شدہ نشان لگانے کے لیے Alt یا Option کلید دبائے رکھیں"
+  },
+  "optionAutoActionOnOpenOpenTitle": {
+    "message": "انہیں اپنی فہرست میں رکھیں"
+  },
+  "optionAutoActionOnOpenTrashDesc": {
+    "message": "اگر آپ Ctrl یا Cmd کلید دبائے رکھیں، تو ٹیب(ز) آپ کی فہرست میں رہیں گے۔"
+  },
+  "optionAutoActionOnOpenTrashTitle": {
+    "message": "انہیں اپنی فہرست سے ہٹا دیں"
+  },
+  "optionBrowserActionHeading": {
+    "message": "جب آپ اپنے براؤزر کے ٹول بار میں OneTab آئیکن پر کلک کریں:"
+  },
+  "optionBrowserActionOpenPopupDesc": {
+    "message": "ایکشن پاپ اپ آپ کو کھلے ٹیبز کی فہرست دکھائے گا، اور آپ کو یہ منتخب کرنے دے گا کہ آپ بالکل کون سے ٹیبز OneTab کو بھیجنا چاہتے ہیں۔ یہ آپ کو محفوظ کیے جانے والے ٹیبز کے گروپ کے لیے عنوان سیٹ کرنے دے گا، تاکہ آپ کو بعد میں OneTab صفحے کے اندر یہ نہ کرنا پڑے۔ پاپ اپ آپ کو کسی بھی براؤزر ونڈو سے اپنی فوری فہرست تک آسان رسائی بھی دے گا۔"
+  },
+  "optionBrowserActionOpenPopupDesc2": {
+    "message": "بالکل وہی ٹیبز منتخب کریں جنہیں محفوظ کرنا ہے"
+  },
+  "optionBrowserActionOpenPopupTitle": {
+    "message": "OneTab ایکشن پاپ اپ دکھائیں"
+  },
+  "optionBrowserActionSendCurrentTabDesc": {
+    "message": "ٹیب آپ کے OneTab صفحے پر پہلے گروپ کے اندر رکھا جائے گا (پن یا لاک کیے گئے کسی بھی گروپس کو نظر انداز کرتے ہوئے)"
+  },
+  "optionBrowserActionSendCurrentTabTitle": {
+    "message": "صرف موجودہ ٹیب OneTab کو بھیجیں"
+  },
+  "optionBrowserActionSendTabsInWindowDesc": {
+    "message": "آپ کے ٹیبز بند کر دیے جائیں گے اور آپ کی OneTab فہرست میں محفوظ ہو جائیں گے۔ اگر آپ نے اپنے براؤزر کی ٹیب بار میں متعدد ٹیبز منتخب کیے ہیں (Cmd، Ctrl یا Shift کلید استعمال کر کے)، تو صرف منتخب ٹیبز OneTab کو بھیجے جائیں گے۔ اگر آپ اپنے براؤزر کے 'ٹیب گروپس' فیچر کا استعمال کر رہے ہیں، تو صرف موجودہ ٹیب گروپ OneTab کو بھیجا جائے گا۔"
+  },
+  "optionBrowserActionSendTabsInWindowDesc2": {
+    "message": "ٹیبز محفوظ کرنے کا سب سے تیز طریقہ"
+  },
+  "optionBrowserActionSendTabsInWindowTitle": {
+    "message": "موجودہ ونڈو کے ٹیبز OneTab کو بھیجیں"
+  },
+  "optionCopyToClipboardFormatHeading": {
+    "message": "لنکس کلپ بورڈ پر کاپی کرنا:"
+  },
+  "optionCopyToClipboardFormatNote": {
+    "message": "یہ سیٹنگ اس وقت لاگو ہوتی ہے جب آپ 'کلپ بورڈ پر کاپی کریں' ایکشن استعمال کرتے ہیں۔ آپ ٹیبز اور گروپس کو OneTab سے براہِ راست کسی دستاویز میں ڈریگ بھی کر سکتے ہیں۔"
+  },
+  "optionCopyToClipboardFormatRichTextDesc": {
+    "message": "ورڈ پروسیسر جیسی ایپلیکیشنز آپ کو رچ ٹیکسٹ پیسٹ کرنے دیں گی۔ اگر معاونت نہ ہو تو سادہ ٹیکسٹ پیسٹ کیا جائے گا۔"
+  },
+  "optionCopyToClipboardFormatRichTextTitle": {
+    "message": "جہاں ممکن ہو، رچ ٹیکسٹ"
+  },
+  "optionCopyToClipboardFormatTitleUrlTitle": {
+    "message": "عنوان اور URL"
+  },
+  "optionCopyToClipboardFormatUrlOnlyTitle": {
+    "message": "صرف URL"
+  },
+  "optionCopyToClipboardFormatUrlTitleTitle": {
+    "message": "URL اور عنوان"
+  },
+  "optionDefaultTabGroupOpenTypeCurrentWindow": {
+    "message": "براؤزر کا ٹیب گروپ موجودہ ونڈو میں کھولیں"
+  },
+  "optionDefaultTabGroupOpenTypeHeading": {
+    "message": "جب ایسے ٹیبز کے گروپ کو کھولنے کے لیے کلک کریں جو \"براؤزر ٹیب گروپ\" کے طور پر کھلنے کے لیے تشکیل شدہ ہوں:"
+  },
+  "optionDefaultTabGroupOpenTypeNewWindow": {
+    "message": "براؤزر کا ٹیب گروپ نئی ونڈو میں کھولیں"
+  },
+  "optionDefaultTabGroupOpenTypeNote": {
+    "message": "اگر آپ ڈراپ ڈاؤن سے کوئی مخصوص آپشن منتخب کریں (مثلاً ٹیبز کو انکوگنیٹو ونڈو میں کھولنا)، تو وہ آپشن اس مخصوص گروپ کے لیے یاد رکھا جائے گا۔"
+  },
+  "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+    "message": "ٹیبز موجودہ ونڈو میں کھولیں"
+  },
+  "optionDefaultWindowGroupOpenTypeHeading": {
+    "message": "جب ٹیبز کے گروپ کو بحال کریں:"
+  },
+  "optionDefaultWindowGroupOpenTypeNewWindow": {
+    "message": "ٹیبز نئی ونڈو میں کھولیں"
+  },
+  "optionDefaultWindowGroupOpenTypeNote": {
+    "message": "اگر آپ ڈراپ ڈاؤن سے کوئی مخصوص آپشن منتخب کریں (مثلاً ٹیبز کو انکوگنیٹو ونڈو میں کھولنا)، تو وہ آپشن اس مخصوص گروپ کے لیے یاد رکھا جائے گا۔"
+  },
+  "optionDiscardNonActiveTabOnOpenHeading": {
+    "message": "جب ٹیبز پہلی بار کھلیں تو فوراً میموری (RAM) بچائیں:"
+  },
+  "optionDiscardNonActiveTabOnOpenNote": {
+    "message": "اگر یہ سیٹنگ فعال ہو، تو OneTab فہرست سے ٹیبز پہلی بار کھولتے ہی انہیں فوراً میموری سے ان لوڈ کر دیا جائے گا۔ یہ اس وقت مفید ہے جب آپ بیک وقت درجنوں ٹیبز کھولتے ہیں، کیونکہ اس طرح وہ اُس وقت تک میموری میں لوڈ نہیں ہوں گے جب تک آپ اُن تک رسائی نہ کریں۔ اگر یہ سیٹنگ غیر فعال ہو، تب بھی کئی ویب براؤزر اس صورت میں ٹیبز کو خودکار طور پر میموری سے ان لوڈ کر دیتے ہیں جب آپ انہیں استعمال نہیں کر رہے ہوتے۔"
+  },
+  "optionDisplayContextMenuHeading": {
+    "message": "OneTab کانٹیکسٹ مینو تک رسائی کے لیے ویب صفحے کے اندر رائٹ کلک کریں:"
+  },
+  "optionDisplayContextMenuNote": {
+    "message": "اگر آپ مینو کو غیر فعال کرتے ہیں، تو آپ \"OneTab سے ویب سائٹ خارج کریں\" فیچر تک رسائی نہیں کر سکیں گے"
+  },
+  "optionDuplicatesAllow": {
+    "message": "ڈپلیکیٹس کی اجازت دیں"
+  },
+  "optionDuplicatesReject": {
+    "message": "ڈپلیکیٹس خاموشی سے مسترد کریں"
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "اگر OneTab میں یہ ٹیب پہلے سے موجود ہو، تو اسے دوبارہ شامل نہیں کیا جائے گا۔"
+  },
+  "optionDuplicatesTitle": {
+    "message": "ڈپلیکیٹس:"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+    "message": "اُس ونڈو پر سوئچ کریں جہاں OneTab کا ٹیب پہلے سے کھلا ہے"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+    "message": "'OneTab کھولیں' ایکشن:"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenNote": {
+    "message": "\"OneTab کھولیں\" ایکشن:"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+    "message": "کسی بھی موجود OneTab ٹیب کو موجودہ ونڈو میں منتقل کریں"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "پن کیے گئے ٹیبز کو OneTab کو بھیجنے کی اجازت دیں"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "پن کیے گئے ٹیبز OneTab کو نہ بھیجیں"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "آپ پھر بھی ویب صفحے کے اندر رائٹ کلک کر کے OneTab مینو تک رسائی حاصل کر کے، اور پھر 'صرف یہ ٹیب OneTab کو بھیجیں' پر کلک کر کے پن کیا گیا ٹیب دستی طور پر OneTab کو بھیج سکتے ہیں"
+  },
+  "optionPinnedTabsNote": {
+    "message": "نوٹ: جب آپ ٹیب پر رائٹ کلک کر کے 'ٹیب پن کریں' پر کلک کرتے ہیں تو ٹیب 'پن' ہو جاتا ہے۔ کچھ لوگ Facebook یا Gmail جیسی سائٹس کو پن کرنا پسند کرتے ہیں تاکہ انہیں آسانی سے تلاش کر سکیں۔ جب آپ ٹیب بحال کریں گے تو OneTab یاد رکھے گا کہ آیا ٹیب پن تھا یا نہیں۔"
+  },
+  "optionPinnedTabsTitle": {
+    "message": "پن کیے گئے ٹیبز:"
+  },
+  "options": {
+    "message": "اختیارات"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "OneTab خودکار طور پر کھولیں"
+  },
+  "optionStartupLaunchNone": {
+    "message": "OneTab خودکار طور پر نہ کھولیں"
+  },
+  "optionStartupLaunchNoneDesc3": {
+    "message": "OneTab کو دستی طور پر کھولنے کے لیے، آپ کسی بھی ویب صفحے کے اندر رائٹ کلک کر سکتے ہیں، اور OneTab مینو میں 'OneTab کھولیں' پر کلک کر سکتے ہیں۔"
+  },
+  "optionStartupLaunchTitle": {
+    "message": "براؤزر شروع ہونے پر:"
+  },
+  "optionSwitchToOpenedTabFalseTitle": {
+    "message": "ٹیب کھولیں اور OneTab میں ہی رہیں"
+  },
+  "optionSwitchToOpenedTabHeading": {
+    "message": "جب OneTab صفحہ سے ٹیبز بحال کی جائیں:"
+  },
+  "optionSwitchToOpenedTabNote": {
+    "message": "اگر آپ کلک کرتے وقت Shift دبائے رکھیں، تو ٹیب نئی ونڈو میں کھلے گا"
+  },
+  "optionSwitchToOpenedTabTrueTitle": {
+    "message": "ٹیب کھولیں، اور اس پر سوئچ کریں (الاّ یہ کہ کلک کرتے وقت آپ Command ⌘/Ctrl دبائے رکھیں)"
+  },
+  "optionUrlAbbr": {
+    "message": "مختصر"
+  },
+  "optionUrlDisplayTitle": {
+    "message": "URL ڈسپلے:"
+  },
+  "optionUrlDomain": {
+    "message": "صرف ڈومین"
+  },
+  "optionUrlFull": {
+    "message": "مکمل"
+  },
+  "optionUrlNone": {
+    "message": "کوئی نہیں"
+  },
+  "otherCopiesColon": {
+    "message": "دیگر کاپیاں:"
+  },
+  "pasteRichOrPlainTextBelow": {
+    "message": "نیچے رچ ٹیکسٹ یا سادہ متن پیسٹ کر سکتے ہیں۔"
+  },
+  "pendingTaskCount_few": {
+    "message": "{COUNT} زیر التواء"
+  },
+  "pendingTaskCount_many": {
+    "message": "{COUNT} زیر التواء"
+  },
+  "pendingTaskCount_one": {
+    "message": "{COUNT} زیر التواء"
+  },
+  "pendingTaskCount_other": {
+    "message": "{COUNT} زیر التواء"
+  },
+  "pendingTaskCount_two": {
+    "message": "{COUNT} زیر التواء"
+  },
+  "pendingTaskCount_zero": {
+    "message": "{COUNT} زیر التواء"
+  },
+  "pendingTaskFlagHelp": {
+    "message": "یہ آئٹم ایک ٹاسک ہے۔ اسے مکمل کے طور پر نشان زد کرنے کے لیے اس آئیکن پر کلک کریں۔"
+  },
+  "permissionRequiredPleaseTryAgain": {
+    "message": "ایسا شیئرڈ صفحہ بنانے کے لیے جس تک کسی بھی کمپیوٹر سے رسائی ہو سکے، OneTab ویب سرور کے ساتھ ہم آہنگی کی اجازت درکار ہے۔ براہِ کرم دوبارہ کوشش کریں۔"
+  },
+  "pinnedTabs": {
+    "message": "پن کیے گئے ٹیبز"
+  },
+  "pinToTopOfFolder": {
+    "message": "فولڈر کے اوپر پن کریں"
+  },
+  "pinToTopOfFolderMenuItemHelp": {
+    "message": "اس گروپ کو پن کریں تاکہ یہ ہمیشہ فولڈر کے اوپر دکھائی دے"
+  },
+  "pinToTopOfList": {
+    "message": "فہرست کے اوپر پن کریں"
+  },
+  "placeholderAndOtherLocations_few": {
+    "message": "PLACEHOLDER، اور {COUNT} دیگر"
+  },
+  "placeholderAndOtherLocations_many": {
+    "message": "PLACEHOLDER، اور {COUNT} دیگر"
+  },
+  "placeholderAndOtherLocations_one": {
+    "message": "PLACEHOLDER، اور {COUNT} دیگر"
+  },
+  "placeholderAndOtherLocations_other": {
+    "message": "PLACEHOLDER، اور {COUNT} دیگر"
+  },
+  "placeholderAndOtherLocations_two": {
+    "message": "PLACEHOLDER، اور {COUNT} دیگر"
+  },
+  "placeholderAndOtherLocations_zero": {
+    "message": "PLACEHOLDER، اور {COUNT} دیگر"
+  },
+  "placeholderExplanation": {
+    "message": "ویب براؤزر کے سیکیورٹی اصولوں کی وجہ سے، OneTab کو اس صفحہ کو براہِ راست بحال کرنے کی اجازت نہیں ہے۔ براہِ کرم اپنا URL کاپی کریں اور اسے اپنے براؤزر کی ایڈریس بار میں پیسٹ کریں۔"
+  },
+  "plainTextLineFormat": {
+    "message": "اگر آپ سادہ متن پیسٹ کریں، تو یقینی بنائیں کہ ہر URL میں پروٹوکول درج ہو (wikipedia.org کے بجائے https://wikipedia.org)۔ ہر سطر درج ذیل فارمیٹ میں ہونی چاہیے:"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "براہِ کرم انتظار کریں…"
+  },
+  "popupSlashShortcutInfo": {
+    "message": "OneTab ایکشن پاپ اپ (جو OneTab آئیکن پر کلک کرنے سے ظاہر ہوتا ہے) میں، منزل کے انتخاب کو کھولنے اور سرچ باکس پر فوکس کرنے کے لیے سلیش کی دبائیں۔"
+  },
+  "printUseSaveTabsAsHtmlFileAlertHtml": {
+    "message": "بہترین پرنٹنگ نتائج کے لیے، فولڈر کے <b>مزید…</b> مینو میں <b>HTML فائل کے طور پر محفوظ کریں</b> ایکشن استعمال کریں، پھر ڈاؤن لوڈ کی گئی HTML فائل پرنٹ کریں۔"
+  },
+  "privacyAssurance": {
+    "message": "رازداری کی یقین دہانی"
+  },
+  "privacyAssuranceDetail": {
+    "message": "آپ کی ٹیبز کی فہرست نہ تو OneTab ڈویلپرز کو بھیجی جاتی ہے اور نہ کسی دوسرے فریق کو ظاہر کی جاتی ہے۔ واحد استثنا یہ ہے کہ اگر آپ دانستہ طور پر 'ویب صفحے کے طور پر شیئر کریں' فیچر استعمال کریں تاکہ اپنی ٹیبز کی فہرست کو دوسروں سے شیئر کرنے کے لیے ایک ویب صفحے میں اپ لوڈ کریں۔"
+  },
+  "privacyFirst": {
+    "message": "رازداری پہلے"
+  },
+  "privacyFirstMessage": {
+    "message": "OneTab آپ کے نجی ڈیٹا کے تحفظ کے لیے ڈیزائن کیا گیا ہے۔ آپ کے ٹیبز صرف آپ کے کمپیوٹر پر محفوظ ہوتے ہیں، اور انہیں کبھی بھی OneTab کے ڈویلپرز یا کسی اور فریق سے شیئر نہیں کیا جاتا۔\nاگر آپ ہمارا بیک اپ/سنک فیچر استعمال کریں، تو آپ کا ڈیٹا مضبوط AES-256 انکرپشن کے ساتھ اینڈ-ٹو-اینڈ انکرپٹ کیا جائے گا۔ اس سے OneTab ڈویلپرز کے لیے آپ کے بیک اپ یا آلات کے درمیان سنک کیے گئے ٹیبز دیکھنا ناممکن ہو جاتا ہے، کیونکہ انکرپشن کلید صرف آپ کے پاس ہوتی ہے۔ \nواحد استثنا یہ ہے اگر آپ جان بوجھ کر ہمارے 'ویب صفحہ کے طور پر شیئر کریں' فیچر کا استعمال کریں۔\nہم Privacy First پر یقین رکھتے ہیں۔"
+  },
+  "privateBrowsingPermissionRequired": {
+    "message": "OneTab کو نجی براؤزنگ ونڈوز بنانے کی اجازت درکار ہے۔"
+  },
+  "privateBrowsingWindows": {
+    "message": "نجی براؤزنگ ونڈوز"
+  },
+  "quickList": {
+    "message": "فوری فہرست"
+  },
+  "readingList": {
+    "message": "ریڈنگ لسٹ"
+  },
+  "readingListPermissionNecesssary": {
+    "message": "OneTab ریڈنگ لسٹ سے آئٹمز درآمد کرنے کے لیے ریڈنگ لسٹ کی اجازت ضروری ہے۔ اگر یہ فیچر کام نہیں کر رہا تو ممکن ہے آپ کا براؤزر ریڈنگ لسٹ کی معاونت نہ کرتا ہو۔"
+  },
+  "recent": {
+    "message": "حالیہ"
+  },
+  "recentDestinationsColon": {
+    "message": "حالیہ منزلیں:"
+  },
+  "recentDuplicateRetainedHelp": {
+    "message": "اگر کوئی ٹیب ایک سے زیادہ بار آئے، تو صرف سب سے حالیہ ڈپلیکیٹ برقرار رکھا جائے گا"
+  },
+  "recentFolders": {
+    "message": "حالیہ فولڈرز"
+  },
+  "recentGroups": {
+    "message": "حالیہ گروپس"
+  },
+  "recentlyAccessed": {
+    "message": "حال ہی میں رسائی شدہ"
+  },
+  "recentlyCreated": {
+    "message": "حال ہی میں تخلیق شدہ"
+  },
+  "recentlyModified": {
+    "message": "حال ہی میں ترمیم شدہ"
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "میموری کے استعمال میں 95% کمی"
+  },
+  "removeDuplicates": {
+    "message": "ڈپلیکیٹس ہٹائیں"
+  },
+  "removeDuplicatesMenuItemHelp": {
+    "message": "آپ وہ ڈپلیکیٹس ہٹا سکیں گے جو یہاں موجود ہیں مگر کہیں اور نہیں، یا جو کہیں اور موجود ہیں مگر یہاں نہیں۔"
+  },
+  "removeDuplicateTabsHere_few": {
+    "message": "یہاں موجود {COUNT} ڈپلیکیٹ ٹیبز ہٹائیں"
+  },
+  "removeDuplicateTabsHere_many": {
+    "message": "یہاں موجود {COUNT} ڈپلیکیٹ ٹیبز ہٹائیں"
+  },
+  "removeDuplicateTabsHere_one": {
+    "message": "یہاں موجود {COUNT} ڈپلیکیٹ ٹیب ہٹائیں"
+  },
+  "removeDuplicateTabsHere_other": {
+    "message": "یہاں موجود {COUNT} ڈپلیکیٹ ٹیبز ہٹائیں"
+  },
+  "removeDuplicateTabsHere_two": {
+    "message": "یہاں موجود {COUNT} ڈپلیکیٹ ٹیبز ہٹائیں"
+  },
+  "removeDuplicateTabsHere_zero": {
+    "message": "یہاں موجود {COUNT} ڈپلیکیٹ ٹیبز ہٹائیں"
+  },
+  "removeFromQuickList": {
+    "message": "فوری فہرست سے ہٹائیں"
+  },
+  "removeFromQuickListMenuItemHelp": {
+    "message": "یہ آئٹم ردی میں نہیں بھیجا جائے گا — اسے صرف آپ کی فوری فہرست سے ہٹایا جائے گا۔"
+  },
+  "removeStar": {
+    "message": "اسٹار ہٹائیں"
+  },
+  "removeTabsElsewhereAlsoHere_few": {
+    "message": "کہیں اور موجود {COUNT} ٹیبز جو یہاں بھی ہیں ہٹائیں"
+  },
+  "removeTabsElsewhereAlsoHere_many": {
+    "message": "کہیں اور موجود {COUNT} ٹیبز جو یہاں بھی ہیں ہٹائیں"
+  },
+  "removeTabsElsewhereAlsoHere_one": {
+    "message": "کہیں اور موجود {COUNT} ٹیب جو یہاں بھی ہے ہٹائیں"
+  },
+  "removeTabsElsewhereAlsoHere_other": {
+    "message": "کہیں اور موجود {COUNT} ٹیبز جو یہاں بھی ہیں ہٹائیں"
+  },
+  "removeTabsElsewhereAlsoHere_two": {
+    "message": "کہیں اور موجود {COUNT} ٹیبز جو یہاں بھی ہیں ہٹائیں"
+  },
+  "removeTabsElsewhereAlsoHere_zero": {
+    "message": "کہیں اور موجود {COUNT} ٹیبز جو یہاں بھی ہیں ہٹائیں"
+  },
+  "removeTabsHereAlsoElsewhere_few": {
+    "message": "یہاں موجود {COUNT} ٹیبز جو کہیں اور بھی ہیں ہٹائیں"
+  },
+  "removeTabsHereAlsoElsewhere_many": {
+    "message": "یہاں موجود {COUNT} ٹیبز جو کہیں اور بھی ہیں ہٹائیں"
+  },
+  "removeTabsHereAlsoElsewhere_one": {
+    "message": "یہاں موجود {COUNT} ٹیب جو کہیں اور بھی ہے ہٹائیں"
+  },
+  "removeTabsHereAlsoElsewhere_other": {
+    "message": "یہاں موجود {COUNT} ٹیبز جو کہیں اور بھی ہیں ہٹائیں"
+  },
+  "removeTabsHereAlsoElsewhere_two": {
+    "message": "یہاں موجود {COUNT} ٹیبز جو کہیں اور بھی ہیں ہٹائیں"
+  },
+  "removeTabsHereAlsoElsewhere_zero": {
+    "message": "یہاں موجود {COUNT} ٹیبز جو کہیں اور بھی ہیں ہٹائیں"
+  },
+  "rename": {
+    "message": "نام تبدیل کریں"
+  },
+  "renameOrAddNote": {
+    "message": "نام تبدیل کریں / نوٹ شامل کریں"
+  },
+  "restore": {
+    "message": "بحال کریں"
+  },
+  "restoreAll": {
+    "message": "سب بحال کریں"
+  },
+  "restrictSearchToFolderColon": {
+    "message": "تلاش کو درج ذیل فولڈر تک محدود کریں:"
+  },
+  "results": {
+    "message": "نتائج"
+  },
+  "returnToOneTab": {
+    "message": "OneTab پر واپس جائیں"
+  },
+  "reverse": {
+    "message": "الٹ دیں"
+  },
+  "rightClickAndOpenOneTabMenu": {
+    "message": "ویب صفحے میں رائٹ کلک کریں، اور OneTab مینو پر جائیں"
+  },
+  "rightClickMenuDisabledNote": {
+    "message": "نوٹ: آپ نے OneTab کا رائٹ کلک مینو غیر فعال کر رکھا ہے۔ براہِ کرم اسے OneTab کے اختیارات کے صفحے میں فعال کریں۔"
+  },
+  "rightClickSelectionOptionsTip": {
+    "message": "ٹِپ: کسی آئٹم کو چیک کرنے کے بعد، ٹِک آئیکن پر رائٹ کلک کریں تاکہ مزید انتخابی اختیارات ظاہر ہوں"
+  },
+  "rightClickTickTip": {
+    "message": "ٹِپ: ہر ٹیب کے ساتھ موجود ٹِک آئیکن پر رائٹ کلک کریں تاکہ انتخابی ٹولز نظر آئیں"
+  },
+  "safariApproveOneTabInSettings": {
+    "message": "براہِ کرم Settings میں جائیں، اور OneTab کو تمام ویب سائٹس تک رسائی کی منظوری دیں۔"
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "Google Chrome میں 95% تک میموری بچائیں اور ٹیبز کی بھرمار کم کریں"
+  },
+  "saveChoice": {
+    "message": "انتخاب محفوظ کریں"
+  },
+  "saveTabsAsHtmlFile": {
+    "message": "HTML فائل کے طور پر محفوظ کریں"
+  },
+  "saveTabsAsHtmlFileMenuItemHelp": {
+    "message": "اس فولڈر میں ٹیبز کے تمام گروپس پر مشتمل ایک HTML فائل بنائیں اور ڈاؤن لوڈ کریں۔"
+  },
+  "searchHere": {
+    "message": "یہاں تلاش کریں"
+  },
+  "searchOneTab": {
+    "message": "OneTab میں تلاش کریں"
+  },
+  "secondExampleLink": {
+    "message": "دوسرا مثالی لنک"
+  },
+  "secondExampleLinkTitle": {
+    "message": "دوسرے مثالی لنک کا عنوان"
+  },
+  "secondExampleLinkTitleOptional": {
+    "message": "دوسرے مثالی لنک کا عنوان (اختیاری)"
+  },
+  "seeOtherTabsInThisGroup_few": {
+    "message": "اس گروپ میں {COUNT} دیگر ٹیبز دیکھیں"
+  },
+  "seeOtherTabsInThisGroup_many": {
+    "message": "اس گروپ میں {COUNT} دیگر ٹیبز دیکھیں"
+  },
+  "seeOtherTabsInThisGroup_one": {
+    "message": "اس گروپ میں {COUNT} دیگر ٹیب دیکھیں"
+  },
+  "seeOtherTabsInThisGroup_other": {
+    "message": "اس گروپ میں {COUNT} دیگر ٹیبز دیکھیں"
+  },
+  "seeOtherTabsInThisGroup_two": {
+    "message": "اس گروپ میں {COUNT} دیگر ٹیبز دیکھیں"
+  },
+  "seeOtherTabsInThisGroup_zero": {
+    "message": "اس گروپ میں {COUNT} دیگر ٹیبز دیکھیں"
+  },
+  "seePasteInstructions": {
+    "message": "پیسٹ ہدایات دیکھیں…"
+  },
+  "seeTabsInThisGroup_few": {
+    "message": "اس گروپ میں {COUNT} ٹیبز دیکھیں"
+  },
+  "seeTabsInThisGroup_many": {
+    "message": "اس گروپ میں {COUNT} ٹیبز دیکھیں"
+  },
+  "seeTabsInThisGroup_one": {
+    "message": "اس گروپ میں {COUNT} ٹیب دیکھیں"
+  },
+  "seeTabsInThisGroup_other": {
+    "message": "اس گروپ میں {COUNT} ٹیبز دیکھیں"
+  },
+  "seeTabsInThisGroup_two": {
+    "message": "اس گروپ میں {COUNT} ٹیبز دیکھیں"
+  },
+  "seeTabsInThisGroup_zero": {
+    "message": "اس گروپ میں {COUNT} ٹیبز دیکھیں"
+  },
+  "selectAll": {
+    "message": "سب منتخب کریں"
+  },
+  "selectAllExceptThis": {
+    "message": "اس کے سوا سب منتخب کریں"
+  },
+  "selectedItemCount_few": {
+    "message": "{COUNT} آئٹمز"
+  },
+  "selectedItemCount_many": {
+    "message": "{COUNT} آئٹمز"
+  },
+  "selectedItemCount_one": {
+    "message": "{COUNT} آئٹم"
+  },
+  "selectedItemCount_other": {
+    "message": "{COUNT} آئٹمز"
+  },
+  "selectedItemCount_two": {
+    "message": "{COUNT} آئٹمز"
+  },
+  "selectedItemCount_zero": {
+    "message": "{COUNT} آئٹمز"
+  },
+  "selection": {
+    "message": "انتخاب"
+  },
+  "selectThisAndAbove": {
+    "message": "یہ اور اس سے اوپر سب منتخب کریں"
+  },
+  "selectThisAndBelow": {
+    "message": "یہ اور اس سے نیچے سب منتخب کریں"
+  },
+  "sendAllTabsAllWindows": {
+    "message": "تمام ونڈوز کے تمام ٹیبز بھیجیں"
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "تمام ونڈوز کے تمام ٹیبز OneTab کو بھیجیں"
+  },
+  "sendAllTabsExceptThis": {
+    "message": "اس ٹیب کے سوا تمام ٹیبز بھیجیں"
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "اس ٹیب کے سوا تمام ٹیبز OneTab کو بھیجیں"
+  },
+  "sendAllTabsInGroup": {
+    "message": "اس ٹیب گروپ کے تمام ٹیبز بھیجیں"
+  },
+  "sendAllTabsInGroupToOneTab": {
+    "message": "اس ٹیب گروپ کے تمام ٹیبز OneTab کو بھیجیں"
+  },
+  "sendAllTabsInWindow": {
+    "message": "اس ونڈو کے تمام ٹیبز بھیجیں"
+  },
+  "sendAllTabsInWindowToOneTab": {
+    "message": "اس ونڈو کے تمام ٹیبز OneTab کو بھیجیں"
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "موجودہ ٹیب OneTab کو بھیجیں"
+  },
+  "sendLeftTabs": {
+    "message": "بائیں جانب والے ٹیبز بھیجیں"
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "بائیں جانب والے ٹیبز OneTab کو بھیجیں"
+  },
+  "sendOnlyThisTab": {
+    "message": "صرف یہ ٹیب بھیجیں"
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "صرف یہ ٹیب OneTab کو بھیجیں"
+  },
+  "sendRightTabs": {
+    "message": "دائیں جانب والے ٹیبز بھیجیں"
+  },
+  "sendRightTabsToOneTab": {
+    "message": "دائیں جانب والے ٹیبز OneTab کو بھیجیں"
+  },
+  "sendSelectedTabs": {
+    "message": "منتخب ٹیبز بھیجیں"
+  },
+  "sendSelectedTabsToOneTab": {
+    "message": "منتخب ٹیبز OneTab کو بھیجیں"
+  },
+  "sendThisWebLink": {
+    "message": "یہ ویب لنک بھیجیں"
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "یہ ویب لنک OneTab کو بھیجیں"
+  },
+  "serverUnreachable": {
+    "message": "سرور تک رسائی نہیں ہو رہی۔ براہِ کرم اپنا انٹرنیٹ کنکشن چیک کریں۔"
+  },
+  "share": {
+    "message": "شیئر کریں"
+  },
+  "shareAsAWebPage": {
+    "message": "ویب صفحہ کے طور پر شیئر کریں"
+  },
+  "shareAsAWebPageMenuItemHelp": {
+    "message": "یہ آپ کے ٹیبز پر مشتمل ایک ویب صفحہ بناتا ہے، تاکہ آپ اسے دوسروں کے ساتھ نجی یا عوامی طور پر شیئر کر سکیں۔"
+  },
+  "shared": {
+    "message": "مشترکہ"
+  },
+  "sharedExpiresColon": {
+    "message": "ویب صفحہ کے طور پر شیئر کیا گیا۔ میعاد:"
+  },
+  "sharedPageOptions": {
+    "message": "شیئرڈ صفحہ کے اختیارات"
+  },
+  "sharedPageTabLimit_few": {
+    "message": "شیئر کردہ صفحات {COUNT} ٹیبز تک محدود ہیں"
+  },
+  "sharedPageTabLimit_many": {
+    "message": "شیئر کردہ صفحات {COUNT} ٹیبز تک محدود ہیں"
+  },
+  "sharedPageTabLimit_one": {
+    "message": "شیئر کردہ صفحات {COUNT} ٹیب تک محدود ہیں"
+  },
+  "sharedPageTabLimit_other": {
+    "message": "شیئر کردہ صفحات {COUNT} ٹیبز تک محدود ہیں"
+  },
+  "sharedPageTabLimit_two": {
+    "message": "شیئر کردہ صفحات {COUNT} ٹیبز تک محدود ہیں"
+  },
+  "sharedPageTabLimit_zero": {
+    "message": "شیئر کردہ صفحات {COUNT} ٹیبز تک محدود ہیں"
+  },
+  "sharedPageWillAutomaticallyExpire": {
+    "message": "شیئرڈ صفحہ خودکار طور پر ختم ہو جائے گا، لیکن آپ کسی بھی وقت اس کی میعاد بڑھا سکتے ہیں۔"
+  },
+  "showEverything": {
+    "message": "سب کچھ دکھائیں"
+  },
+  "showFoldersOnly": {
+    "message": "صرف فولڈرز دکھائیں"
+  },
+  "showNamedItemsOnly": {
+    "message": "صرف نام والے آئٹمز دکھائیں"
+  },
+  "showNamedOnly": {
+    "message": "صرف نام والے دکھائیں"
+  },
+  "showNextCount_few": {
+    "message": "اگلے {COUNT} دکھائیں"
+  },
+  "showNextCount_many": {
+    "message": "اگلے {COUNT} دکھائیں"
+  },
+  "showNextCount_one": {
+    "message": "اگلے {COUNT} دکھائیں"
+  },
+  "showNextCount_other": {
+    "message": "اگلے {COUNT} دکھائیں"
+  },
+  "showNextCount_two": {
+    "message": "اگلے {COUNT} دکھائیں"
+  },
+  "showNextCount_zero": {
+    "message": "اگلے {COUNT} دکھائیں"
+  },
+  "showPreviousCount_few": {
+    "message": "گزشتہ {COUNT} دکھائیں"
+  },
+  "showPreviousCount_many": {
+    "message": "گزشتہ {COUNT} دکھائیں"
+  },
+  "showPreviousCount_one": {
+    "message": "گزشتہ {COUNT} دکھائیں"
+  },
+  "showPreviousCount_other": {
+    "message": "گزشتہ {COUNT} دکھائیں"
+  },
+  "showPreviousCount_two": {
+    "message": "گزشتہ {COUNT} دکھائیں"
+  },
+  "showPreviousCount_zero": {
+    "message": "گزشتہ {COUNT} دکھائیں"
+  },
+  "soon": {
+    "message": "جلد"
+  },
+  "sort": {
+    "message": "ترتیب"
+  },
+  "sortByColon": {
+    "message": "ترتیب از:"
+  },
+  "sortGroups": {
+    "message": "گروپس ترتیب دیں"
+  },
+  "sourceColon": {
+    "message": "ماخذ:"
+  },
+  "star": {
+    "message": "اسٹار"
+  },
+  "starFlagHelp": {
+    "message": "اس آئٹم پر اسٹار لگا ہے تاکہ اس کی اہمیت بصری طور پر ظاہر ہو۔ اسٹار ہٹانے کے لیے اس آئیکن پر کلک کریں۔"
+  },
+  "starMenuItemHelp": {
+    "message": "کسی چیز کی اہمیت کو بصری طور پر ظاہر کرنے کے لیے اسٹار استعمال کریں"
+  },
+  "starred": {
+    "message": "اسٹار شدہ"
+  },
+  "storeAllOpenWindowsHere": {
+    "message": "تمام کھلی ونڈوز یہاں محفوظ کریں"
+  },
+  "storeAllOpenWindowsHereMenuItemHelp": {
+    "message": "تمام کھلی براؤزر ونڈوز بند کریں اور انہیں اس فولڈر میں محفوظ کریں"
+  },
+  "storeSelectedTabsInONETAB_few": {
+    "message": "منتخب {COUNT} ٹیبز ONETAB میں محفوظ کریں"
+  },
+  "storeSelectedTabsInONETAB_many": {
+    "message": "منتخب {COUNT} ٹیبز ONETAB میں محفوظ کریں"
+  },
+  "storeSelectedTabsInONETAB_one": {
+    "message": "منتخب {COUNT} ٹیب ONETAB میں محفوظ کریں"
+  },
+  "storeSelectedTabsInONETAB_other": {
+    "message": "منتخب {COUNT} ٹیبز ONETAB میں محفوظ کریں"
+  },
+  "storeSelectedTabsInONETAB_two": {
+    "message": "منتخب {COUNT} ٹیبز ONETAB میں محفوظ کریں"
+  },
+  "storeSelectedTabsInONETAB_zero": {
+    "message": "منتخب {COUNT} ٹیبز ONETAB میں محفوظ کریں"
+  },
+  "storeTabsInAdditionalLocation_few": {
+    "message": "پھر بھی اپنے ٹیبز دوبارہ محفوظ کریں"
+  },
+  "storeTabsInAdditionalLocation_many": {
+    "message": "پھر بھی اپنے ٹیبز دوبارہ محفوظ کریں"
+  },
+  "storeTabsInAdditionalLocation_one": {
+    "message": "پھر بھی اپنا ٹیب دوبارہ محفوظ کریں"
+  },
+  "storeTabsInAdditionalLocation_other": {
+    "message": "پھر بھی اپنے ٹیبز دوبارہ محفوظ کریں"
+  },
+  "storeTabsInAdditionalLocation_two": {
+    "message": "پھر بھی اپنے ٹیبز دوبارہ محفوظ کریں"
+  },
+  "storeTabsInAdditionalLocation_zero": {
+    "message": "پھر بھی اپنے ٹیبز دوبارہ محفوظ کریں"
+  },
+  "storeTabsInONETAB_few": {
+    "message": "ٹیبز ONETAB میں محفوظ کریں"
+  },
+  "storeTabsInONETAB_many": {
+    "message": "ٹیبز ONETAB میں محفوظ کریں"
+  },
+  "storeTabsInONETAB_one": {
+    "message": "ٹیب ONETAB میں محفوظ کریں"
+  },
+  "storeTabsInONETAB_other": {
+    "message": "ٹیبز ONETAB میں محفوظ کریں"
+  },
+  "storeTabsInONETAB_two": {
+    "message": "ٹیبز ONETAB میں محفوظ کریں"
+  },
+  "storeTabsInONETAB_zero": {
+    "message": "ٹیبز ONETAB میں محفوظ کریں"
+  },
+  "subFoldersNotShared": {
+    "message": "نوٹ کریں کہ ذیلی فولڈرز شیئر نہیں کیے جاتے۔ صرف فولڈر کے اندر براہِ راست موجود ٹیبز کے گروپس شیئر ہوتے ہیں۔"
+  },
+  "tab": {
+    "message": "ٹیب"
+  },
+  "tabAlreadyStoredHere": {
+    "message": "آپ کا کھلا ٹیب پہلے ہی یہاں محفوظ ہے:"
+  },
+  "tabCaretTooltipTitleNotes": {
+    "message": "ٹیب کا عنوان اور نوٹس تدوین کریں"
+  },
+  "tabCaretTooltipTitleNotesUrl": {
+    "message": "ٹیب کا عنوان، URL اور نوٹس تدوین کریں"
+  },
+  "tabCount_few": {
+    "message": "{COUNT} ٹیبز"
+  },
+  "tabCount_many": {
+    "message": "{COUNT} ٹیبز"
+  },
+  "tabCount_one": {
+    "message": "{COUNT} ٹیب"
+  },
+  "tabCount_other": {
+    "message": "{COUNT} ٹیبز"
+  },
+  "tabCount_two": {
+    "message": "{COUNT} ٹیبز"
+  },
+  "tabCount_zero": {
+    "message": "{COUNT} ٹیبز"
+  },
+  "tabGroupColorColon": {
+    "message": "ٹیب گروپ کا رنگ:"
+  },
+  "tabGroupIndicatorTooltipHelp": {
+    "message": "یہ گروپ براؤزر کے ٹیب گروپ کے طور پر کھلنے کے لیے تشکیل شدہ ہے۔ آپ یہ سیٹنگ 'مزید…' مینو میں تبدیل کر سکتے ہیں"
+  },
+  "tabPinFlagHelp": {
+    "message": "یہ ٹیب براؤزر کے پن کیے گئے ٹیب کے طور پر بحال ہوگا۔ اَن پن کرنے کے لیے اس آئیکن پر کلک کریں۔"
+  },
+  "tabs": {
+    "message": "ٹیبز"
+  },
+  "tabsFromExcludedDomains": {
+    "message": "خارج کردہ ڈومینز کے ٹیبز"
+  },
+  "tabShortcutInfo": {
+    "message": "OneTab صفحے میں، مرکز کالم میں گروپس کے درمیان فوکس منتقل کرنے کے لیے Tab کلید دبائیں۔ یہ گروپس پر تیزی سے آگے بڑھنے کو آسان بناتا ہے، خاص طور پر اگر وہ بڑے ہوں۔ اگر کسی گروپ پر فوکس ہو، تو اسے کھولنے کے لیے Enter دبائیں۔ فوکس پیچھے لے جانے کے لیے Shift+Tab استعمال کریں۔ پیرنٹ فولڈر پر جانے کے لیے Backspace دبائیں۔"
+  },
+  "tabsInTabGroups": {
+    "message": "ٹیب گروپس میں موجود ٹیبز"
+  },
+  "tabTotalCount_few": {
+    "message": "کل: {COUNT} ٹیبز"
+  },
+  "tabTotalCount_many": {
+    "message": "کل: {COUNT} ٹیبز"
+  },
+  "tabTotalCount_one": {
+    "message": "کل: {COUNT} ٹیب"
+  },
+  "tabTotalCount_other": {
+    "message": "کل: {COUNT} ٹیبز"
+  },
+  "tabTotalCount_two": {
+    "message": "کل: {COUNT} ٹیبز"
+  },
+  "tabTotalCount_zero": {
+    "message": "کل: {COUNT} ٹیبز"
+  },
+  "tasks": {
+    "message": "ٹاسکس"
+  },
+  "tasksDone": {
+    "message": "ٹاسکس (مکمل)"
+  },
+  "tasksPending": {
+    "message": "ٹاسکس (زیر التواء)"
+  },
+  "tasksWillAppearHere": {
+    "message": "اگر آپ اپنی کسی ٹیب یا گروپ کو ٹاسک کے طور پر نشان لگائیں، تو وہ یہاں دکھائی دیں گے۔"
+  },
+  "taskTotalCount_few": {
+    "message": "{COUNT} کل"
+  },
+  "taskTotalCount_many": {
+    "message": "{COUNT} کل"
+  },
+  "taskTotalCount_one": {
+    "message": "{COUNT} کل"
+  },
+  "taskTotalCount_other": {
+    "message": "{COUNT} کل"
+  },
+  "taskTotalCount_two": {
+    "message": "{COUNT} کل"
+  },
+  "taskTotalCount_zero": {
+    "message": "{COUNT} کل"
+  },
+  "thenClickToolbarIcon": {
+    "message": "پھر، OneTab استعمال کرنے کے لیے OneTab ٹول بار آئیکن پر دوبارہ کلک کریں۔"
+  },
+  "thisFolderIsEmpty": {
+    "message": "یہ فولڈر خالی ہے"
+  },
+  "thisTab": {
+    "message": "یہ ٹیب"
+  },
+  "thisTabGroup": {
+    "message": "یہ ٹیب گروپ"
+  },
+  "thisTabNotStored": {
+    "message": "یہ ٹیب OneTab میں محفوظ نہیں ہے"
+  },
+  "thisWindow": {
+    "message": "یہ ونڈو"
+  },
+  "tickOrUntickToExclude": {
+    "message": "ویب سائٹ کو خارج کرنے کے لیے ٹِک کریں یا ٹِک ہٹائیں"
+  },
+  "title": {
+    "message": "عنوان"
+  },
+  "toAddOrRemoveExclusions": {
+    "message": "اخراج کی فہرست میں ویب سائٹ شامل یا ہٹانے کے لیے:"
+  },
+  "toAllowOneTabInIncognito": {
+    "message": "انکوگنیٹو ونڈوز میں OneTab آئیکن دکھانے کی اجازت دینے کے لیے: "
+  },
+  "toImportBrowserBookmarksUseMenuOption": {
+    "message": "براؤزر بک مارکس سے درآمد کرنے کے لیے، اپنے OneTab صفحے پر مینو آپشن 'لنکس یہاں درآمد کریں' استعمال کریں"
+  },
+  "toMakeOpenButtonWorkApprovePermission": {
+    "message": "شیئرڈ صفحات پر 'کھولیں' بٹن کو فعال کرنے کے لیے، براہِ کرم اجازت کی درخواست منظور کریں۔"
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "ٹیبز بہت زیادہ ہیں؟ اپنی ٹیبز کو فہرست میں تبدیل کریں اور Firefox کو تیز کریں"
+  },
+  "tooManyTabsSpeedUpSafari": {
+    "message": "ٹیبز بہت زیادہ ہیں؟ اپنی ٹیبز کو فہرست میں تبدیل کریں اور Safari کو تیز کریں"
+  },
+  "toSaveChangesClickButton": {
+    "message": "اپنی تبدیلیاں محفوظ کرنے کے لیے، بٹن پر کلک کریں"
+  },
+  "total0Tabs": {
+    "message": "کل: 0 ٹیبز"
+  },
+  "trash": {
+    "message": "ردی"
+  },
+  "unlock": {
+    "message": "ان لاک کریں"
+  },
+  "unmarkAsArchived": {
+    "message": "آرکائیو کا نشان ہٹائیں"
+  },
+  "unMarkAsTask": {
+    "message": "ٹاسک کا نشان ہٹائیں"
+  },
+  "unpin": {
+    "message": "اَن پن کریں"
+  },
+  "unshare": {
+    "message": "شیئر ختم کریں"
+  },
+  "untitled": {
+    "message": "بلا عنوان"
+  },
+  "update": {
+    "message": "اپ ڈیٹ کریں"
+  },
+  "userLanguage": {
+    "message": "اردو"
+  },
+  "website": {
+    "message": "ویب سائٹ"
+  },
+  "yearCount_few": {
+    "message": "{COUNT} سال"
+  },
+  "yearCount_many": {
+    "message": "{COUNT} سال"
+  },
+  "yearCount_one": {
+    "message": "{COUNT} سال"
+  },
+  "yearCount_other": {
+    "message": "{COUNT} سال"
+  },
+  "yearCount_two": {
+    "message": "{COUNT} سال"
+  },
+  "yearCount_zero": {
+    "message": "{COUNT} سال"
+  },
+  "yourTabAlreadyStoredHere": {
+    "message": "آپ کا ٹیب پہلے ہی یہاں محفوظ ہے:"
+  }
+}

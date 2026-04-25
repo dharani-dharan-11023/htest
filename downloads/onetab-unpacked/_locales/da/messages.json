@@ -1,0 +1,2015 @@
+{
+  "95PctMemoryReduction": {
+    "message": "95% mindre hukommelsesforbrug"
+  },
+  "about": {
+    "message": "Om"
+  },
+  "actionPopupOverrideNote": {
+    "message": "Denne indstilling kan tilsidesættes i pop op-vinduet (hvis du har aktiveret det)."
+  },
+  "aDashZ": {
+    "message": "A-Å"
+  },
+  "addOneTabNow": {
+    "message": "Tilføj OneTab nu"
+  },
+  "all": {
+    "message": "Alle"
+  },
+  "allBookmarks": {
+    "message": "Alle bogmærker"
+  },
+  "allOpenTabsAlreadyStoredHere_few": {
+    "message": "Alle åbne faner er allerede gemt her:"
+  },
+  "allOpenTabsAlreadyStoredHere_many": {
+    "message": "Alle åbne faner er allerede gemt her:"
+  },
+  "allOpenTabsAlreadyStoredHere_one": {
+    "message": "Alle åbne faner er allerede gemt her:"
+  },
+  "allOpenTabsAlreadyStoredHere_other": {
+    "message": "Alle åbne faner er allerede gemt her:"
+  },
+  "allOpenTabsAlreadyStoredHere_two": {
+    "message": "Alle åbne faner er allerede gemt her:"
+  },
+  "allOpenTabsAlreadyStoredHere_zero": {
+    "message": "Alle åbne faner er allerede gemt her:"
+  },
+  "allowFileAccessInstructions": {
+    "message": "For at tillade, at filer åbnes direkte, gå til Indstillinger ➝ Udvidelser ➝ OneTab ➝ Detaljer ➝ Tillad adgang til fil-URL'er"
+  },
+  "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+    "message": "Alle åbne faner, som allerede findes i denne gruppe, bliver lukket efter fletningen."
+  },
+  "alternatePlainTextFormat": {
+    "message": "Alternativt kan ren tekst have formatet:"
+  },
+  "approve": {
+    "message": "Godkend"
+  },
+  "archived": {
+    "message": "Arkiveret"
+  },
+  "autoTheme": {
+    "message": "Automatisk (brug operativsystemets indstilling)"
+  },
+  "backupAndSync": {
+    "message": "Backup & synkronisering"
+  },
+  "betaReleaseReportBugsHere": {
+    "message": "Betaversion – Rapporter fejl her"
+  },
+  "bookmarkCount_few": {
+    "message": "{COUNT} bogmærker"
+  },
+  "bookmarkCount_many": {
+    "message": "{COUNT} bogmærker"
+  },
+  "bookmarkCount_one": {
+    "message": "{COUNT} bogmærke"
+  },
+  "bookmarkCount_other": {
+    "message": "{COUNT} bogmærker"
+  },
+  "bookmarkCount_two": {
+    "message": "{COUNT} bogmærker"
+  },
+  "bookmarkCount_zero": {
+    "message": "{COUNT} bogmærker"
+  },
+  "bookmarksPermissionNecesssary": {
+    "message": "Tilladelsen til bogmærker er nødvendig for at give OneTab mulighed for at importere dine browserbogmærker"
+  },
+  "bulkActions": {
+    "message": "Massehandlinger"
+  },
+  "cancel": {
+    "message": "Annuller"
+  },
+  "canDragTextNote": {
+    "message": "Bemærk: Det er også muligt at trække og slippe tekst, der indeholder weblinks, direkte fra en anden webside eller fra et dokument. Du kan trække teksten direkte ind på din OneTab-side uden at bruge denne importboks."
+  },
+  "cannotConnectToServerDeletionRequestQueued": {
+    "message": "Kan ikke oprette forbindelse til OneTab-serveren. Kontrollér din internetforbindelse. Din anmodning om at slette den delte side er sat i kø lokalt og bliver automatisk sendt til OneTab-serveren, så snart den igen kan nås."
+  },
+  "cannotCreateTabGroupInTabGroup": {
+    "message": "Din valgte destination er en fanegruppe. Du kan ikke oprette en fanegruppe inde i en eksisterende fanegruppe. Vælg en anden destination."
+  },
+  "cannotMixTabsGroupsFoldersDuringDrag": {
+    "message": "Det er ikke muligt at blande faner, grupper og mapper, når du trækker. For eksempel kan du ikke trække en mappe de samme steder hen, som du kan trække en fane."
+  },
+  "cannotMoveItemAncestorHere": {
+    "message": "Et overordnet element kan ikke flyttes ind i sit eget underelement, da det ville skabe en løkke."
+  },
+  "cannotMoveItemIntoItself": {
+    "message": "Et element kan ikke flyttes ind i sig selv."
+  },
+  "canPasteWebContentForExample": {
+    "message": "Du kan indsætte tekst kopieret fra en webside eller et dokument, og links udtrækkes automatisk. For eksempel:"
+  },
+  "caseSensitive": {
+    "message": "Skeln mellem store og små bogstaver"
+  },
+  "changesMadeSinceSharedPageCreation": {
+    "message": "Dine gemte faner er blevet ændret, siden du delte denne side. Klik på knappen 'Opdater' for at opdatere den eksisterende delte side."
+  },
+  "changeThisSettingAtAnyTimeInfo": {
+    "message": "Du kan ændre denne indstilling når som helst ved at klikke på knappen 'Indstillinger' øverst på din OneTab-side."
+  },
+  "changeThisSettingAtAnyTimeInfoHtml": {
+    "message": "Du kan ændre dette senere under <b>Indstillinger</b>."
+  },
+  "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+    "message": "Afkrydsningsfelterne øverst på siden bestemmer, om fastgjorte faner eller faner i fanegrupper medtages i fletningen."
+  },
+  "chooseALocation": {
+    "message": "Vælg en placering"
+  },
+  "chooseALocationToImportTo": {
+    "message": "Vælg en placering at importere til"
+  },
+  "chooseExportLocation": {
+    "message": "Vælg en placering at eksportere fra"
+  },
+  "chooseLightDarkTheme": {
+    "message": "Vælg lyst/mørkt tema"
+  },
+  "chooseLocationToCopyTo": {
+    "message": "Vælg en placering at kopiere til"
+  },
+  "chooseLocationToMoveTo": {
+    "message": "Vælg en placering at flytte til"
+  },
+  "chooseLocationToRestoreTo": {
+    "message": "Vælg en placering at gendanne til"
+  },
+  "chooseToIncludeNotes": {
+    "message": "Hvis du har tilføjet noter til faner eller grupper, kan du vælge, om de skal medtages på den delte webside"
+  },
+  "chooseToIncludeRatings": {
+    "message": "Hvis du har tilføjet stjerner til faner eller grupper, kan du vælge, om de skal medtages på den delte webside"
+  },
+  "chromeIncognitoInstructions": {
+    "message": "Gå i browserens indstillinger til 'Indstillinger' → 'Udvidelser' → 'OneTab' → 'Detaljer', og aktiver derefter 'Tillad i inkognitotilstand'."
+  },
+  "clickButtonToAllowTabAccess": {
+    "message": "Klik på knappen herunder for at give OneTab adgang til dine åbne faner."
+  },
+  "clickHereToContinue": {
+    "message": "Klik her for at fortsætte."
+  },
+  "clickOneTabIconToStoreTabsHere": {
+    "message": "Klik på OneTab-ikonet i din browsers værktøjslinje for at gemme dine åbne faner her."
+  },
+  "closeSelectedTabs_few": {
+    "message": "Luk {COUNT} valgte faner"
+  },
+  "closeSelectedTabs_many": {
+    "message": "Luk {COUNT} valgte faner"
+  },
+  "closeSelectedTabs_one": {
+    "message": "Luk {COUNT} valgt fane"
+  },
+  "closeSelectedTabs_other": {
+    "message": "Luk {COUNT} valgte faner"
+  },
+  "closeSelectedTabs_two": {
+    "message": "Luk {COUNT} valgte faner"
+  },
+  "closeSelectedTabs_zero": {
+    "message": "Luk {COUNT} valgte faner"
+  },
+  "closeSelectedTabsAndStoreInONETAB_few": {
+    "message": "Luk {COUNT} valgte faner og gem i ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_many": {
+    "message": "Luk {COUNT} valgte faner og gem i ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_one": {
+    "message": "Luk {COUNT} valgt fane og gem i ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_other": {
+    "message": "Luk {COUNT} valgte faner og gem i ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_two": {
+    "message": "Luk {COUNT} valgte faner og gem i ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_zero": {
+    "message": "Luk {COUNT} valgte faner og gem i ONETAB"
+  },
+  "closeTabs_few": {
+    "message": "Luk faner"
+  },
+  "closeTabs_many": {
+    "message": "Luk faner"
+  },
+  "closeTabs_one": {
+    "message": "Luk fane"
+  },
+  "closeTabs_other": {
+    "message": "Luk faner"
+  },
+  "closeTabs_two": {
+    "message": "Luk faner"
+  },
+  "closeTabs_zero": {
+    "message": "Luk faner"
+  },
+  "closeTabsAfterMerge": {
+    "message": "Luk faner efter fletning"
+  },
+  "closeTabsAlreadyStoredInOneTab_few": {
+    "message": "Luk {COUNT} faner, der allerede er gemt i OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_many": {
+    "message": "Luk {COUNT} faner, der allerede er gemt i OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_one": {
+    "message": "Luk {COUNT} fane, der allerede er gemt i OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_other": {
+    "message": "Luk {COUNT} faner, der allerede er gemt i OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_two": {
+    "message": "Luk {COUNT} faner, der allerede er gemt i OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_zero": {
+    "message": "Luk {COUNT} faner, der allerede er gemt i OneTab"
+  },
+  "closeTabsAndStore_few": {
+    "message": "Luk faner og gem i ONETAB"
+  },
+  "closeTabsAndStore_many": {
+    "message": "Luk faner og gem i ONETAB"
+  },
+  "closeTabsAndStore_one": {
+    "message": "Luk fane og gem i ONETAB"
+  },
+  "closeTabsAndStore_other": {
+    "message": "Luk faner og gem i ONETAB"
+  },
+  "closeTabsAndStore_two": {
+    "message": "Luk faner og gem i ONETAB"
+  },
+  "closeTabsAndStore_zero": {
+    "message": "Luk faner og gem i ONETAB"
+  },
+  "closeTheseDuplicates_few": {
+    "message": "Luk disse duplikater"
+  },
+  "closeTheseDuplicates_many": {
+    "message": "Luk disse duplikater"
+  },
+  "closeTheseDuplicates_one": {
+    "message": "Luk dette duplikat"
+  },
+  "closeTheseDuplicates_other": {
+    "message": "Luk disse duplikater"
+  },
+  "closeTheseDuplicates_two": {
+    "message": "Luk disse duplikater"
+  },
+  "closeTheseDuplicates_zero": {
+    "message": "Luk disse duplikater"
+  },
+  "completedTaskFlagHelp": {
+    "message": "Dette element er en opgave. Klik på dette ikon for at markere den som afventende (ikke fuldført)."
+  },
+  "completeEditingShortcutInfo": {
+    "message": "Når du redigerer et notefelt, skal du bruge denne genvej for at afslutte redigeringen."
+  },
+  "configureShortcuts": {
+    "message": "Konfigurer genveje"
+  },
+  "conflictingShortcutsHint": {
+    "message": "Hvis nogle af genvejene ovenfor ikke virker eller konflikter med andre programmer, kan du konfigurere en anden genvejstast."
+  },
+  "continue": {
+    "message": "Fortsæt"
+  },
+  "convertTabsIntoAList": {
+    "message": "Konverter faner til en liste"
+  },
+  "copiedToClipboard": {
+    "message": "Kopieret til udklipsholderen"
+  },
+  "copy": {
+    "message": "Kopiér"
+  },
+  "copyLinksToClipboard": {
+    "message": "Kopiér links til udklipsholderen"
+  },
+  "copySharedPageUrl": {
+    "message": "Kopiér URL til den delte side"
+  },
+  "copyToClipboard": {
+    "message": "Kopiér til udklipsholderen"
+  },
+  "copyToClipboardMenuItemHelp": {
+    "message": "Kopiér disse weblinks til udklipsholderen, så du kan indsætte dem i andre programmer. Du kan ændre tekstformatet for udklipsholderen på OneTab-indstillingssiden."
+  },
+  "createANewGroupHere": {
+    "message": "Opret en ny gruppe her"
+  },
+  "createdOnOrAfterColon": {
+    "message": "Oprettet på eller efter:"
+  },
+  "createdOnOrBeforeColon": {
+    "message": "Oprettet på eller før:"
+  },
+  "createdPreceedingDate": {
+    "message": "Oprettet"
+  },
+  "createFolderAbove": {
+    "message": "Opret mappe over"
+  },
+  "createFolderAboveBelow": {
+    "message": "Opret mappe over / under"
+  },
+  "createFolderAboveWithinBelow": {
+    "message": "Opret mappe over / i / under"
+  },
+  "createFolderBelow": {
+    "message": "Opret mappe under"
+  },
+  "createFolderWithin": {
+    "message": "Opret mappe i"
+  },
+  "createFolderWithinMenuItemHelp": {
+    "message": "Mapper bruges til at organisere grupper af faner. Mapper indeholder grupper, og grupper indeholder faner."
+  },
+  "createGroupAbove": {
+    "message": "Opret gruppe over"
+  },
+  "createGroupAboveBelow": {
+    "message": "Opret gruppe over / under"
+  },
+  "createGroupAboveWithinBelow": {
+    "message": "Opret gruppe over / i / under"
+  },
+  "createGroupBelow": {
+    "message": "Opret gruppe under"
+  },
+  "createGroupInsideDestination": {
+    "message": "Opret ny gruppe i destinationen"
+  },
+  "createGroupInsideDestinationHelp": {
+    "message": "Hvis feltet ikke er markeret, tilføjes dine faner direkte i destinationsgruppen. Hvis det er markeret, oprettes der en ny fanegruppe i browseren til dine faner inden i destinationsgruppen. Markér kun dette felt, hvis du vil bruge din browsers funktion \"fanegrupper\"."
+  },
+  "createGroupMenuItemHelp": {
+    "message": "Opret en ny, tom gruppe. En gruppe indeholder en liste over faner, som samlet kan gendannes i et vindue."
+  },
+  "createGroupWithin": {
+    "message": "Opret gruppe i"
+  },
+  "createNewGroupTip": {
+    "message": "For at oprette en ny gruppe skal du først fjerne markeringen i \"Vis kun mapper\". Så kan du se den nyoprettede gruppe på listen."
+  },
+  "darkTheme": {
+    "message": "Mørkt tema"
+  },
+  "dayCount_few": {
+    "message": "{COUNT} dage"
+  },
+  "dayCount_many": {
+    "message": "{COUNT} dage"
+  },
+  "dayCount_one": {
+    "message": "{COUNT} dag"
+  },
+  "dayCount_other": {
+    "message": "{COUNT} dage"
+  },
+  "dayCount_two": {
+    "message": "{COUNT} dage"
+  },
+  "dayCount_zero": {
+    "message": "{COUNT} dage"
+  },
+  "delete": {
+    "message": "Slet"
+  },
+  "deleteAllTrash": {
+    "message": "Slet alt i papirkurven"
+  },
+  "deleteThisCopy": {
+    "message": "Slet denne kopi"
+  },
+  "deselectAll": {
+    "message": "Fravælg alle"
+  },
+  "destinationColon": {
+    "message": "Destination:"
+  },
+  "disabled": {
+    "message": "Deaktiveret"
+  },
+  "doneTaskCount_few": {
+    "message": "{COUNT} fuldførte"
+  },
+  "doneTaskCount_many": {
+    "message": "{COUNT} fuldførte"
+  },
+  "doneTaskCount_one": {
+    "message": "{COUNT} fuldført"
+  },
+  "doneTaskCount_other": {
+    "message": "{COUNT} fuldførte"
+  },
+  "doneTaskCount_two": {
+    "message": "{COUNT} fuldførte"
+  },
+  "doneTaskCount_zero": {
+    "message": "{COUNT} fuldførte"
+  },
+  "dontCloseGroupedTabs": {
+    "message": "Luk ikke faner i fanegrupper"
+  },
+  "dontClosePinnedTabs": {
+    "message": "Luk ikke fastgjorte faner"
+  },
+  "dontCloseTabsFromDomains": {
+    "message": "Luk ikke faner fra EXAMPLE.COM"
+  },
+  "dragCopyModifierInfo": {
+    "message": "Hold Ctrl- eller Alt-tasten nede, når du slipper en fane, for at oprette en kopi af den i stedet for at flytte den."
+  },
+  "dragTabsHereForQuickList": {
+    "message": "Træk dine gemte faner eller grupper hertil. De bliver føjet til din hurtigliste."
+  },
+  "editTabGroupTitleAndNotes": {
+    "message": "Rediger fanegruppens titel og noter"
+  },
+  "emojiShortcutInfo": {
+    "message": "Når du redigerer et notefelt, skal du bruge denne genvej for at åbne emoji-vælgeren."
+  },
+  "emptyInBrackets": {
+    "message": "(tom)"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "Når du har flere faner åbne, skal du klikke på OneTab-ikonet på din browsers værktøjslinje, så vises dine åbne faner her."
+  },
+  "enabled": {
+    "message": "Aktiveret"
+  },
+  "encryptedSyncAndBackup": {
+    "message": "Krypteret synkronisering og backup"
+  },
+  "encryptedSyncAndBackupComingSoonMessage": {
+    "message": "Kommer snart: Du kan synkronisere dine OneTab-data på tværs af flere browserprofiler og computere.\nOneTab er fuldstændigt omskrevet, så ændringer på én enhed straks vises på alle andre enheder.\nHvis du bruger denne funktion, bliver dine data ende-til-ende-krypteret med stærk AES-256-kryptering. Det gør det umuligt for OneTab-udviklerne at se de faner, du har sikkerhedskopieret eller synkroniseret mellem enheder, fordi kun du har krypteringsnøglen."
+  },
+  "everything": {
+    "message": "Alt"
+  },
+  "exampleLink": {
+    "message": "Eksempellink"
+  },
+  "exampleLinkTitle": {
+    "message": "Eksempellink-titel"
+  },
+  "exampleLinkTitleOptional": {
+    "message": "Eksempellink-titel (valgfrit)"
+  },
+  "exampleRichTextParagraph": {
+    "message": "Eksempel på tekstafsnit med PLACEHOLDER og PLACEHOLDER"
+  },
+  "exampleWebsitePageTitle": {
+    "message": "Eksempel på websidetitel"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "Udeluk EXAMPLE.COM fra OneTab"
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "Udeluk dette websted fra OneTab"
+  },
+  "expiresColon": {
+    "message": "Udløber:"
+  },
+  "export": {
+    "message": "Eksportér"
+  },
+  "exportImportUrls": {
+    "message": "Eksportér / Importér URL'er"
+  },
+  "exportThenImportNote": {
+    "message": "Den følgende liste med URL'er kan også importeres tilbage i OneTab på denne eller en anden computer"
+  },
+  "exportUrls": {
+    "message": "Eksportér URL'er"
+  },
+  "feedback": {
+    "message": "Feedback"
+  },
+  "filter": {
+    "message": "Filter"
+  },
+  "firefoxIncognitoInstructions": {
+    "message": "Gå i browserens indstillinger til 'Indstillinger' → 'Tilføjelser og temaer' → 'Udvidelser' → 'OneTab' → '...' → 'Administrer', og aktiver derefter 'Kør i private vinduer'."
+  },
+  "firefoxShortcutConfigInstructions": {
+    "message": "Indtast URL'en \"about:addons?type=extension\" i din browsers adresselinje. Når siden vises, klik på tandhjulsikonet, og vælg derefter \"Administrer genveje til udvidelser\""
+  },
+  "Folder": {
+    "message": "Mappe"
+  },
+  "folderCount_few": {
+    "message": "{COUNT} mapper"
+  },
+  "folderCount_many": {
+    "message": "{COUNT} mapper"
+  },
+  "folderCount_one": {
+    "message": "{COUNT} mappe"
+  },
+  "folderCount_other": {
+    "message": "{COUNT} mapper"
+  },
+  "folderCount_two": {
+    "message": "{COUNT} mapper"
+  },
+  "folderCount_zero": {
+    "message": "{COUNT} mapper"
+  },
+  "folders": {
+    "message": "Mapper"
+  },
+  "foldersOnly": {
+    "message": "Kun mapper"
+  },
+  "gettingStarted": {
+    "message": "Kom godt i gang"
+  },
+  "gotIt": {
+    "message": "Forstået"
+  },
+  "goToParentFolder": {
+    "message": "Gå til overordnet mappe"
+  },
+  "groupCount_few": {
+    "message": "{COUNT} grupper"
+  },
+  "groupCount_many": {
+    "message": "{COUNT} grupper"
+  },
+  "groupCount_one": {
+    "message": "{COUNT} gruppe"
+  },
+  "groupCount_other": {
+    "message": "{COUNT} grupper"
+  },
+  "groupCount_two": {
+    "message": "{COUNT} grupper"
+  },
+  "groupCount_zero": {
+    "message": "{COUNT} grupper"
+  },
+  "groups": {
+    "message": "Grupper"
+  },
+  "hasNotes": {
+    "message": "Har noter"
+  },
+  "help": {
+    "message": "Hjælp"
+  },
+  "hideArchivedItems": {
+    "message": "Skjul arkiverede elementer"
+  },
+  "import": {
+    "message": "Importér"
+  },
+  "importAndExport": {
+    "message": "Importér & eksportér"
+  },
+  "importBookmarks": {
+    "message": "Importér bogmærker"
+  },
+  "importedBookmarks": {
+    "message": "Importerede bogmærker"
+  },
+  "importFolderAndSubfolders": {
+    "message": "Importér mappe og undermapper"
+  },
+  "importLinksHere": {
+    "message": "Importér links her"
+  },
+  "importLinksHereMenuItemHelp": {
+    "message": "Du kan indsætte en liste med weblinks eller importere browserbogmærker."
+  },
+  "importReadingList": {
+    "message": "Importér læseliste"
+  },
+  "importText": {
+    "message": "Importér tekst"
+  },
+  "importUrls": {
+    "message": "Importér URL'er"
+  },
+  "includeGroupedTabs": {
+    "message": "Medtag faner i fanegrupper"
+  },
+  "includeNotes": {
+    "message": "Medtag noter"
+  },
+  "includePinnedTabs": {
+    "message": "Medtag fastgjorte faner"
+  },
+  "includeStarRatings": {
+    "message": "Medtag stjerner"
+  },
+  "includeTabsAlreadyStored": {
+    "message": "Medtag faner, du allerede har gemt"
+  },
+  "includeTabsFromDomains": {
+    "message": "Medtag faner fra EXAMPLE.COM"
+  },
+  "incogitoPermissionRequired": {
+    "message": "OneTab skal have tilladelse til at oprette inkognitovinduer."
+  },
+  "incognitoWindows": {
+    "message": "Inkognitovinduer"
+  },
+  "invertSelection": {
+    "message": "Vend markering"
+  },
+  "justNow": {
+    "message": "for et øjeblik siden"
+  },
+  "keyboardShortcutsColon": {
+    "message": "Tastaturgenveje:"
+  },
+  "languageTitle": {
+    "message": "Sprog:"
+  },
+  "lightTheme": {
+    "message": "Lyst tema"
+  },
+  "localeId": {
+    "message": "da"
+  },
+  "locationColon": {
+    "message": "Placering:"
+  },
+  "lock": {
+    "message": "Lås"
+  },
+  "lockedGroupUnlockHelp": {
+    "message": "For at låse op skal du bruge menuen 'Mere…'. Når en gruppe er låst, kan du ikke slette gruppen eller dens faner, og faner kan ikke omarrangeres."
+  },
+  "lockMenuItemHelp": {
+    "message": "Når en gruppe er låst, kan du ikke fjerne eller omarrangere elementer i gruppen (før du låser gruppen op)."
+  },
+  "makeThisATask": {
+    "message": "Gør dette til en opgave"
+  },
+  "manifestDescription": {
+    "message": "Spar op til 95% hukommelse og reducer fane-rod"
+  },
+  "markAsArchived": {
+    "message": "Markér som arkiveret"
+  },
+  "markAsArchivedMenuItemHelp": {
+    "message": "Når du markerer et element som arkiveret, får det en grå baggrund. Det er en visuel indikator for, at du er færdig med dette element (f.eks. en artikel, du er færdig med at læse). Hvis du arkiverer noget, der er markeret som en opgave, vises opgaven ikke længere i opgavekolonnen på din OneTab-side."
+  },
+  "markAsDoneTask": {
+    "message": "Markér som fuldført opgave"
+  },
+  "markAsDoneTaskMenuItemHelp": {
+    "message": "Angiv visuelt, at en opgave er fuldført"
+  },
+  "markAsPendingTask": {
+    "message": "Markér som afventende opgave"
+  },
+  "markAsPendingTaskMenuItemHelp": {
+    "message": "Angiv visuelt, at dette element er en opgave. Et opgaveikon vises, som du derefter kan klikke på for visuelt at angive, at opgaven er fuldført. Alle opgaver (medmindre de er markeret som arkiverede) vises også i opgavekolonnen på din OneTab-side."
+  },
+  "matchCount_few": {
+    "message": "{COUNT} resultater"
+  },
+  "matchCount_many": {
+    "message": "{COUNT} resultater"
+  },
+  "matchCount_one": {
+    "message": "{COUNT} resultat"
+  },
+  "matchCount_other": {
+    "message": "{COUNT} resultater"
+  },
+  "matchCount_two": {
+    "message": "{COUNT} resultater"
+  },
+  "matchCount_zero": {
+    "message": "{COUNT} resultater"
+  },
+  "matchWholeWordsOnly": {
+    "message": "Match kun hele ord"
+  },
+  "mayNeedToRestartBrowser": {
+    "message": "Hvis du ser denne besked hver gang, skal du opdatere og genstarte din browser."
+  },
+  "mergeIntoParent": {
+    "message": "Flet ind i det overordnede element"
+  },
+  "mergeOpenTabsHere_few": {
+    "message": "Flet {COUNT} åbne faner her"
+  },
+  "mergeOpenTabsHere_many": {
+    "message": "Flet {COUNT} åbne faner her"
+  },
+  "mergeOpenTabsHere_one": {
+    "message": "Flet {COUNT} åben fane her"
+  },
+  "mergeOpenTabsHere_other": {
+    "message": "Flet {COUNT} åbne faner her"
+  },
+  "mergeOpenTabsHere_two": {
+    "message": "Flet {COUNT} åbne faner her"
+  },
+  "mergeOpenTabsHere_zero": {
+    "message": "Flet {COUNT} åbne faner her"
+  },
+  "mergeSelectedTabsHere_few": {
+    "message": "Flet {COUNT} valgte faner her"
+  },
+  "mergeSelectedTabsHere_many": {
+    "message": "Flet {COUNT} valgte faner her"
+  },
+  "mergeSelectedTabsHere_one": {
+    "message": "Flet {COUNT} valgt fane her"
+  },
+  "mergeSelectedTabsHere_other": {
+    "message": "Flet {COUNT} valgte faner her"
+  },
+  "mergeSelectedTabsHere_two": {
+    "message": "Flet {COUNT} valgte faner her"
+  },
+  "mergeSelectedTabsHere_zero": {
+    "message": "Flet {COUNT} valgte faner her"
+  },
+  "mergeWithInnerGroups": {
+    "message": "Flet med undergrupper"
+  },
+  "modalMoveToTrashHintExampleGroupTitle": {
+    "message": "Eksempel på gruppetitel"
+  },
+  "modalMoveToTrashHintHeading": {
+    "message": "Tip: Hold markøren over en gruppetitel, og klik derefter på X for at flytte den til papirkurven."
+  },
+  "modalOptionAutoActionOnOpenHeading": {
+    "message": "Efter gendannelse af faner:"
+  },
+  "modalOptionAutoActionOnOpenOpenDesc": {
+    "message": "Slet manuelt, når du er færdig"
+  },
+  "modalOptionAutoActionOnOpenTrashDesc": {
+    "message": "Nemmere til hurtig gemning og gendannelse"
+  },
+  "modalRemigrationDontAskAgain": {
+    "message": "Spørg ikke igen"
+  },
+  "modalRemigrationFooterHtml": {
+    "message": "Klik på <b>Ja</b>, medmindre migreringen allerede er sket, og du bevidst har slettet de migrerede faner."
+  },
+  "modalRemigrationNotNow": {
+    "message": "Ikke nu"
+  },
+  "modalRemigrationTabsFoundPrompt_few": {
+    "message": "{COUNT} faner fra OneTab v1 fundet. Vil du migrere dem?"
+  },
+  "modalRemigrationTabsFoundPrompt_many": {
+    "message": "{COUNT} faner fra OneTab v1 fundet. Vil du migrere dem?"
+  },
+  "modalRemigrationTabsFoundPrompt_one": {
+    "message": "{COUNT} tab fra OneTab v1 fundet. Vil du migrere den?"
+  },
+  "modalRemigrationTabsFoundPrompt_other": {
+    "message": "{COUNT} faner fra OneTab v1 fundet. Vil du migrere dem?"
+  },
+  "modalRemigrationTabsFoundPrompt_two": {
+    "message": "{COUNT} faner fra OneTab v1 fundet. Vil du migrere dem?"
+  },
+  "modalRemigrationTabsFoundPrompt_zero": {
+    "message": "{COUNT} faner fra OneTab v1 fundet. Vil du migrere dem?"
+  },
+  "modalRemigrationYes": {
+    "message": "Ja"
+  },
+  "modalUpdateToV2Heading": {
+    "message": "OneTab er blevet opdateret"
+  },
+  "modalUpdateToV2QuickTourHtml": {
+    "message": "Vil du have en hurtig rundvisning? Klik på <b>Hjælp</b> øverst."
+  },
+  "modalUpdateToV2UseOneTabLikeBefore": {
+    "message": "Du kan stadig bruge OneTab som før – gem dine faner med et enkelt klik."
+  },
+  "modifySharing": {
+    "message": "Redigér deling"
+  },
+  "moreEllipsis": {
+    "message": "Mere…"
+  },
+  "moreSearchFilters": {
+    "message": "Flere søgefiltre"
+  },
+  "move": {
+    "message": "Flyt"
+  },
+  "moveBack": {
+    "message": "Flyt tilbage"
+  },
+  "moveToTrash": {
+    "message": "Flyt til papirkurven"
+  },
+  "namedOnly": {
+    "message": "Kun navngivne"
+  },
+  "navigationFilter": {
+    "message": "Navigationsfilter"
+  },
+  "newExclamation": {
+    "message": "Ny!"
+  },
+  "noDupsExistExceptForColon": {
+    "message": "Der findes ingen duplikater, undtagen:"
+  },
+  "noDupsFoundHere": {
+    "message": "Ingen duplikater fundet her"
+  },
+  "noMatches": {
+    "message": "Ingen resultater"
+  },
+  "noMatchesFound": {
+    "message": "Ingen resultater fundet"
+  },
+  "nonArchived": {
+    "message": "Ikke arkiveret"
+  },
+  "nonTabPinFlagHelp": {
+    "message": "Dette element er fastgjort øverst i mappen. Klik på dette ikon for at fjerne fastgørelsen."
+  },
+  "noOpenTabsToStore": {
+    "message": "Der er ingen åbne faner i dette vindue, der kan gemmes."
+  },
+  "noReadingListEntries": {
+    "message": "Ingen læselisteposter fundet"
+  },
+  "noTabsInOneTabYet": {
+    "message": "Du har endnu ingen faner i OneTab"
+  },
+  "noTabsMeetCriteriaUseCheckboxes": {
+    "message": "Ingen åbne faner opfylder dine kriterier. Brug afkrydsningsfelterne ovenfor."
+  },
+  "notAssigned": {
+    "message": "Ikke tildelt"
+  },
+  "notes": {
+    "message": "Noter"
+  },
+  "notesAboutTheLinkOptional": {
+    "message": "Noter om linket (valgfrit)"
+  },
+  "notesAboutTheSecondLinkOptional": {
+    "message": "Noter om det andet link (valgfrit)"
+  },
+  "noTextHasBeenEntered": {
+    "message": "Ingen tekst er indtastet"
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "omniboxShortcutInfo": {
+    "message": "For at søge i din OneTab-liste fra en hvilken som helst fane: Gå til din browsers adresselinje, skriv 11, dernæst mellemrum og derefter et søgeord."
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "OneTab findes også til Firefox"
+  },
+  "oneTabDesignedToProtectPrivacy": {
+    "message": "OneTab er designet til at beskytte dit privatliv. Dine faner videregives ikke til os."
+  },
+  "oneTabExportPageTitle": {
+    "message": "OneTab-eksport"
+  },
+  "oneTabImportExportPageTitle": {
+    "message": "OneTab import/eksport"
+  },
+  "oneTabNeedsPermissionToAccessYourTabs": {
+    "message": "OneTab skal have tilladelse til at få adgang til dine faner."
+  },
+  "oneTabOptionsPageTitle": {
+    "message": "OneTab-indstillinger"
+  },
+  "oneTabPermissionRequired": {
+    "message": "OneTab - Tilladelse kræves"
+  },
+  "oneTabRestartRequired": {
+    "message": "OneTab skal genstartes. Ingen andre faner bliver lukket."
+  },
+  "oneTabSlashShortcutInfo": {
+    "message": "Når du er på OneTab-siden, skal du trykke på skråstregstasten for at fokusere søgefeltet."
+  },
+  "open": {
+    "message": "Åbn"
+  },
+  "openActionPopup": {
+    "message": "OneTab-handling (svarer til at klikke på OneTab-ikonet på værktøjslinjen)"
+  },
+  "openAsCollapsedTabGroup": {
+    "message": "Åbn som en 'sammenfoldet' fanegruppe"
+  },
+  "openAsCollapsedTabGroupMenuItemHelp": {
+    "message": "Hvis du åbner disse faner som en sammenfoldet \"fanegruppe\", vises kun gruppenavnet, indtil du klikker på det for at vise fanerne indeni."
+  },
+  "openAsPinnedTab": {
+    "message": "Fastgør fane ved åbning"
+  },
+  "openAsPinnedTabMenuItemHelp": {
+    "message": "Når denne fane gendannes, gendannes den som en fastgjort browserfane. Fastgjorte faner vises altid først i browservinduet."
+  },
+  "openAsTabGroup": {
+    "message": "Åbn som en fanegruppe i browseren"
+  },
+  "openAsTabGroupMenuItemHelp": {
+    "message": "Din browser tillader, at faner grupperes i farvede \"fanegrupper\" i et vindue."
+  },
+  "openFolder": {
+    "message": "Åbn mappe"
+  },
+  "openGroupsLimitNotice_few": {
+    "message": "For at forhindre, at din browser overbelastes, åbnes kun de første {COUNT} grupper."
+  },
+  "openGroupsLimitNotice_many": {
+    "message": "For at forhindre, at din browser overbelastes, åbnes kun de første {COUNT} grupper."
+  },
+  "openGroupsLimitNotice_one": {
+    "message": "For at forhindre, at din browser overbelastes, åbnes kun den første {COUNT} gruppe."
+  },
+  "openGroupsLimitNotice_other": {
+    "message": "For at forhindre, at din browser overbelastes, åbnes kun de første {COUNT} grupper."
+  },
+  "openGroupsLimitNotice_two": {
+    "message": "For at forhindre, at din browser overbelastes, åbnes kun de første {COUNT} grupper."
+  },
+  "openGroupsLimitNotice_zero": {
+    "message": "For at forhindre, at din browser overbelastes, åbnes kun de første {COUNT} grupper."
+  },
+  "openInIncognitoWindow": {
+    "message": "Gendan i et nyt inkognitovindue"
+  },
+  "openInNewWindow": {
+    "message": "Gendan i et nyt vindue"
+  },
+  "openInThisWindow": {
+    "message": "Gendan i dette vindue"
+  },
+  "openOneTab": {
+    "message": "Åbn OneTab"
+  },
+  "openOneTabAfter": {
+    "message": "Åbn OneTab efter faner er gemt"
+  },
+  "openONETABLogo": {
+    "message": "Åbn ONETAB"
+  },
+  "openParentFolder": {
+    "message": "Åbn overordnet mappe"
+  },
+  "openTabFromWebsite": {
+    "message": "Åbn en fane, og gå til webstedet"
+  },
+  "openTabLimit_few": {
+    "message": "For at forhindre, at din browser overbelastes, kan højst {COUNT} faner åbnes ad gangen."
+  },
+  "openTabLimit_many": {
+    "message": "For at forhindre, at din browser overbelastes, kan højst {COUNT} faner åbnes ad gangen."
+  },
+  "openTabLimit_one": {
+    "message": "For at forhindre, at din browser overbelastes, kan højst {COUNT} fane åbnes ad gangen."
+  },
+  "openTabLimit_other": {
+    "message": "For at forhindre, at din browser overbelastes, kan højst {COUNT} faner åbnes ad gangen."
+  },
+  "openTabLimit_two": {
+    "message": "For at forhindre, at din browser overbelastes, kan højst {COUNT} faner åbnes ad gangen."
+  },
+  "openTabLimit_zero": {
+    "message": "For at forhindre, at din browser overbelastes, kan højst {COUNT} faner åbnes ad gangen."
+  },
+  "openTabsAlreadyStoredHere_few": {
+    "message": "{COUNT} åbne faner er allerede gemt her:"
+  },
+  "openTabsAlreadyStoredHere_many": {
+    "message": "{COUNT} åbne faner er allerede gemt her:"
+  },
+  "openTabsAlreadyStoredHere_one": {
+    "message": "{COUNT} åben fane er allerede gemt her:"
+  },
+  "openTabsAlreadyStoredHere_other": {
+    "message": "{COUNT} åbne faner er allerede gemt her:"
+  },
+  "openTabsAlreadyStoredHere_two": {
+    "message": "{COUNT} åbne faner er allerede gemt her:"
+  },
+  "openTabsAlreadyStoredHere_zero": {
+    "message": "{COUNT} åbne faner er allerede gemt her:"
+  },
+  "openTabsConfirm_few": {
+    "message": "Du er ved at åbne {COUNT} faner. Er du sikker?"
+  },
+  "openTabsConfirm_many": {
+    "message": "Du er ved at åbne {COUNT} faner. Er du sikker?"
+  },
+  "openTabsConfirm_one": {
+    "message": "Du er ved at åbne {COUNT} fane. Er du sikker?"
+  },
+  "openTabsConfirm_other": {
+    "message": "Du er ved at åbne {COUNT} faner. Er du sikker?"
+  },
+  "openTabsConfirm_two": {
+    "message": "Du er ved at åbne {COUNT} faner. Er du sikker?"
+  },
+  "openTabsConfirm_zero": {
+    "message": "Du er ved at åbne {COUNT} faner. Er du sikker?"
+  },
+  "openTabsNotStoredInOneTab_few": {
+    "message": "{COUNT} åbne faner er ikke gemt i OneTab"
+  },
+  "openTabsNotStoredInOneTab_many": {
+    "message": "{COUNT} åbne faner er ikke gemt i OneTab"
+  },
+  "openTabsNotStoredInOneTab_one": {
+    "message": "{COUNT} åben fane er ikke gemt i OneTab"
+  },
+  "openTabsNotStoredInOneTab_other": {
+    "message": "{COUNT} åbne faner er ikke gemt i OneTab"
+  },
+  "openTabsNotStoredInOneTab_two": {
+    "message": "{COUNT} åbne faner er ikke gemt i OneTab"
+  },
+  "openTabsNotStoredInOneTab_zero": {
+    "message": "{COUNT} åbne faner er ikke gemt i OneTab"
+  },
+  "optionAutoActionOnOpenArchiveDesc": {
+    "message": "Når faner markeres som arkiverede, får de en gråstribet baggrund. Det giver en visuel indikation af, at du har læst eller er færdig med fanerne."
+  },
+  "optionAutoActionOnOpenArchiveTitle": {
+    "message": "Markér dem som arkiverede"
+  },
+  "optionAutoActionOnOpenHeading": {
+    "message": "Når faner gendannes:"
+  },
+  "optionAutoActionOnOpenNote": {
+    "message": "Låste grupper beholder altid deres faner"
+  },
+  "optionAutoActionOnOpenOpenDesc": {
+    "message": "For at markere fanerne som arkiverede, når du gendanner dem, skal du holde Alt- eller Option-tasten nede"
+  },
+  "optionAutoActionOnOpenOpenTitle": {
+    "message": "Behold dem på din liste"
+  },
+  "optionAutoActionOnOpenTrashDesc": {
+    "message": "Hvis du holder Ctrl- eller Cmd-tasten nede, forbliver fanen/fanerne på din liste."
+  },
+  "optionAutoActionOnOpenTrashTitle": {
+    "message": "Fjern dem fra din liste"
+  },
+  "optionBrowserActionHeading": {
+    "message": "Når du klikker på OneTab-ikonet på værktøjslinjen:"
+  },
+  "optionBrowserActionOpenPopupDesc": {
+    "message": "Pop op-vinduet viser dig en liste over åbne faner og lader dig vælge præcis, hvilke faner du vil sende til OneTab. Det lader dig angive en titel for den gruppe faner, du gemmer, så du ikke behøver at gøre det senere på OneTab-siden. Pop op-vinduet giver dig også nem adgang til din hurtigliste fra ethvert browservindue."
+  },
+  "optionBrowserActionOpenPopupDesc2": {
+    "message": "Vælg præcis, hvilke faner der skal gemmes"
+  },
+  "optionBrowserActionOpenPopupTitle": {
+    "message": "Vis OneTab-pop op-vinduet"
+  },
+  "optionBrowserActionSendCurrentTabDesc": {
+    "message": "Fanen placeres i den første gruppe på din OneTab-side (ser bort fra grupper, der er fastgjort eller låst)"
+  },
+  "optionBrowserActionSendCurrentTabTitle": {
+    "message": "Send kun den aktuelle fane til OneTab"
+  },
+  "optionBrowserActionSendTabsInWindowDesc": {
+    "message": "Dine faner bliver lukket og gemt i din OneTab-liste. Hvis du har markeret flere faner i din browsers fanebjælke (med Cmd-, Ctrl- eller Skift-tasten), sendes kun de markerede faner til OneTab. Hvis du bruger din browsers funktion til fanegrupper, sendes kun den aktuelle fanegruppe til OneTab."
+  },
+  "optionBrowserActionSendTabsInWindowDesc2": {
+    "message": "Den hurtigste måde at gemme faner på"
+  },
+  "optionBrowserActionSendTabsInWindowTitle": {
+    "message": "Send faner i det aktuelle vindue til OneTab"
+  },
+  "optionCopyToClipboardFormatHeading": {
+    "message": "Kopiering af links til udklipsholderen:"
+  },
+  "optionCopyToClipboardFormatNote": {
+    "message": "Denne indstilling gælder, når du bruger handlingen 'Kopiér til udklipsholderen'. Du kan også trække faner og grupper direkte fra OneTab ind i et dokument."
+  },
+  "optionCopyToClipboardFormatRichTextDesc": {
+    "message": "Programmer som tekstbehandlere tillader, at du indsætter formateret tekst. Hvis det ikke understøttes, indsættes i stedet ren tekst."
+  },
+  "optionCopyToClipboardFormatRichTextTitle": {
+    "message": "Formateret tekst, hvor det er muligt"
+  },
+  "optionCopyToClipboardFormatTitleUrlTitle": {
+    "message": "Titel og URL"
+  },
+  "optionCopyToClipboardFormatUrlOnlyTitle": {
+    "message": "Kun URL"
+  },
+  "optionCopyToClipboardFormatUrlTitleTitle": {
+    "message": "URL og titel"
+  },
+  "optionDefaultTabGroupOpenTypeCurrentWindow": {
+    "message": "Åbn fanegruppen i det aktuelle vindue"
+  },
+  "optionDefaultTabGroupOpenTypeHeading": {
+    "message": "Når du klikker for at åbne en gruppe faner, der er konfigureret til at åbne som en \"fanegruppe\" i browseren:"
+  },
+  "optionDefaultTabGroupOpenTypeNewWindow": {
+    "message": "Åbn fanegruppen i et nyt vindue"
+  },
+  "optionDefaultTabGroupOpenTypeNote": {
+    "message": "Hvis du bruger rullemenuen til at vælge en bestemt indstilling (f.eks. at åbne faner i et inkognitovindue), huskes den indstilling for netop den gruppe."
+  },
+  "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+    "message": "Åbn fanerne i det aktuelle vindue"
+  },
+  "optionDefaultWindowGroupOpenTypeHeading": {
+    "message": "Når du gendanner en gruppe faner:"
+  },
+  "optionDefaultWindowGroupOpenTypeNewWindow": {
+    "message": "Åbn fanerne i et nyt vindue"
+  },
+  "optionDefaultWindowGroupOpenTypeNote": {
+    "message": "Hvis du bruger rullemenuen til at vælge en bestemt indstilling (f.eks. at åbne faner i et inkognitovindue), huskes den indstilling for netop den gruppe."
+  },
+  "optionDiscardNonActiveTabOnOpenHeading": {
+    "message": "Spar hukommelse (RAM), allerede når faner åbnes første gang:"
+  },
+  "optionDiscardNonActiveTabOnOpenNote": {
+    "message": "Hvis denne indstilling er aktiveret, fjernes faner straks fra hukommelsen, når du åbner dem fra din OneTab-liste første gang. Det er nyttigt, hvis du ofte åbner mange faner på én gang, da de så først indlæses i hukommelsen, når du tilgår dem. Hvis denne indstilling er deaktiveret, vil mange browsere stadig automatisk vælge at fjerne faner fra hukommelsen, når du ikke bruger dem."
+  },
+  "optionDisplayContextMenuHeading": {
+    "message": "Højreklik inde i en webside for at få adgang til OneTab-kontekstmenuen:"
+  },
+  "optionDisplayContextMenuNote": {
+    "message": "Hvis du deaktiverer menuen, kan du ikke få adgang til funktionen \"Udeluk websted fra OneTab\""
+  },
+  "optionDuplicatesAllow": {
+    "message": "Tillad duplikater"
+  },
+  "optionDuplicatesReject": {
+    "message": "Afvis duplikater uden at spørge"
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "Hvis OneTab allerede indeholder fanen, tilføjes den ikke igen."
+  },
+  "optionDuplicatesTitle": {
+    "message": "Duplikater:"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+    "message": "Skift til det vindue, hvor OneTab-fanen allerede er åben"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+    "message": "Handlingen \"Åbn OneTab\":"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenNote": {
+    "message": "Handlingen \"Åbn OneTab\":"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+    "message": "Flyt en eksisterende OneTab-fane til det aktuelle vindue"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "Tillad, at fastgjorte faner sendes til OneTab"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "Send ikke fastgjorte faner til OneTab"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "Du kan stadig sende en fastgjort fane manuelt til OneTab ved at højreklikke inde på websiden for at åbne OneTab-menuen og derefter klikke på 'Send kun denne fane til OneTab'"
+  },
+  "optionPinnedTabsNote": {
+    "message": "Bemærk: En fane bliver 'fastgjort', når du højreklikker på fanen og klikker på 'Fastgør fane'. Nogle foretrækker at fastgøre websteder som Facebook eller Gmail, så de nemt kan finde dem. OneTab husker, om en fane var fastgjort, når du gendanner den."
+  },
+  "optionPinnedTabsTitle": {
+    "message": "Fastgjorte faner:"
+  },
+  "options": {
+    "message": "Indstillinger"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "Åbn OneTab automatisk"
+  },
+  "optionStartupLaunchNone": {
+    "message": "Åbn ikke OneTab automatisk"
+  },
+  "optionStartupLaunchNoneDesc3": {
+    "message": "For at åbne OneTab manuelt kan du højreklikke inde i en vilkårlig webside og klikke på 'Åbn OneTab' i OneTab-menuen."
+  },
+  "optionStartupLaunchTitle": {
+    "message": "Ved browserstart:"
+  },
+  "optionSwitchToOpenedTabFalseTitle": {
+    "message": "Åbn fanen og bliv i OneTab"
+  },
+  "optionSwitchToOpenedTabHeading": {
+    "message": "Når du gendanner faner fra OneTab-siden:"
+  },
+  "optionSwitchToOpenedTabNote": {
+    "message": "Hvis du holder Skift nede, når du klikker, åbnes fanen i et nyt vindue"
+  },
+  "optionSwitchToOpenedTabTrueTitle": {
+    "message": "Åbn fanen, og skift til den (medmindre du holder Kommando ⌘/Ctrl nede, når du klikker)"
+  },
+  "optionUrlAbbr": {
+    "message": "Forkortet"
+  },
+  "optionUrlDisplayTitle": {
+    "message": "URL-visning:"
+  },
+  "optionUrlDomain": {
+    "message": "Kun domæne"
+  },
+  "optionUrlFull": {
+    "message": "Fuld"
+  },
+  "optionUrlNone": {
+    "message": "Ingen"
+  },
+  "otherCopiesColon": {
+    "message": "Andre kopier:"
+  },
+  "pasteRichOrPlainTextBelow": {
+    "message": "Du kan indsætte formateret tekst eller ren tekst nedenfor."
+  },
+  "pendingTaskCount_few": {
+    "message": "{COUNT} afventende"
+  },
+  "pendingTaskCount_many": {
+    "message": "{COUNT} afventende"
+  },
+  "pendingTaskCount_one": {
+    "message": "{COUNT} afventende"
+  },
+  "pendingTaskCount_other": {
+    "message": "{COUNT} afventende"
+  },
+  "pendingTaskCount_two": {
+    "message": "{COUNT} afventende"
+  },
+  "pendingTaskCount_zero": {
+    "message": "{COUNT} afventende"
+  },
+  "pendingTaskFlagHelp": {
+    "message": "Dette element er en opgave. Klik på dette ikon for at markere den som fuldført."
+  },
+  "permissionRequiredPleaseTryAgain": {
+    "message": "For at oprette en delt side, der kan tilgås fra enhver computer, kræves der tilladelse til at koordinere med OneTab-webserveren. Prøv igen."
+  },
+  "pinnedTabs": {
+    "message": "fastgjorte faner"
+  },
+  "pinToTopOfFolder": {
+    "message": "Fastgør øverst i mappen"
+  },
+  "pinToTopOfFolderMenuItemHelp": {
+    "message": "Fastgør denne gruppe, så den altid vises øverst i mappen"
+  },
+  "pinToTopOfList": {
+    "message": "Fastgør øverst på listen"
+  },
+  "placeholderAndOtherLocations_few": {
+    "message": "PLACEHOLDER og {COUNT} andre"
+  },
+  "placeholderAndOtherLocations_many": {
+    "message": "PLACEHOLDER og {COUNT} andre"
+  },
+  "placeholderAndOtherLocations_one": {
+    "message": "PLACEHOLDER og {COUNT} anden"
+  },
+  "placeholderAndOtherLocations_other": {
+    "message": "PLACEHOLDER og {COUNT} andre"
+  },
+  "placeholderAndOtherLocations_two": {
+    "message": "PLACEHOLDER og {COUNT} andre"
+  },
+  "placeholderAndOtherLocations_zero": {
+    "message": "PLACEHOLDER og {COUNT} andre"
+  },
+  "placeholderExplanation": {
+    "message": "På grund af sikkerhedsregler i webbrowsere må OneTab ikke gendanne denne side direkte. Kopiér venligst din URL og indsæt den i din browsers adresselinje."
+  },
+  "plainTextLineFormat": {
+    "message": "Hvis du indsætter ren tekst, skal hver URL have en protokol angivet (https://wikipedia.org i stedet for blot wikipedia.org). Hver linje skal have følgende format:"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "Vent venligst…"
+  },
+  "popupSlashShortcutInfo": {
+    "message": "Når du er i OneTab-pop op-vinduet (som vises, når du klikker på OneTab-ikonet), skal du trykke på skråstregstasten for at åbne destinationsvælgeren og fokusere søgefeltet."
+  },
+  "printUseSaveTabsAsHtmlFileAlertHtml": {
+    "message": "For at få de bedste udskriftsresultater skal du bruge handlingen <b>Gem som HTML-fil</b> i mappens menu <b>Mere…</b> og derefter udskrive den downloadede HTML-fil."
+  },
+  "privacyAssurance": {
+    "message": "Privatlivsbeskyttelse"
+  },
+  "privacyAssuranceDetail": {
+    "message": "Din liste over faner bliver aldrig overført eller videregivet til hverken OneTab-udviklerne eller andre. Den eneste undtagelse er, hvis du bevidst bruger funktionen 'del som en webside' til at uploade din liste over faner til en webside for at dele den med andre."
+  },
+  "privacyFirst": {
+    "message": "Privatliv først"
+  },
+  "privacyFirstMessage": {
+    "message": "OneTab er designet til at beskytte dine private data. Dine faner gemmes kun på din computer og deles aldrig med OneTab-udviklerne eller andre.\nHvis du bruger vores funktion til sikkerhedskopiering/synkronisering, bliver dine data ende-til-ende-krypteret med stærk AES-256-kryptering. Det gør det umuligt for OneTab-udviklerne at se de faner, du har sikkerhedskopieret eller synkroniseret mellem enheder, fordi kun du har krypteringsnøglen. \nDen eneste undtagelse er, hvis du bevidst vælger at dele nogle af dine faner med andre via vores \"Del som en webside\".\nVi tror på privatliv først."
+  },
+  "privateBrowsingPermissionRequired": {
+    "message": "OneTab skal have tilladelse til at oprette private vinduer."
+  },
+  "privateBrowsingWindows": {
+    "message": "Private vinduer"
+  },
+  "quickList": {
+    "message": "Hurtigliste"
+  },
+  "readingList": {
+    "message": "Læseliste"
+  },
+  "readingListPermissionNecesssary": {
+    "message": "Tilladelsen til læseliste er nødvendig for at give OneTab mulighed for at importere elementer fra din læseliste. Hvis denne funktion ikke virker, understøtter din browser muligvis ikke læselister."
+  },
+  "recent": {
+    "message": "Seneste"
+  },
+  "recentDestinationsColon": {
+    "message": "Seneste destinationer:"
+  },
+  "recentDuplicateRetainedHelp": {
+    "message": "Hvis en fane forekommer flere gange, bevares kun det nyeste duplikat"
+  },
+  "recentFolders": {
+    "message": "Seneste mapper"
+  },
+  "recentGroups": {
+    "message": "Seneste grupper"
+  },
+  "recentlyAccessed": {
+    "message": "Senest åbnet"
+  },
+  "recentlyCreated": {
+    "message": "Senest oprettet"
+  },
+  "recentlyModified": {
+    "message": "Senest ændret"
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "Reducer hukommelsesforbruget med 95%"
+  },
+  "removeDuplicates": {
+    "message": "Fjern duplikater"
+  },
+  "removeDuplicatesMenuItemHelp": {
+    "message": "Du kan fjerne duplikater, der findes her, men ikke andre steder, eller andre steder, men ikke her."
+  },
+  "removeDuplicateTabsHere_few": {
+    "message": "Fjern {COUNT} duplikerede faner her"
+  },
+  "removeDuplicateTabsHere_many": {
+    "message": "Fjern {COUNT} duplikerede faner her"
+  },
+  "removeDuplicateTabsHere_one": {
+    "message": "Fjern {COUNT} duplikeret fane her"
+  },
+  "removeDuplicateTabsHere_other": {
+    "message": "Fjern {COUNT} duplikerede faner her"
+  },
+  "removeDuplicateTabsHere_two": {
+    "message": "Fjern {COUNT} duplikerede faner her"
+  },
+  "removeDuplicateTabsHere_zero": {
+    "message": "Fjern {COUNT} duplikerede faner her"
+  },
+  "removeFromQuickList": {
+    "message": "Fjern fra hurtigliste"
+  },
+  "removeFromQuickListMenuItemHelp": {
+    "message": "Elementet bliver ikke flyttet til papirkurven – det fjernes kun fra din hurtigliste."
+  },
+  "removeStar": {
+    "message": "Fjern stjerne"
+  },
+  "removeTabsElsewhereAlsoHere_few": {
+    "message": "Fjern {COUNT} faner andre steder, der også findes her"
+  },
+  "removeTabsElsewhereAlsoHere_many": {
+    "message": "Fjern {COUNT} faner andre steder, der også findes her"
+  },
+  "removeTabsElsewhereAlsoHere_one": {
+    "message": "Fjern {COUNT} fane andre steder, der også findes her"
+  },
+  "removeTabsElsewhereAlsoHere_other": {
+    "message": "Fjern {COUNT} faner andre steder, der også findes her"
+  },
+  "removeTabsElsewhereAlsoHere_two": {
+    "message": "Fjern {COUNT} faner andre steder, der også findes her"
+  },
+  "removeTabsElsewhereAlsoHere_zero": {
+    "message": "Fjern {COUNT} faner andre steder, der også findes her"
+  },
+  "removeTabsHereAlsoElsewhere_few": {
+    "message": "Fjern {COUNT} faner her, der også findes andre steder"
+  },
+  "removeTabsHereAlsoElsewhere_many": {
+    "message": "Fjern {COUNT} faner her, der også findes andre steder"
+  },
+  "removeTabsHereAlsoElsewhere_one": {
+    "message": "Fjern {COUNT} fane her, der også findes andre steder"
+  },
+  "removeTabsHereAlsoElsewhere_other": {
+    "message": "Fjern {COUNT} faner her, der også findes andre steder"
+  },
+  "removeTabsHereAlsoElsewhere_two": {
+    "message": "Fjern {COUNT} faner her, der også findes andre steder"
+  },
+  "removeTabsHereAlsoElsewhere_zero": {
+    "message": "Fjern {COUNT} faner her, der også findes andre steder"
+  },
+  "rename": {
+    "message": "Omdøb"
+  },
+  "renameOrAddNote": {
+    "message": "Omdøb / Tilføj note"
+  },
+  "restore": {
+    "message": "Gendan"
+  },
+  "restoreAll": {
+    "message": "Gendan alle"
+  },
+  "restrictSearchToFolderColon": {
+    "message": "Begræns søgningen til følgende mappe:"
+  },
+  "results": {
+    "message": "Resultater"
+  },
+  "returnToOneTab": {
+    "message": "Tilbage til OneTab"
+  },
+  "reverse": {
+    "message": "Vend rækkefølge"
+  },
+  "rightClickAndOpenOneTabMenu": {
+    "message": "Højreklik på websiden, og gå til OneTab-menuen"
+  },
+  "rightClickMenuDisabledNote": {
+    "message": "Bemærk: Du har deaktiveret OneTabs højrekliksmenu. Aktiver den på OneTabs indstillingsside."
+  },
+  "rightClickSelectionOptionsTip": {
+    "message": "Tip: Når du har sat flueben ved et element, højreklik på fluebenet for at se flere markeringsmuligheder"
+  },
+  "rightClickTickTip": {
+    "message": "Tip: Højreklik på fluebenet ved hver fane for markeringsværktøjer"
+  },
+  "safariApproveOneTabInSettings": {
+    "message": "Gå til Indstillinger, og godkend OneTab til at få adgang til alle websteder."
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "Spar op til 95% hukommelse og reducer fane-rod i Google Chrome"
+  },
+  "saveChoice": {
+    "message": "Gem valg"
+  },
+  "saveTabsAsHtmlFile": {
+    "message": "Gem som HTML-fil"
+  },
+  "saveTabsAsHtmlFileMenuItemHelp": {
+    "message": "Opret og download en HTML-fil, der indeholder alle grupper af faner i denne mappe."
+  },
+  "searchHere": {
+    "message": "Søg her"
+  },
+  "searchOneTab": {
+    "message": "Søg i OneTab"
+  },
+  "secondExampleLink": {
+    "message": "Andet eksempellink"
+  },
+  "secondExampleLinkTitle": {
+    "message": "Titel på andet eksempellink"
+  },
+  "secondExampleLinkTitleOptional": {
+    "message": "Titel på andet eksempellink (valgfrit)"
+  },
+  "seeOtherTabsInThisGroup_few": {
+    "message": "Se {COUNT} andre faner i denne gruppe"
+  },
+  "seeOtherTabsInThisGroup_many": {
+    "message": "Se {COUNT} andre faner i denne gruppe"
+  },
+  "seeOtherTabsInThisGroup_one": {
+    "message": "Se {COUNT} anden fane i denne gruppe"
+  },
+  "seeOtherTabsInThisGroup_other": {
+    "message": "Se {COUNT} andre faner i denne gruppe"
+  },
+  "seeOtherTabsInThisGroup_two": {
+    "message": "Se {COUNT} andre faner i denne gruppe"
+  },
+  "seeOtherTabsInThisGroup_zero": {
+    "message": "Se {COUNT} andre faner i denne gruppe"
+  },
+  "seePasteInstructions": {
+    "message": "Se indsætningsvejledning…"
+  },
+  "seeTabsInThisGroup_few": {
+    "message": "Se {COUNT} faner i denne gruppe"
+  },
+  "seeTabsInThisGroup_many": {
+    "message": "Se {COUNT} faner i denne gruppe"
+  },
+  "seeTabsInThisGroup_one": {
+    "message": "Se {COUNT} fane i denne gruppe"
+  },
+  "seeTabsInThisGroup_other": {
+    "message": "Se {COUNT} faner i denne gruppe"
+  },
+  "seeTabsInThisGroup_two": {
+    "message": "Se {COUNT} faner i denne gruppe"
+  },
+  "seeTabsInThisGroup_zero": {
+    "message": "Se {COUNT} faner i denne gruppe"
+  },
+  "selectAll": {
+    "message": "Vælg alle"
+  },
+  "selectAllExceptThis": {
+    "message": "Vælg alle undtagen denne"
+  },
+  "selectedItemCount_few": {
+    "message": "{COUNT} elementer"
+  },
+  "selectedItemCount_many": {
+    "message": "{COUNT} elementer"
+  },
+  "selectedItemCount_one": {
+    "message": "{COUNT} element"
+  },
+  "selectedItemCount_other": {
+    "message": "{COUNT} elementer"
+  },
+  "selectedItemCount_two": {
+    "message": "{COUNT} elementer"
+  },
+  "selectedItemCount_zero": {
+    "message": "{COUNT} elementer"
+  },
+  "selection": {
+    "message": "Markering"
+  },
+  "selectThisAndAbove": {
+    "message": "Vælg dette element og alle ovenfor"
+  },
+  "selectThisAndBelow": {
+    "message": "Vælg denne og alle under"
+  },
+  "sendAllTabsAllWindows": {
+    "message": "Send alle faner fra alle vinduer"
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "Send alle faner fra alle vinduer til OneTab"
+  },
+  "sendAllTabsExceptThis": {
+    "message": "Send alle faner undtagen denne fane"
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "Send alle faner undtagen denne fane til OneTab"
+  },
+  "sendAllTabsInGroup": {
+    "message": "Send alle faner i denne fanegruppe"
+  },
+  "sendAllTabsInGroupToOneTab": {
+    "message": "Send alle faner i denne fanegruppe til OneTab"
+  },
+  "sendAllTabsInWindow": {
+    "message": "Send alle faner i dette vindue"
+  },
+  "sendAllTabsInWindowToOneTab": {
+    "message": "Send alle faner i dette vindue til OneTab"
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "Send den aktuelle fane til OneTab"
+  },
+  "sendLeftTabs": {
+    "message": "Send faner til venstre"
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "Send faner til venstre til OneTab"
+  },
+  "sendOnlyThisTab": {
+    "message": "Send kun denne fane"
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "Send kun denne fane til OneTab"
+  },
+  "sendRightTabs": {
+    "message": "Send faner til højre"
+  },
+  "sendRightTabsToOneTab": {
+    "message": "Send faner til højre til OneTab"
+  },
+  "sendSelectedTabs": {
+    "message": "Send valgte faner"
+  },
+  "sendSelectedTabsToOneTab": {
+    "message": "Send valgte faner til OneTab"
+  },
+  "sendThisWebLink": {
+    "message": "Send dette weblink"
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "Send dette link til OneTab"
+  },
+  "serverUnreachable": {
+    "message": "Serveren kan ikke nås. Kontrollér din internetforbindelse."
+  },
+  "share": {
+    "message": "Del"
+  },
+  "shareAsAWebPage": {
+    "message": "Del som en webside"
+  },
+  "shareAsAWebPageMenuItemHelp": {
+    "message": "Dette opretter en webside med dine faner, så du kan dele siden privat eller offentligt med andre."
+  },
+  "shared": {
+    "message": "Delt"
+  },
+  "sharedExpiresColon": {
+    "message": "Delt som en webside. Udløber:"
+  },
+  "sharedPageOptions": {
+    "message": "Indstillinger for delt side"
+  },
+  "sharedPageTabLimit_few": {
+    "message": "Delte sider er begrænset til {COUNT} faner"
+  },
+  "sharedPageTabLimit_many": {
+    "message": "Delte sider er begrænset til {COUNT} faner"
+  },
+  "sharedPageTabLimit_one": {
+    "message": "Delte sider er begrænset til {COUNT} fane"
+  },
+  "sharedPageTabLimit_other": {
+    "message": "Delte sider er begrænset til {COUNT} faner"
+  },
+  "sharedPageTabLimit_two": {
+    "message": "Delte sider er begrænset til {COUNT} faner"
+  },
+  "sharedPageTabLimit_zero": {
+    "message": "Delte sider er begrænset til {COUNT} faner"
+  },
+  "sharedPageWillAutomaticallyExpire": {
+    "message": "Den delte side udløber automatisk, men du kan forlænge udløbsdatoen når som helst."
+  },
+  "showEverything": {
+    "message": "Vis alt"
+  },
+  "showFoldersOnly": {
+    "message": "Vis kun mapper"
+  },
+  "showNamedItemsOnly": {
+    "message": "Vis kun navngivne elementer"
+  },
+  "showNamedOnly": {
+    "message": "Vis kun navngivne"
+  },
+  "showNextCount_few": {
+    "message": "Vis næste {COUNT}"
+  },
+  "showNextCount_many": {
+    "message": "Vis næste {COUNT}"
+  },
+  "showNextCount_one": {
+    "message": "Vis næste {COUNT}"
+  },
+  "showNextCount_other": {
+    "message": "Vis næste {COUNT}"
+  },
+  "showNextCount_two": {
+    "message": "Vis næste {COUNT}"
+  },
+  "showNextCount_zero": {
+    "message": "Vis næste {COUNT}"
+  },
+  "showPreviousCount_few": {
+    "message": "Vis forrige {COUNT}"
+  },
+  "showPreviousCount_many": {
+    "message": "Vis forrige {COUNT}"
+  },
+  "showPreviousCount_one": {
+    "message": "Vis forrige {COUNT}"
+  },
+  "showPreviousCount_other": {
+    "message": "Vis forrige {COUNT}"
+  },
+  "showPreviousCount_two": {
+    "message": "Vis forrige {COUNT}"
+  },
+  "showPreviousCount_zero": {
+    "message": "Vis forrige {COUNT}"
+  },
+  "soon": {
+    "message": "snart"
+  },
+  "sort": {
+    "message": "Sortér"
+  },
+  "sortByColon": {
+    "message": "Sortér efter:"
+  },
+  "sortGroups": {
+    "message": "Sortér grupper"
+  },
+  "sourceColon": {
+    "message": "Kilde:"
+  },
+  "star": {
+    "message": "Stjerne"
+  },
+  "starFlagHelp": {
+    "message": "Dette element er stjernemarkeret for visuelt at angive dets vigtighed. Klik på dette ikon for at fjerne stjernen."
+  },
+  "starMenuItemHelp": {
+    "message": "Brug stjernen som en visuel indikator for, at noget er vigtigt"
+  },
+  "starred": {
+    "message": "Stjernemarkerede"
+  },
+  "storeAllOpenWindowsHere": {
+    "message": "Gem alle åbne vinduer her"
+  },
+  "storeAllOpenWindowsHereMenuItemHelp": {
+    "message": "Luk alle åbne browservinduer, og gem dem i denne mappe"
+  },
+  "storeSelectedTabsInONETAB_few": {
+    "message": "Gem {COUNT} valgte faner i ONETAB"
+  },
+  "storeSelectedTabsInONETAB_many": {
+    "message": "Gem {COUNT} valgte faner i ONETAB"
+  },
+  "storeSelectedTabsInONETAB_one": {
+    "message": "Gem {COUNT} valgt fane i ONETAB"
+  },
+  "storeSelectedTabsInONETAB_other": {
+    "message": "Gem {COUNT} valgte faner i ONETAB"
+  },
+  "storeSelectedTabsInONETAB_two": {
+    "message": "Gem {COUNT} valgte faner i ONETAB"
+  },
+  "storeSelectedTabsInONETAB_zero": {
+    "message": "Gem {COUNT} valgte faner i ONETAB"
+  },
+  "storeTabsInAdditionalLocation_few": {
+    "message": "Gem dine faner igen alligevel"
+  },
+  "storeTabsInAdditionalLocation_many": {
+    "message": "Gem dine faner igen alligevel"
+  },
+  "storeTabsInAdditionalLocation_one": {
+    "message": "Gem din fane igen alligevel"
+  },
+  "storeTabsInAdditionalLocation_other": {
+    "message": "Gem dine faner igen alligevel"
+  },
+  "storeTabsInAdditionalLocation_two": {
+    "message": "Gem dine faner igen alligevel"
+  },
+  "storeTabsInAdditionalLocation_zero": {
+    "message": "Gem dine faner igen alligevel"
+  },
+  "storeTabsInONETAB_few": {
+    "message": "Gem faner i ONETAB"
+  },
+  "storeTabsInONETAB_many": {
+    "message": "Gem faner i ONETAB"
+  },
+  "storeTabsInONETAB_one": {
+    "message": "Gem fane i ONETAB"
+  },
+  "storeTabsInONETAB_other": {
+    "message": "Gem faner i ONETAB"
+  },
+  "storeTabsInONETAB_two": {
+    "message": "Gem faner i ONETAB"
+  },
+  "storeTabsInONETAB_zero": {
+    "message": "Gem faner i ONETAB"
+  },
+  "subFoldersNotShared": {
+    "message": "Bemærk, at undermapper ikke deles. Kun grupper direkte i mappen deles."
+  },
+  "tab": {
+    "message": "fane"
+  },
+  "tabAlreadyStoredHere": {
+    "message": "Din åbne fane er allerede gemt her:"
+  },
+  "tabCaretTooltipTitleNotes": {
+    "message": "Redigér fanens titel og noter"
+  },
+  "tabCaretTooltipTitleNotesUrl": {
+    "message": "Redigér fanens titel, URL og noter"
+  },
+  "tabCount_few": {
+    "message": "{COUNT} faner"
+  },
+  "tabCount_many": {
+    "message": "{COUNT} faner"
+  },
+  "tabCount_one": {
+    "message": "{COUNT} fane"
+  },
+  "tabCount_other": {
+    "message": "{COUNT} faner"
+  },
+  "tabCount_two": {
+    "message": "{COUNT} faner"
+  },
+  "tabCount_zero": {
+    "message": "{COUNT} faner"
+  },
+  "tabGroupColorColon": {
+    "message": "Farve for fanegruppe:"
+  },
+  "tabGroupIndicatorTooltipHelp": {
+    "message": "Denne gruppe er konfigureret til at åbne som en fanegruppe i browseren. Du kan ændre denne indstilling i menuen 'Mere…'"
+  },
+  "tabPinFlagHelp": {
+    "message": "Denne fane gendannes som en fastgjort browserfane. Klik på dette ikon for at fjerne fastgørelsen."
+  },
+  "tabs": {
+    "message": "Faner"
+  },
+  "tabsFromExcludedDomains": {
+    "message": "faner fra udelukkede domæner"
+  },
+  "tabShortcutInfo": {
+    "message": "Når du er på OneTab-siden, skal du trykke på tabulatortasten for at flytte fokus mellem grupper i midterkolonnen. Det gør det nemt hurtigt at springe over grupper, især hvis de er store. Hvis en gruppe har fokus, skal du trykke på Enter for at åbne den. Brug Skift+Tab for at flytte fokus baglæns. Tryk på backspace for at navigere til den overordnede mappe."
+  },
+  "tabsInTabGroups": {
+    "message": "faner i fanegrupper"
+  },
+  "tabTotalCount_few": {
+    "message": "I alt: {COUNT} faner"
+  },
+  "tabTotalCount_many": {
+    "message": "I alt: {COUNT} faner"
+  },
+  "tabTotalCount_one": {
+    "message": "I alt: {COUNT} fane"
+  },
+  "tabTotalCount_other": {
+    "message": "I alt: {COUNT} faner"
+  },
+  "tabTotalCount_two": {
+    "message": "I alt: {COUNT} faner"
+  },
+  "tabTotalCount_zero": {
+    "message": "I alt: {COUNT} faner"
+  },
+  "tasks": {
+    "message": "Opgaver"
+  },
+  "tasksDone": {
+    "message": "Opgaver (fuldførte)"
+  },
+  "tasksPending": {
+    "message": "Opgaver (afventende)"
+  },
+  "tasksWillAppearHere": {
+    "message": "Hvis du markerer nogle af dine faner eller grupper som opgaver, vises de her."
+  },
+  "taskTotalCount_few": {
+    "message": "{COUNT} i alt"
+  },
+  "taskTotalCount_many": {
+    "message": "{COUNT} i alt"
+  },
+  "taskTotalCount_one": {
+    "message": "{COUNT} i alt"
+  },
+  "taskTotalCount_other": {
+    "message": "{COUNT} i alt"
+  },
+  "taskTotalCount_two": {
+    "message": "{COUNT} i alt"
+  },
+  "taskTotalCount_zero": {
+    "message": "{COUNT} i alt"
+  },
+  "thenClickToolbarIcon": {
+    "message": "Klik derefter på OneTab-ikonet på værktøjslinjen igen for at bruge OneTab."
+  },
+  "thisFolderIsEmpty": {
+    "message": "Denne mappe er tom"
+  },
+  "thisTab": {
+    "message": "Denne fane"
+  },
+  "thisTabGroup": {
+    "message": "Denne fanegruppe"
+  },
+  "thisTabNotStored": {
+    "message": "Denne fane er ikke gemt i OneTab"
+  },
+  "thisWindow": {
+    "message": "Dette vindue"
+  },
+  "tickOrUntickToExclude": {
+    "message": "Sæt eller fjern flueben for at udelukke webstedet"
+  },
+  "title": {
+    "message": "Titel"
+  },
+  "toAddOrRemoveExclusions": {
+    "message": "Sådan tilføjer eller fjerner du et websted fra udelukkelseslisten:"
+  },
+  "toAllowOneTabInIncognito": {
+    "message": "For at få OneTab-ikonet til at blive vist i inkognitovinduer: "
+  },
+  "toImportBrowserBookmarksUseMenuOption": {
+    "message": "For at importere fra browserens bogmærker skal du bruge menuvalget 'Importér links her' på din OneTab-side"
+  },
+  "toMakeOpenButtonWorkApprovePermission": {
+    "message": "For at få knappen 'Åbn' på delte sider til at virke skal du godkende tilladelsesanmodningen."
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "For mange faner? Konverter dine faner til en liste og gør Firefox hurtigere"
+  },
+  "tooManyTabsSpeedUpSafari": {
+    "message": "For mange faner? Konverter dine faner til en liste og gør Safari hurtigere"
+  },
+  "toSaveChangesClickButton": {
+    "message": "Klik på knappen for at gemme dine ændringer"
+  },
+  "total0Tabs": {
+    "message": "I alt: 0 faner"
+  },
+  "trash": {
+    "message": "Papirkurv"
+  },
+  "unlock": {
+    "message": "Lås op"
+  },
+  "unmarkAsArchived": {
+    "message": "Fjern markering som arkiveret"
+  },
+  "unMarkAsTask": {
+    "message": "Fjern markering som opgave"
+  },
+  "unpin": {
+    "message": "Fjern fastgørelse"
+  },
+  "unshare": {
+    "message": "Ophæv deling"
+  },
+  "untitled": {
+    "message": "Uden titel"
+  },
+  "update": {
+    "message": "Opdater"
+  },
+  "userLanguage": {
+    "message": "Dansk"
+  },
+  "website": {
+    "message": "Websted"
+  },
+  "yearCount_few": {
+    "message": "{COUNT} år"
+  },
+  "yearCount_many": {
+    "message": "{COUNT} år"
+  },
+  "yearCount_one": {
+    "message": "{COUNT} år"
+  },
+  "yearCount_other": {
+    "message": "{COUNT} år"
+  },
+  "yearCount_two": {
+    "message": "{COUNT} år"
+  },
+  "yearCount_zero": {
+    "message": "{COUNT} år"
+  },
+  "yourTabAlreadyStoredHere": {
+    "message": "Din fane er allerede gemt her:"
+  }
+}

@@ -1,0 +1,2015 @@
+{
+  "95PctMemoryReduction": {
+    "message": "Upunguzaji wa kumbukumbu 95%"
+  },
+  "about": {
+    "message": "Kuhusu"
+  },
+  "actionPopupOverrideNote": {
+    "message": "Mpangilio huu unaweza kubatilishwa ndani ya dirisha la ibukizi la kitendo (ikiwa umewezesha ibukizi la kitendo)."
+  },
+  "aDashZ": {
+    "message": "A-Z"
+  },
+  "addOneTabNow": {
+    "message": "Sakinisha OneTab sasa"
+  },
+  "all": {
+    "message": "Vyote"
+  },
+  "allBookmarks": {
+    "message": "Alamisho zote"
+  },
+  "allOpenTabsAlreadyStoredHere_few": {
+    "message": "Vichupo vyote vilivyo wazi tayari vimehifadhiwa hapa:"
+  },
+  "allOpenTabsAlreadyStoredHere_many": {
+    "message": "Vichupo vyote vilivyo wazi tayari vimehifadhiwa hapa:"
+  },
+  "allOpenTabsAlreadyStoredHere_one": {
+    "message": "Vichupo vyote vilivyo wazi tayari vimehifadhiwa hapa:"
+  },
+  "allOpenTabsAlreadyStoredHere_other": {
+    "message": "Vichupo vyote vilivyo wazi tayari vimehifadhiwa hapa:"
+  },
+  "allOpenTabsAlreadyStoredHere_two": {
+    "message": "Vichupo vyote vilivyo wazi tayari vimehifadhiwa hapa:"
+  },
+  "allOpenTabsAlreadyStoredHere_zero": {
+    "message": "Vichupo vyote vilivyo wazi tayari vimehifadhiwa hapa:"
+  },
+  "allowFileAccessInstructions": {
+    "message": "Ili kuruhusu faili kufunguliwa moja kwa moja, nenda Mipangilio ➝ Vipanuzi ➝ OneTab ➝ Maelezo ➝ Ruhusu kufikia URL za faili"
+  },
+  "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+    "message": "Vichupo vyote vilivyo wazi ambavyo tayari vipo katika kikundi hiki vitafungwa baada ya uunganisho."
+  },
+  "alternatePlainTextFormat": {
+    "message": "Vinginevyo, maandishi ya kawaida yanaweza kuwa katika umbizo:"
+  },
+  "approve": {
+    "message": "Idhinisha"
+  },
+  "archived": {
+    "message": "Iliyohifadhiwa"
+  },
+  "autoTheme": {
+    "message": "Kiotomatiki (tumia mipangilio ya mfumo wa uendeshaji)"
+  },
+  "backupAndSync": {
+    "message": "Hifadhi rudufu & Landanisha"
+  },
+  "betaReleaseReportBugsHere": {
+    "message": "Toleo la beta - Ripoti hitilafu hapa"
+  },
+  "bookmarkCount_few": {
+    "message": "{COUNT} vialamisho"
+  },
+  "bookmarkCount_many": {
+    "message": "{COUNT} vialamisho"
+  },
+  "bookmarkCount_one": {
+    "message": "{COUNT} alamisho"
+  },
+  "bookmarkCount_other": {
+    "message": "{COUNT} vialamisho"
+  },
+  "bookmarkCount_two": {
+    "message": "{COUNT} vialamisho"
+  },
+  "bookmarkCount_zero": {
+    "message": "{COUNT} vialamisho"
+  },
+  "bookmarksPermissionNecesssary": {
+    "message": "Ruhusa ya alamisho inahitajika ili kuruhusu OneTab kuleta alamisho ya kivinjari chako"
+  },
+  "bulkActions": {
+    "message": "Vitendo vya pamoja"
+  },
+  "cancel": {
+    "message": "Ghairi"
+  },
+  "canDragTextNote": {
+    "message": "Kumbuka: Inawezekana pia kuvuta na kudondosha maandishi yenye viungo vya wavuti moja kwa moja kutoka ukurasa mwingine wa wavuti au kutoka hati. Unaweza kuvuta maandishi moja kwa moja hadi kwenye ukurasa wako wa OneTab, bila kuhitaji kutumia kisanduku hiki cha uingizaji."
+  },
+  "cannotConnectToServerDeletionRequestQueued": {
+    "message": "Haiwezi kuunganisha na seva ya OneTab. Tafadhali kagua muunganisho wako wa intaneti. Ombi lako la kufuta ukurasa ulioshirikiwa limewekwa kwenye foleni ndani ya kifaa hiki na litatumwa kiotomatiki kwa seva ya OneTab mara tu itakapopatikana tena."
+  },
+  "cannotCreateTabGroupInTabGroup": {
+    "message": "Ulilochagua ni kikundi cha vichupo. Huwezi kuunda kikundi cha vichupo ndani ya kikundi kilichopo. Tafadhali chagua eneo tofauti."
+  },
+  "cannotMixTabsGroupsFoldersDuringDrag": {
+    "message": "Haiwezekani kuchanganya vichupo, vikundi na folda wakati wa kuvuta. Hii ni kwa sababu, kwa mfano, huwezi kuvuta folda hadi kwenye sehemu zilezile unazoweza kuvuta kichupo."
+  },
+  "cannotMoveItemAncestorHere": {
+    "message": "Kipengee cha mzazi hakiwezi kuhamishwa ndani ya mtoto wake, kwa kuwa hilo lingeunda mzunguko."
+  },
+  "cannotMoveItemIntoItself": {
+    "message": "Kipengee hakiwezi kuhamishwa ndani ya chenyewe."
+  },
+  "canPasteWebContentForExample": {
+    "message": "Unaweza kubandika maandishi yaliyokopiwa kutoka ukurasa wa wavuti au hati, na viungo vitatolewa kiotomatiki. Kwa mfano:"
+  },
+  "caseSensitive": {
+    "message": "Tofautisha herufi kubwa/ndogo"
+  },
+  "changesMadeSinceSharedPageCreation": {
+    "message": "Vichupo vyako vilivyohifadhiwa vimebadilika tangu uliposhiriki ukurasa huu. Bofya kitufe cha 'Sasisha' kusasisha ukurasa uliopo ulioshirikiwa."
+  },
+  "changeThisSettingAtAnyTimeInfo": {
+    "message": "Unaweza kubadilisha mpangilio huu wakati wowote, kwa kubofya kitufe cha 'Machaguo' juu ya ukurasa wako wa OneTab."
+  },
+  "changeThisSettingAtAnyTimeInfoHtml": {
+    "message": "Unaweza kubadilisha hili baadaye katika <b>Machaguo</b>."
+  },
+  "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+    "message": "Viboksi vya tiki juu ya ukurasa huu vitaamua kama vichupo vilivyobandikwa au vilivyo kwenye vikundi vya vichupo vitajumuishwa kwenye uunganisho."
+  },
+  "chooseALocation": {
+    "message": "Chagua eneo"
+  },
+  "chooseALocationToImportTo": {
+    "message": "Chagua mahali pa kuingiza"
+  },
+  "chooseExportLocation": {
+    "message": "Chagua mahali pa kuhamisha nje kutoka"
+  },
+  "chooseLightDarkTheme": {
+    "message": "Chagua mandhari nyepesi/giza"
+  },
+  "chooseLocationToCopyTo": {
+    "message": "Chagua mahali pa kunakili"
+  },
+  "chooseLocationToMoveTo": {
+    "message": "Chagua mahali pa kuhamishia"
+  },
+  "chooseLocationToRestoreTo": {
+    "message": "Chagua mahali pa kurejesha"
+  },
+  "chooseToIncludeNotes": {
+    "message": "Kama umeongeza madokezo kwenye vichupo au vikundi, chagua kama uyajumuishe kwenye ukurasa wa wavuti utakaoshirikiwa"
+  },
+  "chooseToIncludeRatings": {
+    "message": "Ikiwa umeongeza nyota zozote kwenye vichupo au vikundi, chagua kama uzijumuishe kwenye ukurasa wa wavuti utakaoshirikiwa"
+  },
+  "chromeIncognitoInstructions": {
+    "message": "Katika mipangilio ya kivinjari chako, nenda 'Settings' → 'Extensions' → 'OneTab' → 'Details', kisha wezesha 'Allow in Incognito'."
+  },
+  "clickButtonToAllowTabAccess": {
+    "message": "Bofya kitufe kilicho chini ili kuruhusu OneTab kufikia vichupo vyako vilivyo wazi."
+  },
+  "clickHereToContinue": {
+    "message": "Bofya hapa kuendelea."
+  },
+  "clickOneTabIconToStoreTabsHere": {
+    "message": "Bofya ikoni ya OneTab kwenye upau wa zana wa kivinjari chako ili kuhifadhi vichupo vyako vilivyo wazi hapa."
+  },
+  "closeSelectedTabs_few": {
+    "message": "Funga {COUNT} vichupo vilivyochaguliwa"
+  },
+  "closeSelectedTabs_many": {
+    "message": "Funga {COUNT} vichupo vilivyochaguliwa"
+  },
+  "closeSelectedTabs_one": {
+    "message": "Funga {COUNT} kichupo kilichochaguliwa"
+  },
+  "closeSelectedTabs_other": {
+    "message": "Funga {COUNT} vichupo vilivyochaguliwa"
+  },
+  "closeSelectedTabs_two": {
+    "message": "Funga {COUNT} vichupo vilivyochaguliwa"
+  },
+  "closeSelectedTabs_zero": {
+    "message": "Funga {COUNT} vichupo vilivyochaguliwa"
+  },
+  "closeSelectedTabsAndStoreInONETAB_few": {
+    "message": "Funga {COUNT} vichupo vilivyochaguliwa na hifadhi kwenye ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_many": {
+    "message": "Funga {COUNT} vichupo vilivyochaguliwa na hifadhi kwenye ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_one": {
+    "message": "Funga {COUNT} kichupo kilichochaguliwa na hifadhi kwenye ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_other": {
+    "message": "Funga {COUNT} vichupo vilivyochaguliwa na hifadhi kwenye ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_two": {
+    "message": "Funga {COUNT} vichupo vilivyochaguliwa na hifadhi kwenye ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_zero": {
+    "message": "Funga {COUNT} vichupo vilivyochaguliwa na hifadhi kwenye ONETAB"
+  },
+  "closeTabs_few": {
+    "message": "Funga vichupo"
+  },
+  "closeTabs_many": {
+    "message": "Funga vichupo"
+  },
+  "closeTabs_one": {
+    "message": "Funga kichupo"
+  },
+  "closeTabs_other": {
+    "message": "Funga vichupo"
+  },
+  "closeTabs_two": {
+    "message": "Funga vichupo"
+  },
+  "closeTabs_zero": {
+    "message": "Funga vichupo"
+  },
+  "closeTabsAfterMerge": {
+    "message": "Funga vichupo baada ya kuunganisha"
+  },
+  "closeTabsAlreadyStoredInOneTab_few": {
+    "message": "Funga {COUNT} vichupo ambavyo tayari vimehifadhiwa kwenye OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_many": {
+    "message": "Funga {COUNT} vichupo ambavyo tayari vimehifadhiwa kwenye OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_one": {
+    "message": "Funga {COUNT} kichupo ambacho tayari kimehifadhiwa kwenye OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_other": {
+    "message": "Funga {COUNT} vichupo ambavyo tayari vimehifadhiwa kwenye OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_two": {
+    "message": "Funga {COUNT} vichupo ambavyo tayari vimehifadhiwa kwenye OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_zero": {
+    "message": "Funga {COUNT} vichupo ambavyo tayari vimehifadhiwa kwenye OneTab"
+  },
+  "closeTabsAndStore_few": {
+    "message": "Funga vichupo na hifadhi kwenye ONETAB"
+  },
+  "closeTabsAndStore_many": {
+    "message": "Funga vichupo na hifadhi kwenye ONETAB"
+  },
+  "closeTabsAndStore_one": {
+    "message": "Funga kichupo na hifadhi kwenye ONETAB"
+  },
+  "closeTabsAndStore_other": {
+    "message": "Funga vichupo na hifadhi kwenye ONETAB"
+  },
+  "closeTabsAndStore_two": {
+    "message": "Funga vichupo na hifadhi kwenye ONETAB"
+  },
+  "closeTabsAndStore_zero": {
+    "message": "Funga vichupo na hifadhi kwenye ONETAB"
+  },
+  "closeTheseDuplicates_few": {
+    "message": "Funga nakala rudufu hizi"
+  },
+  "closeTheseDuplicates_many": {
+    "message": "Funga nakala rudufu hizi"
+  },
+  "closeTheseDuplicates_one": {
+    "message": "Funga nakala rudufu hii"
+  },
+  "closeTheseDuplicates_other": {
+    "message": "Funga nakala rudufu hizi"
+  },
+  "closeTheseDuplicates_two": {
+    "message": "Funga nakala rudufu hizi"
+  },
+  "closeTheseDuplicates_zero": {
+    "message": "Funga nakala rudufu hizi"
+  },
+  "completedTaskFlagHelp": {
+    "message": "Kipengee hiki ni kazi. Bofya ikoni hii kukiweka alama kuwa kinasubiri (hakijakamilika)."
+  },
+  "completeEditingShortcutInfo": {
+    "message": "Unapohariri uga wa madokezo, tumia njia hii ya mkato kukamilisha uhariri."
+  },
+  "configureShortcuts": {
+    "message": "Sanidi njia za mkato"
+  },
+  "conflictingShortcutsHint": {
+    "message": "Ikiwa njia yoyote ya mkato hapo juu haifanyi kazi au inakinzana na programu nyingine, unaweza kusanidi njia ya mkato tofauti."
+  },
+  "continue": {
+    "message": "Endelea"
+  },
+  "convertTabsIntoAList": {
+    "message": "Geuza vichupo kuwa orodha"
+  },
+  "copiedToClipboard": {
+    "message": "Imenakiliwa kwenye ubao wa kunakili"
+  },
+  "copy": {
+    "message": "Nakili"
+  },
+  "copyLinksToClipboard": {
+    "message": "Nakili viungo kwenye ubao wa kunakili"
+  },
+  "copySharedPageUrl": {
+    "message": "Nakili URL ya ukurasa ulioshirikiwa"
+  },
+  "copyToClipboard": {
+    "message": "Nakili kwenye ubao wa kunakili"
+  },
+  "copyToClipboardMenuItemHelp": {
+    "message": "Nakili viungo hivi vya wavuti kwenye ubao wa kunakili, ili uweze kuvibandika kwenye programu nyingine. Unaweza kubadilisha umbizo la maandishi ya ubao wa kunakili kwenye ukurasa wa Machaguo ya OneTab."
+  },
+  "createANewGroupHere": {
+    "message": "Unda kikundi kipya hapa"
+  },
+  "createdOnOrAfterColon": {
+    "message": "Imeundwa tarehe au baada ya:"
+  },
+  "createdOnOrBeforeColon": {
+    "message": "Imeundwa tarehe au kabla ya:"
+  },
+  "createdPreceedingDate": {
+    "message": "Imeundwa"
+  },
+  "createFolderAbove": {
+    "message": "Unda folda juu"
+  },
+  "createFolderAboveBelow": {
+    "message": "Unda folda juu / chini"
+  },
+  "createFolderAboveWithinBelow": {
+    "message": "Unda folda juu / ndani / chini"
+  },
+  "createFolderBelow": {
+    "message": "Unda folda chini"
+  },
+  "createFolderWithin": {
+    "message": "Unda folda ndani"
+  },
+  "createFolderWithinMenuItemHelp": {
+    "message": "Folda ni za kupanga vikundi vya vichupo. Folda zina vikundi, na vikundi vina vichupo."
+  },
+  "createGroupAbove": {
+    "message": "Unda kikundi juu"
+  },
+  "createGroupAboveBelow": {
+    "message": "Unda kikundi juu / chini"
+  },
+  "createGroupAboveWithinBelow": {
+    "message": "Unda kikundi juu / ndani / chini"
+  },
+  "createGroupBelow": {
+    "message": "Unda kikundi chini"
+  },
+  "createGroupInsideDestination": {
+    "message": "Unda kikundi kipya ndani ya eneo lengwa"
+  },
+  "createGroupInsideDestinationHelp": {
+    "message": "Usipotia tiki, vichupo vyako vitaongezwa moja kwa moja kwenye kikundi lengwa. Ukitia tiki, kikundi kipya cha vichupo cha kivinjari kitatengenezwa kwa vichupo vyako ndani ya kikundi lengwa. Weka tiki kisanduku hiki tu ikiwa unataka kutumia kipengele cha kivinjari chako cha \"vikundi vya vichupo\"."
+  },
+  "createGroupMenuItemHelp": {
+    "message": "Unda kikundi kipya, tupu. Kikundi kina orodha ya vichupo, ambavyo vinaweza kurejeshwa pamoja kwenye dirisha."
+  },
+  "createGroupWithin": {
+    "message": "Unda kikundi ndani"
+  },
+  "createNewGroupTip": {
+    "message": "Ili kuunda kikundi kipya, kwanza ondoa tiki kwenye \"Onyesha folda pekee\". Hii ni ili uweze kuona kikundi kipya kwenye orodha."
+  },
+  "darkTheme": {
+    "message": "Mandhari ya giza"
+  },
+  "dayCount_few": {
+    "message": "{COUNT} siku"
+  },
+  "dayCount_many": {
+    "message": "{COUNT} siku"
+  },
+  "dayCount_one": {
+    "message": "{COUNT} siku"
+  },
+  "dayCount_other": {
+    "message": "{COUNT} siku"
+  },
+  "dayCount_two": {
+    "message": "{COUNT} siku"
+  },
+  "dayCount_zero": {
+    "message": "{COUNT} siku"
+  },
+  "delete": {
+    "message": "Futa"
+  },
+  "deleteAllTrash": {
+    "message": "Futa takataka zote"
+  },
+  "deleteThisCopy": {
+    "message": "Futa nakala hii"
+  },
+  "deselectAll": {
+    "message": "Ondoa tiki zote"
+  },
+  "destinationColon": {
+    "message": "Eneo lengwa:"
+  },
+  "disabled": {
+    "message": "Imezimwa"
+  },
+  "doneTaskCount_few": {
+    "message": "{COUNT} zimekamilika"
+  },
+  "doneTaskCount_many": {
+    "message": "{COUNT} zimekamilika"
+  },
+  "doneTaskCount_one": {
+    "message": "{COUNT} imekamilika"
+  },
+  "doneTaskCount_other": {
+    "message": "{COUNT} zimekamilika"
+  },
+  "doneTaskCount_two": {
+    "message": "{COUNT} zimekamilika"
+  },
+  "doneTaskCount_zero": {
+    "message": "{COUNT} zimekamilika"
+  },
+  "dontCloseGroupedTabs": {
+    "message": "Usifunge vichupo vyovyote vilivyo ndani ya vikundi vya vichupo"
+  },
+  "dontClosePinnedTabs": {
+    "message": "Usifunge vichupo vyovyote vilivyobandikwa"
+  },
+  "dontCloseTabsFromDomains": {
+    "message": "Usifunge vichupo vyovyote kutoka EXAMPLE.COM"
+  },
+  "dragCopyModifierInfo": {
+    "message": "Shikilia kitufe cha ctrl au alt unapodondosha kichupo ili kuunda nakala yake badala ya kukihamisha."
+  },
+  "dragTabsHereForQuickList": {
+    "message": "Vuta vichupo au vikundi ulivyohifadhi hadi hapa. Vitaongezwa kwenye orodha yako ya haraka."
+  },
+  "editTabGroupTitleAndNotes": {
+    "message": "Hariri kichwa na madokezo ya kikundi cha vichupo"
+  },
+  "emojiShortcutInfo": {
+    "message": "Unapohariri uga wa madokezo, tumia njia hii ya mkato kufungua kichagua emoji."
+  },
+  "emptyInBrackets": {
+    "message": "(tupu)"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "Unapokuwa na vichupo vingi vimefunguliwa, bofya ikoni ya OneTab kwenye upau wa zana wa kivinjari chako na vichupo vyako vilivyo wazi vitaonekana hapa."
+  },
+  "enabled": {
+    "message": "Imewezeshwa"
+  },
+  "encryptedSyncAndBackup": {
+    "message": "Ulandanishi na hifadhi rudufu vilivyosimbwa"
+  },
+  "encryptedSyncAndBackupComingSoonMessage": {
+    "message": "Inakuja hivi karibuni: Utaweza kulandanisha data zako za OneTab kwenye wasifu nyingi za kivinjari na kwenye kompyuta nyingi.\nOneTab imeandikwa upya kabisa ili mabadiliko yanayofanywa kwenye kifaa kimoja yaonekane papo hapo kwenye vifaa vingine vyote.\nUkitumia kipengele hiki, data zako zitasimbwa kutoka mwisho hadi mwisho kwa usimbaji dhabiti wa AES-256. Hii inafanya isiwezekane kwa watengenezaji wa OneTab kuona vichupo ulivyohifadhi rudufu au ulivyolandanishwa kati ya vifaa, kwa sababu ni wewe tu uliye na ufunguo wa usimbaji."
+  },
+  "everything": {
+    "message": "Vyote"
+  },
+  "exampleLink": {
+    "message": "Kiungo cha Mfano"
+  },
+  "exampleLinkTitle": {
+    "message": "Kichwa cha Kiungo cha Mfano"
+  },
+  "exampleLinkTitleOptional": {
+    "message": "Kichwa cha Kiungo cha Mfano (hiari)"
+  },
+  "exampleRichTextParagraph": {
+    "message": "Mfano wa aya ya maandishi yenye PLACEHOLDER na PLACEHOLDER"
+  },
+  "exampleWebsitePageTitle": {
+    "message": "Mfano wa kichwa cha ukurasa wa tovuti"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "Usijumuishe EXAMPLE.COM kwenye OneTab"
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "Usijumuishe tovuti hii kwenye OneTab"
+  },
+  "expiresColon": {
+    "message": "Muda wake unaisha:"
+  },
+  "export": {
+    "message": "Hamisha nje"
+  },
+  "exportImportUrls": {
+    "message": "Hamisha / Leta URL"
+  },
+  "exportThenImportNote": {
+    "message": "Orodha ifuatayo ya URL inaweza pia kuingizwa tena kwenye OneTab kwenye kompyuta hii au nyingine"
+  },
+  "exportUrls": {
+    "message": "Hamisha nje URL"
+  },
+  "feedback": {
+    "message": "Maoni"
+  },
+  "filter": {
+    "message": "Kichujio"
+  },
+  "firefoxIncognitoInstructions": {
+    "message": "Katika mipangilio ya kivinjari chako, nenda 'Settings' → 'Extensions and Themes' → 'Extensions' → 'OneTab' → '...' → 'Manage', kisha wezesha 'Run in Private Windows'."
+  },
+  "firefoxShortcutConfigInstructions": {
+    "message": "Weka URL \"about:addons?type=extension\" kwenye upau wa anwani wa kivinjari chako. Ukurasa ukionekana, bofya ikoni ya gia, kisha chagua \"Dhibiti njia za mkato za viongezi\""
+  },
+  "Folder": {
+    "message": "Folda"
+  },
+  "folderCount_few": {
+    "message": "{COUNT} folda"
+  },
+  "folderCount_many": {
+    "message": "{COUNT} folda"
+  },
+  "folderCount_one": {
+    "message": "{COUNT} folda"
+  },
+  "folderCount_other": {
+    "message": "{COUNT} folda"
+  },
+  "folderCount_two": {
+    "message": "{COUNT} folda"
+  },
+  "folderCount_zero": {
+    "message": "{COUNT} folda"
+  },
+  "folders": {
+    "message": "Folda"
+  },
+  "foldersOnly": {
+    "message": "Folda pekee"
+  },
+  "gettingStarted": {
+    "message": "Kuanza"
+  },
+  "gotIt": {
+    "message": "Nimeelewa"
+  },
+  "goToParentFolder": {
+    "message": "Nenda kwenye folda mzazi"
+  },
+  "groupCount_few": {
+    "message": "{COUNT} vikundi"
+  },
+  "groupCount_many": {
+    "message": "{COUNT} vikundi"
+  },
+  "groupCount_one": {
+    "message": "{COUNT} kikundi"
+  },
+  "groupCount_other": {
+    "message": "{COUNT} vikundi"
+  },
+  "groupCount_two": {
+    "message": "{COUNT} vikundi"
+  },
+  "groupCount_zero": {
+    "message": "{COUNT} vikundi"
+  },
+  "groups": {
+    "message": "Vikundi"
+  },
+  "hasNotes": {
+    "message": "Ina madokezo"
+  },
+  "help": {
+    "message": "Msaada"
+  },
+  "hideArchivedItems": {
+    "message": "Ficha vipengee vilivyohifadhiwa"
+  },
+  "import": {
+    "message": "Leta"
+  },
+  "importAndExport": {
+    "message": "Leta & Hamisha nje"
+  },
+  "importBookmarks": {
+    "message": "Leta alamisho"
+  },
+  "importedBookmarks": {
+    "message": "Alamisho zilizoletwa"
+  },
+  "importFolderAndSubfolders": {
+    "message": "Leta folda na folda ndogo"
+  },
+  "importLinksHere": {
+    "message": "Leta viungo hapa"
+  },
+  "importLinksHereMenuItemHelp": {
+    "message": "Unaweza kubandika orodha ya viungo vya wavuti, au kuleta alamisho za kivinjari."
+  },
+  "importReadingList": {
+    "message": "Leta orodha ya kusoma"
+  },
+  "importText": {
+    "message": "Leta maandishi"
+  },
+  "importUrls": {
+    "message": "Leta URL"
+  },
+  "includeGroupedTabs": {
+    "message": "Jumuisha vichupo vilivyo kwenye vikundi vya vichupo"
+  },
+  "includeNotes": {
+    "message": "Jumuisha madokezo"
+  },
+  "includePinnedTabs": {
+    "message": "Jumuisha vichupo vilivyobandikwa"
+  },
+  "includeStarRatings": {
+    "message": "Jumuisha nyota"
+  },
+  "includeTabsAlreadyStored": {
+    "message": "Jumuisha vichupo ambavyo tayari umevihifadhi"
+  },
+  "includeTabsFromDomains": {
+    "message": "Jumuisha vichupo kutoka EXAMPLE.COM"
+  },
+  "incogitoPermissionRequired": {
+    "message": "OneTab inahitaji ruhusa ya kuunda madirisha fiche."
+  },
+  "incognitoWindows": {
+    "message": "Madirisha fiche"
+  },
+  "invertSelection": {
+    "message": "Geuza uteuzi"
+  },
+  "justNow": {
+    "message": "sasa hivi"
+  },
+  "keyboardShortcutsColon": {
+    "message": "Njia za mkato za kibodi:"
+  },
+  "languageTitle": {
+    "message": "Lugha:"
+  },
+  "lightTheme": {
+    "message": "Mandhari nyepesi"
+  },
+  "localeId": {
+    "message": "sw"
+  },
+  "locationColon": {
+    "message": "Eneo:"
+  },
+  "lock": {
+    "message": "Funga"
+  },
+  "lockedGroupUnlockHelp": {
+    "message": "Ili kufungua, tumia menyu ya 'Zaidi…'. Kikundi kikiwa kimefungwa, huwezi kufuta kikundi au vichupo vyake, na vichupo haviwezi kupangwa upya."
+  },
+  "lockMenuItemHelp": {
+    "message": "Kikundi kikiwa kimefungwa, huwezi kuondoa au kupanga upya vipengee ndani ya kikundi (mpaka ukifungue kikundi)."
+  },
+  "makeThisATask": {
+    "message": "Fanya hii iwe kazi"
+  },
+  "manifestDescription": {
+    "message": "Okoa hadi 95% ya kumbukumbu na punguza msongamano wa vichupo"
+  },
+  "markAsArchived": {
+    "message": "Weka alama kama imehifadhiwa"
+  },
+  "markAsArchivedMenuItemHelp": {
+    "message": "Unapoweka alama kipengee kama kimehifadhiwa, kitakuwa na mandharinyuma ya kijivu. Hii ni ishara ya mwonekano kuwa umemaliza na kipengee hiki (kwa mfano, ni makala uliyomaliza kusoma). Ukiweka alama kama kimehifadhiwa kitu kilichowekwa alama kama kazi, kazi hiyo haitaonekana tena kwenye safu ya kazi kwenye ukurasa wako wa OneTab."
+  },
+  "markAsDoneTask": {
+    "message": "Weka alama kama kazi imekamilika"
+  },
+  "markAsDoneTaskMenuItemHelp": {
+    "message": "Onyesha kwa mwonekano kuwa kazi imekamilika"
+  },
+  "markAsPendingTask": {
+    "message": "Weka alama kama kazi inayosubiri"
+  },
+  "markAsPendingTaskMenuItemHelp": {
+    "message": "Onyesha kwa mwonekano kuwa kipengee hiki ni kazi. Ikoni ya kazi itaonekana, ambayo unaweza kisha kuibofya kuonyesha kwa mwonekano kuwa kazi imekamilika. Kazi zote (isipokuwa zilizowekwa alama kama zimehifadhiwa) pia zitaonekana kwenye safu ya kazi kwenye ukurasa wako wa OneTab."
+  },
+  "matchCount_few": {
+    "message": "{COUNT} vinavyolingana"
+  },
+  "matchCount_many": {
+    "message": "{COUNT} vinavyolingana"
+  },
+  "matchCount_one": {
+    "message": "{COUNT} kinacholingana"
+  },
+  "matchCount_other": {
+    "message": "{COUNT} vinavyolingana"
+  },
+  "matchCount_two": {
+    "message": "{COUNT} vinavyolingana"
+  },
+  "matchCount_zero": {
+    "message": "{COUNT} vinavyolingana"
+  },
+  "matchWholeWordsOnly": {
+    "message": "Linganisha maneno kamili tu"
+  },
+  "mayNeedToRestartBrowser": {
+    "message": "Ukiiona ujumbe huu kila wakati, tafadhali sasisha na uanzishe upya kivinjari chako."
+  },
+  "mergeIntoParent": {
+    "message": "Unganisha kwenye mzazi"
+  },
+  "mergeOpenTabsHere_few": {
+    "message": "Unganisha {COUNT} vichupo wazi hapa"
+  },
+  "mergeOpenTabsHere_many": {
+    "message": "Unganisha {COUNT} vichupo vilivyofunguliwa hapa"
+  },
+  "mergeOpenTabsHere_one": {
+    "message": "Unganisha {COUNT} kichupo kilichofunguliwa hapa"
+  },
+  "mergeOpenTabsHere_other": {
+    "message": "Unganisha {COUNT} vichupo wazi hapa"
+  },
+  "mergeOpenTabsHere_two": {
+    "message": "Unganisha {COUNT} vichupo wazi hapa"
+  },
+  "mergeOpenTabsHere_zero": {
+    "message": "Unganisha {COUNT} vichupo wazi hapa"
+  },
+  "mergeSelectedTabsHere_few": {
+    "message": "Unganisha {COUNT} vichupo vilivyochaguliwa hapa"
+  },
+  "mergeSelectedTabsHere_many": {
+    "message": "Unganisha {COUNT} vichupo vilivyochaguliwa hapa"
+  },
+  "mergeSelectedTabsHere_one": {
+    "message": "Unganisha {COUNT} kichupo kilichochaguliwa hapa"
+  },
+  "mergeSelectedTabsHere_other": {
+    "message": "Unganisha {COUNT} vichupo vilivyochaguliwa hapa"
+  },
+  "mergeSelectedTabsHere_two": {
+    "message": "Unganisha {COUNT} vichupo vilivyochaguliwa hapa"
+  },
+  "mergeSelectedTabsHere_zero": {
+    "message": "Unganisha {COUNT} vichupo vilivyochaguliwa hapa"
+  },
+  "mergeWithInnerGroups": {
+    "message": "Unganisha na vikundi vya ndani"
+  },
+  "modalMoveToTrashHintExampleGroupTitle": {
+    "message": "Mfano wa kichwa cha kikundi"
+  },
+  "modalMoveToTrashHintHeading": {
+    "message": "Kidokezo: Peleka kipanya juu ya kichwa cha kikundi, kisha bofya X ili kukihamisha kwenye takataka."
+  },
+  "modalOptionAutoActionOnOpenHeading": {
+    "message": "Baada ya kurejesha vichupo:"
+  },
+  "modalOptionAutoActionOnOpenOpenDesc": {
+    "message": "Futa kwa mikono ukimaliza"
+  },
+  "modalOptionAutoActionOnOpenTrashDesc": {
+    "message": "Rahisi zaidi kwa kuhifadhi na kurejesha haraka"
+  },
+  "modalRemigrationDontAskAgain": {
+    "message": "Usiulize tena"
+  },
+  "modalRemigrationFooterHtml": {
+    "message": "Bofya <b>Ndiyo</b>, isipokuwa uhamishaji tayari ulifanyika na ulifuta kimakusudi vichupo vilivyohamishwa."
+  },
+  "modalRemigrationNotNow": {
+    "message": "Sio sasa"
+  },
+  "modalRemigrationTabsFoundPrompt_few": {
+    "message": "{COUNT} vichupo kutoka OneTab v1 vimepatikana. Vihamishe?"
+  },
+  "modalRemigrationTabsFoundPrompt_many": {
+    "message": "{COUNT} vichupo kutoka OneTab v1 vimepatikana. Vihamishe?"
+  },
+  "modalRemigrationTabsFoundPrompt_one": {
+    "message": "{COUNT} kichupo kutoka OneTab v1 kimepatikana. Kihamishe?"
+  },
+  "modalRemigrationTabsFoundPrompt_other": {
+    "message": "{COUNT} vichupo kutoka OneTab v1 vimepatikana. Vihamishe?"
+  },
+  "modalRemigrationTabsFoundPrompt_two": {
+    "message": "{COUNT} vichupo kutoka OneTab v1 vimepatikana. Vihamishe?"
+  },
+  "modalRemigrationTabsFoundPrompt_zero": {
+    "message": "{COUNT} vichupo kutoka OneTab v1 vimepatikana. Vihamishe?"
+  },
+  "modalRemigrationYes": {
+    "message": "Ndiyo"
+  },
+  "modalUpdateToV2Heading": {
+    "message": "OneTab imesasishwa"
+  },
+  "modalUpdateToV2QuickTourHtml": {
+    "message": "Unataka ziara ya haraka? Bofya <b>Msaada</b> juu."
+  },
+  "modalUpdateToV2UseOneTabLikeBefore": {
+    "message": "Bado unaweza kutumia OneTab kama awali — hifadhi vichupo vyako kwa mbofyo 1."
+  },
+  "modifySharing": {
+    "message": "Badili kushiriki"
+  },
+  "moreEllipsis": {
+    "message": "Zaidi…"
+  },
+  "moreSearchFilters": {
+    "message": "Vichujio zaidi vya utafutaji"
+  },
+  "move": {
+    "message": "Hamisha"
+  },
+  "moveBack": {
+    "message": "Hamisha nyuma"
+  },
+  "moveToTrash": {
+    "message": "Hamisha kwenye takataka"
+  },
+  "namedOnly": {
+    "message": "Vilivyopewa jina pekee"
+  },
+  "navigationFilter": {
+    "message": "Kichujio cha urambazaji"
+  },
+  "newExclamation": {
+    "message": "Mpya!"
+  },
+  "noDupsExistExceptForColon": {
+    "message": "Hakuna nakala rudufu, isipokuwa:"
+  },
+  "noDupsFoundHere": {
+    "message": "Hakuna nakala rudufu hapa"
+  },
+  "noMatches": {
+    "message": "Hakuna vinavyolingana"
+  },
+  "noMatchesFound": {
+    "message": "Hakuna vinavyolingana"
+  },
+  "nonArchived": {
+    "message": "Zisizohifadhiwa"
+  },
+  "nonTabPinFlagHelp": {
+    "message": "Kipengee hiki kimebandikwa juu ya folda. Bofya ikoni hii kuondoa kubandika."
+  },
+  "noOpenTabsToStore": {
+    "message": "Hakuna vichupo vilivyo wazi kwenye dirisha hili vya kuhifadhi."
+  },
+  "noReadingListEntries": {
+    "message": "Hakuna vipengee vya orodha ya kusoma vilivyopatikana"
+  },
+  "noTabsInOneTabYet": {
+    "message": "Bado huna vichupo kwenye OneTab"
+  },
+  "noTabsMeetCriteriaUseCheckboxes": {
+    "message": "Hakuna vichupo vilivyo wazi vinavyokidhi vigezo vyako. Tafadhali tumia vijisanduku vya tiki vilivyo juu."
+  },
+  "notAssigned": {
+    "message": "Haijawekwa"
+  },
+  "notes": {
+    "message": "Madokezo"
+  },
+  "notesAboutTheLinkOptional": {
+    "message": "Madokezo kuhusu kiungo (hiari)"
+  },
+  "notesAboutTheSecondLinkOptional": {
+    "message": "Madokezo kuhusu kiungo cha pili (hiari)"
+  },
+  "noTextHasBeenEntered": {
+    "message": "Hakuna maandishi yaliyoingizwa"
+  },
+  "ok": {
+    "message": "Sawa"
+  },
+  "omniboxShortcutInfo": {
+    "message": "Ili kutafuta orodha yako ya OneTab kutoka kwenye kichupo chochote: Nenda kwenye upau wa anwani wa kivinjari, andika 11, kisha nafasi, kisha neno la utafutaji."
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "OneTab pia inapatikana kwa Firefox"
+  },
+  "oneTabDesignedToProtectPrivacy": {
+    "message": "OneTab imeundwa kulinda faragha yako. Vichupo vyako havifichuliwi kwetu."
+  },
+  "oneTabExportPageTitle": {
+    "message": "Uhamishaji nje wa OneTab"
+  },
+  "oneTabImportExportPageTitle": {
+    "message": "Uingizaji/Hamishaji wa OneTab"
+  },
+  "oneTabNeedsPermissionToAccessYourTabs": {
+    "message": "OneTab inahitaji ruhusa kufikia vichupo vyako."
+  },
+  "oneTabOptionsPageTitle": {
+    "message": "Machaguo ya OneTab"
+  },
+  "oneTabPermissionRequired": {
+    "message": "OneTab - Ruhusa inahitajika"
+  },
+  "oneTabRestartRequired": {
+    "message": "OneTab inahitaji kuanzishwa upya. Hakuna vichupo vingine vitakavyofungwa."
+  },
+  "oneTabSlashShortcutInfo": {
+    "message": "Ukiwa ndani ya ukurasa wa OneTab, bonyeza kitufe cha mkwaju (/) kuwekea umakini kisanduku cha utafutaji."
+  },
+  "open": {
+    "message": "Fungua"
+  },
+  "openActionPopup": {
+    "message": "Kitendo cha OneTab (sawa na kubofya ikoni ya OneTab kwenye upau wa zana)"
+  },
+  "openAsCollapsedTabGroup": {
+    "message": "Fungua kama kikundi cha vichupo kilichokunjwa"
+  },
+  "openAsCollapsedTabGroupMenuItemHelp": {
+    "message": "Ukiyafungua vichupo hivi kama \"kikundi cha vichupo\" kilichokunjwa, lebo ya kikundi pekee itaonyeshwa hadi ubofye ili kufichua vichupo vilivyomo."
+  },
+  "openAsPinnedTab": {
+    "message": "Bandika kichupo kinapofunguliwa"
+  },
+  "openAsPinnedTabMenuItemHelp": {
+    "message": "Kichupo hiki kikirejeshwa, kirejeshe kama kichupo kilichobandikwa. Vichupo vilivyobandikwa vitaonekana kwanza kila wakati kwenye dirisha la kivinjari."
+  },
+  "openAsTabGroup": {
+    "message": "Fungua kama kikundi cha vichupo cha kivinjari"
+  },
+  "openAsTabGroupMenuItemHelp": {
+    "message": "Kivinjari chako huruhusu vichupo kupangwa katika \"vikundi vya vichupo\" vyenye rangi ndani ya dirisha."
+  },
+  "openFolder": {
+    "message": "Fungua folda"
+  },
+  "openGroupsLimitNotice_few": {
+    "message": "Ili kuzuia kivinjari chako kisisongwe, ni vikundi {COUNT} vya kwanza tu vitafunguliwa."
+  },
+  "openGroupsLimitNotice_many": {
+    "message": "Ili kuzuia kivinjari chako kisisongwe, ni vikundi {COUNT} vya kwanza tu vitafunguliwa."
+  },
+  "openGroupsLimitNotice_one": {
+    "message": "Ili kuzuia kivinjari chako kisisongwe, ni kikundi {COUNT} cha kwanza tu kitafunguliwa."
+  },
+  "openGroupsLimitNotice_other": {
+    "message": "Ili kuzuia kivinjari chako kisisongwe, ni vikundi {COUNT} vya kwanza tu vitafunguliwa."
+  },
+  "openGroupsLimitNotice_two": {
+    "message": "Ili kuzuia kivinjari chako kisisongwe, ni vikundi {COUNT} vya kwanza tu vitafunguliwa."
+  },
+  "openGroupsLimitNotice_zero": {
+    "message": "Ili kuzuia kivinjari chako kisisongwe, ni vikundi {COUNT} vya kwanza tu vitafunguliwa."
+  },
+  "openInIncognitoWindow": {
+    "message": "Rejesha kwenye dirisha jipya fiche"
+  },
+  "openInNewWindow": {
+    "message": "Rejesha kwenye dirisha jipya"
+  },
+  "openInThisWindow": {
+    "message": "Rejesha kwenye dirisha hili"
+  },
+  "openOneTab": {
+    "message": "Fungua OneTab"
+  },
+  "openOneTabAfter": {
+    "message": "Fungua OneTab baada ya kuhifadhi vichupo"
+  },
+  "openONETABLogo": {
+    "message": "Fungua ONETAB"
+  },
+  "openParentFolder": {
+    "message": "Fungua folda mzazi"
+  },
+  "openTabFromWebsite": {
+    "message": "Fungua kichupo na uende kwenye tovuti"
+  },
+  "openTabLimit_few": {
+    "message": "Ili kuzuia kivinjari chako kisisongwe, unaweza kufungua hadi {COUNT} vichupo kwa wakati mmoja."
+  },
+  "openTabLimit_many": {
+    "message": "Ili kuzuia kivinjari chako kisisongwe, unaweza kufungua hadi {COUNT} vichupo kwa wakati mmoja."
+  },
+  "openTabLimit_one": {
+    "message": "Ili kuzuia kivinjari chako kisisongwe, unaweza kufungua hadi {COUNT} kichupo kwa wakati mmoja."
+  },
+  "openTabLimit_other": {
+    "message": "Ili kuzuia kivinjari chako kisisongwe, unaweza kufungua hadi {COUNT} vichupo kwa wakati mmoja."
+  },
+  "openTabLimit_two": {
+    "message": "Ili kuzuia kivinjari chako kisisongwe, unaweza kufungua hadi {COUNT} vichupo kwa wakati mmoja."
+  },
+  "openTabLimit_zero": {
+    "message": "Ili kuzuia kivinjari chako kisisongwe, unaweza kufungua hadi {COUNT} vichupo kwa wakati mmoja."
+  },
+  "openTabsAlreadyStoredHere_few": {
+    "message": "{COUNT} vichupo vilivyofunguliwa tayari vimehifadhiwa hapa:"
+  },
+  "openTabsAlreadyStoredHere_many": {
+    "message": "{COUNT} vichupo vilivyofunguliwa tayari vimehifadhiwa hapa:"
+  },
+  "openTabsAlreadyStoredHere_one": {
+    "message": "{COUNT} kichupo wazi tayari kimehifadhiwa hapa:"
+  },
+  "openTabsAlreadyStoredHere_other": {
+    "message": "{COUNT} vichupo wazi tayari vimehifadhiwa hapa:"
+  },
+  "openTabsAlreadyStoredHere_two": {
+    "message": "{COUNT} vichupo vilivyofunguliwa tayari vimehifadhiwa hapa:"
+  },
+  "openTabsAlreadyStoredHere_zero": {
+    "message": "{COUNT} vichupo wazi tayari vimehifadhiwa hapa:"
+  },
+  "openTabsConfirm_few": {
+    "message": "Unakaribia kufungua {COUNT} vichupo. Je, una uhakika?"
+  },
+  "openTabsConfirm_many": {
+    "message": "Unakaribia kufungua {COUNT} vichupo. Je, una uhakika?"
+  },
+  "openTabsConfirm_one": {
+    "message": "Unakaribia kufungua {COUNT} kichupo. Je, una uhakika?"
+  },
+  "openTabsConfirm_other": {
+    "message": "Unakaribia kufungua {COUNT} vichupo. Je, una uhakika?"
+  },
+  "openTabsConfirm_two": {
+    "message": "Unakaribia kufungua {COUNT} vichupo. Je, una uhakika?"
+  },
+  "openTabsConfirm_zero": {
+    "message": "Unakaribia kufungua {COUNT} vichupo. Je, una uhakika?"
+  },
+  "openTabsNotStoredInOneTab_few": {
+    "message": "{COUNT} vichupo wazi havijahifadhiwa kwenye OneTab"
+  },
+  "openTabsNotStoredInOneTab_many": {
+    "message": "{COUNT} vichupo wazi havijahifadhiwa kwenye OneTab"
+  },
+  "openTabsNotStoredInOneTab_one": {
+    "message": "{COUNT} kichupo wazi hakijahifadhiwa kwenye OneTab"
+  },
+  "openTabsNotStoredInOneTab_other": {
+    "message": "{COUNT} vichupo wazi havijahifadhiwa kwenye OneTab"
+  },
+  "openTabsNotStoredInOneTab_two": {
+    "message": "{COUNT} vichupo wazi havijahifadhiwa kwenye OneTab"
+  },
+  "openTabsNotStoredInOneTab_zero": {
+    "message": "{COUNT} vichupo wazi havijahifadhiwa kwenye OneTab"
+  },
+  "optionAutoActionOnOpenArchiveDesc": {
+    "message": "Kuweka alama vichupo kama vimehifadhiwa huvipatia mandharinyuma ya kijivu yenye mistari. Hii hutoa ishara ya mwonekano kuwa umesoma au umemaliza na vichupo."
+  },
+  "optionAutoActionOnOpenArchiveTitle": {
+    "message": "Weka alama kama vimehifadhiwa"
+  },
+  "optionAutoActionOnOpenHeading": {
+    "message": "Unaporejesha vichupo:"
+  },
+  "optionAutoActionOnOpenNote": {
+    "message": "Vikundi vilivyofungwa huweka vichupo vyake kila wakati"
+  },
+  "optionAutoActionOnOpenOpenDesc": {
+    "message": "Ili kuweka alama vichupo kama vimehifadhiwa unapovirejesha, shikilia kitufe cha Alt au Option"
+  },
+  "optionAutoActionOnOpenOpenTitle": {
+    "message": "Viache kwenye orodha yako"
+  },
+  "optionAutoActionOnOpenTrashDesc": {
+    "message": "Ukishikilia kitufe cha Ctrl au Cmd, kichupo/vichupo vitabaki kwenye orodha yako."
+  },
+  "optionAutoActionOnOpenTrashTitle": {
+    "message": "Viondoe kwenye orodha yako"
+  },
+  "optionBrowserActionHeading": {
+    "message": "Unapobofya ikoni ya OneTab kwenye upau wa zana wa kivinjari chako:"
+  },
+  "optionBrowserActionOpenPopupDesc": {
+    "message": "Ibukizi la kitendo litakuonyesha orodha ya vichupo vilivyo wazi, na kukuruhusu kuchagua hasa ni vichupo vipi unavyotaka kutuma kwenda OneTab. Litakuruhusu kuweka kichwa cha kikundi cha vichupo unavyohifadhi, ili usihitaji kufanya hivi baadaye ndani ya ukurasa wa OneTab. Ibukizi pia litakupa ufikiaji rahisi wa orodha yako ya haraka kutoka kwenye dirisha lolote la kivinjari."
+  },
+  "optionBrowserActionOpenPopupDesc2": {
+    "message": "Chagua hasa vichupo vya kuhifadhi"
+  },
+  "optionBrowserActionOpenPopupTitle": {
+    "message": "Onyesha ibukizi la kitendo la OneTab"
+  },
+  "optionBrowserActionSendCurrentTabDesc": {
+    "message": "Kichupo kitawekwa ndani ya kikundi cha kwanza kwenye ukurasa wako wa OneTab (ikipuuza vikundi vyovyote vilivyobandikwa au vilivyofungwa)"
+  },
+  "optionBrowserActionSendCurrentTabTitle": {
+    "message": "Tuma kichupo cha sasa pekee kwenda OneTab"
+  },
+  "optionBrowserActionSendTabsInWindowDesc": {
+    "message": "Vichupo vyako vitafungwa na kuhifadhiwa kwenye orodha yako ya OneTab. Ikiwa umechagua vichupo vingi kwenye upau wa vichupo wa kivinjari chako (kwa kutumia kitufe cha Cmd, Ctrl au Shift), ni vichupo vilivyochaguliwa pekee vitakavyotumwa kwenda OneTab. Ikiwa unatumia kipengele cha Vikundi vya Vichupo cha kivinjari chako, ni Kikundi cha Vichupo cha sasa pekee kitakachotumwa kwenda OneTab."
+  },
+  "optionBrowserActionSendTabsInWindowDesc2": {
+    "message": "Njia ya haraka zaidi ya kuhifadhi vichupo"
+  },
+  "optionBrowserActionSendTabsInWindowTitle": {
+    "message": "Tuma vichupo kwenye dirisha la sasa kwenda OneTab"
+  },
+  "optionCopyToClipboardFormatHeading": {
+    "message": "Kunakili viungo kwenye ubao wa kunakili:"
+  },
+  "optionCopyToClipboardFormatNote": {
+    "message": "Mpangilio huu utatumika unapotumia kitendo cha 'Nakili kwenye ubao wa kunakili'. Pia unaweza kuvuta vichupo na vikundi moja kwa moja kutoka OneTab hadi kwenye hati."
+  },
+  "optionCopyToClipboardFormatRichTextDesc": {
+    "message": "Programu kama vihariri vya nyaraka zitakuruhusu kubandika maandishi tajiri. Ikiwa hayajaungwa mkono, maandishi ya kawaida yatabandikwa badala yake."
+  },
+  "optionCopyToClipboardFormatRichTextTitle": {
+    "message": "Maandishi tajiri, inapopatikana"
+  },
+  "optionCopyToClipboardFormatTitleUrlTitle": {
+    "message": "Kichwa na URL"
+  },
+  "optionCopyToClipboardFormatUrlOnlyTitle": {
+    "message": "URL pekee"
+  },
+  "optionCopyToClipboardFormatUrlTitleTitle": {
+    "message": "URL na kichwa"
+  },
+  "optionDefaultTabGroupOpenTypeCurrentWindow": {
+    "message": "Fungua kikundi cha vichupo cha kivinjari kwenye dirisha la sasa"
+  },
+  "optionDefaultTabGroupOpenTypeHeading": {
+    "message": "Unapobofya kufungua kikundi cha vichupo kilichosanidiwa kufunguka kama \"kikundi cha vichupo cha kivinjari\":"
+  },
+  "optionDefaultTabGroupOpenTypeNewWindow": {
+    "message": "Fungua kikundi cha vichupo cha kivinjari kwenye dirisha jipya"
+  },
+  "optionDefaultTabGroupOpenTypeNote": {
+    "message": "Ukitumia menyu kunjuzi kuchagua chaguo fulani (kama vile kufungua vichupo kwenye dirisha fiche), chaguo hilo litakumbukwa kwa kikundi hicho."
+  },
+  "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+    "message": "Fungua vichupo kwenye dirisha la sasa"
+  },
+  "optionDefaultWindowGroupOpenTypeHeading": {
+    "message": "Unaporejesha kikundi cha vichupo:"
+  },
+  "optionDefaultWindowGroupOpenTypeNewWindow": {
+    "message": "Fungua vichupo kwenye dirisha jipya"
+  },
+  "optionDefaultWindowGroupOpenTypeNote": {
+    "message": "Ukitumia menyu kunjuzi kuchagua chaguo fulani (kama vile kufungua vichupo kwenye dirisha fiche), chaguo hilo litakumbukwa kwa kikundi hicho."
+  },
+  "optionDiscardNonActiveTabOnOpenHeading": {
+    "message": "Hifadhi kumbukumbu (RAM) mara moja vichupo vinapofunguliwa kwa mara ya kwanza:"
+  },
+  "optionDiscardNonActiveTabOnOpenNote": {
+    "message": "Ukiwezesha mpangilio huu, vichupo vitatolewa mara moja kutoka kumbukumbu unapovifungua kwa mara ya kwanza kutoka kwenye orodha yako ya OneTab. Hili ni muhimu ukifungua vichupo vingi kwa wakati mmoja mara kwa mara, kwa kuwa litazuia vyote kupakiwa kwenye kumbukumbu hadi uzivifikie. Ukiulemaza mpangilio huu, vivinjari vingi bado huchagua kiotomatiki kutoa vichupo kutoka kumbukumbu ikiwa kwa sasa huvitumii."
+  },
+  "optionDisplayContextMenuHeading": {
+    "message": "Bofya-kulia ndani ya ukurasa wa wavuti kufikia menyu ya muktadha ya OneTab:"
+  },
+  "optionDisplayContextMenuNote": {
+    "message": "Ukilemaza menyu, hutaweza kufikia kipengele cha \"Usijumuishe tovuti hii kwenye OneTab\""
+  },
+  "optionDuplicatesAllow": {
+    "message": "Ruhusu nakala rudufu"
+  },
+  "optionDuplicatesReject": {
+    "message": "Kataa nakala rudufu kimya kimya"
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "Ikiwa OneTab tayari ina kichupo hicho, hakitaongezwa tena."
+  },
+  "optionDuplicatesTitle": {
+    "message": "Nakala rudufu:"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+    "message": "Hamia kwenye dirisha ambamo kichupo cha OneTab tayari kiko wazi"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+    "message": "Kitendo cha \"Fungua OneTab\":"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenNote": {
+    "message": "Kitendo cha \"Fungua OneTab\":"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+    "message": "Hamisha kichupo chochote cha OneTab kilichopo hadi dirisha la sasa"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "Ruhusu vichupo vilivyobandikwa vitumwe kwenda OneTab"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "Usitume vichupo vilivyobandikwa kwenda OneTab"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "Bado unaweza kutuma kichupo kilichobandikwa kwenda OneTab kwa mikono kwa kubofya-kulia ndani ya ukurasa wa wavuti kufikia menyu ya OneTab, kisha kubofya 'Tuma kichupo hiki pekee kwenda OneTab'"
+  },
+  "optionPinnedTabsNote": {
+    "message": "Kumbuka: Kichupo huwa 'kimebandikwa' unapobofya-kulia kichupo na kubofya 'Bandika kichupo'. Baadhi ya watu hupenda kubandika tovuti kama Facebook au Gmail ili waweze kuzipata kwa urahisi. OneTab itakumbuka kama kichupo kilikuwa kimebandikwa unapokirejesha."
+  },
+  "optionPinnedTabsTitle": {
+    "message": "Vichupo vilivyobandikwa:"
+  },
+  "options": {
+    "message": "Machaguo"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "Fungua OneTab kiotomatiki"
+  },
+  "optionStartupLaunchNone": {
+    "message": "Usifungue OneTab kiotomatiki"
+  },
+  "optionStartupLaunchNoneDesc3": {
+    "message": "Ili kufungua OneTab kwa mikono, unaweza kubofya-kulia ndani ya ukurasa wowote wa wavuti, na ubofye 'Fungua OneTab' ndani ya menyu ya OneTab."
+  },
+  "optionStartupLaunchTitle": {
+    "message": "Kuanza kwa kivinjari:"
+  },
+  "optionSwitchToOpenedTabFalseTitle": {
+    "message": "Fungua kichupo na baki ndani ya OneTab"
+  },
+  "optionSwitchToOpenedTabHeading": {
+    "message": "Unaporejesha vichupo kutoka kwenye ukurasa wa OneTab:"
+  },
+  "optionSwitchToOpenedTabNote": {
+    "message": "Ukishikilia Shift unapobofya, kichupo kitafunguka kwenye dirisha jipya"
+  },
+  "optionSwitchToOpenedTabTrueTitle": {
+    "message": "Fungua kichupo, na uhamie humo (isipokuwa ushikilie Command ⌘/Ctrl unapobofya)"
+  },
+  "optionUrlAbbr": {
+    "message": "Iliyofupishwa"
+  },
+  "optionUrlDisplayTitle": {
+    "message": "Uonyeshaji wa URL:"
+  },
+  "optionUrlDomain": {
+    "message": "Kikoa pekee"
+  },
+  "optionUrlFull": {
+    "message": "Kamili"
+  },
+  "optionUrlNone": {
+    "message": "Hakuna"
+  },
+  "otherCopiesColon": {
+    "message": "Nakala nyingine:"
+  },
+  "pasteRichOrPlainTextBelow": {
+    "message": "Unaweza kubandika maandishi tajiri au ya kawaida hapa chini."
+  },
+  "pendingTaskCount_few": {
+    "message": "{COUNT} hazijakamilika"
+  },
+  "pendingTaskCount_many": {
+    "message": "{COUNT} hazijakamilika"
+  },
+  "pendingTaskCount_one": {
+    "message": "{COUNT} haijakamilika"
+  },
+  "pendingTaskCount_other": {
+    "message": "{COUNT} hazijakamilika"
+  },
+  "pendingTaskCount_two": {
+    "message": "{COUNT} hazijakamilika"
+  },
+  "pendingTaskCount_zero": {
+    "message": "{COUNT} hazijakamilika"
+  },
+  "pendingTaskFlagHelp": {
+    "message": "Kipengee hiki ni kazi. Bofya ikoni hii kukiweka alama kuwa kimekamilika."
+  },
+  "permissionRequiredPleaseTryAgain": {
+    "message": "Ili kuunda ukurasa unaoshirikiwa unaoweza kufikiwa kutoka kwa kompyuta yoyote, inahitajika ruhusa ya kuratibu na seva ya wavuti ya OneTab. Tafadhali jaribu tena."
+  },
+  "pinnedTabs": {
+    "message": "vichupo vilivyobandikwa"
+  },
+  "pinToTopOfFolder": {
+    "message": "Bandika juu ya folda"
+  },
+  "pinToTopOfFolderMenuItemHelp": {
+    "message": "Bandika kikundi hiki ili kionekane juu kila wakati kwenye folda"
+  },
+  "pinToTopOfList": {
+    "message": "Bandika juu ya orodha"
+  },
+  "placeholderAndOtherLocations_few": {
+    "message": "PLACEHOLDER, na {COUNT} zaidi"
+  },
+  "placeholderAndOtherLocations_many": {
+    "message": "PLACEHOLDER, na {COUNT} zaidi"
+  },
+  "placeholderAndOtherLocations_one": {
+    "message": "PLACEHOLDER, na {COUNT} zaidi"
+  },
+  "placeholderAndOtherLocations_other": {
+    "message": "PLACEHOLDER, na {COUNT} zaidi"
+  },
+  "placeholderAndOtherLocations_two": {
+    "message": "PLACEHOLDER, na {COUNT} zaidi"
+  },
+  "placeholderAndOtherLocations_zero": {
+    "message": "PLACEHOLDER, na {COUNT} zaidi"
+  },
+  "placeholderExplanation": {
+    "message": "Kwa sababu ya sheria za usalama za kivinjari, OneTab hairuhusiwi kurejesha ukurasa huu moja kwa moja. Tafadhali nakili URL yako na ubandike kwenye upau wa anwani wa kivinjari chako."
+  },
+  "plainTextLineFormat": {
+    "message": "Ukibandika maandishi ya kawaida, hakikisha kila URL ina itifaki iliyobainishwa (https://wikipedia.org, badala ya wikipedia.org tu). Kila mstari unapaswa kuwa katika umbizo lifuatalo:"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "Tafadhali subiri…"
+  },
+  "popupSlashShortcutInfo": {
+    "message": "Ukiwa ndani ya ibukizi la kitendo la OneTab (linaloonekana unapobofya ikoni ya OneTab), bonyeza kitufe cha mkwaju kufungua kichaguzi cha eneo lengwa na kuwekea umakini kisanduku cha utafutaji."
+  },
+  "printUseSaveTabsAsHtmlFileAlertHtml": {
+    "message": "Kwa matokeo bora ya kuchapisha, tumia kitendo cha <b>Hifadhi kama faili ya HTML</b> kwenye menyu ya <b>Zaidi…</b> ya folda, kisha uchapishe faili ya HTML iliyopakuliwa."
+  },
+  "privacyAssurance": {
+    "message": "Uhakikisho wa faragha"
+  },
+  "privacyAssuranceDetail": {
+    "message": "Orodha yako ya vichupo haitatumwa wala kufichuliwa kwa watengenezaji wa OneTab au kwa upande mwingine wowote. Isipokuwa tu ikiwa utaamua kwa makusudi kutumia kipengele cha 'shiriki kama ukurasa wa wavuti' kupakia orodha yako ya vichupo kwenye ukurasa wa wavuti ili kuishiriki na wengine."
+  },
+  "privacyFirst": {
+    "message": "Faragha Kwanza"
+  },
+  "privacyFirstMessage": {
+    "message": "OneTab imeundwa kulinda data zako za faragha. Vichupo vyako huhifadhiwa tu kwenye kompyuta yako, na kamwe havishirikiwa na watengenezaji wa OneTab au upande mwingine wowote.\nUkitumia kipengele chetu cha hifadhi rudufu/ulandanishi, data zako zitasimbwa kutoka mwisho hadi mwisho kwa usimbaji dhabiti wa AES-256. Hii inafanya isiwezekane kwa watengenezaji wa OneTab kuona vichupo ulivyohifadhi rudufu au ulivyolandanishwa kati ya vifaa, kwa sababu ni wewe tu uliye na ufunguo wa usimbaji.\nIsipokuwa pekee ni ikiwa utaamua kimakusudi kushiriki baadhi ya vichupo vyako na watu wengine ukitumia kipengele chetu cha \"Shiriki kama ukurasa wa wavuti\".\nTunaamini katika Faragha Kwanza."
+  },
+  "privateBrowsingPermissionRequired": {
+    "message": "OneTab inahitaji ruhusa ya kuunda madirisha ya uvinjari binafsi."
+  },
+  "privateBrowsingWindows": {
+    "message": "Madirisha ya uvinjari binafsi"
+  },
+  "quickList": {
+    "message": "Orodha ya haraka"
+  },
+  "readingList": {
+    "message": "Orodha ya kusoma"
+  },
+  "readingListPermissionNecesssary": {
+    "message": "Ruhusa ya orodha ya kusoma inahitajika ili kuruhusu OneTab kuleta vipengee kutoka kwenye orodha yako ya kusoma. Ikiwa kipengele hiki hakifanyi kazi, huenda kivinjari chako kisitumie orodha za kusoma."
+  },
+  "recent": {
+    "message": "Hivi karibuni"
+  },
+  "recentDestinationsColon": {
+    "message": "Maeneo lengwa ya hivi karibuni:"
+  },
+  "recentDuplicateRetainedHelp": {
+    "message": "Iwapo kichupo kitatokea zaidi ya mara moja, nakala rudufu ya hivi karibuni pekee ndiyo itakayohifadhiwa"
+  },
+  "recentFolders": {
+    "message": "Folda za hivi karibuni"
+  },
+  "recentGroups": {
+    "message": "Vikundi vya hivi karibuni"
+  },
+  "recentlyAccessed": {
+    "message": "Iliyofikiwa hivi karibuni"
+  },
+  "recentlyCreated": {
+    "message": "Iliyoundwa hivi karibuni"
+  },
+  "recentlyModified": {
+    "message": "Iliyorekebishwa hivi karibuni"
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "Punguza matumizi ya kumbukumbu kwa 95%"
+  },
+  "removeDuplicates": {
+    "message": "Ondoa nakala rudufu"
+  },
+  "removeDuplicatesMenuItemHelp": {
+    "message": "Utaweza kuondoa nakala rudufu zilizo hapa lakini si kwingineko, au zilizo kwingineko lakini si hapa."
+  },
+  "removeDuplicateTabsHere_few": {
+    "message": "Ondoa {COUNT} vichupo nakala rudufu humu"
+  },
+  "removeDuplicateTabsHere_many": {
+    "message": "Ondoa {COUNT} vichupo nakala rudufu humu"
+  },
+  "removeDuplicateTabsHere_one": {
+    "message": "Ondoa {COUNT} kichupo nakala rudufu humu"
+  },
+  "removeDuplicateTabsHere_other": {
+    "message": "Ondoa {COUNT} vichupo nakala rudufu humu"
+  },
+  "removeDuplicateTabsHere_two": {
+    "message": "Ondoa {COUNT} vichupo nakala rudufu humu"
+  },
+  "removeDuplicateTabsHere_zero": {
+    "message": "Ondoa {COUNT} vichupo nakala rudufu humu"
+  },
+  "removeFromQuickList": {
+    "message": "Ondoa kutoka orodha ya haraka"
+  },
+  "removeFromQuickListMenuItemHelp": {
+    "message": "Kipengee hakitatumwa kwenye takataka - kitaondolewa tu kutoka kwenye orodha yako ya haraka."
+  },
+  "removeStar": {
+    "message": "Ondoa nyota"
+  },
+  "removeTabsElsewhereAlsoHere_few": {
+    "message": "Ondoa {COUNT} vichupo kwingineko ambavyo pia vipo hapa"
+  },
+  "removeTabsElsewhereAlsoHere_many": {
+    "message": "Ondoa {COUNT} vichupo kwingineko ambavyo pia vipo hapa"
+  },
+  "removeTabsElsewhereAlsoHere_one": {
+    "message": "Ondoa {COUNT} kichupo kwingineko ambacho pia kipo hapa"
+  },
+  "removeTabsElsewhereAlsoHere_other": {
+    "message": "Ondoa {COUNT} vichupo kwingineko ambavyo pia vipo hapa"
+  },
+  "removeTabsElsewhereAlsoHere_two": {
+    "message": "Ondoa {COUNT} vichupo kwingineko ambavyo pia vipo hapa"
+  },
+  "removeTabsElsewhereAlsoHere_zero": {
+    "message": "Ondoa {COUNT} vichupo kwingineko ambavyo pia vipo hapa"
+  },
+  "removeTabsHereAlsoElsewhere_few": {
+    "message": "Ondoa {COUNT} vichupo humu ambavyo pia vipo kwingineko"
+  },
+  "removeTabsHereAlsoElsewhere_many": {
+    "message": "Ondoa {COUNT} vichupo humu ambavyo pia vipo kwingineko"
+  },
+  "removeTabsHereAlsoElsewhere_one": {
+    "message": "Ondoa {COUNT} kichupo humu ambacho pia kipo kwingineko"
+  },
+  "removeTabsHereAlsoElsewhere_other": {
+    "message": "Ondoa {COUNT} vichupo humu ambavyo pia vipo kwingineko"
+  },
+  "removeTabsHereAlsoElsewhere_two": {
+    "message": "Ondoa {COUNT} vichupo humu ambavyo pia vipo kwingineko"
+  },
+  "removeTabsHereAlsoElsewhere_zero": {
+    "message": "Ondoa {COUNT} vichupo humu ambavyo pia vipo kwingineko"
+  },
+  "rename": {
+    "message": "Badilisha jina"
+  },
+  "renameOrAddNote": {
+    "message": "Badilisha jina / Ongeza dokezo"
+  },
+  "restore": {
+    "message": "Rejesha"
+  },
+  "restoreAll": {
+    "message": "Rejesha vyote"
+  },
+  "restrictSearchToFolderColon": {
+    "message": "Zuia utafutaji kwa folda ifuatayo:"
+  },
+  "results": {
+    "message": "Matokeo"
+  },
+  "returnToOneTab": {
+    "message": "Rudi kwenye OneTab"
+  },
+  "reverse": {
+    "message": "Geuza mpangilio"
+  },
+  "rightClickAndOpenOneTabMenu": {
+    "message": "Bofya-kulia ndani ya ukurasa wa wavuti, kisha nenda kwenye menyu ya OneTab"
+  },
+  "rightClickMenuDisabledNote": {
+    "message": "Kumbuka: Umezima menyu ya kubofya-kulia ya OneTab. Tafadhali iwezeshe ndani ya ukurasa wa machaguo wa OneTab."
+  },
+  "rightClickSelectionOptionsTip": {
+    "message": "Kidokezo: Ukishatia tiki kipengee, bofya-kulia kwenye ikoni ya tiki ili kufunua machaguo zaidi ya uteuzi"
+  },
+  "rightClickTickTip": {
+    "message": "Kidokezo: Bofya-kulia ikoni ya tiki iliyo kando ya kila kichupo kwa zana za uteuzi"
+  },
+  "safariApproveOneTabInSettings": {
+    "message": "Tafadhali nenda kwenye Mipangilio, na uidhinishe OneTab kufikia tovuti zote."
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "Okoa hadi 95% ya kumbukumbu na punguza msongamano wa vichupo kwenye Google Chrome"
+  },
+  "saveChoice": {
+    "message": "Hifadhi chaguo"
+  },
+  "saveTabsAsHtmlFile": {
+    "message": "Hifadhi kama faili ya HTML"
+  },
+  "saveTabsAsHtmlFileMenuItemHelp": {
+    "message": "Unda na upakue faili ya HTML iliyo na vikundi vyote vya vichupo katika folda hii."
+  },
+  "searchHere": {
+    "message": "Tafuta hapa"
+  },
+  "searchOneTab": {
+    "message": "Tafuta OneTab"
+  },
+  "secondExampleLink": {
+    "message": "Kiungo cha Mfano cha Pili"
+  },
+  "secondExampleLinkTitle": {
+    "message": "Kichwa cha Kiungo cha Mfano cha Pili"
+  },
+  "secondExampleLinkTitleOptional": {
+    "message": "Kichwa cha Kiungo cha Mfano cha Pili (hiari)"
+  },
+  "seeOtherTabsInThisGroup_few": {
+    "message": "Tazama {COUNT} vichupo vingine katika kikundi hiki"
+  },
+  "seeOtherTabsInThisGroup_many": {
+    "message": "Tazama {COUNT} vichupo vingine katika kikundi hiki"
+  },
+  "seeOtherTabsInThisGroup_one": {
+    "message": "Tazama {COUNT} kichupo kingine katika kikundi hiki"
+  },
+  "seeOtherTabsInThisGroup_other": {
+    "message": "Tazama {COUNT} vichupo vingine katika kikundi hiki"
+  },
+  "seeOtherTabsInThisGroup_two": {
+    "message": "Tazama {COUNT} vichupo vingine katika kikundi hiki"
+  },
+  "seeOtherTabsInThisGroup_zero": {
+    "message": "Tazama {COUNT} vichupo vingine katika kikundi hiki"
+  },
+  "seePasteInstructions": {
+    "message": "Tazama maagizo ya kubandika…"
+  },
+  "seeTabsInThisGroup_few": {
+    "message": "Tazama {COUNT} vichupo katika kikundi hiki"
+  },
+  "seeTabsInThisGroup_many": {
+    "message": "Tazama {COUNT} vichupo katika kikundi hiki"
+  },
+  "seeTabsInThisGroup_one": {
+    "message": "Tazama {COUNT} kichupo katika kikundi hiki"
+  },
+  "seeTabsInThisGroup_other": {
+    "message": "Tazama {COUNT} vichupo katika kikundi hiki"
+  },
+  "seeTabsInThisGroup_two": {
+    "message": "Tazama {COUNT} vichupo katika kikundi hiki"
+  },
+  "seeTabsInThisGroup_zero": {
+    "message": "Tazama {COUNT} vichupo katika kikundi hiki"
+  },
+  "selectAll": {
+    "message": "Chagua vyote"
+  },
+  "selectAllExceptThis": {
+    "message": "Chagua vyote isipokuwa hiki"
+  },
+  "selectedItemCount_few": {
+    "message": "{COUNT} vipengee"
+  },
+  "selectedItemCount_many": {
+    "message": "{COUNT} vipengee"
+  },
+  "selectedItemCount_one": {
+    "message": "{COUNT} kipengee"
+  },
+  "selectedItemCount_other": {
+    "message": "{COUNT} vipengee"
+  },
+  "selectedItemCount_two": {
+    "message": "{COUNT} vipengee"
+  },
+  "selectedItemCount_zero": {
+    "message": "{COUNT} vipengee"
+  },
+  "selection": {
+    "message": "Uteuzi"
+  },
+  "selectThisAndAbove": {
+    "message": "Chagua hiki na vyote vilivyo juu"
+  },
+  "selectThisAndBelow": {
+    "message": "Chagua hiki na vyote vilivyo chini"
+  },
+  "sendAllTabsAllWindows": {
+    "message": "Tuma vichupo vyote kutoka kwa madirisha yote"
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "Tuma vichupo vyote kutoka kwa madirisha yote kwenda OneTab"
+  },
+  "sendAllTabsExceptThis": {
+    "message": "Tuma vichupo vyote isipokuwa kichupo hiki"
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "Tuma vichupo vyote isipokuwa kichupo hiki kwenda OneTab"
+  },
+  "sendAllTabsInGroup": {
+    "message": "Tuma vichupo vyote katika kikundi hiki cha vichupo"
+  },
+  "sendAllTabsInGroupToOneTab": {
+    "message": "Tuma vichupo vyote katika kikundi hiki cha vichupo kwenda OneTab"
+  },
+  "sendAllTabsInWindow": {
+    "message": "Tuma vichupo vyote kwenye dirisha hili"
+  },
+  "sendAllTabsInWindowToOneTab": {
+    "message": "Tuma vichupo vyote kwenye dirisha hili kwenda OneTab"
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "Tuma kichupo cha sasa kwenda OneTab"
+  },
+  "sendLeftTabs": {
+    "message": "Tuma vichupo vilivyo upande wa kushoto"
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "Tuma vichupo vilivyo upande wa kushoto kwenda OneTab"
+  },
+  "sendOnlyThisTab": {
+    "message": "Tuma kichupo hiki pekee"
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "Tuma kichupo hiki pekee kwenda OneTab"
+  },
+  "sendRightTabs": {
+    "message": "Tuma vichupo vilivyo upande wa kulia"
+  },
+  "sendRightTabsToOneTab": {
+    "message": "Tuma vichupo vilivyo upande wa kulia kwenda OneTab"
+  },
+  "sendSelectedTabs": {
+    "message": "Tuma vichupo vilivyochaguliwa"
+  },
+  "sendSelectedTabsToOneTab": {
+    "message": "Tuma vichupo vilivyochaguliwa kwenda OneTab"
+  },
+  "sendThisWebLink": {
+    "message": "Tuma kiungo hiki cha wavuti"
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "Tuma kiungo hiki cha wavuti kwenda OneTab"
+  },
+  "serverUnreachable": {
+    "message": "Seva haipatikani. Tafadhali kagua muunganisho wako wa intaneti."
+  },
+  "share": {
+    "message": "Shiriki"
+  },
+  "shareAsAWebPage": {
+    "message": "Shiriki kama ukurasa wa wavuti"
+  },
+  "shareAsAWebPageMenuItemHelp": {
+    "message": "Hii huunda ukurasa wa wavuti wenye vichupo vyako, ili uweze kushiriki ukurasa huo kwa faragha au hadharani na wengine."
+  },
+  "shared": {
+    "message": "Imeshirikiwa"
+  },
+  "sharedExpiresColon": {
+    "message": "Imeshirikiwa kama ukurasa wa wavuti. Muda wake unaisha:"
+  },
+  "sharedPageOptions": {
+    "message": "Machaguo ya ukurasa ulioshirikiwa"
+  },
+  "sharedPageTabLimit_few": {
+    "message": "Kurasa zilizoshirikiwa zimewekewa kikomo cha {COUNT} vichupo"
+  },
+  "sharedPageTabLimit_many": {
+    "message": "Kurasa zilizoshirikiwa zimewekewa kikomo cha {COUNT} vichupo"
+  },
+  "sharedPageTabLimit_one": {
+    "message": "Kurasa zilizoshirikiwa zimewekewa kikomo cha {COUNT} kichupo"
+  },
+  "sharedPageTabLimit_other": {
+    "message": "Kurasa zilizoshirikiwa zimewekewa kikomo cha {COUNT} vichupo"
+  },
+  "sharedPageTabLimit_two": {
+    "message": "Kurasa zilizoshirikiwa zimewekewa kikomo cha {COUNT} vichupo"
+  },
+  "sharedPageTabLimit_zero": {
+    "message": "Kurasa zilizoshirikiwa zimewekewa kikomo cha {COUNT} vichupo"
+  },
+  "sharedPageWillAutomaticallyExpire": {
+    "message": "Ukurasa ulioshirikiwa utaisha muda wake kiotomatiki, lakini unaweza kuongeza tarehe ya mwisho wakati wowote."
+  },
+  "showEverything": {
+    "message": "Onyesha vyote"
+  },
+  "showFoldersOnly": {
+    "message": "Onyesha folda pekee"
+  },
+  "showNamedItemsOnly": {
+    "message": "Onyesha vipengee vilivyopewa majina pekee"
+  },
+  "showNamedOnly": {
+    "message": "Onyesha vilivyopewa jina pekee"
+  },
+  "showNextCount_few": {
+    "message": "Onyesha {COUNT} zinazofuata"
+  },
+  "showNextCount_many": {
+    "message": "Onyesha {COUNT} zinazofuata"
+  },
+  "showNextCount_one": {
+    "message": "Onyesha {COUNT} inayofuata"
+  },
+  "showNextCount_other": {
+    "message": "Onyesha {COUNT} zinazofuata"
+  },
+  "showNextCount_two": {
+    "message": "Onyesha {COUNT} zinazofuata"
+  },
+  "showNextCount_zero": {
+    "message": "Onyesha {COUNT} zinazofuata"
+  },
+  "showPreviousCount_few": {
+    "message": "Onyesha {COUNT} zilizotangulia"
+  },
+  "showPreviousCount_many": {
+    "message": "Onyesha {COUNT} zilizotangulia"
+  },
+  "showPreviousCount_one": {
+    "message": "Onyesha {COUNT} iliyotangulia"
+  },
+  "showPreviousCount_other": {
+    "message": "Onyesha {COUNT} zilizotangulia"
+  },
+  "showPreviousCount_two": {
+    "message": "Onyesha {COUNT} zilizotangulia"
+  },
+  "showPreviousCount_zero": {
+    "message": "Onyesha {COUNT} zilizotangulia"
+  },
+  "soon": {
+    "message": "hivi punde"
+  },
+  "sort": {
+    "message": "Panga"
+  },
+  "sortByColon": {
+    "message": "Panga kwa:"
+  },
+  "sortGroups": {
+    "message": "Panga vikundi"
+  },
+  "sourceColon": {
+    "message": "Chanzo:"
+  },
+  "star": {
+    "message": "Nyota"
+  },
+  "starFlagHelp": {
+    "message": "Kipengee hiki kimewekewa nyota ili kuonyesha kwa mwonekano kuwa ni muhimu. Bofya ikoni hii kuondoa nyota."
+  },
+  "starMenuItemHelp": {
+    "message": "Tumia nyota kama kiashirio cha mwonekano kwamba kitu ni muhimu"
+  },
+  "starred": {
+    "message": "Zenye nyota"
+  },
+  "storeAllOpenWindowsHere": {
+    "message": "Hifadhi madirisha yote yaliyo wazi hapa"
+  },
+  "storeAllOpenWindowsHereMenuItemHelp": {
+    "message": "Funga madirisha yote ya kivinjari yaliyo wazi na uyahifadhi kwenye folda hii"
+  },
+  "storeSelectedTabsInONETAB_few": {
+    "message": "Hifadhi {COUNT} vichupo vilivyochaguliwa kwenye ONETAB"
+  },
+  "storeSelectedTabsInONETAB_many": {
+    "message": "Hifadhi {COUNT} vichupo vilivyochaguliwa kwenye ONETAB"
+  },
+  "storeSelectedTabsInONETAB_one": {
+    "message": "Hifadhi {COUNT} kichupo kilichochaguliwa kwenye ONETAB"
+  },
+  "storeSelectedTabsInONETAB_other": {
+    "message": "Hifadhi {COUNT} vichupo vilivyochaguliwa kwenye ONETAB"
+  },
+  "storeSelectedTabsInONETAB_two": {
+    "message": "Hifadhi {COUNT} vichupo vilivyochaguliwa kwenye ONETAB"
+  },
+  "storeSelectedTabsInONETAB_zero": {
+    "message": "Hifadhi {COUNT} vichupo vilivyochaguliwa kwenye ONETAB"
+  },
+  "storeTabsInAdditionalLocation_few": {
+    "message": "Hifadhi vichupo vyako tena hata hivyo"
+  },
+  "storeTabsInAdditionalLocation_many": {
+    "message": "Hifadhi vichupo vyako tena hata hivyo"
+  },
+  "storeTabsInAdditionalLocation_one": {
+    "message": "Hifadhi kichupo chako tena hata hivyo"
+  },
+  "storeTabsInAdditionalLocation_other": {
+    "message": "Hifadhi vichupo vyako tena hata hivyo"
+  },
+  "storeTabsInAdditionalLocation_two": {
+    "message": "Hifadhi vichupo vyako tena hata hivyo"
+  },
+  "storeTabsInAdditionalLocation_zero": {
+    "message": "Hifadhi vichupo vyako tena hata hivyo"
+  },
+  "storeTabsInONETAB_few": {
+    "message": "Hifadhi vichupo kwenye ONETAB"
+  },
+  "storeTabsInONETAB_many": {
+    "message": "Hifadhi vichupo kwenye ONETAB"
+  },
+  "storeTabsInONETAB_one": {
+    "message": "Hifadhi kichupo kwenye ONETAB"
+  },
+  "storeTabsInONETAB_other": {
+    "message": "Hifadhi vichupo kwenye ONETAB"
+  },
+  "storeTabsInONETAB_two": {
+    "message": "Hifadhi vichupo kwenye ONETAB"
+  },
+  "storeTabsInONETAB_zero": {
+    "message": "Hifadhi vichupo kwenye ONETAB"
+  },
+  "subFoldersNotShared": {
+    "message": "Kumbuka kuwa folda ndogo hazishirikiwa. Ni vikundi vya vichupo vilivyo moja kwa moja ndani ya folda tu ndivyo vinavyoshirikiwa."
+  },
+  "tab": {
+    "message": "kichupo"
+  },
+  "tabAlreadyStoredHere": {
+    "message": "Kichupo chako kilicho wazi tayari kimehifadhiwa hapa:"
+  },
+  "tabCaretTooltipTitleNotes": {
+    "message": "Hariri kichwa na madokezo ya kichupo"
+  },
+  "tabCaretTooltipTitleNotesUrl": {
+    "message": "Hariri kichwa, URL na madokezo ya kichupo"
+  },
+  "tabCount_few": {
+    "message": "{COUNT} vichupo"
+  },
+  "tabCount_many": {
+    "message": "{COUNT} vichupo"
+  },
+  "tabCount_one": {
+    "message": "{COUNT} kichupo"
+  },
+  "tabCount_other": {
+    "message": "{COUNT} vichupo"
+  },
+  "tabCount_two": {
+    "message": "{COUNT} vichupo"
+  },
+  "tabCount_zero": {
+    "message": "{COUNT} vichupo"
+  },
+  "tabGroupColorColon": {
+    "message": "Rangi ya kikundi cha vichupo:"
+  },
+  "tabGroupIndicatorTooltipHelp": {
+    "message": "Kikundi hiki kimesanidiwa kufunguka kama kikundi cha vichupo cha kivinjari. Unaweza kubadilisha mpangilio huu kwenye menyu ya 'Zaidi…'"
+  },
+  "tabPinFlagHelp": {
+    "message": "Kichupo hiki kitarejeshwa kama kichupo kilichobandikwa. Bofya ikoni hii kuondoa kubandika."
+  },
+  "tabs": {
+    "message": "Vichupo"
+  },
+  "tabsFromExcludedDomains": {
+    "message": "vichupo kutoka vikoa vilivyotengwa"
+  },
+  "tabShortcutInfo": {
+    "message": "Ukiwa ndani ya ukurasa wa OneTab, bonyeza kitufe cha Tab kuhamisha umakini kati ya vikundi kwenye safu ya katikati. Hii hurahisisha kuruka vikundi haraka, hasa vikubwa. Kikundi kikiwa kwenye umakini, bonyeza kitufe cha Enter kukifungua. Tumia Shift+Tab kuhamisha umakini nyuma. Bonyeza Backspace kwenda kwenye folda mzazi."
+  },
+  "tabsInTabGroups": {
+    "message": "vichupo kwenye vikundi vya vichupo"
+  },
+  "tabTotalCount_few": {
+    "message": "Jumla: {COUNT} vichupo"
+  },
+  "tabTotalCount_many": {
+    "message": "Jumla: {COUNT} vichupo"
+  },
+  "tabTotalCount_one": {
+    "message": "Jumla: {COUNT} kichupo"
+  },
+  "tabTotalCount_other": {
+    "message": "Jumla: {COUNT} vichupo"
+  },
+  "tabTotalCount_two": {
+    "message": "Jumla: {COUNT} vichupo"
+  },
+  "tabTotalCount_zero": {
+    "message": "Jumla: {COUNT} vichupo"
+  },
+  "tasks": {
+    "message": "Kazi"
+  },
+  "tasksDone": {
+    "message": "Kazi (zimekamilika)"
+  },
+  "tasksPending": {
+    "message": "Kazi (zinazosubiri)"
+  },
+  "tasksWillAppearHere": {
+    "message": "Ukivipa vichupo au vikundi alama kama kazi, vitaonekana hapa."
+  },
+  "taskTotalCount_few": {
+    "message": "{COUNT} jumla"
+  },
+  "taskTotalCount_many": {
+    "message": "{COUNT} jumla"
+  },
+  "taskTotalCount_one": {
+    "message": "{COUNT} jumla"
+  },
+  "taskTotalCount_other": {
+    "message": "{COUNT} jumla"
+  },
+  "taskTotalCount_two": {
+    "message": "{COUNT} jumla"
+  },
+  "taskTotalCount_zero": {
+    "message": "{COUNT} jumla"
+  },
+  "thenClickToolbarIcon": {
+    "message": "Kisha, bofya tena ikoni ya OneTab kwenye upau wa zana ili kutumia OneTab."
+  },
+  "thisFolderIsEmpty": {
+    "message": "Folda hii ni tupu"
+  },
+  "thisTab": {
+    "message": "Kichupo hiki"
+  },
+  "thisTabGroup": {
+    "message": "Kikundi hiki cha vichupo"
+  },
+  "thisTabNotStored": {
+    "message": "Kichupo hiki hakijahifadhiwa kwenye OneTab"
+  },
+  "thisWindow": {
+    "message": "Dirisha hili"
+  },
+  "tickOrUntickToExclude": {
+    "message": "Weka tiki au ondoa tiki ili kuitenga tovuti"
+  },
+  "title": {
+    "message": "Kichwa"
+  },
+  "toAddOrRemoveExclusions": {
+    "message": "Ili kuongeza au kuondoa tovuti kwenye orodha ya kutengwa:"
+  },
+  "toAllowOneTabInIncognito": {
+    "message": "Ili kuruhusu ikoni ya OneTab ionekane katika madirisha fiche: "
+  },
+  "toImportBrowserBookmarksUseMenuOption": {
+    "message": "Ili kuleta kutoka alamisho za kivinjari, tumia chaguo la menyu 'Leta viungo hapa' kwenye ukurasa wako wa OneTab"
+  },
+  "toMakeOpenButtonWorkApprovePermission": {
+    "message": "Ili kitufe cha \"Fungua\" kwenye kurasa zilizoshirikiwa kifanye kazi, tafadhali idhinisha ombi la ruhusa."
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "Vichupo vingi mno? Geuza vichupo vyako kuwa orodha na ongeza kasi ya Firefox"
+  },
+  "tooManyTabsSpeedUpSafari": {
+    "message": "Vichupo vingi mno? Geuza vichupo vyako kuwa orodha na ongeza kasi ya Safari"
+  },
+  "toSaveChangesClickButton": {
+    "message": "Ili kuhifadhi mabadiliko yako, bofya kitufe"
+  },
+  "total0Tabs": {
+    "message": "Jumla: 0 vichupo"
+  },
+  "trash": {
+    "message": "Takataka"
+  },
+  "unlock": {
+    "message": "Fungua"
+  },
+  "unmarkAsArchived": {
+    "message": "Ondoa alama ya kuhifadhiwa"
+  },
+  "unMarkAsTask": {
+    "message": "Ondoa alama ya kazi"
+  },
+  "unpin": {
+    "message": "Ondoa kubandika"
+  },
+  "unshare": {
+    "message": "Acha kushiriki"
+  },
+  "untitled": {
+    "message": "Bila jina"
+  },
+  "update": {
+    "message": "Sasisha"
+  },
+  "userLanguage": {
+    "message": "Kiswahili"
+  },
+  "website": {
+    "message": "Tovuti"
+  },
+  "yearCount_few": {
+    "message": "{COUNT} miaka"
+  },
+  "yearCount_many": {
+    "message": "{COUNT} miaka"
+  },
+  "yearCount_one": {
+    "message": "{COUNT} mwaka"
+  },
+  "yearCount_other": {
+    "message": "{COUNT} miaka"
+  },
+  "yearCount_two": {
+    "message": "{COUNT} miaka"
+  },
+  "yearCount_zero": {
+    "message": "{COUNT} miaka"
+  },
+  "yourTabAlreadyStoredHere": {
+    "message": "Kichupo chako tayari kimehifadhiwa hapa:"
+  }
+}

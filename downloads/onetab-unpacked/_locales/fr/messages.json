@@ -1,0 +1,2015 @@
+{
+  "95PctMemoryReduction": {
+    "message": "95 % de mémoire en moins"
+  },
+  "about": {
+    "message": "À propos"
+  },
+  "actionPopupOverrideNote": {
+    "message": "Ce paramètre peut être remplacé dans la fenêtre contextuelle d’action (si vous l’avez activée)."
+  },
+  "aDashZ": {
+    "message": "A-Z"
+  },
+  "addOneTabNow": {
+    "message": "Ajouter OneTab maintenant"
+  },
+  "all": {
+    "message": "Tout"
+  },
+  "allBookmarks": {
+    "message": "Tous les favoris"
+  },
+  "allOpenTabsAlreadyStoredHere_few": {
+    "message": "Tous les onglets ouverts sont déjà enregistrés ici :"
+  },
+  "allOpenTabsAlreadyStoredHere_many": {
+    "message": "Tous les onglets ouverts sont déjà enregistrés ici :"
+  },
+  "allOpenTabsAlreadyStoredHere_one": {
+    "message": "Tous les onglets ouverts sont déjà enregistrés ici :"
+  },
+  "allOpenTabsAlreadyStoredHere_other": {
+    "message": "Tous les onglets ouverts sont déjà enregistrés ici :"
+  },
+  "allOpenTabsAlreadyStoredHere_two": {
+    "message": "Tous les onglets ouverts sont déjà enregistrés ici :"
+  },
+  "allOpenTabsAlreadyStoredHere_zero": {
+    "message": "Tous les onglets ouverts sont déjà enregistrés ici :"
+  },
+  "allowFileAccessInstructions": {
+    "message": "Pour autoriser l’ouverture directe des fichiers, accédez à Paramètres ➝ Extensions ➝ OneTab ➝ Détails ➝ Autoriser l’accès aux URL de fichiers"
+  },
+  "alreadyExistingOpenTabsWillBeClosedAfterMerge": {
+    "message": "Tous les onglets ouverts qui existent déjà dans ce groupe seront fermés après la fusion."
+  },
+  "alternatePlainTextFormat": {
+    "message": "Sinon, le texte brut peut être au format :"
+  },
+  "approve": {
+    "message": "Approuver"
+  },
+  "archived": {
+    "message": "Archivés"
+  },
+  "autoTheme": {
+    "message": "Automatique (utiliser le réglage du système)"
+  },
+  "backupAndSync": {
+    "message": "Sauvegarde & synchronisation"
+  },
+  "betaReleaseReportBugsHere": {
+    "message": "Version bêta — Signalez les bugs ici"
+  },
+  "bookmarkCount_few": {
+    "message": "{COUNT} marque-pages"
+  },
+  "bookmarkCount_many": {
+    "message": "{COUNT} marque-pages"
+  },
+  "bookmarkCount_one": {
+    "message": "{COUNT} marque-page"
+  },
+  "bookmarkCount_other": {
+    "message": "{COUNT} marque-pages"
+  },
+  "bookmarkCount_two": {
+    "message": "{COUNT} favoris"
+  },
+  "bookmarkCount_zero": {
+    "message": "{COUNT} marque-pages"
+  },
+  "bookmarksPermissionNecesssary": {
+    "message": "L’autorisation Favoris est nécessaire pour permettre à OneTab d’importer vos favoris du navigateur"
+  },
+  "bulkActions": {
+    "message": "Actions groupées"
+  },
+  "cancel": {
+    "message": "Annuler"
+  },
+  "canDragTextNote": {
+    "message": "Remarque : il est également possible de glisser‑déposer du texte contenant des liens web directement depuis une autre page web ou depuis un document. Vous pouvez faire glisser le texte directement vers votre page OneTab, sans utiliser cette zone d’importation."
+  },
+  "cannotConnectToServerDeletionRequestQueued": {
+    "message": "Impossible de se connecter au serveur OneTab. Veuillez vérifier votre connexion Internet. Votre demande de suppression de la page partagée a été mise en file d’attente localement et sera automatiquement transmise au serveur OneTab dès qu’il sera à nouveau accessible."
+  },
+  "cannotCreateTabGroupInTabGroup": {
+    "message": "La destination choisie est un groupe d’onglets. Vous ne pouvez pas créer un groupe d’onglets à l’intérieur d’un groupe d’onglets existant. Veuillez choisir une autre destination."
+  },
+  "cannotMixTabsGroupsFoldersDuringDrag": {
+    "message": "Il est impossible de mélanger onglets, groupes et dossiers lors d’un glisser‑déposer. Par exemple, vous ne pouvez pas faire glisser un dossier aux mêmes emplacements qu’un onglet."
+  },
+  "cannotMoveItemAncestorHere": {
+    "message": "Impossible de déplacer un élément parent dans son propre enfant, car cela créerait une boucle."
+  },
+  "cannotMoveItemIntoItself": {
+    "message": "Impossible de déplacer un élément dans lui-même."
+  },
+  "canPasteWebContentForExample": {
+    "message": "Vous pouvez coller du texte copié depuis une page web ou un document ; les liens seront automatiquement extraits. Par exemple :"
+  },
+  "caseSensitive": {
+    "message": "Respecter la casse"
+  },
+  "changesMadeSinceSharedPageCreation": {
+    "message": "Vos onglets enregistrés ont changé depuis que vous avez partagé cette page. Cliquez sur le bouton « Mettre à jour » pour mettre à jour la page partagée existante."
+  },
+  "changeThisSettingAtAnyTimeInfo": {
+    "message": "Vous pouvez modifier ce paramètre à tout moment en cliquant sur le bouton « Options » en haut de votre page OneTab."
+  },
+  "changeThisSettingAtAnyTimeInfoHtml": {
+    "message": "Vous pourrez modifier ce paramètre plus tard dans <b>Options</b>."
+  },
+  "checkboxesDeterminePinnedAndGroupedTabMergeInclusion": {
+    "message": "Les cases à cocher en haut de cette page déterminent si les onglets épinglés ou ceux dans des groupes d’onglets sont inclus dans la fusion."
+  },
+  "chooseALocation": {
+    "message": "Choisir un emplacement"
+  },
+  "chooseALocationToImportTo": {
+    "message": "Choisir un emplacement d’importation"
+  },
+  "chooseExportLocation": {
+    "message": "Choisir un emplacement d’où exporter"
+  },
+  "chooseLightDarkTheme": {
+    "message": "Choisir le thème clair/sombre"
+  },
+  "chooseLocationToCopyTo": {
+    "message": "Choisir un emplacement où copier"
+  },
+  "chooseLocationToMoveTo": {
+    "message": "Choisir un emplacement de destination"
+  },
+  "chooseLocationToRestoreTo": {
+    "message": "Choisir un emplacement de restauration"
+  },
+  "chooseToIncludeNotes": {
+    "message": "Si vous avez ajouté des notes à des onglets ou des groupes, choisissez si vous souhaitez les inclure dans la page Web partagée"
+  },
+  "chooseToIncludeRatings": {
+    "message": "Si vous avez ajouté des étoiles à des onglets ou des groupes, choisissez si vous souhaitez les inclure dans la page Web partagée"
+  },
+  "chromeIncognitoInstructions": {
+    "message": "Dans les paramètres de votre navigateur, allez à « Paramètres » → « Extensions » → « OneTab » → « Détails », puis activez « Autoriser en navigation privée »."
+  },
+  "clickButtonToAllowTabAccess": {
+    "message": "Cliquez sur le bouton ci-dessous pour autoriser OneTab à accéder à vos onglets ouverts."
+  },
+  "clickHereToContinue": {
+    "message": "Cliquez ici pour continuer."
+  },
+  "clickOneTabIconToStoreTabsHere": {
+    "message": "Cliquez sur l’icône OneTab dans la barre d’outils de votre navigateur pour enregistrer ici vos onglets ouverts."
+  },
+  "closeSelectedTabs_few": {
+    "message": "Fermer {COUNT} onglets sélectionnés"
+  },
+  "closeSelectedTabs_many": {
+    "message": "Fermer {COUNT} onglets sélectionnés"
+  },
+  "closeSelectedTabs_one": {
+    "message": "Fermer {COUNT} onglet sélectionné"
+  },
+  "closeSelectedTabs_other": {
+    "message": "Fermer {COUNT} onglets sélectionnés"
+  },
+  "closeSelectedTabs_two": {
+    "message": "Fermer {COUNT} onglets sélectionnés"
+  },
+  "closeSelectedTabs_zero": {
+    "message": "Fermer {COUNT} onglets sélectionnés"
+  },
+  "closeSelectedTabsAndStoreInONETAB_few": {
+    "message": "Fermer {COUNT} onglets sélectionnés et les enregistrer dans ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_many": {
+    "message": "Fermer {COUNT} onglets sélectionnés et les enregistrer dans ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_one": {
+    "message": "Fermer {COUNT} onglet sélectionné et l'enregistrer dans ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_other": {
+    "message": "Fermer {COUNT} onglets sélectionnés et les enregistrer dans ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_two": {
+    "message": "Fermer {COUNT} onglets sélectionnés et les enregistrer dans ONETAB"
+  },
+  "closeSelectedTabsAndStoreInONETAB_zero": {
+    "message": "Fermer {COUNT} onglets sélectionnés et les enregistrer dans ONETAB"
+  },
+  "closeTabs_few": {
+    "message": "Fermer les onglets"
+  },
+  "closeTabs_many": {
+    "message": "Fermer les onglets"
+  },
+  "closeTabs_one": {
+    "message": "Fermer l’onglet"
+  },
+  "closeTabs_other": {
+    "message": "Fermer les onglets"
+  },
+  "closeTabs_two": {
+    "message": "Fermer les onglets"
+  },
+  "closeTabs_zero": {
+    "message": "Fermer les onglets"
+  },
+  "closeTabsAfterMerge": {
+    "message": "Fermer les onglets après la fusion"
+  },
+  "closeTabsAlreadyStoredInOneTab_few": {
+    "message": "Fermer {COUNT} onglets déjà enregistrés dans OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_many": {
+    "message": "Fermer {COUNT} onglets déjà enregistrés dans OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_one": {
+    "message": "Fermer {COUNT} onglet déjà enregistré dans OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_other": {
+    "message": "Fermer {COUNT} onglets déjà enregistrés dans OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_two": {
+    "message": "Fermer {COUNT} onglets déjà enregistrés dans OneTab"
+  },
+  "closeTabsAlreadyStoredInOneTab_zero": {
+    "message": "Fermer {COUNT} onglets déjà enregistrés dans OneTab"
+  },
+  "closeTabsAndStore_few": {
+    "message": "Fermer les onglets et les enregistrer dans ONETAB"
+  },
+  "closeTabsAndStore_many": {
+    "message": "Fermer les onglets et les enregistrer dans ONETAB"
+  },
+  "closeTabsAndStore_one": {
+    "message": "Fermer l’onglet et l’enregistrer dans ONETAB"
+  },
+  "closeTabsAndStore_other": {
+    "message": "Fermer les onglets et les enregistrer dans ONETAB"
+  },
+  "closeTabsAndStore_two": {
+    "message": "Fermer les onglets et les enregistrer dans ONETAB"
+  },
+  "closeTabsAndStore_zero": {
+    "message": "Fermer les onglets et les enregistrer dans ONETAB"
+  },
+  "closeTheseDuplicates_few": {
+    "message": "Fermer ces doublons"
+  },
+  "closeTheseDuplicates_many": {
+    "message": "Fermer ces doublons"
+  },
+  "closeTheseDuplicates_one": {
+    "message": "Fermer ce doublon"
+  },
+  "closeTheseDuplicates_other": {
+    "message": "Fermer ces doublons"
+  },
+  "closeTheseDuplicates_two": {
+    "message": "Fermer ces doublons"
+  },
+  "closeTheseDuplicates_zero": {
+    "message": "Fermer ces doublons"
+  },
+  "completedTaskFlagHelp": {
+    "message": "Cet élément est une tâche. Cliquez sur cette icône pour la marquer comme en attente (non terminée)."
+  },
+  "completeEditingShortcutInfo": {
+    "message": "Lors de l’édition d’un champ de notes, utilisez ce raccourci pour terminer la modification."
+  },
+  "configureShortcuts": {
+    "message": "Configurer les raccourcis"
+  },
+  "conflictingShortcutsHint": {
+    "message": "Si certains des raccourcis ci-dessus ne fonctionnent pas ou entrent en conflit avec d’autres applications, vous pouvez configurer une autre touche de raccourci."
+  },
+  "continue": {
+    "message": "Continuer"
+  },
+  "convertTabsIntoAList": {
+    "message": "Convertir les onglets en liste"
+  },
+  "copiedToClipboard": {
+    "message": "Copié dans le presse-papiers"
+  },
+  "copy": {
+    "message": "Copier"
+  },
+  "copyLinksToClipboard": {
+    "message": "Copier les liens dans le presse-papiers"
+  },
+  "copySharedPageUrl": {
+    "message": "Copier l’URL de la page partagée"
+  },
+  "copyToClipboard": {
+    "message": "Copier dans le presse-papiers"
+  },
+  "copyToClipboardMenuItemHelp": {
+    "message": "Copiez ces liens web dans le presse-papiers afin de pouvoir les coller dans d’autres applications. Vous pouvez modifier le format du texte copié dans le presse-papiers dans la page Options de OneTab."
+  },
+  "createANewGroupHere": {
+    "message": "Créer un nouveau groupe ici"
+  },
+  "createdOnOrAfterColon": {
+    "message": "Créé à partir du :"
+  },
+  "createdOnOrBeforeColon": {
+    "message": "Créé jusqu’au :"
+  },
+  "createdPreceedingDate": {
+    "message": "Créé le"
+  },
+  "createFolderAbove": {
+    "message": "Créer un dossier au‑dessus"
+  },
+  "createFolderAboveBelow": {
+    "message": "Créer un dossier au‑dessus / au‑dessous"
+  },
+  "createFolderAboveWithinBelow": {
+    "message": "Créer un dossier au‑dessus / à l’intérieur / au‑dessous"
+  },
+  "createFolderBelow": {
+    "message": "Créer un dossier au‑dessous"
+  },
+  "createFolderWithin": {
+    "message": "Créer un dossier à l’intérieur"
+  },
+  "createFolderWithinMenuItemHelp": {
+    "message": "Les dossiers servent à organiser des groupes d’onglets. Les dossiers contiennent des groupes, et les groupes contiennent des onglets."
+  },
+  "createGroupAbove": {
+    "message": "Créer un groupe au‑dessus"
+  },
+  "createGroupAboveBelow": {
+    "message": "Créer un groupe au‑dessus / au‑dessous"
+  },
+  "createGroupAboveWithinBelow": {
+    "message": "Créer un groupe au‑dessus / à l’intérieur / au‑dessous"
+  },
+  "createGroupBelow": {
+    "message": "Créer un groupe au‑dessous"
+  },
+  "createGroupInsideDestination": {
+    "message": "Créer un nouveau groupe dans la destination"
+  },
+  "createGroupInsideDestinationHelp": {
+    "message": "Si décoché, vos onglets seront ajoutés directement dans le groupe de destination. Si coché, un nouveau groupe d’onglets du navigateur sera créé pour vos onglets au sein du groupe de destination. Cochez cette case uniquement si vous souhaitez utiliser la fonctionnalité « groupes d’onglets » de votre navigateur."
+  },
+  "createGroupMenuItemHelp": {
+    "message": "Créer un nouveau groupe vide. Un groupe contient une liste d’onglets, qui peuvent être restaurés ensemble dans une fenêtre."
+  },
+  "createGroupWithin": {
+    "message": "Créer un groupe à l’intérieur"
+  },
+  "createNewGroupTip": {
+    "message": "Pour créer un nouveau groupe, décochez d’abord « Afficher uniquement les dossiers ». Ainsi, vous pourrez voir le groupe nouvellement créé dans la liste."
+  },
+  "darkTheme": {
+    "message": "Thème sombre"
+  },
+  "dayCount_few": {
+    "message": "{COUNT} jours"
+  },
+  "dayCount_many": {
+    "message": "{COUNT} jours"
+  },
+  "dayCount_one": {
+    "message": "{COUNT} jour"
+  },
+  "dayCount_other": {
+    "message": "{COUNT} jours"
+  },
+  "dayCount_two": {
+    "message": "{COUNT} jours"
+  },
+  "dayCount_zero": {
+    "message": "{COUNT} jours"
+  },
+  "delete": {
+    "message": "Supprimer"
+  },
+  "deleteAllTrash": {
+    "message": "Vider la corbeille"
+  },
+  "deleteThisCopy": {
+    "message": "Supprimer cette copie"
+  },
+  "deselectAll": {
+    "message": "Tout désélectionner"
+  },
+  "destinationColon": {
+    "message": "Destination :"
+  },
+  "disabled": {
+    "message": "Désactivé"
+  },
+  "doneTaskCount_few": {
+    "message": "{COUNT} effectuées"
+  },
+  "doneTaskCount_many": {
+    "message": "{COUNT} effectuées"
+  },
+  "doneTaskCount_one": {
+    "message": "{COUNT} effectuée"
+  },
+  "doneTaskCount_other": {
+    "message": "{COUNT} effectuées"
+  },
+  "doneTaskCount_two": {
+    "message": "{COUNT} effectuées"
+  },
+  "doneTaskCount_zero": {
+    "message": "{COUNT} effectuées"
+  },
+  "dontCloseGroupedTabs": {
+    "message": "Ne pas fermer les onglets dans les groupes d’onglets"
+  },
+  "dontClosePinnedTabs": {
+    "message": "Ne pas fermer les onglets épinglés"
+  },
+  "dontCloseTabsFromDomains": {
+    "message": "Ne pas fermer les onglets de EXAMPLE.COM"
+  },
+  "dragCopyModifierInfo": {
+    "message": "Maintenez la touche Ctrl ou Alt enfoncée lors du dépôt d’un onglet pour en créer une copie au lieu de le déplacer."
+  },
+  "dragTabsHereForQuickList": {
+    "message": "Faites glisser ici vos onglets ou groupes enregistrés. Ils seront ajoutés à votre liste rapide."
+  },
+  "editTabGroupTitleAndNotes": {
+    "message": "Modifier le titre et les notes du groupe d’onglets"
+  },
+  "emojiShortcutInfo": {
+    "message": "Lors de l’édition d’un champ de notes, utilisez ce raccourci pour ouvrir le sélecteur d’emoji."
+  },
+  "emptyInBrackets": {
+    "message": "(vide)"
+  },
+  "emptyOneTabInfoMsg": {
+    "message": "Lorsque vous avez plusieurs onglets ouverts, cliquez sur l’icône OneTab dans la barre d’outils de votre navigateur et vos onglets ouverts apparaîtront ici."
+  },
+  "enabled": {
+    "message": "Activé"
+  },
+  "encryptedSyncAndBackup": {
+    "message": "Synchronisation et sauvegarde chiffrées"
+  },
+  "encryptedSyncAndBackupComingSoonMessage": {
+    "message": "Bientôt : vous pourrez synchroniser vos données OneTab entre plusieurs profils de navigateur et ordinateurs.\nOneTab a été entièrement réécrit afin que les modifications effectuées sur un appareil apparaissent instantanément sur tous les autres.\nSi vous utilisez cette fonctionnalité, vos données seront chiffrées de bout en bout avec un chiffrement robuste AES‑256. Cela rend impossible aux développeurs de OneTab de voir les onglets que vous avez sauvegardés ou synchronisés entre appareils, car vous seul possédez la clé de chiffrement."
+  },
+  "everything": {
+    "message": "Tout"
+  },
+  "exampleLink": {
+    "message": "Lien d’exemple"
+  },
+  "exampleLinkTitle": {
+    "message": "Titre de lien d’exemple"
+  },
+  "exampleLinkTitleOptional": {
+    "message": "Titre de lien d’exemple (facultatif)"
+  },
+  "exampleRichTextParagraph": {
+    "message": "Exemple de paragraphe de texte avec PLACEHOLDER et PLACEHOLDER"
+  },
+  "exampleWebsitePageTitle": {
+    "message": "Exemple de titre de page de site web"
+  },
+  "excludeDomainFromOneTab": {
+    "message": "Exclure EXAMPLE.COM de OneTab"
+  },
+  "excludeWebSiteFromOneTab": {
+    "message": "Exclure ce site web de OneTab"
+  },
+  "expiresColon": {
+    "message": "Expire :"
+  },
+  "export": {
+    "message": "Exporter"
+  },
+  "exportImportUrls": {
+    "message": "Exporter / importer des URL"
+  },
+  "exportThenImportNote": {
+    "message": "La liste d’URL suivante peut aussi être importée à nouveau dans OneTab sur cet ordinateur ou un autre"
+  },
+  "exportUrls": {
+    "message": "Exporter des URL"
+  },
+  "feedback": {
+    "message": "Commentaires"
+  },
+  "filter": {
+    "message": "Filtres"
+  },
+  "firefoxIncognitoInstructions": {
+    "message": "Dans les paramètres de votre navigateur, allez à « Paramètres » → « Modules complémentaires et thèmes » → « Extensions » → « OneTab » → « … » → « Gérer », puis activez « Exécuter dans les fenêtres privées »."
+  },
+  "firefoxShortcutConfigInstructions": {
+    "message": "Saisissez l’URL « about:addons?type=extension » dans la barre d’adresse de votre navigateur. Quand la page apparaît, cliquez sur l’icône d’engrenage, puis choisissez « Gérer les raccourcis des extensions »"
+  },
+  "Folder": {
+    "message": "Dossier"
+  },
+  "folderCount_few": {
+    "message": "{COUNT} dossiers"
+  },
+  "folderCount_many": {
+    "message": "{COUNT} dossiers"
+  },
+  "folderCount_one": {
+    "message": "{COUNT} dossier"
+  },
+  "folderCount_other": {
+    "message": "{COUNT} dossiers"
+  },
+  "folderCount_two": {
+    "message": "{COUNT} dossiers"
+  },
+  "folderCount_zero": {
+    "message": "{COUNT} dossiers"
+  },
+  "folders": {
+    "message": "Dossiers"
+  },
+  "foldersOnly": {
+    "message": "Dossiers uniquement"
+  },
+  "gettingStarted": {
+    "message": "Premiers pas"
+  },
+  "gotIt": {
+    "message": "J’ai compris"
+  },
+  "goToParentFolder": {
+    "message": "Aller au dossier parent"
+  },
+  "groupCount_few": {
+    "message": "{COUNT} groupes"
+  },
+  "groupCount_many": {
+    "message": "{COUNT} groupes"
+  },
+  "groupCount_one": {
+    "message": "{COUNT} groupe"
+  },
+  "groupCount_other": {
+    "message": "{COUNT} groupes"
+  },
+  "groupCount_two": {
+    "message": "{COUNT} groupes"
+  },
+  "groupCount_zero": {
+    "message": "{COUNT} groupes"
+  },
+  "groups": {
+    "message": "Groupes"
+  },
+  "hasNotes": {
+    "message": "Avec notes"
+  },
+  "help": {
+    "message": "Aide"
+  },
+  "hideArchivedItems": {
+    "message": "Masquer les éléments archivés"
+  },
+  "import": {
+    "message": "Importer"
+  },
+  "importAndExport": {
+    "message": "Importer & exporter"
+  },
+  "importBookmarks": {
+    "message": "Importer des favoris"
+  },
+  "importedBookmarks": {
+    "message": "Favoris importés"
+  },
+  "importFolderAndSubfolders": {
+    "message": "Importer le dossier et les sous-dossiers"
+  },
+  "importLinksHere": {
+    "message": "Importer des liens ici"
+  },
+  "importLinksHereMenuItemHelp": {
+    "message": "Vous pouvez coller une liste de liens web ou importer des favoris du navigateur."
+  },
+  "importReadingList": {
+    "message": "Importer la liste de lecture"
+  },
+  "importText": {
+    "message": "Importer du texte"
+  },
+  "importUrls": {
+    "message": "Importer des URL"
+  },
+  "includeGroupedTabs": {
+    "message": "Inclure les onglets dans des groupes d’onglets"
+  },
+  "includeNotes": {
+    "message": "Inclure les notes"
+  },
+  "includePinnedTabs": {
+    "message": "Inclure les onglets épinglés"
+  },
+  "includeStarRatings": {
+    "message": "Inclure les étoiles"
+  },
+  "includeTabsAlreadyStored": {
+    "message": "Inclure les onglets que vous avez déjà enregistrés"
+  },
+  "includeTabsFromDomains": {
+    "message": "Inclure les onglets de EXAMPLE.COM"
+  },
+  "incogitoPermissionRequired": {
+    "message": "OneTab a besoin d’une autorisation pour créer des fenêtres de navigation privée."
+  },
+  "incognitoWindows": {
+    "message": "Fenêtres de navigation privée"
+  },
+  "invertSelection": {
+    "message": "Inverser la sélection"
+  },
+  "justNow": {
+    "message": "à l’instant"
+  },
+  "keyboardShortcutsColon": {
+    "message": "Raccourcis clavier :"
+  },
+  "languageTitle": {
+    "message": "Langue :"
+  },
+  "lightTheme": {
+    "message": "Thème clair"
+  },
+  "localeId": {
+    "message": "fr"
+  },
+  "locationColon": {
+    "message": "Emplacement :"
+  },
+  "lock": {
+    "message": "Verrouiller"
+  },
+  "lockedGroupUnlockHelp": {
+    "message": "Pour déverrouiller, utilisez le menu Plus… Quand un groupe est verrouillé, vous ne pouvez pas supprimer le groupe ni ses onglets, et les onglets ne peuvent pas être réorganisés."
+  },
+  "lockMenuItemHelp": {
+    "message": "Quand un groupe est verrouillé, vous ne pouvez pas supprimer ni réorganiser les éléments au sein du groupe (jusqu’à ce que vous le déverrouilliez)."
+  },
+  "makeThisATask": {
+    "message": "Marquer comme tâche"
+  },
+  "manifestDescription": {
+    "message": "Économisez jusqu’à 95 % de mémoire et réduisez l’encombrement des onglets"
+  },
+  "markAsArchived": {
+    "message": "Marquer comme archivé"
+  },
+  "markAsArchivedMenuItemHelp": {
+    "message": "Lorsque vous marquez un élément comme archivé, il aura un arrière-plan gris. Cela indique visuellement que vous en avez terminé avec cet élément (par exemple, un article que vous avez fini de lire). Si vous archivez un élément marqué comme tâche, la tâche n’apparaîtra plus dans la colonne des tâches de votre page OneTab."
+  },
+  "markAsDoneTask": {
+    "message": "Marquer comme tâche terminée"
+  },
+  "markAsDoneTaskMenuItemHelp": {
+    "message": "Indique visuellement qu’une tâche est terminée"
+  },
+  "markAsPendingTask": {
+    "message": "Marquer comme tâche en attente"
+  },
+  "markAsPendingTaskMenuItemHelp": {
+    "message": "Indique visuellement que cet élément est une tâche. Une icône de tâche apparaîtra, sur laquelle vous pourrez ensuite cliquer pour indiquer visuellement que la tâche est terminée. Toutes les tâches (sauf celles marquées comme archivées) apparaîtront également dans la colonne des tâches de votre page OneTab."
+  },
+  "matchCount_few": {
+    "message": "{COUNT} résultats"
+  },
+  "matchCount_many": {
+    "message": "{COUNT} résultats"
+  },
+  "matchCount_one": {
+    "message": "{COUNT} résultat"
+  },
+  "matchCount_other": {
+    "message": "{COUNT} résultats"
+  },
+  "matchCount_two": {
+    "message": "{COUNT} résultats"
+  },
+  "matchCount_zero": {
+    "message": "{COUNT} résultats"
+  },
+  "matchWholeWordsOnly": {
+    "message": "Mots entiers uniquement"
+  },
+  "mayNeedToRestartBrowser": {
+    "message": "Si vous voyez ce message à chaque fois, veuillez mettre à jour et redémarrer votre navigateur."
+  },
+  "mergeIntoParent": {
+    "message": "Fusionner avec le parent"
+  },
+  "mergeOpenTabsHere_few": {
+    "message": "Fusionner {COUNT} onglets ouverts ici"
+  },
+  "mergeOpenTabsHere_many": {
+    "message": "Fusionner {COUNT} onglets ouverts ici"
+  },
+  "mergeOpenTabsHere_one": {
+    "message": "Fusionner {COUNT} onglet ouvert ici"
+  },
+  "mergeOpenTabsHere_other": {
+    "message": "Fusionner {COUNT} onglets ouverts ici"
+  },
+  "mergeOpenTabsHere_two": {
+    "message": "Fusionner {COUNT} onglets ouverts ici"
+  },
+  "mergeOpenTabsHere_zero": {
+    "message": "Fusionner {COUNT} onglets ouverts ici"
+  },
+  "mergeSelectedTabsHere_few": {
+    "message": "Fusionner {COUNT} onglets sélectionnés ici"
+  },
+  "mergeSelectedTabsHere_many": {
+    "message": "Fusionner {COUNT} onglets sélectionnés ici"
+  },
+  "mergeSelectedTabsHere_one": {
+    "message": "Fusionner {COUNT} onglet sélectionné ici"
+  },
+  "mergeSelectedTabsHere_other": {
+    "message": "Fusionner {COUNT} onglets sélectionnés ici"
+  },
+  "mergeSelectedTabsHere_two": {
+    "message": "Fusionner {COUNT} onglets sélectionnés ici"
+  },
+  "mergeSelectedTabsHere_zero": {
+    "message": "Fusionner {COUNT} onglets sélectionnés ici"
+  },
+  "mergeWithInnerGroups": {
+    "message": "Fusionner avec les sous‑groupes"
+  },
+  "modalMoveToTrashHintExampleGroupTitle": {
+    "message": "Exemple de titre de groupe"
+  },
+  "modalMoveToTrashHintHeading": {
+    "message": "Astuce : survolez le titre d’un groupe, puis cliquez sur le X pour le déplacer vers la corbeille."
+  },
+  "modalOptionAutoActionOnOpenHeading": {
+    "message": "Après la restauration des onglets :"
+  },
+  "modalOptionAutoActionOnOpenOpenDesc": {
+    "message": "Supprimer manuellement une fois terminé"
+  },
+  "modalOptionAutoActionOnOpenTrashDesc": {
+    "message": "Plus simple pour enregistrer et restaurer rapidement"
+  },
+  "modalRemigrationDontAskAgain": {
+    "message": "Ne plus demander"
+  },
+  "modalRemigrationFooterHtml": {
+    "message": "Cliquez sur <b>Oui</b>, sauf si la migration a déjà eu lieu et que vous avez intentionnellement supprimé les onglets migrés."
+  },
+  "modalRemigrationNotNow": {
+    "message": "Pas maintenant"
+  },
+  "modalRemigrationTabsFoundPrompt_few": {
+    "message": "{COUNT} onglets de OneTab v1 trouvés. Les migrer ?"
+  },
+  "modalRemigrationTabsFoundPrompt_many": {
+    "message": "{COUNT} onglets de OneTab v1 trouvés. Les migrer ?"
+  },
+  "modalRemigrationTabsFoundPrompt_one": {
+    "message": "{COUNT} onglet de OneTab v1 trouvé. Le migrer ?"
+  },
+  "modalRemigrationTabsFoundPrompt_other": {
+    "message": "{COUNT} onglets de OneTab v1 trouvés. Les migrer ?"
+  },
+  "modalRemigrationTabsFoundPrompt_two": {
+    "message": "{COUNT} onglets de OneTab v1 trouvés. Les migrer ?"
+  },
+  "modalRemigrationTabsFoundPrompt_zero": {
+    "message": "{COUNT} onglets de OneTab v1 trouvés. Les migrer ?"
+  },
+  "modalRemigrationYes": {
+    "message": "Oui"
+  },
+  "modalUpdateToV2Heading": {
+    "message": "OneTab a été mis à jour"
+  },
+  "modalUpdateToV2QuickTourHtml": {
+    "message": "Envie d’une visite rapide ? Cliquez sur <b>Aide</b> en haut."
+  },
+  "modalUpdateToV2UseOneTabLikeBefore": {
+    "message": "Vous pouvez toujours utiliser OneTab comme avant — enregistrez vos onglets en un seul clic."
+  },
+  "modifySharing": {
+    "message": "Modifier le partage"
+  },
+  "moreEllipsis": {
+    "message": "Plus…"
+  },
+  "moreSearchFilters": {
+    "message": "Plus de filtres de recherche"
+  },
+  "move": {
+    "message": "Déplacer"
+  },
+  "moveBack": {
+    "message": "Restaurer"
+  },
+  "moveToTrash": {
+    "message": "Déplacer vers la corbeille"
+  },
+  "namedOnly": {
+    "message": "Nommés uniquement"
+  },
+  "navigationFilter": {
+    "message": "Filtre de navigation"
+  },
+  "newExclamation": {
+    "message": "Nouveau !"
+  },
+  "noDupsExistExceptForColon": {
+    "message": "Aucun doublon, sauf :"
+  },
+  "noDupsFoundHere": {
+    "message": "Aucun doublon trouvé ici"
+  },
+  "noMatches": {
+    "message": "Aucun résultat"
+  },
+  "noMatchesFound": {
+    "message": "Aucun résultat trouvé"
+  },
+  "nonArchived": {
+    "message": "Non archivés"
+  },
+  "nonTabPinFlagHelp": {
+    "message": "Cet élément est épinglé en haut du dossier. Cliquez sur cette icône pour le désépingler."
+  },
+  "noOpenTabsToStore": {
+    "message": "Il n’y a aucun onglet ouvert à enregistrer dans cette fenêtre."
+  },
+  "noReadingListEntries": {
+    "message": "Aucune entrée de liste de lecture trouvée"
+  },
+  "noTabsInOneTabYet": {
+    "message": "Vous n’avez pas encore d’onglets dans OneTab"
+  },
+  "noTabsMeetCriteriaUseCheckboxes": {
+    "message": "Aucun onglet ouvert ne correspond à vos critères. Veuillez utiliser les cases à cocher ci‑dessus."
+  },
+  "notAssigned": {
+    "message": "Non attribué"
+  },
+  "notes": {
+    "message": "Notes"
+  },
+  "notesAboutTheLinkOptional": {
+    "message": "Notes sur le lien (facultatif)"
+  },
+  "notesAboutTheSecondLinkOptional": {
+    "message": "Notes sur le deuxième lien (facultatif)"
+  },
+  "noTextHasBeenEntered": {
+    "message": "Aucun texte n’a été saisi"
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "omniboxShortcutInfo": {
+    "message": "Pour rechercher votre liste OneTab depuis n’importe quel onglet : allez dans la barre d’adresse de votre navigateur, tapez 11, puis espace, puis un mot-clé de recherche."
+  },
+  "OneTabAlsoAvailableForFirefox": {
+    "message": "OneTab est également disponible pour Firefox"
+  },
+  "oneTabDesignedToProtectPrivacy": {
+    "message": "OneTab a été conçu pour protéger votre vie privée. Vos onglets ne nous sont pas communiqués."
+  },
+  "oneTabExportPageTitle": {
+    "message": "Exportation OneTab"
+  },
+  "oneTabImportExportPageTitle": {
+    "message": "Importation/exportation OneTab"
+  },
+  "oneTabNeedsPermissionToAccessYourTabs": {
+    "message": "OneTab a besoin d’une autorisation pour accéder à vos onglets."
+  },
+  "oneTabOptionsPageTitle": {
+    "message": "Options OneTab"
+  },
+  "oneTabPermissionRequired": {
+    "message": "OneTab - Autorisation requise"
+  },
+  "oneTabRestartRequired": {
+    "message": "OneTab doit redémarrer. Aucun autre onglet ne sera fermé."
+  },
+  "oneTabSlashShortcutInfo": {
+    "message": "Dans la page OneTab, appuyez sur la touche / pour placer le focus dans le champ de recherche."
+  },
+  "open": {
+    "message": "Ouvrir"
+  },
+  "openActionPopup": {
+    "message": "Action OneTab (équivalent à cliquer sur l’icône OneTab dans la barre d’outils)"
+  },
+  "openAsCollapsedTabGroup": {
+    "message": "Ouvrir en tant que groupe d’onglets « réduit »"
+  },
+  "openAsCollapsedTabGroupMenuItemHelp": {
+    "message": "Si vous ouvrez ces onglets en tant que « groupe d’onglets » réduit, seule l’étiquette du groupe sera affichée jusqu’à ce que vous cliquiez dessus pour afficher les onglets qu’il contient."
+  },
+  "openAsPinnedTab": {
+    "message": "Épingler l’onglet à l’ouverture"
+  },
+  "openAsPinnedTabMenuItemHelp": {
+    "message": "Lorsque cet onglet est restauré, le restaurer en tant qu’onglet épinglé du navigateur. Les onglets épinglés apparaîtront toujours en premier dans la fenêtre du navigateur."
+  },
+  "openAsTabGroup": {
+    "message": "Ouvrir en tant que groupe d’onglets du navigateur"
+  },
+  "openAsTabGroupMenuItemHelp": {
+    "message": "Votre navigateur permet de regrouper des onglets en « groupes d’onglets » colorés dans une fenêtre."
+  },
+  "openFolder": {
+    "message": "Ouvrir le dossier"
+  },
+  "openGroupsLimitNotice_few": {
+    "message": "Pour éviter de surcharger votre navigateur, seulement les {COUNT} premiers groupes s'ouvriront."
+  },
+  "openGroupsLimitNotice_many": {
+    "message": "Pour éviter de surcharger votre navigateur, seulement les {COUNT} premiers groupes s'ouvriront."
+  },
+  "openGroupsLimitNotice_one": {
+    "message": "Pour éviter de surcharger votre navigateur, seulement le {COUNT}er groupe s'ouvrira."
+  },
+  "openGroupsLimitNotice_other": {
+    "message": "Pour éviter de surcharger votre navigateur, seulement les {COUNT} premiers groupes s'ouvriront."
+  },
+  "openGroupsLimitNotice_two": {
+    "message": "Pour éviter de surcharger votre navigateur, seulement les {COUNT} premiers groupes s'ouvriront."
+  },
+  "openGroupsLimitNotice_zero": {
+    "message": "Pour éviter de surcharger votre navigateur, seulement les {COUNT} premiers groupes s'ouvriront."
+  },
+  "openInIncognitoWindow": {
+    "message": "Restaurer dans une nouvelle fenêtre de navigation privée"
+  },
+  "openInNewWindow": {
+    "message": "Restaurer dans une nouvelle fenêtre"
+  },
+  "openInThisWindow": {
+    "message": "Restaurer dans cette fenêtre"
+  },
+  "openOneTab": {
+    "message": "Ouvrir OneTab"
+  },
+  "openOneTabAfter": {
+    "message": "Ouvrir OneTab après l’enregistrement des onglets"
+  },
+  "openONETABLogo": {
+    "message": "Ouvrir ONETAB"
+  },
+  "openParentFolder": {
+    "message": "Ouvrir le dossier parent"
+  },
+  "openTabFromWebsite": {
+    "message": "Ouvrez un onglet et accédez au site web"
+  },
+  "openTabLimit_few": {
+    "message": "Pour éviter de surcharger votre navigateur, au maximum {COUNT} onglets peuvent être ouverts simultanément."
+  },
+  "openTabLimit_many": {
+    "message": "Pour éviter de surcharger votre navigateur, au maximum {COUNT} onglets peuvent être ouverts simultanément."
+  },
+  "openTabLimit_one": {
+    "message": "Pour éviter de surcharger votre navigateur, au maximum {COUNT} onglet peut être ouvert simultanément."
+  },
+  "openTabLimit_other": {
+    "message": "Pour éviter de surcharger votre navigateur, au maximum {COUNT} onglets peuvent être ouverts simultanément."
+  },
+  "openTabLimit_two": {
+    "message": "Pour éviter de surcharger votre navigateur, au maximum {COUNT} onglets peuvent être ouverts simultanément."
+  },
+  "openTabLimit_zero": {
+    "message": "Pour éviter de surcharger votre navigateur, au maximum {COUNT} onglets peuvent être ouverts simultanément."
+  },
+  "openTabsAlreadyStoredHere_few": {
+    "message": "{COUNT} onglets ouverts déjà enregistrés ici :"
+  },
+  "openTabsAlreadyStoredHere_many": {
+    "message": "{COUNT} onglets ouverts déjà enregistrés ici :"
+  },
+  "openTabsAlreadyStoredHere_one": {
+    "message": "{COUNT} onglet ouvert déjà enregistré ici :"
+  },
+  "openTabsAlreadyStoredHere_other": {
+    "message": "{COUNT} onglets ouverts déjà enregistrés ici :"
+  },
+  "openTabsAlreadyStoredHere_two": {
+    "message": "{COUNT} onglets ouverts déjà enregistrés ici :"
+  },
+  "openTabsAlreadyStoredHere_zero": {
+    "message": "{COUNT} onglets ouverts déjà enregistrés ici :"
+  },
+  "openTabsConfirm_few": {
+    "message": "Vous êtes sur le point d'ouvrir {COUNT} onglets. Voulez-vous continuer ?"
+  },
+  "openTabsConfirm_many": {
+    "message": "Vous êtes sur le point d'ouvrir {COUNT} onglets. Voulez-vous continuer ?"
+  },
+  "openTabsConfirm_one": {
+    "message": "Vous êtes sur le point d'ouvrir {COUNT} onglet. Voulez-vous continuer ?"
+  },
+  "openTabsConfirm_other": {
+    "message": "Vous êtes sur le point d'ouvrir {COUNT} onglets. Voulez-vous continuer ?"
+  },
+  "openTabsConfirm_two": {
+    "message": "Vous êtes sur le point d'ouvrir {COUNT} onglets. Voulez-vous continuer ?"
+  },
+  "openTabsConfirm_zero": {
+    "message": "Vous êtes sur le point d'ouvrir {COUNT} onglets. Voulez-vous continuer ?"
+  },
+  "openTabsNotStoredInOneTab_few": {
+    "message": "{COUNT} onglets ouverts non enregistrés dans OneTab"
+  },
+  "openTabsNotStoredInOneTab_many": {
+    "message": "{COUNT} onglets ouverts non enregistrés dans OneTab"
+  },
+  "openTabsNotStoredInOneTab_one": {
+    "message": "{COUNT} onglet ouvert non enregistré dans OneTab"
+  },
+  "openTabsNotStoredInOneTab_other": {
+    "message": "{COUNT} onglets ouverts non enregistrés dans OneTab"
+  },
+  "openTabsNotStoredInOneTab_two": {
+    "message": "{COUNT} onglets ouverts non enregistrés dans OneTab"
+  },
+  "openTabsNotStoredInOneTab_zero": {
+    "message": "{COUNT} onglets ouverts non enregistrés dans OneTab"
+  },
+  "optionAutoActionOnOpenArchiveDesc": {
+    "message": "Marquer les onglets comme archivés leur donne un arrière-plan gris rayé. Cela indique visuellement que vous avez lu les onglets ou que vous en avez terminé avec eux."
+  },
+  "optionAutoActionOnOpenArchiveTitle": {
+    "message": "Les marquer comme archivés"
+  },
+  "optionAutoActionOnOpenHeading": {
+    "message": "Lors de la restauration des onglets :"
+  },
+  "optionAutoActionOnOpenNote": {
+    "message": "Les groupes verrouillés conservent toujours leurs onglets"
+  },
+  "optionAutoActionOnOpenOpenDesc": {
+    "message": "Pour marquer les onglets comme archivés lors de leur restauration, maintenez la touche Alt ou Option enfoncée"
+  },
+  "optionAutoActionOnOpenOpenTitle": {
+    "message": "Les conserver dans votre liste"
+  },
+  "optionAutoActionOnOpenTrashDesc": {
+    "message": "Si vous maintenez la touche Ctrl ou Cmd enfoncée, le(s) onglet(s) resteront dans votre liste."
+  },
+  "optionAutoActionOnOpenTrashTitle": {
+    "message": "Les retirer de votre liste"
+  },
+  "optionBrowserActionHeading": {
+    "message": "Lorsque vous cliquez sur l’icône OneTab dans la barre d’outils :"
+  },
+  "optionBrowserActionOpenPopupDesc": {
+    "message": "La fenêtre contextuelle d’action affichera une liste des onglets ouverts et vous permettra de choisir précisément ceux que vous souhaitez envoyer dans OneTab. Elle vous permettra de définir un titre pour le groupe d’onglets que vous enregistrez, afin de ne pas avoir à le faire plus tard dans la page OneTab. La fenêtre contextuelle vous donnera aussi un accès facile à votre liste rapide depuis n’importe quelle fenêtre du navigateur."
+  },
+  "optionBrowserActionOpenPopupDesc2": {
+    "message": "Choisir précisément quels onglets enregistrer"
+  },
+  "optionBrowserActionOpenPopupTitle": {
+    "message": "Afficher la fenêtre contextuelle d’action OneTab"
+  },
+  "optionBrowserActionSendCurrentTabDesc": {
+    "message": "L’onglet sera placé dans le premier groupe de votre page OneTab (en ignorant les groupes épinglés ou verrouillés)"
+  },
+  "optionBrowserActionSendCurrentTabTitle": {
+    "message": "Envoyer uniquement l’onglet actuel dans OneTab"
+  },
+  "optionBrowserActionSendTabsInWindowDesc": {
+    "message": "Vos onglets seront fermés et enregistrés dans votre liste OneTab. Si vous avez sélectionné plusieurs onglets dans la barre d’onglets de votre navigateur (avec les touches Cmd, Ctrl ou Maj), seuls les onglets sélectionnés seront envoyés dans OneTab. Si vous utilisez la fonctionnalité de groupes d’onglets de votre navigateur, seul le groupe d’onglets actuel sera envoyé dans OneTab."
+  },
+  "optionBrowserActionSendTabsInWindowDesc2": {
+    "message": "Le moyen le plus rapide d’enregistrer des onglets"
+  },
+  "optionBrowserActionSendTabsInWindowTitle": {
+    "message": "Envoyer les onglets de la fenêtre actuelle dans OneTab"
+  },
+  "optionCopyToClipboardFormatHeading": {
+    "message": "Copie des liens dans le presse-papiers :"
+  },
+  "optionCopyToClipboardFormatNote": {
+    "message": "Ce paramètre s’applique lorsque vous utilisez l’action « Copier dans le presse-papiers ». Vous pouvez aussi faire glisser des onglets et des groupes directement depuis OneTab vers un document."
+  },
+  "optionCopyToClipboardFormatRichTextDesc": {
+    "message": "Des applications comme les traitements de texte permettent de coller du texte enrichi. Si ce n’est pas pris en charge, du texte brut sera collé à la place."
+  },
+  "optionCopyToClipboardFormatRichTextTitle": {
+    "message": "Texte enrichi, si disponible"
+  },
+  "optionCopyToClipboardFormatTitleUrlTitle": {
+    "message": "Titre et URL"
+  },
+  "optionCopyToClipboardFormatUrlOnlyTitle": {
+    "message": "URL uniquement"
+  },
+  "optionCopyToClipboardFormatUrlTitleTitle": {
+    "message": "URL et titre"
+  },
+  "optionDefaultTabGroupOpenTypeCurrentWindow": {
+    "message": "Ouvrir le groupe d’onglets du navigateur dans la fenêtre actuelle"
+  },
+  "optionDefaultTabGroupOpenTypeHeading": {
+    "message": "Lors du clic pour ouvrir un groupe d’onglets configuré pour s’ouvrir comme « groupe d’onglets » du navigateur :"
+  },
+  "optionDefaultTabGroupOpenTypeNewWindow": {
+    "message": "Ouvrir le groupe d’onglets du navigateur dans une nouvelle fenêtre"
+  },
+  "optionDefaultTabGroupOpenTypeNote": {
+    "message": "Si vous utilisez la liste déroulante pour choisir une option particulière (comme ouvrir des onglets dans une fenêtre de navigation privée), cette option sera mémorisée pour ce groupe."
+  },
+  "optionDefaultWindowGroupOpenTypeCurrentWindow": {
+    "message": "Ouvrir les onglets dans la fenêtre actuelle"
+  },
+  "optionDefaultWindowGroupOpenTypeHeading": {
+    "message": "Lors de la restauration d’un groupe d’onglets :"
+  },
+  "optionDefaultWindowGroupOpenTypeNewWindow": {
+    "message": "Ouvrir les onglets dans une nouvelle fenêtre"
+  },
+  "optionDefaultWindowGroupOpenTypeNote": {
+    "message": "Si vous utilisez la liste déroulante pour choisir une option particulière (comme ouvrir des onglets dans une fenêtre de navigation privée), cette option sera mémorisée pour ce groupe."
+  },
+  "optionDiscardNonActiveTabOnOpenHeading": {
+    "message": "Économiser la mémoire (RAM) immédiatement lors de l’ouverture des onglets :"
+  },
+  "optionDiscardNonActiveTabOnOpenNote": {
+    "message": "Si ce paramètre est activé, les onglets seront immédiatement déchargés de la mémoire lorsque vous les ouvrez depuis votre liste OneTab. C’est utile si vous ouvrez souvent des dizaines d’onglets à la fois, car cela évitera qu’ils soient tous chargés en mémoire tant que vous n’y accédez pas. Si ce paramètre est désactivé, de nombreux navigateurs choisiront tout de même automatiquement de décharger les onglets de la mémoire lorsque vous ne les utilisez pas."
+  },
+  "optionDisplayContextMenuHeading": {
+    "message": "Cliquez avec le bouton droit dans une page web pour accéder au menu contextuel OneTab :"
+  },
+  "optionDisplayContextMenuNote": {
+    "message": "Si vous désactivez le menu, vous ne pourrez pas accéder à la fonctionnalité « Exclure ce site web de OneTab »"
+  },
+  "optionDuplicatesAllow": {
+    "message": "Autoriser les doublons"
+  },
+  "optionDuplicatesReject": {
+    "message": "Rejeter les doublons sans demander"
+  },
+  "optionDuplicatesRejectDesc": {
+    "message": "Si OneTab contient déjà l’onglet, il ne sera pas ajouté à nouveau."
+  },
+  "optionDuplicatesTitle": {
+    "message": "Doublons :"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenFalseTitle": {
+    "message": "Basculer vers la fenêtre où l’onglet OneTab est déjà ouvert"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenHeading": {
+    "message": "Action « Ouvrir OneTab » :"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenNote": {
+    "message": "Action « Ouvrir OneTab » :"
+  },
+  "optionMoveOneTabToCurrentWindowOnOpenTrueTitle": {
+    "message": "Déplacer tout onglet OneTab existant vers la fenêtre actuelle"
+  },
+  "optionPinnedTabsAllow": {
+    "message": "Autoriser l’envoi des onglets épinglés dans OneTab"
+  },
+  "optionPinnedTabsDontSend": {
+    "message": "Ne pas envoyer les onglets épinglés dans OneTab"
+  },
+  "optionPinnedTabsDontSendDesc": {
+    "message": "Vous pouvez toujours envoyer manuellement un onglet épinglé vers OneTab en cliquant avec le bouton droit dans la page Web pour accéder au menu OneTab, puis en cliquant sur « Envoyer uniquement cet onglet vers OneTab »"
+  },
+  "optionPinnedTabsNote": {
+    "message": "Remarque : un onglet devient « épinglé » lorsque vous cliquez avec le bouton droit sur l’onglet, puis sur « Épingler l’onglet ». Certaines personnes aiment épingler des sites comme Facebook ou Gmail afin de pouvoir les retrouver facilement. OneTab se souviendra si un onglet était épinglé lorsque vous le restaurerez."
+  },
+  "optionPinnedTabsTitle": {
+    "message": "Onglets épinglés :"
+  },
+  "options": {
+    "message": "Options"
+  },
+  "optionStartupLaunchDisplay": {
+    "message": "Ouvrir OneTab automatiquement"
+  },
+  "optionStartupLaunchNone": {
+    "message": "Ne pas ouvrir OneTab automatiquement"
+  },
+  "optionStartupLaunchNoneDesc3": {
+    "message": "Pour ouvrir OneTab manuellement, vous pouvez cliquer avec le bouton droit dans n’importe quelle page web, puis cliquer sur « Ouvrir OneTab » dans le menu OneTab."
+  },
+  "optionStartupLaunchTitle": {
+    "message": "Au démarrage du navigateur :"
+  },
+  "optionSwitchToOpenedTabFalseTitle": {
+    "message": "Ouvrir l’onglet et rester dans OneTab"
+  },
+  "optionSwitchToOpenedTabHeading": {
+    "message": "Lors de la restauration des onglets depuis la page OneTab :"
+  },
+  "optionSwitchToOpenedTabNote": {
+    "message": "Si vous maintenez Maj enfoncée lors du clic, l’onglet s’ouvrira dans une nouvelle fenêtre"
+  },
+  "optionSwitchToOpenedTabTrueTitle": {
+    "message": "Ouvrir l’onglet et basculer dessus (sauf si vous maintenez Commande ⌘/Ctrl lors du clic)"
+  },
+  "optionUrlAbbr": {
+    "message": "Abrégée"
+  },
+  "optionUrlDisplayTitle": {
+    "message": "Affichage des URL :"
+  },
+  "optionUrlDomain": {
+    "message": "Domaine uniquement"
+  },
+  "optionUrlFull": {
+    "message": "Complète"
+  },
+  "optionUrlNone": {
+    "message": "Aucune"
+  },
+  "otherCopiesColon": {
+    "message": "Autres copies :"
+  },
+  "pasteRichOrPlainTextBelow": {
+    "message": "Vous pouvez coller ci‑dessous du texte enrichi ou du texte brut."
+  },
+  "pendingTaskCount_few": {
+    "message": "{COUNT} en attente"
+  },
+  "pendingTaskCount_many": {
+    "message": "{COUNT} en attente"
+  },
+  "pendingTaskCount_one": {
+    "message": "{COUNT} en attente"
+  },
+  "pendingTaskCount_other": {
+    "message": "{COUNT} en attente"
+  },
+  "pendingTaskCount_two": {
+    "message": "{COUNT} en attente"
+  },
+  "pendingTaskCount_zero": {
+    "message": "{COUNT} en attente"
+  },
+  "pendingTaskFlagHelp": {
+    "message": "Cet élément est une tâche. Cliquez sur cette icône pour la marquer comme terminée."
+  },
+  "permissionRequiredPleaseTryAgain": {
+    "message": "Pour créer une page partagée accessible depuis n’importe quel ordinateur, une autorisation est requise pour communiquer avec le serveur web de OneTab. Veuillez réessayer."
+  },
+  "pinnedTabs": {
+    "message": "onglets épinglés"
+  },
+  "pinToTopOfFolder": {
+    "message": "Épingler en haut du dossier"
+  },
+  "pinToTopOfFolderMenuItemHelp": {
+    "message": "Épinglez ce groupe pour qu’il soit toujours en haut du dossier"
+  },
+  "pinToTopOfList": {
+    "message": "Épingler en haut de la liste"
+  },
+  "placeholderAndOtherLocations_few": {
+    "message": "PLACEHOLDER et {COUNT} autres"
+  },
+  "placeholderAndOtherLocations_many": {
+    "message": "PLACEHOLDER et {COUNT} autres"
+  },
+  "placeholderAndOtherLocations_one": {
+    "message": "PLACEHOLDER et {COUNT} autre"
+  },
+  "placeholderAndOtherLocations_other": {
+    "message": "PLACEHOLDER et {COUNT} autres"
+  },
+  "placeholderAndOtherLocations_two": {
+    "message": "PLACEHOLDER et {COUNT} autres"
+  },
+  "placeholderAndOtherLocations_zero": {
+    "message": "PLACEHOLDER et {COUNT} autres"
+  },
+  "placeholderExplanation": {
+    "message": "En raison des règles de sécurité du navigateur, OneTab n’est pas autorisé à restaurer directement cette page. Veuillez copier votre URL et la coller dans la barre d’adresse de votre navigateur."
+  },
+  "plainTextLineFormat": {
+    "message": "Si vous collez du texte brut, assurez‑vous que chaque URL comporte un protocole (https://wikipedia.org et non simplement wikipedia.org). Chaque ligne doit respecter le format suivant :"
+  },
+  "pleaseWaitTripleDot": {
+    "message": "Veuillez patienter…"
+  },
+  "popupSlashShortcutInfo": {
+    "message": "Dans la fenêtre contextuelle OneTab (qui apparaît lorsque vous cliquez sur l’icône OneTab), appuyez sur la touche / pour ouvrir le sélecteur de destination et placer le focus dans le champ de recherche."
+  },
+  "printUseSaveTabsAsHtmlFileAlertHtml": {
+    "message": "Pour de meilleurs résultats d’impression, utilisez l’action <b>Enregistrer en tant que fichier HTML</b> dans le menu <b>Plus…</b> du dossier, puis imprimez le fichier HTML téléchargé."
+  },
+  "privacyAssurance": {
+    "message": "Confidentialité garantie"
+  },
+  "privacyAssuranceDetail": {
+    "message": "Votre liste d’onglets n’est jamais transmise ni divulguée aux développeurs de OneTab ni à aucun autre tiers. La seule exception est si vous utilisez intentionnellement la fonctionnalité « Partager en tant que page Web » pour mettre en ligne votre liste d’onglets sur une page Web afin de la partager avec d’autres."
+  },
+  "privacyFirst": {
+    "message": "Confidentialité d’abord"
+  },
+  "privacyFirstMessage": {
+    "message": "OneTab a été conçu pour protéger vos données privées. Vos onglets ne sont stockés que sur votre ordinateur, et ne sont jamais partagés avec les développeurs de OneTab ni avec aucun autre tiers.\nSi vous utilisez notre fonctionnalité de sauvegarde/synchronisation, vos données seront chiffrées de bout en bout avec un chiffrement robuste AES‑256. Cela rend impossible aux développeurs de OneTab de voir les onglets que vous avez sauvegardés ou synchronisés entre appareils, car vous seul possédez la clé de chiffrement. \nLa seule exception est si vous décidez intentionnellement de partager certains de vos onglets avec d’autres personnes via notre fonctionnalité « Partager en tant que page Web ».\nNous défendons une approche « Confidentialité d’abord »."
+  },
+  "privateBrowsingPermissionRequired": {
+    "message": "OneTab a besoin d’une autorisation pour créer des fenêtres de navigation privée."
+  },
+  "privateBrowsingWindows": {
+    "message": "Fenêtres de navigation privée"
+  },
+  "quickList": {
+    "message": "Liste rapide"
+  },
+  "readingList": {
+    "message": "Liste de lecture"
+  },
+  "readingListPermissionNecesssary": {
+    "message": "L’autorisation Liste de lecture est nécessaire pour permettre à OneTab d’importer des éléments de votre liste de lecture. Si cette fonctionnalité ne fonctionne pas, il se peut que votre navigateur ne prenne pas en charge la liste de lecture."
+  },
+  "recent": {
+    "message": "Récents"
+  },
+  "recentDestinationsColon": {
+    "message": "Destinations récentes :"
+  },
+  "recentDuplicateRetainedHelp": {
+    "message": "Si un onglet apparaît plusieurs fois, seul le doublon le plus récent sera conservé"
+  },
+  "recentFolders": {
+    "message": "Dossiers récents"
+  },
+  "recentGroups": {
+    "message": "Groupes récents"
+  },
+  "recentlyAccessed": {
+    "message": "Récemment consultés"
+  },
+  "recentlyCreated": {
+    "message": "Récemment créés"
+  },
+  "recentlyModified": {
+    "message": "Récemment modifiés"
+  },
+  "reduceMemoryUsageBy95Pct": {
+    "message": "Réduisez l’utilisation de la mémoire de 95 %"
+  },
+  "removeDuplicates": {
+    "message": "Supprimer les doublons"
+  },
+  "removeDuplicatesMenuItemHelp": {
+    "message": "Vous pourrez supprimer les doublons qui existent ici mais pas ailleurs, ou ailleurs mais pas ici."
+  },
+  "removeDuplicateTabsHere_few": {
+    "message": "Supprimer {COUNT} onglets en double ici"
+  },
+  "removeDuplicateTabsHere_many": {
+    "message": "Supprimer {COUNT} onglets en double ici"
+  },
+  "removeDuplicateTabsHere_one": {
+    "message": "Supprimer {COUNT} onglet en double ici"
+  },
+  "removeDuplicateTabsHere_other": {
+    "message": "Supprimer {COUNT} onglets en double ici"
+  },
+  "removeDuplicateTabsHere_two": {
+    "message": "Supprimer {COUNT} onglets en double ici"
+  },
+  "removeDuplicateTabsHere_zero": {
+    "message": "Supprimer {COUNT} onglets en double ici"
+  },
+  "removeFromQuickList": {
+    "message": "Retirer de la liste rapide"
+  },
+  "removeFromQuickListMenuItemHelp": {
+    "message": "L’élément ne sera pas déplacé vers la corbeille : il sera uniquement retiré de votre liste rapide."
+  },
+  "removeStar": {
+    "message": "Retirer l’étoile"
+  },
+  "removeTabsElsewhereAlsoHere_few": {
+    "message": "Supprimer {COUNT} onglets ailleurs qui existent également ici"
+  },
+  "removeTabsElsewhereAlsoHere_many": {
+    "message": "Supprimer {COUNT} onglets ailleurs qui existent également ici"
+  },
+  "removeTabsElsewhereAlsoHere_one": {
+    "message": "Supprimer {COUNT} onglet ailleurs qui existe également ici"
+  },
+  "removeTabsElsewhereAlsoHere_other": {
+    "message": "Supprimer {COUNT} onglets ailleurs qui existent également ici"
+  },
+  "removeTabsElsewhereAlsoHere_two": {
+    "message": "Supprimer {COUNT} onglets ailleurs qui existent également ici"
+  },
+  "removeTabsElsewhereAlsoHere_zero": {
+    "message": "Supprimer {COUNT} onglets ailleurs qui existent également ici"
+  },
+  "removeTabsHereAlsoElsewhere_few": {
+    "message": "Supprimer {COUNT} onglets ici qui existent également ailleurs"
+  },
+  "removeTabsHereAlsoElsewhere_many": {
+    "message": "Supprimer {COUNT} onglets ici qui existent également ailleurs"
+  },
+  "removeTabsHereAlsoElsewhere_one": {
+    "message": "Supprimer {COUNT} onglet ici qui existe également ailleurs"
+  },
+  "removeTabsHereAlsoElsewhere_other": {
+    "message": "Supprimer {COUNT} onglets ici qui existent également ailleurs"
+  },
+  "removeTabsHereAlsoElsewhere_two": {
+    "message": "Supprimer {COUNT} onglets ici qui existent également ailleurs"
+  },
+  "removeTabsHereAlsoElsewhere_zero": {
+    "message": "Supprimer {COUNT} onglets ici qui existent également ailleurs"
+  },
+  "rename": {
+    "message": "Renommer"
+  },
+  "renameOrAddNote": {
+    "message": "Renommer / Ajouter une note"
+  },
+  "restore": {
+    "message": "Restaurer"
+  },
+  "restoreAll": {
+    "message": "Tout restaurer"
+  },
+  "restrictSearchToFolderColon": {
+    "message": "Limiter la recherche au dossier suivant :"
+  },
+  "results": {
+    "message": "Résultats"
+  },
+  "returnToOneTab": {
+    "message": "Revenir à OneTab"
+  },
+  "reverse": {
+    "message": "Inverser"
+  },
+  "rightClickAndOpenOneTabMenu": {
+    "message": "Cliquez droit dans la page web, puis ouvrez le menu OneTab"
+  },
+  "rightClickMenuDisabledNote": {
+    "message": "Remarque : vous avez désactivé le menu contextuel OneTab. Veuillez l’activer dans la page des options de OneTab."
+  },
+  "rightClickSelectionOptionsTip": {
+    "message": "Astuce : après avoir coché un élément, faites un clic droit sur l’icône de coche pour afficher plus d’options de sélection"
+  },
+  "rightClickTickTip": {
+    "message": "Astuce : cliquez droit sur l’icône de coche à côté de chaque onglet pour afficher des outils de sélection"
+  },
+  "safariApproveOneTabInSettings": {
+    "message": "Veuillez aller dans Réglages et autoriser OneTab à accéder à tous les sites web."
+  },
+  "save95PctReduceTabClutterGoogleChrome": {
+    "message": "Économisez jusqu’à 95 % de mémoire et réduisez l’encombrement des onglets dans Google Chrome"
+  },
+  "saveChoice": {
+    "message": "Enregistrer le choix"
+  },
+  "saveTabsAsHtmlFile": {
+    "message": "Enregistrer en tant que fichier HTML"
+  },
+  "saveTabsAsHtmlFileMenuItemHelp": {
+    "message": "Créer et télécharger un fichier HTML contenant tous les groupes d’onglets de ce dossier."
+  },
+  "searchHere": {
+    "message": "Rechercher ici"
+  },
+  "searchOneTab": {
+    "message": "Rechercher dans OneTab"
+  },
+  "secondExampleLink": {
+    "message": "Deuxième lien d’exemple"
+  },
+  "secondExampleLinkTitle": {
+    "message": "Deuxième titre de lien d’exemple"
+  },
+  "secondExampleLinkTitleOptional": {
+    "message": "Deuxième titre de lien d’exemple (facultatif)"
+  },
+  "seeOtherTabsInThisGroup_few": {
+    "message": "Afficher {COUNT} autres onglets dans ce groupe"
+  },
+  "seeOtherTabsInThisGroup_many": {
+    "message": "Afficher {COUNT} autres onglets dans ce groupe"
+  },
+  "seeOtherTabsInThisGroup_one": {
+    "message": "Afficher {COUNT} autre onglet dans ce groupe"
+  },
+  "seeOtherTabsInThisGroup_other": {
+    "message": "Afficher {COUNT} autres onglets dans ce groupe"
+  },
+  "seeOtherTabsInThisGroup_two": {
+    "message": "Afficher {COUNT} autres onglets dans ce groupe"
+  },
+  "seeOtherTabsInThisGroup_zero": {
+    "message": "Afficher {COUNT} autres onglets dans ce groupe"
+  },
+  "seePasteInstructions": {
+    "message": "Voir les instructions de collage…"
+  },
+  "seeTabsInThisGroup_few": {
+    "message": "Afficher {COUNT} onglets dans ce groupe"
+  },
+  "seeTabsInThisGroup_many": {
+    "message": "Afficher {COUNT} onglets dans ce groupe"
+  },
+  "seeTabsInThisGroup_one": {
+    "message": "Afficher {COUNT} onglet dans ce groupe"
+  },
+  "seeTabsInThisGroup_other": {
+    "message": "Afficher {COUNT} onglets dans ce groupe"
+  },
+  "seeTabsInThisGroup_two": {
+    "message": "Afficher {COUNT} onglets dans ce groupe"
+  },
+  "seeTabsInThisGroup_zero": {
+    "message": "Afficher {COUNT} onglets dans ce groupe"
+  },
+  "selectAll": {
+    "message": "Tout sélectionner"
+  },
+  "selectAllExceptThis": {
+    "message": "Tout sélectionner sauf cet élément"
+  },
+  "selectedItemCount_few": {
+    "message": "{COUNT} éléments"
+  },
+  "selectedItemCount_many": {
+    "message": "{COUNT} éléments"
+  },
+  "selectedItemCount_one": {
+    "message": "{COUNT} élément"
+  },
+  "selectedItemCount_other": {
+    "message": "{COUNT} éléments"
+  },
+  "selectedItemCount_two": {
+    "message": "{COUNT} éléments"
+  },
+  "selectedItemCount_zero": {
+    "message": "{COUNT} éléments"
+  },
+  "selection": {
+    "message": "Sélection"
+  },
+  "selectThisAndAbove": {
+    "message": "Sélectionner cet élément et tous ceux au‑dessus"
+  },
+  "selectThisAndBelow": {
+    "message": "Sélectionner cet élément et tous ceux au‑dessous"
+  },
+  "sendAllTabsAllWindows": {
+    "message": "Envoyer tous les onglets de toutes les fenêtres"
+  },
+  "sendAllTabsAllWindowsToOneTab": {
+    "message": "Envoyer tous les onglets de toutes les fenêtres dans OneTab"
+  },
+  "sendAllTabsExceptThis": {
+    "message": "Envoyer tous les onglets sauf celui-ci"
+  },
+  "sendAllTabsExceptThisToOneTab": {
+    "message": "Envoyer tous les onglets sauf celui-ci dans OneTab"
+  },
+  "sendAllTabsInGroup": {
+    "message": "Envoyer tous les onglets de ce groupe d’onglets"
+  },
+  "sendAllTabsInGroupToOneTab": {
+    "message": "Envoyer tous les onglets de ce groupe d’onglets dans OneTab"
+  },
+  "sendAllTabsInWindow": {
+    "message": "Envoyer tous les onglets de cette fenêtre"
+  },
+  "sendAllTabsInWindowToOneTab": {
+    "message": "Envoyer tous les onglets de cette fenêtre dans OneTab"
+  },
+  "sendCurrentTabToOneTab": {
+    "message": "Envoyer l’onglet actuel dans OneTab"
+  },
+  "sendLeftTabs": {
+    "message": "Envoyer les onglets à gauche"
+  },
+  "sendLeftTabsToOneTab": {
+    "message": "Envoyer les onglets à gauche dans OneTab"
+  },
+  "sendOnlyThisTab": {
+    "message": "Envoyer uniquement cet onglet"
+  },
+  "sendOnlyThisTabToOneTab": {
+    "message": "Envoyer uniquement cet onglet dans OneTab"
+  },
+  "sendRightTabs": {
+    "message": "Envoyer les onglets à droite"
+  },
+  "sendRightTabsToOneTab": {
+    "message": "Envoyer les onglets à droite dans OneTab"
+  },
+  "sendSelectedTabs": {
+    "message": "Envoyer les onglets sélectionnés"
+  },
+  "sendSelectedTabsToOneTab": {
+    "message": "Envoyer les onglets sélectionnés dans OneTab"
+  },
+  "sendThisWebLink": {
+    "message": "Envoyer ce lien web"
+  },
+  "sendThisWebLinkToOneTab": {
+    "message": "Envoyer ce lien web dans OneTab"
+  },
+  "serverUnreachable": {
+    "message": "Le serveur est inaccessible. Veuillez vérifier votre connexion Internet."
+  },
+  "share": {
+    "message": "Partager"
+  },
+  "shareAsAWebPage": {
+    "message": "Partager en tant que page Web"
+  },
+  "shareAsAWebPageMenuItemHelp": {
+    "message": "Crée une page Web contenant vos onglets, afin que vous puissiez la partager en privé ou publiquement avec d’autres personnes."
+  },
+  "shared": {
+    "message": "Partagés"
+  },
+  "sharedExpiresColon": {
+    "message": "Partagé en tant que page Web. Expire :"
+  },
+  "sharedPageOptions": {
+    "message": "Options de la page partagée"
+  },
+  "sharedPageTabLimit_few": {
+    "message": "Les pages partagées sont limitées à {COUNT} onglets"
+  },
+  "sharedPageTabLimit_many": {
+    "message": "Les pages partagées sont limitées à {COUNT} onglets"
+  },
+  "sharedPageTabLimit_one": {
+    "message": "Les pages partagées sont limitées à {COUNT} onglet"
+  },
+  "sharedPageTabLimit_other": {
+    "message": "Les pages partagées sont limitées à {COUNT} onglets"
+  },
+  "sharedPageTabLimit_two": {
+    "message": "Les pages partagées sont limitées à {COUNT} onglets"
+  },
+  "sharedPageTabLimit_zero": {
+    "message": "Les pages partagées sont limitées à {COUNT} onglets"
+  },
+  "sharedPageWillAutomaticallyExpire": {
+    "message": "La page partagée expirera automatiquement, mais vous pouvez prolonger la date d’expiration à tout moment."
+  },
+  "showEverything": {
+    "message": "Tout afficher"
+  },
+  "showFoldersOnly": {
+    "message": "Afficher uniquement les dossiers"
+  },
+  "showNamedItemsOnly": {
+    "message": "Afficher uniquement les éléments nommés"
+  },
+  "showNamedOnly": {
+    "message": "Afficher uniquement les éléments nommés"
+  },
+  "showNextCount_few": {
+    "message": "Afficher {COUNT} suivants"
+  },
+  "showNextCount_many": {
+    "message": "Afficher {COUNT} suivants"
+  },
+  "showNextCount_one": {
+    "message": "Afficher {COUNT} suivant"
+  },
+  "showNextCount_other": {
+    "message": "Afficher {COUNT} suivants"
+  },
+  "showNextCount_two": {
+    "message": "Afficher {COUNT} suivants"
+  },
+  "showNextCount_zero": {
+    "message": "Afficher {COUNT} suivants"
+  },
+  "showPreviousCount_few": {
+    "message": "Afficher {COUNT} précédents"
+  },
+  "showPreviousCount_many": {
+    "message": "Afficher {COUNT} précédents"
+  },
+  "showPreviousCount_one": {
+    "message": "Afficher {COUNT} précédent"
+  },
+  "showPreviousCount_other": {
+    "message": "Afficher {COUNT} précédents"
+  },
+  "showPreviousCount_two": {
+    "message": "Afficher {COUNT} précédents"
+  },
+  "showPreviousCount_zero": {
+    "message": "Afficher {COUNT} précédents"
+  },
+  "soon": {
+    "message": "bientôt"
+  },
+  "sort": {
+    "message": "Tri"
+  },
+  "sortByColon": {
+    "message": "Trier par :"
+  },
+  "sortGroups": {
+    "message": "Trier les groupes"
+  },
+  "sourceColon": {
+    "message": "Source :"
+  },
+  "star": {
+    "message": "Étoile"
+  },
+  "starFlagHelp": {
+    "message": "Cet élément est marqué d’une étoile pour indiquer visuellement son importance. Cliquez sur cette icône pour retirer l’étoile."
+  },
+  "starMenuItemHelp": {
+    "message": "Utilisez l’étoile comme indicateur visuel qu’un élément est important"
+  },
+  "starred": {
+    "message": "Avec étoile"
+  },
+  "storeAllOpenWindowsHere": {
+    "message": "Enregistrer ici toutes les fenêtres ouvertes"
+  },
+  "storeAllOpenWindowsHereMenuItemHelp": {
+    "message": "Fermez toutes les fenêtres du navigateur ouvertes et enregistrez-les dans ce dossier"
+  },
+  "storeSelectedTabsInONETAB_few": {
+    "message": "Enregistrer {COUNT} onglets sélectionnés dans ONETAB"
+  },
+  "storeSelectedTabsInONETAB_many": {
+    "message": "Enregistrer {COUNT} onglets sélectionnés dans ONETAB"
+  },
+  "storeSelectedTabsInONETAB_one": {
+    "message": "Enregistrer {COUNT} onglet sélectionné dans ONETAB"
+  },
+  "storeSelectedTabsInONETAB_other": {
+    "message": "Enregistrer {COUNT} onglets sélectionnés dans ONETAB"
+  },
+  "storeSelectedTabsInONETAB_two": {
+    "message": "Enregistrer {COUNT} onglets sélectionnés dans ONETAB"
+  },
+  "storeSelectedTabsInONETAB_zero": {
+    "message": "Enregistrer {COUNT} onglets sélectionnés dans ONETAB"
+  },
+  "storeTabsInAdditionalLocation_few": {
+    "message": "Enregistrer quand même vos onglets à nouveau"
+  },
+  "storeTabsInAdditionalLocation_many": {
+    "message": "Enregistrer quand même vos onglets à nouveau"
+  },
+  "storeTabsInAdditionalLocation_one": {
+    "message": "Enregistrer quand même votre onglet à nouveau"
+  },
+  "storeTabsInAdditionalLocation_other": {
+    "message": "Enregistrer quand même vos onglets à nouveau"
+  },
+  "storeTabsInAdditionalLocation_two": {
+    "message": "Enregistrer quand même vos onglets à nouveau"
+  },
+  "storeTabsInAdditionalLocation_zero": {
+    "message": "Enregistrer quand même vos onglets à nouveau"
+  },
+  "storeTabsInONETAB_few": {
+    "message": "Enregistrer les onglets dans ONETAB"
+  },
+  "storeTabsInONETAB_many": {
+    "message": "Enregistrer les onglets dans ONETAB"
+  },
+  "storeTabsInONETAB_one": {
+    "message": "Enregistrer l’onglet dans ONETAB"
+  },
+  "storeTabsInONETAB_other": {
+    "message": "Enregistrer les onglets dans ONETAB"
+  },
+  "storeTabsInONETAB_two": {
+    "message": "Enregistrer les onglets dans ONETAB"
+  },
+  "storeTabsInONETAB_zero": {
+    "message": "Enregistrer les onglets dans ONETAB"
+  },
+  "subFoldersNotShared": {
+    "message": "Remarque : les sous-dossiers ne sont pas partagés. Seuls les groupes d’onglets directement contenus dans le dossier sont partagés."
+  },
+  "tab": {
+    "message": "onglet"
+  },
+  "tabAlreadyStoredHere": {
+    "message": "Votre onglet ouvert est déjà enregistré ici :"
+  },
+  "tabCaretTooltipTitleNotes": {
+    "message": "Modifier le titre et les notes de l’onglet"
+  },
+  "tabCaretTooltipTitleNotesUrl": {
+    "message": "Modifier le titre, l’URL et les notes de l’onglet"
+  },
+  "tabCount_few": {
+    "message": "{COUNT} onglets"
+  },
+  "tabCount_many": {
+    "message": "{COUNT} onglets"
+  },
+  "tabCount_one": {
+    "message": "{COUNT} onglet"
+  },
+  "tabCount_other": {
+    "message": "{COUNT} onglets"
+  },
+  "tabCount_two": {
+    "message": "{COUNT} onglets"
+  },
+  "tabCount_zero": {
+    "message": "{COUNT} onglets"
+  },
+  "tabGroupColorColon": {
+    "message": "Couleur du groupe d’onglets :"
+  },
+  "tabGroupIndicatorTooltipHelp": {
+    "message": "Ce groupe est configuré pour s’ouvrir en tant que groupe d’onglets du navigateur. Vous pouvez modifier ce paramètre dans le menu « Plus… »"
+  },
+  "tabPinFlagHelp": {
+    "message": "Cet onglet sera restauré en tant qu’onglet épinglé du navigateur. Cliquez sur cette icône pour le désépingler."
+  },
+  "tabs": {
+    "message": "Onglets"
+  },
+  "tabsFromExcludedDomains": {
+    "message": "onglets provenant de domaines exclus"
+  },
+  "tabShortcutInfo": {
+    "message": "Dans la page OneTab, appuyez sur la touche Tabulation pour déplacer le focus entre les groupes de la colonne centrale. Cela permet de passer rapidement d’un groupe à l’autre, surtout s’ils sont volumineux. Si un groupe a le focus, appuyez sur Entrée pour l’ouvrir. Utilisez Maj+Tab pour déplacer le focus en sens inverse. Appuyez sur Retour arrière pour accéder au dossier parent."
+  },
+  "tabsInTabGroups": {
+    "message": "onglets dans des groupes d’onglets"
+  },
+  "tabTotalCount_few": {
+    "message": "Total : {COUNT} onglets"
+  },
+  "tabTotalCount_many": {
+    "message": "Total : {COUNT} onglets"
+  },
+  "tabTotalCount_one": {
+    "message": "Total : {COUNT} onglet"
+  },
+  "tabTotalCount_other": {
+    "message": "Total : {COUNT} onglets"
+  },
+  "tabTotalCount_two": {
+    "message": "Total : {COUNT} onglets"
+  },
+  "tabTotalCount_zero": {
+    "message": "Total : {COUNT} onglets"
+  },
+  "tasks": {
+    "message": "Tâches"
+  },
+  "tasksDone": {
+    "message": "Tâches (terminées)"
+  },
+  "tasksPending": {
+    "message": "Tâches (en attente)"
+  },
+  "tasksWillAppearHere": {
+    "message": "Si vous marquez des onglets ou des groupes comme tâches, ils apparaîtront ici."
+  },
+  "taskTotalCount_few": {
+    "message": "{COUNT} au total"
+  },
+  "taskTotalCount_many": {
+    "message": "{COUNT} au total"
+  },
+  "taskTotalCount_one": {
+    "message": "{COUNT} au total"
+  },
+  "taskTotalCount_other": {
+    "message": "{COUNT} au total"
+  },
+  "taskTotalCount_two": {
+    "message": "{COUNT} au total"
+  },
+  "taskTotalCount_zero": {
+    "message": "{COUNT} au total"
+  },
+  "thenClickToolbarIcon": {
+    "message": "Puis, cliquez à nouveau sur l’icône OneTab dans la barre d’outils pour utiliser OneTab."
+  },
+  "thisFolderIsEmpty": {
+    "message": "Ce dossier est vide"
+  },
+  "thisTab": {
+    "message": "Cet onglet"
+  },
+  "thisTabGroup": {
+    "message": "Ce groupe d’onglets"
+  },
+  "thisTabNotStored": {
+    "message": "Cet onglet n’est pas enregistré dans OneTab"
+  },
+  "thisWindow": {
+    "message": "Cette fenêtre"
+  },
+  "tickOrUntickToExclude": {
+    "message": "Cochez ou décochez pour exclure le site web"
+  },
+  "title": {
+    "message": "Titre"
+  },
+  "toAddOrRemoveExclusions": {
+    "message": "Pour ajouter ou supprimer un site web de la liste d’exclusion :"
+  },
+  "toAllowOneTabInIncognito": {
+    "message": "Pour autoriser l’icône OneTab à apparaître dans les fenêtres de navigation privée : "
+  },
+  "toImportBrowserBookmarksUseMenuOption": {
+    "message": "Pour importer depuis les favoris du navigateur, utilisez l’option de menu « Importer des liens ici » sur votre page OneTab"
+  },
+  "toMakeOpenButtonWorkApprovePermission": {
+    "message": "Pour que le bouton « Ouvrir » des pages partagées fonctionne, veuillez approuver la demande d’autorisation."
+  },
+  "tooManyTabsSpeedUpFirefox": {
+    "message": "Trop d’onglets ? Convertissez vos onglets en liste et accélérez Firefox"
+  },
+  "tooManyTabsSpeedUpSafari": {
+    "message": "Trop d’onglets ? Convertissez vos onglets en liste et accélérez Safari"
+  },
+  "toSaveChangesClickButton": {
+    "message": "Pour enregistrer vos modifications, cliquez sur le bouton"
+  },
+  "total0Tabs": {
+    "message": "Total : 0 onglets"
+  },
+  "trash": {
+    "message": "Corbeille"
+  },
+  "unlock": {
+    "message": "Déverrouiller"
+  },
+  "unmarkAsArchived": {
+    "message": "Retirer l’archivage"
+  },
+  "unMarkAsTask": {
+    "message": "Retirer le statut de tâche"
+  },
+  "unpin": {
+    "message": "Désépingler"
+  },
+  "unshare": {
+    "message": "Annuler le partage"
+  },
+  "untitled": {
+    "message": "Sans titre"
+  },
+  "update": {
+    "message": "Mettre à jour"
+  },
+  "userLanguage": {
+    "message": "Français"
+  },
+  "website": {
+    "message": "Site web"
+  },
+  "yearCount_few": {
+    "message": "{COUNT} ans"
+  },
+  "yearCount_many": {
+    "message": "{COUNT} ans"
+  },
+  "yearCount_one": {
+    "message": "{COUNT} an"
+  },
+  "yearCount_other": {
+    "message": "{COUNT} ans"
+  },
+  "yearCount_two": {
+    "message": "{COUNT} ans"
+  },
+  "yearCount_zero": {
+    "message": "{COUNT} ans"
+  },
+  "yourTabAlreadyStoredHere": {
+    "message": "Votre onglet est déjà enregistré ici :"
+  }
+}
