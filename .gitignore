@@ -1,0 +1,6 @@
+# Cloned third-party source repositories (not our work, not original artifacts)
+downloads/bitwarden-source/
+
+# Failed CRX downloads (18-byte sandbox-proxy error responses, not extension files)
+downloads/bitwarden.crx
+downloads/protonpass.crx
