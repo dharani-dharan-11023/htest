@@ -1,0 +1,20 @@
+{
+  "extName": {
+    "message": "1Password – Gestor de contraseñas"
+  },
+  "extBetaName": {
+    "message": "1Password Beta – Gestor de contraseñas"
+  },
+  "extNightlyName": {
+    "message": "1Password Nightly – Gestor de contraseñas"
+  },
+  "extDescription": {
+    "message": "La mejor forma de usar 1Password en tu navegador. Inicia sesión en sitios web, genera contraseñas y almacena información fácilmente."
+  },
+  "extNameSafari": {
+    "message": "1Password para Safari"
+  },
+  "extDescriptionSafari": {
+    "message": "Aprovecha 1Password en Safari. Inicia sesión en sitios web, genera contraseñas y almacena información sensible."
+  }
+}
